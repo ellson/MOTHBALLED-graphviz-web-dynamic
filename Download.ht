@@ -1,65 +1,67 @@
 <i>graphviz</i> is open source licensed software.
-It may be redistributed without cost in other software
-distributions, as long as the license terms, such as
-redistributing the source intact, are met.
+It may be redistributed, without cost, and in other
+software distributions, as long as the license terms
+such as redistributing the source intact are met.
 Thousands of copies are distributed monthly.
 <p><font size="2">
 We believe the Graphviz <a href="License.php">source license</a>
-adheres to basic open source concepts.  Please read it yourself and
-make up your own mind.  If you don't like it, feel free to contact us
-and we can recommend as alternatives either academic systems with
-non-commercial licenses or commercial software products.
-We freely point out that this license differs from others that
-are more popular in the following ways:
-1) recipients of the code must actually agree to the license;
-2) if you modify our source, you can give or sell binaries to others
-(under this <a href="License/binary.html">binary license</a>)
-without being forced to share your modifications, but if you do
-share, you must grant AT&amp;T full rights to your patches;
+adheres to open source concepts.  Please read it and make up
+your own mind.  If you don't like it, contact us and we can
+recommend, as alternatives, academic systems with non-commercial
+licenses and commercial software products.
+We freely point out that this license differs from some 
+well known open source licenses in at least the following ways:
+1) recipients of the code must actually agree to the license
+(though actually the mechanism of agreeing is outside the
+license itself) 2) if you modify our source, you can give or
+sell binaries to others (under this <a href="License/binary.html">
+binary license</a>) without being forced to share your modifications,
+but if you do share, you must grant AT&amp;T full rights to your patches;
 3) AT&amp;T generously allows commercialization of this software
 including use of its patents that may be involved; and 4) there are
 terms that indemnify AT&amp;T from liability due to unforseen problems
-with the code or contributed patches.  This is considered non-open-source
-by the Open Source Initiative.
+with the code or contributed patches.  The latter especially is
+considered non-open-source by the Open Source Initiative.
 See the <a href="License/faq.html">license FAQ</a> for more details.
 </font>
 
 <h3>Source Code</h3>
-Source code for the latest stable and development version of Graphviz are 
-<a href="Download_source.php">available from this site</a> as are instructions
-for CVS anonymous access to the sources.
+<a href="Download_source.php">Source code</a> for the latest stable
+and development versions of Graphviz are available, along with
+instructions for CVS anonymous access to the sources.
 <p>
-There are also trimmed-down
-<a href="Download_windows.php">Windows sources for Windows</a> and 
-<a href="Documentation/html/winbuild.html">Notes</a> on how to build Graphviz on Windows.
+Trimmed-down <a href="Download_windows.php">Windows sources</a>
+and <a href="Documentation/html/winbuild.html">notes</a> on how
+to build Graphviz on Windows.
 
-<h3>Binary Executable Packages</h3>
-Please contact us if you can offer a platform we don't have,
-or you've improved on what's here.
-<p>
-You may consider a <b>third-party</b> binary distribution of Graphviz,
-or one that we provide as a service.
-<p>
+<H3>Executable Packages from AT&amp;T</H3>
 <b>Linux</b><br>
-<a href="Download_linux.php">stable and development rpms for Redhat systems</a>
+<a href="Download_linux.php">Stable and development rpms for Redhat systems</a>
 <br>
 <a href="http://packages.debian.org/unstable/graphics/graphviz.html">Debian package</a>
 <p>
 <b>Windows</b><br>
-<a href="Download_windows.php">stable and development Windows Install packages</a>
-and third-party <a href="Misc/third-party-1.14.zip">libraries</a>.<br>
-<a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).
+<a href="Download_windows.php">Stable and development Windows Install packages</a>
+and third-party <a href="Misc/third-party-1.14.zip">libraries</a>.
+<H3>Third-Party (non-AT&amp;T) Executable Packages</H3>
+Please contact us if you can offer a platform we don't have,
+or you've improved on what's here.  
+<p>
+We list these links as a courtesy, but disclaim responsibility
+for the contents of these software products.
 <p>
 <b>Apple</b> <br>
 <a href="http://www.pixelglow.com/graphviz/"><b>Mac OSX</b></a> (full document GUI, Quartz integration including native fonts and PDF...)
 <p>
+<b>Windows</b> <br>
+<a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).
 <b>Unix</b> <br>
 <a href="http://www.freshports.org/graphics/graphviz/"><b>FreeBSD</b></a>
 <a href="http://www.openbsd.org/ports.html#Get"><b>OpenBSD</b> (old)</a>
 <a href="http://www.phil.uu.nl/%7Ejs/graphviz/"><b>Mac OS X</b></a>
 also <a href="http://www.bell-labs.com/cgi-user/wwexptools/gensnapshot/powerpc-apple-darwin/graphviz.tar.gz">here</a>.<br>
-<a href="http://www.bell-labs.com/cgi-user/wwexptools/gensnapshot?graphviz">Graphviz binaries</a> from <a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent wwExptools</a> for an amazing array of architectures
-(Sun, HP-UX, SGI IRIX, Cygwin, Apple, etc.)
+<a href="http://www.bell-labs.com/cgi-user/wwexptools/gensnapshot?graphviz">Graphviz binaries</a> from <a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent wwExptools</a> for an impressive array of architectures
+(Sun, HP-UX, SGI IRIX, Cygwin, Apple) but apparently not maintained any more as they only have Graphviz 1.10.
 <p>
 <b>Really Olde Executable Packages for version 1.7+</b><br>
 <a href="Download/old/gviz17c.sol.i386.tgz">Sun x86 Solaris 5.7</a> <br>
@@ -67,10 +69,11 @@ also <a href="http://www.bell-labs.com/cgi-user/wwexptools/gensnapshot/powerpc-a
 <a href="Download/old/gviz17c.osf.alpha.tgz">DEC Alpha OSF V4.0</a> <br>
 <a href="Download/old/gviz17c.sgi.mips3.tgz">SGI MIPS3 Irix6.5</a><br>
 <p>
-<b>Fonts</b><br>
-<a href="Misc/fonts.tgz">FreeType-compatible</a>
+<H3>Fonts</H3>
+<a href="Misc/fonts.tgz">FreeType-compatible</a>.
+We provide these as a courtesy, only for compatibility
+on legacy Unix systems that lack native fonts.
 <p>
-<br>
 <h3> Spline-o-matic distribution</h3>
 <a href="Misc/spline-o-matic/">
 Reusable spline path router library and TCL/tk GUI.
