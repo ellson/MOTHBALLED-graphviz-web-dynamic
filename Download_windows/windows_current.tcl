@@ -17,7 +17,7 @@ set platforms {
 }
                                                                                 
 proc puts_latest {fout docroot dir package type} {
-    set regexp {([-a-z]*)([-0-9.]*)([a-z][.a-z0-9]*)}
+    set regexp {([-a-z]*)(-[0-9][-0-9.]*)([a-z][.a-z0-9]*)}
     if {![file exists $docroot/$dir]} {
         puts $fout "<font color=\"red\">Directory \"$docroot/$dir/\" was not found.</font>"
         return
