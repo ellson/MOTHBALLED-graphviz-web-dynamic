@@ -99,7 +99,7 @@ compiled by default.   Also see the mpeg and Quicktime
 <a href="http://www.research.att.com/%7Enorth/videos/gd2001">
 demo movies</a>.
 <p>
-</p><h4> GraphViz 1.8.+</h4>
+</p><h4> Graphviz 1.8.+</h4>
 See the
 <a href="http://www.research.att.com/sw/tools/graphviz/download.html">download page</a> for packages including
 perl and Python APIs.<br>
@@ -110,14 +110,14 @@ including "gpr", a graph stream editor, in the spirit of awk.
 See instructions at top of the script regarding use.<br>
 The SVG driver is more usable.<br>
 All known memory leaks banished! Rock solid.<br>
-<h4> GraphViz and Visual Basic (Contributed)</h4>
+<h4> Graphviz and Visual Basic (Contributed)</h4>
 <a href="http://ood.personal.hgc.com.tw/GraphvizLib/index.htm">
 GraphvizLib</a> COM Component and Visual Basic Examples.<br>
 (Older <a href="http://www.research.att.com/sw/tools/graphviz/dist/GraphvizTool.CAB">GraphvizTool.CAB</a>
 and a very brief <a href="http://www.research.att.com/sw/tools/graphviz/doc/graphviztool.txt">description</a>.)
 
 
-<h4> GraphViz 1.5 </h4>
+<h4> Graphviz 1.5 </h4>
 <ul>
 <li><a href="http://www.research.att.com/sw/tools/graphviz/license/source.html"> Open Source license</a> and
 <a href="http://www.research.att.com/sw/tools/graphviz/license/faq.html"> FAQ</a>
@@ -127,7 +127,7 @@ and a very brief <a href="http://www.research.att.com/sw/tools/graphviz/doc/grap
 <li> <a href="http://www.research.att.com/sw/tools/montage">Montage</a> - customizable ActiveX container
 <li> <a href="http://www.research.att.com/sw/tools/graphviz/gtools.html"> source tarball </a> for add-on streaming graph tools
 </ul>
-<h4>GraphViz 1.4 </h4>
+<h4>Graphviz 1.4 </h4>
 <ul>
 <li> improved layout algorithms in <i>neato</i> to avoid
 node-node and node-edge overlaps.  (To do: resolve
@@ -140,7 +140,7 @@ and server-side image maps
 <li> Bug fixes, e.g. edge concentrators and clusters.
 </ul>
 <p>
-<h4> GraphViz 1.3 </h4>
+<h4> Graphviz 1.3 </h4>
 <ul>
 <li>
 <a href="http://www.research.att.com/%7Ejohn/Grappa/grappa.html">Grappa</a> -

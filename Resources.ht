@@ -18,7 +18,7 @@ Please <a href="mailto:north@graphviz.org">send us</a>
 suggestions for additions to this list.
 
 <!--- very little action here lately
-<a href="http://c2.com/cgi/wiki?GraphViz">GraphViz Wiki Web</a>
+<a href="http://c2.com/cgi/wiki?Graphviz">Graphviz Wiki Web</a>
 -->
 
 <h4><a name="graphical-interfaces">Graphical Interfaces</a></h4>
@@ -39,12 +39,12 @@ purpose language or system.
 <ul>
 <li>C# and .NET: <a href="http://www.codeproject.com/cs/miscctrl/quickgraph.asp"> QuickGraph </a> [Jonathan de Halleux]
 <li>COM: <a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> component [Ood Tsen]
-<li>perl: <a href="http://theoryx5.uwinnipeg.ca/CPAN/data/GraphViz/GraphViz.html"> A Perl interface to GraphViz</a> [Leon Brocard]
-<li>perl: <a href="http://search.cpan.org/~jgs/Tk-GraphViz/">Tk::GraphViz</a> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]
+<li>perl: <a href="http://theoryx5.uwinnipeg.ca/CPAN/data/Graphviz/Graphviz.html"> A Perl interface to Graphviz</a> [Leon Brocard]
+<li>perl: <a href="http://search.cpan.org/~jgs/Tk-Graphviz/">Tk::Graphviz</a> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]
 <li>perl: <a href="http://cpan.valueclick.com/modules/by-module/Graph/"> Graph-ReadWrite module that supports 'dot' syntax graphs</a> [Neil Bowers]
-<li>perl: <a href="http://search.cpan.org/search?dist=GraphViz-DBI"> GraphViz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]
+<li>perl: <a href="http://search.cpan.org/search?dist=Graphviz-DBI"> Graphviz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]
 <li>perl: <a href="http://search.cpan.org/search?query=graphviz&amp;mode=all">100 more hits in CPAN</a>
-<li>perl: <a href="http://search.cpan.org/search?dist=GraphViz-ISA"> GraphViz::ISA</a> - graph Perl packages' ISA runtime hierarchies [Marcel Grunauer]
+<li>perl: <a href="http://search.cpan.org/search?dist=Graphviz-ISA"> Graphviz::ISA</a> - graph Perl packages' ISA runtime hierarchies [Marcel Grunauer]
 <li>python: <a href="http://dkbza.org/pydot.html">PyDOT</a> - Python library for writing dot files and calling gv to render them [Ero Carrera]
 <li>python: <a href="http://www.geocities.com/foetsch/mfgraph/index.htm">mfgraph</a> - C++ interface with native bindings for python [Michael F&ouml;etsch]
 <li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]
@@ -64,7 +64,7 @@ Filters that transform other data sources and formats into Graphviz.
 <li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render
 <li> <a href="Misc/sql2dot"> Sql2Dot</a> - a tiny parser in java to transform sql into dot for visualizing data structures [Robert Dale]
 <li><a href="http://www.codeproject.com/database/sqlpp.asp">SqlPP</a> - a scripted SQL query generation framework that generates graphviz
-<li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams GraphViz or GD) [Szil&aacute;rd Vajda]
+<li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) [Szil&aacute;rd Vajda]
 <li><a href="http://zvon.org/ZvonSW/ZvonGraphotron/index.html">Graphotron</a> - an XML language for graph drawing with Xpath [Miloslav Nic]
 <li>gprof filters - <a href="Misc/pl_from_gprof.pl">pl_from_gprof</a>
 and <a href="Misc/dot_from_pl.pl">dot_from_pl</a> [Robert Nielsen]
@@ -79,14 +79,14 @@ file of network resources - primary intent is spam-net hunting,
 but any domain can be graphed [Mike Zick]
 <li> <a href="http://netmap.sourceforge.net/">netmap</a> draws the
 route connecting you with the Internet
-<li><a href="http://pear.php.net/package-info.php?package=Image_GraphViz">Image_GraphViz</a> class in PHP's <a href="http://pear.php.net/">PEAR repository</a> [Sebastian Bergmann] 
-<li><a href="http://www.phpOpenTracker.de">phpOpenTracker</a> uses Image_GraphViz to <a href="http://www.phpOpenTracker.de/images/all_paths.png">visualize clickpaths</a> taken by users on websites. [Sebastian Bergmann]
+<li><a href="http://pear.php.net/package-info.php?package=Image_Graphviz">Image_Graphviz</a> class in PHP's <a href="http://pear.php.net/">PEAR repository</a> [Sebastian Bergmann] 
+<li><a href="http://www.phpOpenTracker.de">phpOpenTracker</a> uses Image_Graphviz to <a href="http://www.phpOpenTracker.de/images/all_paths.png">visualize clickpaths</a> taken by users on websites. [Sebastian Bergmann]
 <li>
 <a href="http://pathalizer.sourceforge.net/">Pathalizer</a> visualizes paths traversed by users through web sites [Arnout Engelen]
 <li><a href="http://www.chaosreigns.com/code/apache2dot">apache2dot</a>
 Apache log file visualizer
 <li><a href="http://www.chaosreigns.com/code/sig2dot/">sig2dot</a> generates a graph of all of the signature relationships in a GPG/PGP keyring
-<li> <a href="http://www.hotscripts.com/Detailed/16749.html">PHP+GraphViz tool</a> that makes a sitemap of a web site dynamically <a href="http://webloria.loria.fr/~szathmar/off/projects/php/phptraverse/traverse.php?dir=.&amp;sitemap=1">(example)</a> [Laszlo Szathmary]
+<li> <a href="http://www.hotscripts.com/Detailed/16749.html">PHP+Graphviz tool</a> that makes a sitemap of a web site dynamically <a href="http://webloria.loria.fr/~szathmar/off/projects/php/phptraverse/traverse.php?dir=.&amp;sitemap=1">(example)</a> [Laszlo Szathmary]
 <li><a href="http://www.cs.washington.edu/research/networking/rocketfuel">
 Rocketfuel</a> ISP mapper (well, look <a href="http://www.cs.washington.edu/research/networking/rocketfuel/interactive/">here</a>) [U. Washington]
 <li><a href="http://www.zonecut.net/dns/">DNS server visualization</a>
@@ -135,7 +135,7 @@ uses dot's SVG capabilities to organize SVG links [Tobias Reif]
 <li> <a href="http://www.inf.ethz.ch/personal/lombardo/projects/index.html">RPMGraph</a> uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems [Andrea Lombardoni]
 <li><a href="http://droogs.org/autodia/">AutoDia</a> has a Graphviz option
 for generating UML diagrams from: Perl, Java, PHP, or C++ code [Aaron Trevena]
-<li> <a href="http://www.compendium-ta.com/">Compendium-TA</a>, an integrated package of modelling tools which uses GraphViz for graph layouts [Alan Richardson]
+<li> <a href="http://www.compendium-ta.com/">Compendium-TA</a>, an integrated package of modelling tools which uses Graphviz for graph layouts [Alan Richardson]
 <li> <a href="http://www.csn.ul.ie/~mel/projects/codeviz/">CodeViz</a> - a call graph generation utility for C/C++ that assumes dot for its back end [Mel Gorman]
 <!-- shouldn't this be in English? what does it say?  -sn -->
 <li><a href="http://www.pimentech.net/pimentech/plain/site/technologies/outils/noframe.html">Pimentech-DbUtils</a> - Outils pour &eacute;crire vos sch&eacute;mas de Basese donn&eacute;es en XML, et les exporter au format dot (graphviz) et sql (doc pdf). Ces outils proposent &eacute;galement des scripts shell surchargeant les commandes postgresql.
@@ -175,7 +175,7 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <li> <a href="http://brighten.bigw.org/projects/ladot/">Ladot</a>: scripts for including LaTeX in your Graphviz files [Brighten Godfrey]
 <li> <a href="http://web.mit.edu/~drayside/www/graphviz.tex/main.pdf">graphviz.tex</a>: macros for including Graphviz in your LaTeX files [Derek Rayside]
 <li> <a href="http://mharnisch.gmxhome.de/projects.html">epswrap</a>, a Perl program that wraps EPS files containing bitmap data for user shapes in Graphviz [Marcus Harnisch]
-<li><a href="http://www.texmacs.org/">TeXmacs</a>, a scientific text editor, inspired by TeX and GNU Emacs, has a GraphViz interface [Joris van der Hoeven]
+<li><a href="http://www.texmacs.org/">TeXmacs</a>, a scientific text editor, inspired by TeX and GNU Emacs, has a Graphviz interface [Joris van der Hoeven]
 <li><a href="http://www.aivosto.com/visustin.html">Visustin flow chart generator</a>[Aivosto]
 <li> <a href="http://paco.to/blog/000040.html"> Using Mac OmniGraffle </a> with Graphviz blog entry [Pac Hope]
 </ul>
