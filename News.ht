@@ -1,3 +1,36 @@
+<A HREF="http://developer.apple.com/wwdc/ada.html"><img src=News/ADA04BestOpenSource_Win_40k.png alt="Apple Design Award" border=0></A> <br> <br>
+<P style="width: 542; background-color : #eeeeee;">
+Pixelglow's outstanding <A HREF="http://www.pixelglow.com/graphviz">adaption</A> of Graphviz 1.12 won two
+<A HREF="http://developer.apple.com/wwdc/ada/2004winners.html">2004 Apple Design Awards</A>: <b>Best Mac OS X Open Source Product</b> and runner up,
+Best Product New to Mac OS X.  The awards were presented at the
+2004 <A HREF="http://developer.apple.com/wwdc/">Apple World Wide Developers Conference</A> at the Moscone Center in San Francisco on June 29.  Congratulations
+to Glen Low and the Graphviz core team.
+</P>
+<TABLE>
+<TR>
+	<TD><img src=News/ADA-team.png alt="graphviz team"></TD>
+	<TD><img src=News/ADA-trophies.png alt="photo of trophies"></TD>
+</TR>
+<TR>
+</TR>
+</TR>
+</TABLE>
+Lefty Koutsofios, Emden Gansner, Stephen North, John Ellson (Glen Low missing)
+<P>
+<h4> R-Graphviz (Aug. 2004)</h4>
+<P style="width: 542px;">
+<A HREF="http://www.bioconductor.org/repository/release1.4/package/html/Rgraphviz.html">R-Graphviz</A> is a graph layout and display module from
+the <A HREF="http://www.bioconductor.org">Bio-Conductor project</A>
+for the <A HREF="http://www.r-project.org">R statistics language</A>.
+Thanks to <A HREF="http://www.biostat.harvard.edu/~rgentlem/HTML/home.html">Robert Gentleman</A> and <A HREF="http://biowww.dfci.harvard.edu/~jgentry/">Jeff Gentry</A> (Dana Farber Cancer Institute, Harvard) for leading this work.</P>
+<TABLE WIDTH=542>
+<TR>
+<A href="http://www.bioconductor.org/Screenshots/">
+<img src="http://www.bioconductor.org/Screenshots/icon-Tcell.png" width=180>
+<img src="http://www.bioconductor.org/Screenshots/litGnc.jpg" width=180>
+<img src="http://www.bioconductor.org/Screenshots/clustGallc.jpg" width=180>
+</A>
+</TR></TABLE>
 <h4> HTML-like labels (Feb. 2004)</h4>
 This <a href="http://www.research.att.com/%7Eerg/graphviz/info/shapes.html#html">
 new label formatter</a> supports many helpful options for text formatting,
