@@ -5,14 +5,14 @@
 <META name="keywords" content="graph drawing, graph layout,
 network visualization, graph visualization, graphviz">
 
-<h2>Graph Drawing</h2>
-Graph drawing is a way of visualizing structural information
-as diagrams of abstract graphs and networks.
+<h2>Graph Visualization</h2>
+Graph visualization is a way of representing structural
+information as diagrams of abstract graphs and networks.
 Automatic graph drawing has many important applications in 
 software engineering, database and web design, networking,
 and in visual interfaces for many other domains. 
 <p>
-Graphviz is open source graph drawing software.
+Graphviz is open source graph visualization software.
 It has several main graph layout programs.
 See the <a href="Gallery.php">gallery</a> for some sample layouts.
 It also has web and interactive graphical interfaces,
