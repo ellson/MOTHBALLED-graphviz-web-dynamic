@@ -1,12 +1,13 @@
-PAGESET=Home.html \
+PAGESET=About.html \
+	Download.html \
 	News.html \
 	Screenshots.html \
 	Documentation.html \
+	Theory.html \
 	Bugs.html \
 	MailingList.html \
 	License.html \
-	Download.html \
-	Links.html \
+	Related.html \
 	Credits.html
 
 .SUFFIXES: .ht .html
