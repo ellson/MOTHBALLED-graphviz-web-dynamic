@@ -38,7 +38,7 @@ fout.write('''<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <table cellspacing="20">
 <tr><td valign="top" rowspan="2">
 <!-- icon -->
-<img src="icons/doc-''' + basename.lower() + '''.png" alt="''' + basename + '''">
+<img src="gvicons/doc-''' + basename.lower() + '''.png" alt="''' + basename + '''">
 <p>
 <!-- menu -->
 \t<table bgcolor="#c0c0ff">\n''')
