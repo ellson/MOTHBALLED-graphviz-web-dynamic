@@ -183,11 +183,12 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <!-- -------------------- -->
 <h4><a name="third-party-distributions">Third-Party Distributions</a></h4>
 <ul>
-<li><a href="http://packages.debian.org/unstable/graphics/graphviz.html"><img src="Resources/debian-logo.png" border="0" alt="debian logo"> Debian</a> - Linux packages for several architectures.
-<li><a href="http://dag.wieers.com/packages/graphviz/"><img src="Resources/dag.png" border="0" alt="dag logo"> Dag Wieers</a> - rpms for some RedHat Linux distributions.
 <li><a href="http://atrpms.net/name/graphviz/">Axel Thimm</a> - rpms for some RedHat Linux distributions ("atrpms").
-<li><a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent Bell-Labs WWExptools</a> - binaries for Unix variants.
+<li><a href="http://dag.wieers.com/packages/graphviz/"><img src="Resources/dag.png" border="0" alt="dag logo"> Dag Wieers</a> - rpms for some RedHat Linux distributions.
 <li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&amp;submit=Search+...&amp;system=&amp;arch=">RPM Find</a> - many distros and architectures.
+<li><a href="http://packages.debian.org/unstable/graphics/graphviz.html"><img src="Resources/debian-logo.png" border="0" alt="debian logo"> Debian</a> - Linux packages for several architectures.
 <li><a href="http://packages.gentoo.org/search/?sstring=graphviz"><img src="Resources/gentoo.jpeg" border="0" alt="gentoo logo"> Gentoo</a> - Linux packages.
+<li><a href="http://download.fedora.redhat.com/pub/fedora/linux/extras/"><img src="Resources/fedora_logo.png" border="0" alt="fedora logo"> Fedora Extras</a> - rpms for Fedora Core 3 and later.
 <li><a href="http://freshmeat.net/search/?q=graphviz&amp;section=projects&amp;Go.x=0&amp;Go.y=0">FreshMeat</a> - related projects from a search for "graphviz".
+<li><a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent Bell-Labs WWExptools</a> - binaries for Unix variants.
 </ul>
