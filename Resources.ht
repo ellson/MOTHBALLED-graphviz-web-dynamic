@@ -73,6 +73,9 @@ and <a href="Misc/dot_from_pl.pl">dot_from_pl</a>) [Robert Nielsen]
 <!-- -------------------- -->
 <h4><a name="network-and-web">Network and Web Engineering Tools Using Graphviz</a></h4>
 <ul>
+<li> <a href="http://www.spamviz.net/">SpamViz</a> generates *.dot
+file of network resources - primary intent is spam-net hunting,
+but any domain can be graphed [Mike Zick]
 <li> <a href="http://netmap.sourceforge.net/">netmap</a> draws the
 route connecting you with the Internet
 <li><a href="http://pear.php.net/package-info.php?package=Image_GraphViz">Image_GraphViz</a> class in PHP's <a href="http://pear.php.net/">PEAR repository</a> [Sebastian Bergmann] 
