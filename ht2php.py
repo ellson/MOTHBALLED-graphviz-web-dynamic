@@ -36,16 +36,10 @@ fout.write('''<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 </head>
 <body bgcolor="white">
 <table cellspacing="20">
-<tr><td>
+<tr><td valign="top" rowspan="2">
 <!-- icon -->
-<img src="icons/doc-''' + basename.lower() + '''.png" alt="">
-</td><td>
-<!-- header -->
-<h2>Graphviz - Graph Visualization Software</h2>
+<img src="icons/doc-''' + basename.lower() + '''.png" alt="''' + basename + '''">
 <p>
-<h1>''' + basename + '''</h1>
-</td></tr>
-<tr><td valign="top">
 <!-- menu -->
 \t<table bgcolor="#c0c0ff">\n''')
 
@@ -66,7 +60,12 @@ for page in pageset:
       fout.write('\t<tr><td>' + indent + '<a href="' + menuitem + '.php">' + menuname + '</a></td></tr>\n')
 
 fout.write('''\t</table> 
-</td><td valign="top">
+</td>
+<td valign="top">
+<!-- header -->
+<h2>Graphviz - Graph Visualization Software</h2>
+</td></tr>
+<tr><td valign="top">
 <!-- body -->\n''')
 
 fin = open(source, 'r')
