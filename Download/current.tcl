@@ -23,6 +23,9 @@ proc puts_latest {fout docroot dir} {
     if {[string first webdot $fn] == 0} {
       lappend WEBDOT([list $n $t]) [list $fn $v]
     }
+    if {[string first webfonts $fn] == 0} {
+      lappend WEBFONTS([list $n $t]) [list $fn $v]
+    }
   }
 
   foreach nt [array names GRAPHVIZ] {
@@ -32,6 +35,12 @@ proc puts_latest {fout docroot dir} {
     lappend FILES($t) $fn
   }
   foreach nt [array names WEBDOT] {
+    foreach {n t} $nt {break}
+    set fnv [lindex [lsort -decreasing -dictionary -index 1 $WEBDOT($nt)] 0]
+    foreach {fn v} $fnv {break}
+    lappend FILES($t) $fn
+  }
+  foreach nt [array names WEBFONTS] {
     foreach {n t} $nt {break}
     set fnv [lindex [lsort -decreasing -dictionary -index 1 $WEBDOT($nt)] 0]
     foreach {fn v} $fnv {break}
