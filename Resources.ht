@@ -189,7 +189,7 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <li><a href="http://packages.debian.org/unstable/graphics/graphviz.html"><img src="Resources/debian-logo.png" border="0" alt="debian logo"> Debian</a> - Linux packages for several architectures.
 <li><a href="http://packages.gentoo.org/search/?sstring=graphviz"><img src="Resources/gentoo.jpeg" border="0" alt="gentoo logo"> Gentoo</a> - Linux packages.
 <li><a href="http://download.fedora.redhat.com/pub/fedora/linux/extras/"><img src="Resources/fedora_logo.png" border="0" alt="fedora logo"> Fedora Extras</a> - rpms for Fedora Core 3 and later.
-<li><a href="http://freshmeat.net/search/?q=graphviz&amp;section=projects&amp;Go.x=0&amp;Go.y=0">FreshMeat</a> - related projects from a search for "graphviz".
+<li><a href="http://freshmeat.net/search/?q=graphviz&amp;section=projects&amp;Go.x=0&amp;Go.y=0"><img src="Resources/freshmeat-logo.gif" border="0" alt="freshmeat logo"> FreshMeat</a> - related projects from a search for "graphviz".
 <li><a href="http://www.bell-labs.com/project/wwexptools/packages.html"><img src="Resources/lucent-logo.gif" border="0" alt="lucent logo"> WWExptools</a> - binaries for many Unix variants.
 <li><a href="ftp://ftp.suse.com/pub/suse/"><img src="Resources/suse-logo.png" border="0" alt="suse logo"> SuSE</a> - rpms for Novell/SuSE distributions for many architectures.
 </ul>
