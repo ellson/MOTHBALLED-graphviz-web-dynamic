@@ -10,6 +10,16 @@
 
 <p>
 
+<dt><b>User's Guides</b> (<a href="http://www.adobe.com/prodindex/acrobat/readstep.html">PDF</a> format)</dt><br>
+<dd><a href="Documentation/dotguide.pdf">dot</a></dd>
+<dd><a href="Documentation/neatoguide.pdf">neato</a></dd>
+<dd><a href="Documentation/leftyguide.pdf">lefty</a></dd>
+<dd><a href="Documentation/dottyguide.pdf">dotty</a></dd>
+<dd><a href="Documentation/Agraph.pdf">Agraph library tutorial</a></dd>
+<dd><a href="Documentation/libguide.pdf">Using Graphviz as a library</a></dd>
+
+<p>
+
 <dt><b>FAQs, Contributions</b></dt><br>
 <dd><a href=http://www.research.att.com/sw/tools/graphviz/doc/gvizfaq.html>Graphviz FAQ</a></dd>
 <dd><a href="http://www.research.att.com/sw/tools/graphviz/shapehowto.html">How to create custom shapes</a></dd>
@@ -20,27 +30,13 @@
 
 <p>
 
-<dt><b>Web sites</b></dt><br>
-<dd><a href="http://www.research.att.com/areas/visualization/">Information Visualization Research at AT&amp;T Labs</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/reuse/">
-Practical Reusable Unix Software</a>-
-programs from book on reusable software</dt>
-
-<p>
-
 <dt><b>Papers</b>
 (<a href="http://www.adobe.com/prodindex/acrobat/readstep.html">PDF</a> format)</dt><br>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/GN99.pdf">An open graph visualization system and its applications to software engineering</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/GI94.pdf">Applications of Graph Visualization</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/dotguide.pdf">dot user's guide</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/neatoguide.pdf">neato user's guide</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/leftyguide.pdf">lefty user guide</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/dottyguide.pdf">dotty user's guide</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/Agraph.pdf">Agraph library tutorial</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/libguide.pdf">Using Graphviz as a library</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/TSE93.pdf">A method for drawing directed graphs</a>-
-dot's algorithm.</dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/EN96.pdf">tcldg</a>- incremental layout architecture</dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/dynadag.pdf">Dynamic layout in Dynadag</a></dd>
-
+<dd><a href="Documentation/EGKNW03.pdf">Graphviz and Dynagraph - Static and Dynamic Graph Drawing Tools - overview</a></dd>
+<dd><a href="Documentation/GN99.pdf">An open graph visualization system and its applications to software engineering - overview</a></dd>
+<dd><a href="Documentation/GI94.pdf">Applications of Graph Visualization</a></dd>
+<dd><a href="Documentation/TSE93.pdf">A method for drawing directed graphs</a>-
+dot's algorithm (1993).</dd>
+<dd><a href="Documentation/EN96.pdf">tcldg</a>- incremental layout architecture</dd>
+<dd><a href="Documentation/NW01.pdf">On-line Hierarchical Graph Drawing - dynadag algorithm</a></dd>
 </dl>
