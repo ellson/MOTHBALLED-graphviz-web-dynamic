@@ -174,4 +174,5 @@ SVG plugin</A> required, may need <A HREF="http://www.adobe.com/svg/viewer/insta
 <li><a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent Bell-Labs WWExptools</a> - binaries for various Unix variants.
 <li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=">RPM Find</a> - various distros and architectures.
 <li><a href="http://packages.gentoo.org/search/?sstring=graphviz">Gentoo</a> - Linux packages.
+<li><a href="http://freshmeat.net/search/?q=graphviz&section=projects&Go.x=0&Go.y=0">FreshMeat</a> - various related projects from a search for "graphviz".
 </ul>
