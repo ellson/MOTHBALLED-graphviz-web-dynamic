@@ -1,29 +1,6 @@
-<i>graphviz</i> is open source licensed software.
+<i>graphviz</i> is Open Source, CPL licensed software.
 It may be redistributed, without cost, and in other
-software distributions, as long as the license terms
-such as redistributing the source intact are met.
-Thousands of copies are distributed monthly.
-<p><font size="2">
-We believe the Graphviz <a href="License.php">source license</a>
-adheres to open source concepts.  Please read it and make up
-your own mind.  If you don't like it, contact us and we can
-recommend, as alternatives, academic systems with non-commercial
-licenses and commercial software products.
-We freely point out that this license differs from some 
-well known open source licenses in at least the following ways:
-1) recipients of the code must actually agree to the license
-(though actually the mechanism of agreeing is outside the
-license itself) 2) if you modify our source, you can give or
-sell binaries to others (under this <a href="License/binary.html">
-binary license</a>) without being forced to share your modifications,
-but if you do share, you must grant AT&amp;T full rights to your patches;
-3) AT&amp;T generously allows commercialization of this software
-including use of its patents that may be involved; and 4) there are
-terms that indemnify AT&amp;T from liability due to unforseen problems
-with the code or contributed patches.  The latter especially is
-considered non-open-source by the Open Source Initiative.
-See the <a href="License/faq.html">license FAQ</a> for more details.
-</font>
+software distributions, as long as the license terms are met.
 
 <h3>Source Code</h3>
 <a href="Download_source.php">Source code</a> for the latest stable
