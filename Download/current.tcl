@@ -5,7 +5,7 @@ set archive pub/graphviz/ARCHIVE
 set current pub/graphviz/CURRENT
                                                                                 
 proc puts_latest {fout docroot dir} {
-  set types {tar.gz src.rpm i386.rpm noarch.rpm fc1.i386.rpm fc1.noarch.rpm rh73.i386.rpm rh73.noarch.rpm exe}
+  set types {tar.gz src.rpm noarch.rpm fc1.i386.rpm fc1.noarch.rpm rh73.i386.rpm rh73.noarch.rpm exe}
   set regexp {([-a-z]*)([-0-9.]*)([a-z][.a-z0-9]*)}
 
   if {![file exists $docroot/$dir]} {
