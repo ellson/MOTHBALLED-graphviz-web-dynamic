@@ -173,4 +173,5 @@ SVG plugin</A> required, may need <A HREF="http://www.adobe.com/svg/viewer/insta
 <li><a href="http://dag.wieers.com/packages/graphviz/">Dag Wieers</a> - rpms for various RedHat Linux distributions.
 <li><a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent Bell-Labs WWExptools</a> - binaries for various Unix variants.
 <li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=">RPM Find</a> - various distros and architectures.
+<li><a href="http://packages.gentoo.org/search/?sstring=graphviz">Gentoo</a> - Linux packages.
 </ul>
