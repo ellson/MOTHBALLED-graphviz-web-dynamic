@@ -1,35 +1,63 @@
-<table rules="rows">
+<table rules="groups">
 
-<tr><td>
-<img src="Gallery/hello.png" width="96" height="179" alt="" title="Hello World">
+<tbody><tr>
+<td align=center>
+<img src="Gallery/directed/cluster.small.png" alt="" title="cluster">
 </td>
-<td>
-A "Hello World" example produced by the command:
-<p>
-<code>
-echo "digraph G {Hello->World}" | dot -Tpng >hello.png
-</code>
-</td></tr>
+<td align=center>
+<img src="Gallery/directed/crazy.small.png" alt="" title="crazy">
+</td>
+<td align=center>
+<img src="Gallery/directed/datastruct.small.png" alt="" title="datastruct">
+</td>
+<td align=center>
+<img src="Gallery/directed/fsm.small.png" alt="" title="fsm">
+</td>
+</tr>
+<tr>  <td align=center> <A HREF="Gallery/directed/cluster.html">cluster</A></td> <td align=center> <A HREF="Gallery/directed/crazy.html">crazy</A></td> <td align=center> <A HREF="Gallery/directed/datastruct.html">datastruct</A></td> <td align=center> <A HREF="Gallery/directed/fsm.html">fsm</A></td> </tr></tbody>
 
-<tr><td colspan="2">
-A (non-authoritative) diagram of heritage of the Unix operating system.
-This "crazy" version of the classic graph was created to stress test the polygon shape generator code and the color code with random values.<br>
-<img src="Gallery/crazy.png" alt="" title="Crazy Unix heritage diagram"><br>
-<a href="Gallery/crazy.dot">(source)</a>
-</td></tr>
+<tbody><tr>
+<td align=center>
+<img src="Gallery/directed/hello.small.png" alt="" title="hello">
+</td>
+<td align=center>
+<img src="Gallery/directed/profile.small.png" alt="" title="profile">
+</td>
+<td align=center>
+<img src="Gallery/directed/sdh.small.png" alt="" title="sdh">
+</td>
+<td align=center>
+<img src="Gallery/directed/switch.small.png" alt="" title="switch">
+</td>
+</tr>
+<tr>  <td align=center> <A HREF="Gallery/directed/hello.html">hello</A></td> <td align=center> <A HREF="Gallery/directed/profile.html">profile</A></td> <td align=center> <A HREF="Gallery/directed/sdh.html">sdh</A></td> <td align=center> <A HREF="Gallery/directed/switch.html">switch</A></td> </tr></tbody>
 
-<tr><td colspan="2">
-A diagram of the relationships between objects in an SDH (Synchronous Digital Hierarchy) network.
-This graph was created to show a multiplicity of semantic relationships in a single graph.<br>
-<img src="Gallery/sdh.png" alt="" width="735" height="685" title="SDH network diagram"><br>
-<a href="Gallery/sdh.dot">(source)</a>
-</td></tr>
+<tbody><tr>
+<td align=center>
+<img src="Gallery/directed/unix.small.png" alt="" title="unix">
+</td>
+<td align=center>
+<img src="Gallery/directed/world.small.png" alt="" title="world">
+</td>
+<td align=center>
+<img src="Gallery/undirected/ER.small.png" alt="" title="ER">
+</td>
+<td align=center>
+<img src="Gallery/undirected/fdpclust.small.png" alt="" title="fdpclust">
+</td>
+</tr>
+<tr>  <td align=center> <A HREF="Gallery/directed/unix.html">unix</A></td> <td align=center> <A HREF="Gallery/directed/world.html">world</A></td> <td align=center> <A HREF="Gallery/undirected/ER.html">ER</A></td> <td align=center> <A HREF="Gallery/undirected/fdpclust.html">fdpclust</A></td> </tr></tbody>
 
-<tr><td colspan="2">
-A non-blocking switch network consisting of only 2-way splitters and selectors.
-This graph was created to illustrate the parallel edge feature.<br>
-<img src="Gallery/switch.png" width="585" height="417" alt="" title="A non-blocking switch network"><br>
-<a href="Gallery/switch.dot">(source)</a>
-</td></tr>
-
+<tbody><tr>
+<td align=center>
+<img src="Gallery/undirected/inet.small.png" alt="" title="inet">
+</td>
+<td align=center>
+<img src="Gallery/undirected/process.small.png" alt="" title="process">
+</td>
+<td align=center>
+<img src="Gallery/undirected/softmaint.small.png" alt="" title="softmaint">
+</td>
+</tr>
+<tr>  <td align=center> <A HREF="Gallery/undirected/inet.html">inet</A></td> <td align=center> <A HREF="Gallery/undirected/process.html">process</A></td> <td align=center> <A HREF="Gallery/undirected/softmaint.html">softmaint</A></td> </tr></tbody>
 </table>
