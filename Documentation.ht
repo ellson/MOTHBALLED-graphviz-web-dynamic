@@ -14,7 +14,7 @@
 <dd><a href="Documentation/leftyguide.pdf">lefty</a></dd>
 <dd><a href="Documentation/dottyguide.pdf">dotty</a></dd>
 <dd><a href="Documentation/Agraph.pdf">Agraph library tutorial</a></dd>
-<dd><a href="Documentation/libguide.pdf">Using Graphviz as a library</a></dd>
+<dd><a href="/cvs/doc/libguide/libguide.pdf">Using Graphviz as a library</a></dd>
 
 <dt><b>FAQs, Contributions</b></dt>
 <dd><a href="http://www.graphviz.org/cvs/doc/FAQ.html">Graphviz FAQ</a></dd>
