@@ -76,6 +76,6 @@ We provide these as a courtesy, only for compatibility
 on legacy Unix systems that lack native fonts.
 <p>
 <h3><A HREF="Misc/spline-o-matic/">Spline-o-matic</A> distribution</h3>
-Source code <A href="Misc/spline-o-matic/splino.tgz/"> for a
-reusable spline path router library and TCL/tk GUI
+<A href="Misc/spline-o-matic/splino.tgz/">Source code</A>
+for a reusable spline path router library and TCL/tk GUI
 (for experts only).
