@@ -1,16 +1,54 @@
-<dl>
-<dt>
-<a href="http://www.graphviz.org">Graph Drawing</a> symposia, held annually.
-<dt>
+<h2>Graph Drawing</h2>
+<a href="http://www.graphdrawing.org">graphdrawing.org<A> -
+annual symposia, books, data, open problems and more<br>
 <a href="http://directory.google.com/Top/Science/Math/Combinatorics/Software/Graph_Drawing/">Google graph drawing directory</a> - lists most popular systems.
-<dt>
-<a href="http://www.cwi.nl/InfoVisu/Survey/StarGraphVisuInInfoVis.html">Survey</a> paper by Herman, Melan&ccedil;on and Marshall.
-<dt>
-<a href="http://www.cs.brown.edu/~rt/gd-biblio.html">DBETT Bibliography</a>
-<dt>
-<a href="http://www.cs.brown.edu/~rt/gd.html">Roberto Tamassia's graph drawing page</a>
-<dt>
-<a href="http://www.ics.uci.edu/~eppstein/gina/gdraw.html">David Eppstein's Geometry in Action</a>
-<dt>
-<a href="http://www.research.att.com/sw/tools/graphviz/ivlinks.html">Infovis pages</a>
-</dl>
+<br>
+<a href=http://www.cs.brown.edu/~rt/gd.html>Roberto Tamassia's page</a> - tutorial, bibliography, software, etc.<br>
+<a href="http://www.csse.monash.edu.au/~gfarr/research/GraphDrawing02-Mel.ppt">
+Survey (Franz Brandenburg talk notes)</a><br>
+<a href="http://www.merl.com/papers/TR2001-49/">Marks et al note on history of graph drawing</a><br>
+<a href=http://www.ics.uci.edu/~eppstein/gina/gdraw.html>David Eppstein's Geometry in Action</a><br>
+<a href="http://www.amazon.com/exec/obidos/tg/detail/-/0133016153/qid=1089229182/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-2475216-1750235?v=glance&s=books&n=507846">
+<b>Graph Drawing: Algorithms for the Visualization of Graphs</b></a>
+by Ioannis G. Tollis, Giuseppe Di Battista, Peter Eades, Roberto Tamassia <br>
+<a href="http://www.amazon.com/exec/obidos/tg/detail/-/3540008810/qid=1089229286/sr=1-3/ref=sr_1_3/103-2475216-1750235?v=glance&s=books">
+<b>Graph Drawing Software (Mathematics and Visualization)</b></a>
+by M. Junger, Petra Mutzel, (Symposium on Graph Drawing 2001, Vienna)<br>
+<a href="http://www.amazon.com/exec/obidos/tg/detail/-/3540420622/qid=1089229286/sr=1-8/ref=sr_1_8/103-2475216-1750235?v=glance&s=books">
+<b>Drawing Graphs: Methods and Models</b></a>
+by Michael Kaufmann, Dorothea Wagner <br>
+<h2>Information Visualization</h2>
+IEEE Infovis Symposia: <a href="http://vis.computer.org">current</a>,
+<a href="http://www.infovis.org/">past</a>
+<br>
+<a href="http://www.palgrave-journals.com/ivs/">Information Visualization Journal</a><br>
+<a href="http://www.infovis.net/E-zine/previous.htm">Infovis.net magazine</a>
+<br>
+<a href="http://www.math.yorku.ca/SCS/Gallery">York U. Gallery of Visualization</a><br>
+<!-- seems to be out of business?
+<a href="http://www.cs.man.ac.uk/~ngg/InfoViz/">Gary Ng</a> (good list of
+<a href="http://www.cs.man.ac.uk/~ngg/InfoViz/Journals_and_Publishers/">pubs</a>).
+-->
+<a href="http://graphics.stanford.edu/courses/cs348c-96-fall/resources.html">
+Stanford University course bilbiography</a>
+<br>
+<a href="http://www2.parc.com/istl/projects/uir/projects/ii.html">Xerox PARC projects</a>
+<br>
+<a href="http://www.hcrc.ed.ac.uk/gal/Diagrams/diagrams.html">Diagrammatic reasoning</a>
+<br>
+<a href="http://www.cs.indiana.edu/hyplan/tkeahey/research/nlm/nlm.html">Nonlinear magnification</a>
+<br>
+<a href="http://www.cc.gatech.edu/gvu/softviz/">Software Visualization at Georgia Tech</a><br>
+<br>
+<h2>Some Infovis Researchers</h2>
+<a href="http://www.edwardtufte.com">Edward Tufte</a> - even he posts family photos.<br>
+<a href="http://graphics.stanford.edu/~hanrahan/">Pat Hanrahan</a><br>
+<a href="http://dbvis.fmi.uni-konstanz.de/~keim">Daniel Keim</a><br>
+<a href="http://www.cs.ubc.ca/~tmm/">Tamara Munzner</a><br>
+<a href="http://www2.parc.com/istl/members/mackinlay/">Jock Mackinlay</a><br>
+<a href="http://www.merl.com/people/marks/">Joe Marks</a><br>
+<a href="http://www.cs.umd.edu/~ben/">Ben Shneiderman</a><br>
+<a href="http://www.cs.wpi.edu/~matt/">Matt Ward</a><br>
+<a href="http://www.spss.com/research/wilkinson/">Lee Wilkinson</a><br>
+<br>
+

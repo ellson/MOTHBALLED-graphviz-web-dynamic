@@ -2,6 +2,125 @@
 <img src="About/OSIstack.small.gif" align="top">
 <img src="About/fsm.small.gif" align="top">
 
+
+<h2>Graph Drawing</h2>
+Graph drawing is a way of visualizing structural information
+as diagrams of abstract graphs and networks.
+Automatic graph drawing has many important applications in 
+software engineering, database and web design, networking,
+and in visual interfaces for many other domains. 
+<p>
+Graphviz is open source graph drawing software.
+It has several main graph layout programs.
+See the <a href="Gallery.html">gallery</a> for some sample layouts.
+It also has web and interactive graphical interfaces,
+and auxiliary tools, libraries, and language bindings.
+<p>
+The Mac OS X edition of Graphviz, by Glen Low, won two 2004 Apple Design Awards.
+<p>
+The Graphviz layout programs take descriptions of graphs in
+a simple text language, and make diagrams in several useful
+formats such as images and SVG for web pages, Postscript for
+inclusion in PDF or other documents; or display in an interactive
+graph browser.  (Graphviz also supports GXL, an XML dialect.)
+<p>
+Graphviz has many useful features for concrete diagrams, such as options for
+colors, fonts, tabular node layouts, line styles, hyperlinks, and
+custom shapes.
+<p>
+In practice, graphs are usually generated from an external
+data sources, but they can also be created and edited manually,
+either as raw text files or within a graphical editor. 
+(Graphviz was not intended to be a Visio replacement, so it
+is probably frustrating to try to use it that way.)
+
+<h2>The Dynagraph saga</h2>
+Graphviz is actively maintained and improved, but from 1996-2003
+the Graphviz team (particularly Gordon Woodhull) also worked on
+Dynagraph, a potential successor. It appears to be our own classic
+case of ``second system'' syndrome.  Dynagraph shares almost
+no code with Graphviz. It is based on a heavily templated
+C++ graph library that's similar to the Boost Graph Library in some ways,
+but follows Graphviz' graph data structure model.  Dynagraph
+provides dynamic layout of on-line diagrams, with semi-interative editing.
+It has a very powerful graphical interface layer for Microsoft
+ActiveX, Motage, so ``live'' diagrams may be embedded
+in Office documents, and may contain ActiveX controls. It does this
+with full toolbar management and file persistence.  Dynagraph
+also has a text API and a compatible Java front end that is 
+Working Dynagraph code is included in the Graphviz source code release.
+The ambition of this undertaking, and the sheer effort needed
+to keep Montage working with all the different versions of
+Windows and Office programs, has brought us to the point that
+we need to change directions and find a new strategy for this work.
+
+<h2>Roadmap</h2>
+Layout Tools
+dot - makes ``hierarchical'' or layered drawings of directed graphs.
+The layout algorithm
+aims edges in the same direction (top to bottom, or left to right) and
+then attempts to avoid edge crossings and minimize the layout area.
+
+<ul>
+<li>
+neato and fdp - make ``spring model'' layouts.  neato uses the Kamada-Kawai
+algorithm, which is equivalent to statistical multi-dimensional scaling.
+fdp is based on 
+<li>
+twopi - radial layout, after Graham Wills 97.
+<li>
+circo - circular layout, after Six and Tollis 99, Kauffman and Wiese 02.
+Suitable for certain diagrams of multiple cyclic structures.  
+</ul>
+
+<h2>Viewers</h2>
+<ul>
+<li>
+dotty - a vintage customizable Unix/X windows viewer that has 
+subsequently been ported to Microsoft Windows. 
+<li>
+tcldot - a TCL/tk front end for Graphviz
+<li>
+webdot - a tcldot layer for graphs in HTML documents.  A simplified
+version was written in perl.
+<li>
+Grappa - a Java package for graphs with full Java graph data structures
+<li>
+ZGRV - (find some info)
+<li>
+Mac OSX - 
+</ul>
+
+<h2>Filters</h2>
+<ul>
+<li>
+gvpr is a general purpose graph stream editor, in the spirit 
+of awk, sed (or think of perl if you don't know those).
+</ul>
+
+</h2>Generators</h2>
+Many external projects provide filters that translate other formats
+and database into Graphviz format.
+See...
+
+<h2>Libraries</h2>
+Full disclosure requires us to explain that despite considerable interest
+from outsiders, the Graphviz library APIs were really only intended to be
+used by the Graphviz insiders.  For graph algorithm libraries you are
+probably better off looking at LEDA, the Boost Graph Library, or similar packages.
+
+<ul>
+<li>
+libgraph/libagraph
+These are basic graph data structure libraries in C, layered on top of Vo's
+cdt (C Dictionary Types).  The two libraries differ a little in how they handle
+subgraphs and runtime attributes.  We hope to unify them eventually.
+<li>
+pathplan
+This is a generic library for drawing arcs around obstacles diagrams.  
+To us it's pretty spiffy, but it hasn't seen much outside interest.
+</ul>
+
 <p>GraphViz provides a collection of tools for manipulating graph structures and generating graph layouts.
 
 <h2>Example applications</h2>
