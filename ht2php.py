@@ -38,7 +38,7 @@ fout.write('''<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <table cellspacing="20">
 <tr><td>
 <!-- icon -->
-<img src="doc.png" alt="">
+<img src="icons/doc-''' + basename.lower() + '''.png" alt="">
 </td><td>
 <!-- header -->
 <h2>Graphviz - Graph Visualization Software</h2>
