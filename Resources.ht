@@ -62,12 +62,13 @@ Filters that transform other data sources and formats into Graphviz.
 <ul>
 <li> <a href="http://www.rbt.ca/autodoc/index.shtml">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]
 <li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render
-<li> <a href="http://www.jark.net/sql2dot/index.html"> Sql2Dot</a> - a tiny parser in java to transform sql into dot for visualizing data structures [Robert Dale]
+<li> <a href="Misc/sql2dot"> Sql2Dot</a> - a tiny parser in java to transform sql into dot for visualizing data structures [Robert Dale]
 <li><a href="http://www.codeproject.com/database/sqlpp.asp">SqlPP</a> - a scripted SQL query generation framework that generates graphviz
 <li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams GraphViz or GD) [Szil&aacute;rd Vajda]
 <li><a href="http://zvon.org/ZvonSW/ZvonGraphotron/index.html">Graphotron</a> - an XML language for graph drawing with Xpath [Miloslav Nic]
-<li>gprof filters (<a href="Misc/pl_from_gprof.pl">pl_from_gprof</a>
-and <a href="Misc/dot_from_pl.pl">dot_from_pl</a>) [Robert Nielsen]
+<li>gprof filters - <a href="Misc/pl_from_gprof.pl">pl_from_gprof</a>
+and <a href="Misc/dot_from_pl.pl">dot_from_pl</a> [Robert Nielsen]
+and an old <a href="Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]
 </ul>
 
 <!-- -------------------- -->

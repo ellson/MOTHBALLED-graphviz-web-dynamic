@@ -2,10 +2,10 @@
 It may be redistributed without cost in other software
 distributions, as long as the license terms, such as
 redistributing the source intact, are met.
-More than 15,000 copies of all kinds are downloaded monthly.
+Thousands of copies are distributed monthly.
 <p><font size="2">
 We believe the Graphviz <a href="License.php">source license</a>
-adheres to the basic open source concepts.  Please read it yourself and
+adheres to basic open source concepts.  Please read it yourself and
 make up your own mind.  If you don't like it, feel free to contact us
 and we can recommend as alternatives either academic systems with
 non-commercial licenses or commercial software products.
@@ -18,9 +18,9 @@ without being forced to share your modifications, but if you do
 share, you must grant AT&amp;T full rights to your patches;
 3) AT&amp;T generously allows commercialization of this software
 including use of its patents that may be involved; and 4) there are
-terms that protect AT&amp;T from liability due to unforseen problems
-with the code or contributed patches -
-otherwise we'd never release this in the first place.
+terms that indemnify AT&amp;T from liability due to unforseen problems
+with the code or contributed patches.  This is considered non-open-source
+by the Open Source Initiative.
 See the <a href="License/faq.html">license FAQ</a> for more details.
 </font>
 
@@ -31,7 +31,7 @@ for CVS anonymous access to the sources.
 <p>
 There are also trimmed-down
 <a href="Download_windows.php">Windows sources for Windows</a> and 
-<a href="http://www.research.att.com/sw/tools/graphviz/dist/winbuild.html">Notes</a> on how to build Graphviz on Windows.
+<a href="Documentation/html/winbuild.html">Notes</a> on how to build Graphviz on Windows.
 
 <h3>Binary Executable Packages</h3>
 Please contact us if you can offer a platform we don't have,
@@ -47,7 +47,7 @@ or one that we provide as a service.
 <p>
 <b>Windows</b><br>
 <a href="Download_windows.php">stable and development Windows Install packages</a>
-and third-party <a href="http://www.research.att.com/sw/tools/graphviz/dist/third-party-1.14.zip">libraries</a>.<br>
+and third-party <a href="Misc/third-party-1.14.zip">libraries</a>.<br>
 <a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).
 <p>
 <b>Apple</b> <br>
@@ -62,68 +62,16 @@ also <a href="http://www.bell-labs.com/cgi-user/wwexptools/gensnapshot/powerpc-a
 (Sun, HP-UX, SGI IRIX, Cygwin, Apple, etc.)
 <p>
 <b>Really Olde Executable Packages for version 1.7+</b><br>
-<a href="http://www.research.att.com/sw/tools/graphviz/dist/gviz17c.sol.i386.tgz">Sun x86 Solaris 5.7</a> <br>
-<a href="http://www.research.att.com/sw/tools/graphviz/dist/gviz17c.hp10.pa.tgz">HPUX B.10.20</a><br>
-<a href="http://www.research.att.com/sw/tools/graphviz/dist/gviz17c.osf.alpha.tgz">DEC Alpha OSF V4.0</a> <br>
-<a href="http://www.research.att.com/sw/tools/graphviz/dist/gviz17c.sgi.mips3.tgz">SGI MIPS3 Irix6.5</a><br>
-<a href="http://www.research.att.com/sw/tools/graphviz/dist/osx/dot.exe">dot</a> and <a href="http://www.research.att.com/sw/tools/graphviz/dist/osx/neato.exe">neato</a> (command line programs) for Mac OS X<br>
+<a href="Download/old/gviz17c.sol.i386.tgz">Sun x86 Solaris 5.7</a> <br>
+<a href="Download/old/gviz17c.hp10.pa.tgz">HPUX B.10.20</a><br>
+<a href="Download/old/gviz17c.osf.alpha.tgz">DEC Alpha OSF V4.0</a> <br>
+<a href="Download/old/gviz17c.sgi.mips3.tgz">SGI MIPS3 Irix6.5</a><br>
 <p>
 <b>Fonts</b><br>
-<a href="http://www.research.att.com/sw/tools/graphviz/dist/fonts.tgz">FreeType-compatible</a>
+<a href="Misc/fonts.tgz">FreeType-compatible</a>
 <p>
-<b>Extras</b> (see also <a href="http://www.research.att.com/sw/tools/graphviz/webapps.html">webapps</a>)<br>
-Grappa (Java UI): <a href="http://www.research.att.com/%7Ejohn/Grappa/grappa.tgz">grappa.tgz</a> by John Mocenigo.<br>
-<a href="http://theoryx5.uwinnipeg.ca/CPAN/data/GraphViz/GraphViz.html">perl</a> and
-<a href="http://www.cs.brown.edu/%7Eer/software/">pythonic</a> programming APIs (thanks to Leon Brocard and Manos Renieris)<br>
-<a href="http://www.eecs.harvard.edu/%7Epesha/Public/DATA.html">Matlab interface</a> by Leon Peshkin.<br>
-The <a href="http://www.graphviz.org/webdot/">Webdot</a> server (needs TCL/tk 8.3+, by John Ellson)<br>
-A small, stripped-down webdot server in perl:
-<a href="http://www.research.att.com/sw/tools/graphviz/extras/webdot.pl">latest</a> (2/25/02) with support for
-dot, neato, twopi; <a href="http://www.research.att.com/sw/tools/graphviz/webdot.cgi.pl">old one</a> (thanks to John Linderman for a little perl help).
 <br>
-<a href="http://www.codeproject.com/cs/miscctrl/quickgraph.asp">Quickgraph</a>
-(a C# graph library with Graphviz support, based on the Boost Graph Library)
-and 
-<a href="http://www.dotnetwiki.org/DesktopDefault.aspx?tabid=136">NGraphviz</a>,
-a .NET wrapper for Graphviz (thanks to Jonathan de Halleux).
-<br>
-<a href="http://search.cpan.org/%7Ejgs/Tk-GraphViz/">Tk::GraphViz</a> - a perl module for displaying graphs in a perl/TK canvas (by Jeremy Slade).
-<br>
-<a href="http://sourceforge.net/projects/tintfu/">tintfu</a>, a graphviz file editor with immediate preview, in Java (by Walter Stroebel).
-<br>
-<a href="http://www.research.att.com/sw/tools/graphviz/extras/graphviz-dot-mode.el">emacs editing mode</a>for dot graphs
-(by Pieter Pareit).
-<br>
-An <a href="http://www.research.att.com/sw/tools/graphviz/contrib/sql2dot/index.html">sql2dot</a> filter by Robert Dale.<br>
-gprof filters (<a href="http://www.research.att.com/sw/tools/graphviz/extras/pl_from_gprof.pl">pl_from_gprof</a>
-and <a href="http://www.research.att.com/sw/tools/graphviz/extras/dot_from_pl.pl">dot_from_pl</a>), courtesy Robert Nielsen.
-<br>
-<a href="http://www.grotto-group.com/%7Egulfie/projects/monitoring/tcpdump2dot/">tcldump2dot</a> by Gulfie.
-<br>
-<a href="http://zvon.org/ZvonSW/ZvonGraphotron/index.html">Graphotron</a>, an XML language for graph drawing with Xpath (by Miloslav Nic).
-<h4>Caveats</h4>
-The source package doesn't yet include the Grappa or Montage.
-<br>
-<br>
-The source is compilable out of the box <b> only on Unix</b>.<br>
-<br>
-The Windows versions are currently built in Microsoft Visual C/C++.
-It is also possible to build the source under
-<a href="http://www.research.att.com/sw/tools/uwin">UWIN</a>
-(as either a UWIN or native win32 program)
-or <a href="http://www.cygwin.com/">Cygwin</a>.
-<br>
-<br>
-<a href="mailto:russ.roy@lucent.com">
-Russ Roy</a> at Lucent donated
-Microsoft Visual C <a href="http://www.research.att.com/sw/tools/graphviz/gvproj.zip">project and workspace files</a>
-to build <i>neato</i>.  (If anyone patches them to build the other
-programs or to eliminate superfluous warnings, we'll gladly take it back.)
-<br>
-<br>
-The cluster layout code is suspect and needs an total overhaul.
-<p>
 <h3> Spline-o-matic distribution</h3>
-<a href="http://www.research.att.com/sw/tools/graphviz/packages/spline-o-matic/">
-reusable spline router library and GUI
+<a href="Misc/spline-o-matic/">
+Reusable spline path router library and TCL/tk GUI.
 </a>
