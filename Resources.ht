@@ -148,9 +148,9 @@ The following list barely scratches the surface.
 SVG plugin</A> required, may need <A HREF="http://www.adobe.com/svg/viewer/install/beta.html">beta</A> for Mozilla FireFox)
 [American Association for the Advancement of Science (AAAS) and Stanford University Digital Libraries Project]
 <li><A HREF="http://www.PubGene.com">Pubgene</A> - Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery (go <A HREF="http://www.pubgene.org">here</A> for original academic web site)
-<li><A HREF=" http://cmap.nci.nih.gov/PW/DrawPathway?pathway_id=1094&what=graphic&svg=on">cmap</A>: cancer.gov pathway interaction database, National Cancer Institute of U.S. National Institutes of Health (requires
+<li><A HREF=" http://cmap.nci.nih.gov/PW/DrawPathway?pathway_id=1094&what=graphic&svg=on">cancer.gov</A>: National Cancer Institute (NIH) pathway interaction database (CMAP) (requires
 <A HREF="http://www.adobe.com/svg/viewer/install/main.html">SVG plugin</A>, may need <A HREF="http://www.adobe.com/svg/viewer/install/beta.html">beta</A> for Mozilla FireFox) [Kotien Wu]
-<li><a href="http://udgenome.ags.udel.edu/gofigure/help.html">GO Figure Gene Ontology Annotator</a> has the objective of providing an organized vocabulary of terms that describe molecular function, biological process and cellular component of a gene product [Gang Situ]
+<li><a href="http://udgenome.ags.udel.edu/gofigure/help.html">GO Figure</A> Gene Ontology Annotator</a> provides an organized vocabulary of terms describing molecular functions, biological processes and cellular components of gene products [Gang Situ]
 </ul>
 
 <!-- -------------------- -->
