@@ -163,3 +163,12 @@ SVG plugin</A> required, may need <A HREF="http://www.adobe.com/svg/viewer/insta
 <li><a href="http://www.aivosto.com/visustin.html">Visustin flow chart generator</a>[Aivosto]
 <li> <A HREF="http://paco.to/blog/000040.html"> Using Mac OmniGraffle </A> with Graphviz blog entry [Pac Hope]
 </ul>
+
+<!-- -------------------- -->
+<a name="third-party-distributions"><h4>Third-Party Distributions</h4></a>
+<ul>
+<li><a href="http://packages.debian.org/unstable/graphics/graphviz.html">Debian</a> - Linux packages for various architectures.
+<li><a href="http://dag.wieers.com/packages/graphviz/">Dag Wieers</a> - rpms for various RedHat Linux distributions.
+<li><a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent Bell-Labs WWExptools</a> - binaries for various Unix variants.
+<li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=">RPM Find</a> - various distros and architectures.
+</ul>

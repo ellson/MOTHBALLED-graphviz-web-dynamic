@@ -60,6 +60,10 @@ proc puts_latest {fout docroot dir} {
 
 set fout [open Download.ht w]
 
+puts $fout "<p>This page lists sources and binaries that we provide.
+There are also some <a href=\"Resources.html#third-party-distributions\">third-party distributions</a>
+that we know of.<p>"
+
 puts $fout "<table><tr><td>"
                                                                                 
 # the latest release is in ARCHIVE
