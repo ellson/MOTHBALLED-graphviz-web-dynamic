@@ -42,7 +42,7 @@ to build Graphviz on Windows.
 <p>
 <b>Windows</b><br>
 <a href="Download_windows.php">Stable and development Windows Install packages</a>
-and third-party <a href="Misc/third-party-1.14.zip">libraries</a>.
+and third-party <a href="Misc/third-party.zip">libraries</a>.
 <H3>Third-Party (non-AT&amp;T) Executable Packages</H3>
 Please contact us if you can offer a platform we don't have,
 or you've improved on what's here.  
@@ -74,7 +74,7 @@ also <a href="http://www.bell-labs.com/cgi-user/wwexptools/gensnapshot/powerpc-a
 We provide these as a courtesy, only for compatibility
 on legacy Unix systems that lack native fonts.
 <p>
-<h3> Spline-o-matic distribution</h3>
-<a href="Misc/spline-o-matic/">
-Reusable spline path router library and TCL/tk GUI.
-</a>
+<h3><A HREF="Misc/spline-o-matic/">Spline-o-matic</A> distribution</h3>
+Source code <A href="Misc/spline-o-matic/splino.tgz/"> for a
+reusable spline path router library and TCL/tk GUI
+(for experts only).

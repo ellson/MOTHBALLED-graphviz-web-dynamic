@@ -20,6 +20,7 @@
 <dd><a href="FAQ.php">Graphviz FAQ</a></dd>
 <dd><a href="Documentation/html/shapehowto.html">How to create custom shapes</a></dd>
 <dd><a href="Documentation/html/layers/">How to use drawing layers (overlays)</a></dd>
+<dd><a href="Documentation/html/todo.html">Our TODO list</a></dd>
 <dd><a href="http://ttf2pt1.sourceforge.net/">How to convert TrueType fonts to PostScript</a></dd>
 <dd><a href="http://xml.apache.org/batik/ttf2svg.html">How to convert TrueType fonts to SVG</a></dd>
 <dd><a href="Documentation/html/isofonts.txt">Postscript defs for ISO-latin1 fonts</a> (by<a href="mailto:evidal@iti.upv.es">Enrique Vidal</a>)</dd>
