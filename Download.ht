@@ -28,10 +28,11 @@ See the <a href="License/faq.html">license FAQ</a> for more details.
 <h3>Source Code</h3>
 <a href="Download_source.php">Source code</a> for the latest stable
 and development versions of Graphviz are available, along with
-instructions for CVS anonymous access to the sources.
+instructions for CVS anonymous access to the sources.  Also see
+build <a href="http://www.graphviz.org/cvs/doc/build.html">notes</a>.
 <p>
 Trimmed-down <a href="Download_windows.php">Windows sources</a>
-and <a href="Documentation/html/winbuild.html">notes</a> on how
+and <a href="http://www.graphviz.org/cvs/doc/winbuild.html">notes</a> on how
 to build Graphviz on Windows.
 
 <H3>Executable Packages from AT&amp;T</H3>
