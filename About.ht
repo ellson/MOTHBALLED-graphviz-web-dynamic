@@ -16,7 +16,7 @@ See the <a href="Gallery.html">gallery</a> for some sample layouts.
 It also has web and interactive graphical interfaces,
 and auxiliary tools, libraries, and language bindings.
 <p>
-The Mac OS X edition of Graphviz, by Glen Low, won two 2004 Apple Design Awards.
+The <a href="http://www.pixelglow.com/graphviz/">Mac OS X edition of Graphviz</a>, by Glen Low, won two 2004 Apple Design Awards.
 <p>
 The Graphviz layout programs take descriptions of graphs in
 a simple text language, and make diagrams in several useful
@@ -76,19 +76,27 @@ Suitable for certain diagrams of multiple cyclic structures.
 <h2>Viewers</h2>
 <ul>
 <li>
-dotty - a vintage customizable Unix/X windows viewer that has 
+<a href="http://www.graphviz.org/cgi-bin/man?dotty">dotty</a>
+- a vintage customizable Unix/X windows viewer that has 
 subsequently been ported to Microsoft Windows. 
 <li>
-tcldot - a TCL/tk front end for Graphviz
+<a href="http://www.graphviz.org/cgi-bin/man?tcldot">tcldot</a>
+- a TCL/TK scripting language extension for Graphviz
 <li>
-webdot - a tcldot layer for graphs in HTML documents.  A simplified
-version was written in perl.
+<a href="/webdot/">WebDot</a>.
+- a tcldot scripted WWW service for graphs in HTML documents.
+There is also
+<a href="http://www.research.att.com/sw/tools/graphviz/webdot.cgi.pl">
+a simplified version</a>
+written in perl.
 <li>
-Grappa - a Java package for graphs with full Java graph data structures
+<a href="http://www.research.att.com/~john/Grappa/">Grappa</a>
+- a Java package for graphs with full Java graph data structures
 <li>
 ZGRV - (find some info)
 <li>
-Mac OSX - 
+<a href="http://www.pixelglow.com/graphviz/">Mac OS X graphviz</a>
+- 
 </ul>
 
 <h2>Filters</h2>
