@@ -16,7 +16,6 @@ to build Graphviz on Windows.
 <b>Linux</b><br>
 <a href="Download_linux.php">Stable and development rpms for Redhat systems</a>
 <br>
-<a href="http://packages.debian.org/unstable/graphics/graphviz.html">Debian package</a>
 <p>
 <b>Windows</b><br>
 <a href="Download_windows.php">Stable and development Windows Install packages</a>
@@ -27,6 +26,11 @@ or you've improved on what's here.
 <p>
 We list these links as a courtesy, but disclaim responsibility
 for the contents of these software products.
+<p>
+<b>Linux</b> <br>
+<a href="http://packages.debian.org/unstable/graphics/graphviz.html">Debian package</a>
+<br>
+<a href="http://fedoraproject.org/pre-extras/3/">Fedora package</a>
 <p>
 <b>Apple</b> <br>
 <a href="http://www.pixelglow.com/graphviz/"><b>Mac OSX</b></a> (full document GUI, Quartz integration including native fonts and PDF...)
