@@ -16,6 +16,8 @@ PAGESET=Home.html \
 
 all: ${PAGESET} index.html
 
+${PAGESET}: ht2html.py Makefile
+
 index.html: Home.html
 	ln -s Home.html index.html
 
