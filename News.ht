@@ -43,7 +43,7 @@ Thanks to <a href="http://www.biostat.harvard.edu/~rgentlem/HTML/home.html">Robe
 </a></td>
 </tr></table>
 <h4> HTML-like labels (Feb. 2004)</h4>
-This <a href="http://www.research.att.com/%7Eerg/graphviz/info/shapes.html#html">
+This <a href="/cvs/doc/info/shapes.html#html">
 new label formatter</a> supports many helpful options for text formatting,
 coloring and URL linking, similar to HTML tables.
 (Special thanks to Emden Gansner and Serban Jora.)
