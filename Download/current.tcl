@@ -16,14 +16,24 @@ proc puts_latest {fout docroot dir} {
   set owd [pwd]
   cd $docroot/$dir
   foreach {fn n v t} [regexp -all -inline $regexp [glob -nocomplain *]] {
-    if {![file isdir $fn] && [string first graphviz $fn] == 0} {
-      lappend NAMETYPES([list $n $t]) [list $fn $v]
+    if {[file isdir $fn]} {continue}
+    if {[string first graphviz $fn] == 0} {
+      lappend GRAPHVIZ([list $n $t]) [list $fn $v]
+    }
+    if {[string first webdot $fn] == 0} {
+      lappend WEBDOT([list $n $t]) [list $fn $v]
     }
   }
 
-  foreach nt [array names NAMETYPES] {
+  foreach nt [array names GRAPHVIZ] {
     foreach {n t} $nt {break}
-    set fnv [lindex [lsort -decreasing -dictionary -index 1 $NAMETYPES($nt)] 0]
+    set fnv [lindex [lsort -decreasing -dictionary -index 1 $GRAPHVIZ($nt)] 0]
+    foreach {fn v} $fnv {break}
+    lappend FILES($t) $fn
+  }
+  foreach nt [array names WEBDOT] {
+    foreach {n t} $nt {break}
+    set fnv [lindex [lsort -decreasing -dictionary -index 1 $WEBDOT($nt)] 0]
     foreach {fn v} $fnv {break}
     lappend FILES($t) $fn
   }
