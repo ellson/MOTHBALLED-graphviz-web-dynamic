@@ -20,7 +20,7 @@ all: ${PAGESET} index.html
 ${PAGESET}: ht2html.py Makefile
 
 index.html: About.html
-	rm index.html
+	rm -f index.html
 	ln -s About.html index.html
 
 .PHONY: Download.ht
