@@ -176,11 +176,11 @@ SVG plugin</A> required, may need <A HREF="http://www.adobe.com/svg/viewer/insta
 <!-- -------------------- -->
 <a name="third-party-distributions"><h4>Third-Party Distributions</h4></a>
 <ul>
-<li><a href="http://packages.debian.org/unstable/graphics/graphviz.html">Debian</a> - Linux packages for various architectures.
-<li><a href="http://dag.wieers.com/packages/graphviz/">Dag Wieers</a> - rpms for various RedHat Linux distributions.
+<li><a href="http://packages.debian.org/unstable/graphics/graphviz.html"><img src="Resources/debian-logo.png" border="0" alt="debian logo"> Debian</a> - Linux packages for various architectures.
+<li><a href="http://dag.wieers.com/packages/graphviz/"><img src="Resources/dag.png" border="0" alt="dag logo"> Dag Wieers</a> - rpms for various RedHat Linux distributions.
 <li><a href="http://atrpms.net/name/graphviz/">Axel Thimm</a> - rpms for various RedHat Linux distributions.
 <li><a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent Bell-Labs WWExptools</a> - binaries for various Unix variants.
 <li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=">RPM Find</a> - various distros and architectures.
-<li><a href="http://packages.gentoo.org/search/?sstring=graphviz">Gentoo</a> - Linux packages.
+<li><a href="http://packages.gentoo.org/search/?sstring=graphviz"><img src="Resources/gentoo.jpeg" border="0" alt="gentoo logo"> Gentoo</a> - Linux packages.
 <li><a href="http://freshmeat.net/search/?q=graphviz&section=projects&Go.x=0&Go.y=0">FreshMeat</a> - various related projects from a search for "graphviz".
 </ul>
