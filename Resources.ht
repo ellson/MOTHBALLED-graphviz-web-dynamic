@@ -109,7 +109,7 @@ a C++ class for creating a prefix tree representation of a given lexicon.
 </ul>
 
 <!-- -------------------- -->
-<a name="software-engineering"><h4>Software Engineering Tools Using Graphviz</h4></a>
+<a name="software-engineering"><h4>Programming and Software Engineering Tools Using Graphviz</h4></a>
 <ul>
 <li><a href="http://www.doxygen.org/"> doxygen</a> uses graphviz to produce class hierarchies and other diagrams directly from source code [Dimitri van Heesch]
 <li><A HREF="http://research.microsoft.com/fse/asml/"> AsmL </A> an executable specification language from Microsoft Research.
@@ -133,7 +133,14 @@ uses dot's SVG capabilities to organize SVG links [Tobias Reif]
 for generating UML diagrams from: Perl, Java, PHP, or C++ code [Aaron Trevena]
 <li> <a href="http://www.compendium-ta.com/">Compendium-TA</a>, an integrated package of modelling tools which uses GraphViz for graph layouts [Alan Richardson]
 <li> <a href="http://www.csn.ul.ie/~mel/projects/codeviz/">CodeViz</a> - a call graph generation utility for C/C++ that assumes dot for its back end [Mel Gorman]
+<!-- shouldn't this be in English? what does it say?  -sn -->
 <li><a href="http://www.pimentech.net/pimentech/plain/site/technologies/outils/noframe.html">Pimentech-DbUtils</a> - Outils pour &eacute;crire vos sch&eacute;mas de Basese donn&eacute;es en XML, et les exporter au format dot (graphviz) et sql (doc pdf). Ces outils proposent &eacute;galement des scripts shell surchargeant les commandes postgresql.
+<li>
+<A HREF="http://www.cs.auckland.ac.nz/~j-hamer/LJV.html">LJV.java</A>
+(Lightweight Java Visualizer)
+is tool for visualizing Java data structures with Graphviz. It has
+been used to good effect in CS1 and CS2-level data structures courses.
+[John Hammer]
 </ul>
 
 <a name="bio-informatics"><h4>Bio-Informatics Tools and Resources Using Graphviz</h4></a>
