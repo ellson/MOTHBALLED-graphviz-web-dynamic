@@ -1,3 +1,21 @@
+<h4>
+<table><tr>
+<td valign=bottom><img src="http://opensource.org/trademarks/opensource/web/opensource-110x95.gif" height=95 width=110></td>
+<td valign=bottom><b>Release under Certified Open Source License (Dec. 2004)</b></td>
+</tr></table>
+</h4>
+As of 11 December 2004, Graphviz is licensed by AT&T under the
+<A HREF="http://www.opensource.org/licenses/cpl.php">Common Public License</A>
+(CPL). This license is endorsed by the <A HREF="http://opensource.org">
+Open Source Initiative</A>.  A benefit of OSI certification to our community
+of users is that it conveys a high level of trust that the software may
+be freely used in other open source projects and included in standard
+distributions.  Graphviz is already in Axel Thimm's well known
+<A HREF="http://atrpms.net/">ATrpms</A>, Dag Wieer's 
+<A HREF="http://dag.wieers.com/home-made/apt/">APT/YUM repository</A>
+and others.
+<P>
+<hr>
 <a href="http://developer.apple.com/wwdc/ada.html">
 <img src="News/ADA04BestOpenSource_Win_40k.png" alt="Apple Design Award" border="0"></a> <br> <br>
 <p style="width: 542; background-color : #eeeeee;">
@@ -5,8 +23,7 @@ Pixelglow's outstanding <a href="http://www.pixelglow.com/graphviz">adaption</a>
 <a href="http://developer.apple.com/wwdc/ada/2004winners.html">2004 Apple Design Awards</a>: <b>Best Mac OS X Open Source Product</b> and runner up,
 Best Product New to Mac OS X.  The awards were presented at the
 2004 <a href="http://developer.apple.com/wwdc/">Apple World Wide Developers Conference</a> at the Moscone Center in San Francisco on June 29.  Congratulations
-to Glen Low and the Graphviz core team.
-
+to Glen Low and the Graphviz core team.  (Also, see <A HREF="http://www.mekentosj.com/goodies/cubism/index.html">inside</A> the trophy!)
 <table>
 <tr>
 	<td><img src="News/ADA-team.png" alt="graphviz team"></td>
@@ -15,12 +32,15 @@ to Glen Low and the Graphviz core team.
 </table>
 Lefty Koutsofios, Emden Gansner, Stephen North, John Ellson (Glen Low missing)
 <p>
+<hr>
 <h4> R-Graphviz (Aug. 2004)</h4>
 <p style="width: 542px;">
 <a href="http://www.bioconductor.org/repository/release1.4/package/html/Rgraphviz.html">R-Graphviz</a> is a graph layout and display module from
 the <a href="http://www.bioconductor.org">Bio-Conductor project</a>
 for the <a href="http://www.r-project.org">R statistics language</a>.
 Thanks to <a href="http://www.biostat.harvard.edu/~rgentlem/HTML/home.html">Robert Gentleman</a> and <a href="http://biowww.dfci.harvard.edu/~jgentry/">Jeff Gentry</a> (Dana Farber Cancer Institute, Harvard) for leading this work.
+(In Sept. 2004, an <A HREF="http://cran.r-project.org/doc/Rnews/Rnews_2004-2.pdf">article</A> on applying R-Graphviz to displaying metabolic pathways 
+was published in the R newsletter.)
 <table width="542">
 <tr>
 <td><a href="http://www.bioconductor.org/Screenshots/">
@@ -42,6 +62,8 @@ Thanks to <a href="http://www.biostat.harvard.edu/~rgentlem/HTML/home.html">Robe
 <img src="News/clustGallc.jpg" width="180" alt="">
 </a></td>
 </tr></table>
+<p>
+<hr>
 <h4> HTML-like labels (Feb. 2004)</h4>
 This <a href="/cvs/doc/info/shapes.html#html">
 new label formatter</a> supports many helpful options for text formatting,
@@ -50,6 +72,8 @@ coloring and URL linking, similar to HTML tables.
 <center>
 <img src="News/html2.gif" width="400" alt="">
 </center>
+<p>
+<hr>
 <h4> Circo - circular layout tool (Feb. 2004)</h4>
 <h4> Mac OSX port (Feb. 2004)</h4>
 A quite elegant-looking <a href="http://www.pixelglow.com/graphviz/">
@@ -69,6 +93,8 @@ The tool
 packs multiple layouts using a 2D tiling algorithm based on polyominos.
 It's a standalone tool using the same algorithm that is shown below
 for <tt>neato -Gpack</tt>.
+<p>
+<hr>
 
 <h4>Zoomable 2-1/2D
 <a href="http://zvtm.sourceforge.net/zgrviewer.html">
