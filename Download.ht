@@ -26,11 +26,11 @@ See the <a href="/License/faq.html">license FAQ</a> for more details.
 
 <h3>Source Code</h3>
 Source code for the latest stable and development version of Graphviz are 
-<a href="Download_source.html">available from this site</a> as are instructions
+<a href="Download_source.php">available from this site</a> as are instructions
 for CVS anonymous access to the sources.
 <p>
 There are also trimmed-down
-<a href="Download_windows.html">Windows sources for Windows</a> and 
+<a href="Download_windows.php">Windows sources for Windows</a> and 
 <a href="http://www.research.att.com/sw/tools/graphviz/dist/winbuild.html">Notes</a> on how to build Graphviz on Windows.
 
 <h3>Binary Executable Packages</h3>
@@ -41,12 +41,12 @@ You may consider a <b>third-party</b> binary distribution of Graphviz,
 or one that we provide as a service.
 <p>
 <b>Linux</b><br>
-<a href="Download_linux.html">stable and development rpms for Redhat systems</a>
+<a href="Download_linux.php">stable and development rpms for Redhat systems</a>
 <br>
 <a href="http://packages.debian.org/unstable/graphics/graphviz.html">Debian package</a>
 <p>
 <b>Windows</b><br>
-<a href="Download_windows.html">stable and development Windows Install packages</a>
+<a href="Download_windows.php">stable and development Windows Install packages</a>
 and third-party <a href="http://www.research.att.com/sw/tools/graphviz/dist/third-party-1.14.zip">libraries</a>.<br>
 <a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).
 <p>

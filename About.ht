@@ -12,7 +12,7 @@ and in visual interfaces for many other domains.
 <p>
 Graphviz is open source graph drawing software.
 It has several main graph layout programs.
-See the <a href="Gallery.html">gallery</a> for some sample layouts.
+See the <a href="Gallery.php">gallery</a> for some sample layouts.
 It also has web and interactive graphical interfaces,
 and auxiliary tools, libraries, and language bindings.
 <p>
@@ -114,7 +114,7 @@ of awk, sed (or think of perl if you don't know those).
 <h2>Generators</h2>
 Many external projects provide filters that translate other formats
 and database into Graphviz format.
-See <A HREF="Resources.html#generators-and-translators>this list</A>.
+See <A HREF="Resources.php#generators-and-translators>this list</A>.
 
 <h2>Libraries</h2>
 Full disclosure requires us to explain that despite considerable interest
