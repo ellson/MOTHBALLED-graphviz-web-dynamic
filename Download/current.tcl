@@ -1,61 +1,50 @@
 #!/usr/bin/tclsh
                                                                                 
 set docroot /var/www/www.graphviz.org
-set archive pub/graphviz/ARCHIVE
-set current pub/graphviz/CURRENT
+
+set releases {
+    "current release" pub/graphviz/ARCHIVE
+    "development snapshot" pub/graphviz/CURRENT
+}
+
+set packages {
+    graphviz
+    webdot
+}
+
+set platforms {
+    Sources {tar.gz src.rpm} ""
+    RH73 {rh73.i386.rpm noarch.rpm} "Redhat 7.3 or later - does not use fontconfig"
+    FC1 {fc1.i386.rpm noarch.rpm} "Fedora 1 or later - uses fontconfig"
+    Windows {exe} "Microsoft Windows"
+}
                                                                                 
-proc puts_latest {fout docroot dir} {
-  set types {tar.gz src.rpm noarch.rpm fc1.i386.rpm fc1.noarch.rpm rh73.i386.rpm rh73.noarch.rpm exe}
-  set regexp {([-a-z]*)([-0-9.]*)([a-z][.a-z0-9]*)}
-
-  if {![file exists $docroot/$dir]} {
-    puts $fout "<tr><td align=left><font color=\"red\">Directory \"$docroot/$dir/\" was not found.</font></td></tr>"
-    return
-  }
-
-  set owd [pwd]
-  cd $docroot/$dir
-  foreach {fn n v t} [regexp -all -inline $regexp [glob -nocomplain *]] {
-    if {[file isdir $fn]} {continue}
-    if {[string first graphviz $fn] == 0} {
-      lappend GRAPHVIZ([list $n $t]) [list $fn $v]
+proc puts_latest {fout docroot dir package type} {
+    set regexp {([-a-z]*)([-0-9.]*)([a-z][.a-z0-9]*)}
+    if {![file exists $docroot/$dir]} {
+        puts $fout "<font color=\"red\">Directory \"$docroot/$dir/\" was not found.</font>"
+        return
     }
-    if {[string first webdot $fn] == 0} {
-      lappend WEBDOT([list $n $t]) [list $fn $v]
+    set owd [pwd]
+    cd $docroot/$dir
+    foreach {fn n v t} [regexp -all -inline $regexp [glob -nocomplain *]] {
+        if {[file isdir $fn]} {continue}
+        if {[string first $package $fn] == 0} {
+            lappend PACKAGE([list $n $t]) [list $fn $v]
+        }
     }
-    if {[string first webfonts $fn] == 0} {
-      lappend WEBFONTS([list $n $t]) [list $fn $v]
+    foreach nt [array names PACKAGE] {
+      foreach {n t} $nt {break}
+      set fnv [lindex [lsort -decreasing -dictionary -index 1 $PACKAGE($nt)] 0]
+      foreach {fn v} $fnv {break}
+      lappend FILES($t) $fn
     }
-  }
-
-  foreach nt [array names GRAPHVIZ] {
-    foreach {n t} $nt {break}
-    set fnv [lindex [lsort -decreasing -dictionary -index 1 $GRAPHVIZ($nt)] 0]
-    foreach {fn v} $fnv {break}
-    lappend FILES($t) $fn
-  }
-  foreach nt [array names WEBDOT] {
-    foreach {n t} $nt {break}
-    set fnv [lindex [lsort -decreasing -dictionary -index 1 $WEBDOT($nt)] 0]
-    foreach {fn v} $fnv {break}
-    lappend FILES($t) $fn
-  }
-#  foreach nt [array names WEBFONTS] {
-#    foreach {n t} $nt {break}
-#    set fnv [lindex [lsort -decreasing -dictionary -index 1 $WEBFONTS($nt)] 0]
-#    foreach {fn v} $fnv {break}
-#    lappend FILES($t) $fn
-#  }
-  cd $owd
-  foreach t $types {
-    if {[info exists FILES($t)]} {
-      puts $fout "<tr><td align=left>"
-      foreach fn [lsort $FILES($t)] {
-        puts $fout "<a href=\"/$dir/$fn\">$fn</a><br>"
-      }
-      puts $fout "</td></tr>"
+    cd $owd
+    if {[info exists FILES($type)]} {
+        foreach fn [lsort $FILES($type)] {
+            puts $fout "<a href=\"/$dir/$fn\">$fn</a><br>"
+        }
     }
-  }
 }
 
 set fout [open Download.ht w]
@@ -64,25 +53,41 @@ puts $fout "<p>This page lists sources and binaries that we provide.
 There are also some <a href=\"Resources.html#third-party-distributions\">third-party distributions</a>
 that we know of.<p>"
 
-puts $fout "<table><tr><td>"
-                                                                                
-# the latest release is in ARCHIVE
-puts $fout "<table rules=\"all\" width=\"100%\">"
-puts $fout "<tr><th align=\"left\">Release</th></tr>"
-puts_latest $fout $docroot $archive
+puts $fout "<table>"
+puts $fout "<tr><td>"
+puts $fout "<table frame=\"void\" rules=\"groups\" border=\"1\" width=\"100%\">"
+puts $fout "<col>"
+for {set i 0} {$i < [llength $releases] / 2} {incr i} {
+    puts $fout "<colgroup><col></colgroup>"
+}
+
+foreach package $packages {
+    puts $fout "<tr><th align=\"left\"><font size=\"+1\">$package</font></th>"
+    foreach {releasename releasedir} $releases {
+    	puts $fout "<th><font size=\"-2\">$releasename</font></th>"
+    }
+    puts $fout "</tr>"
+    foreach {platform types comment} $platforms {
+        puts $fout "<tbody>"
+        puts $fout "<tr><th align=\"right\"><font size=\"-2\">$platform</font></th>"
+        foreach {releasename releasedir} $releases {
+            puts $fout "<td align=\"left\"><font size=\"-2\">"
+            foreach type $types {
+                puts_latest $fout $docroot $releasedir $package $type
+            }
+            puts $fout "</font></td>"
+        }
+        puts $fout "</tr>"
+        puts $fout "</tbody>"
+    }
+    puts $fout "<tr><td colspan=\"[expr {1 + ([llength $releases] / 2)}]\">&nbsp;</td></tr>"
+}
+
 puts $fout "</table>"
-
-puts $fout "</td></tr><tr><td>&nbsp;</td></tr><tr><td>"
-
-# the latest snapshot is in CURRENT
-puts $fout "<table rules=\"all\" width=\"100%\">"
-puts $fout "<tr><th align=\"left\">Development Snapshot</th></tr>"
-puts_latest $fout $docroot $current
-puts $fout "</table>"
-
-puts $fout "</td></tr><tr><td>&nbsp;</td></tr><tr><td>"
-
+puts $fout "</td></tr>"
+	
 # CVS instructions
+puts $fout "<tr><td>"
 puts $fout "<table rules=\"all\" width=\"100%\">"
 puts $fout "<tr><th align=\"left\">CVS</th></tr>"
 puts $fout "<tr><td align=left>"
