@@ -24,13 +24,22 @@ Thanks to <a href="http://www.biostat.harvard.edu/~rgentlem/HTML/home.html">Robe
 <table width="542">
 <tr>
 <td><a href="http://www.bioconductor.org/Screenshots/">
+<!--
 <img src="http://www.bioconductor.org/Screenshots/icon-Tcell.png" width="180" alt="">
+-->
+<img src="News/icon-Tcell.png" width="180" alt="">
 </a></td>
 <td><a href="http://www.bioconductor.org/Screenshots/">
+<!--
 <img src="http://www.bioconductor.org/Screenshots/litGnc.jpg" width="180" alt="">
+-->
+<img src="News/litGnc.jpg" width="180" alt="">
 </a></td>
 <td><a href="http://www.bioconductor.org/Screenshots/">
+<!--
 <img src="http://www.bioconductor.org/Screenshots/clustGallc.jpg" width="180" alt="">
+-->
+<img src="News/clustGallc.jpg" width="180" alt="">
 </a></td>
 </tr></table>
 <h4> HTML-like labels (Feb. 2004)</h4>
