@@ -12,9 +12,6 @@ to Glen Low and the Graphviz core team.
 	<td><img src="News/ADA-team.png" alt="graphviz team"></td>
 	<td><img src="News/ADA-trophies.png" alt="photo of trophies"></td>
 </tr>
-<tr>
-</tr>
-</tr>
 </table>
 Lefty Koutsofios, Emden Gansner, Stephen North, John Ellson (Glen Low missing)
 <p>
@@ -26,11 +23,15 @@ for the <a href="http://www.r-project.org">R statistics language</a>.
 Thanks to <a href="http://www.biostat.harvard.edu/~rgentlem/HTML/home.html">Robert Gentleman</a> and <a href="http://biowww.dfci.harvard.edu/~jgentry/">Jeff Gentry</a> (Dana Farber Cancer Institute, Harvard) for leading this work.
 <table width="542">
 <tr>
-<a href="http://www.bioconductor.org/Screenshots/">
-<img src="http://www.bioconductor.org/Screenshots/icon-Tcell.png" width=180>
-<img src="http://www.bioconductor.org/Screenshots/litGnc.jpg" width=180>
-<img src="http://www.bioconductor.org/Screenshots/clustGallc.jpg" width=180>
-</a>
+<td><a href="http://www.bioconductor.org/Screenshots/">
+<img src="http://www.bioconductor.org/Screenshots/icon-Tcell.png" width="180" alt="">
+</a></td>
+<td><a href="http://www.bioconductor.org/Screenshots/">
+<img src="http://www.bioconductor.org/Screenshots/litGnc.jpg" width="180" alt="">
+</a></td>
+<td><a href="http://www.bioconductor.org/Screenshots/">
+<img src="http://www.bioconductor.org/Screenshots/clustGallc.jpg" width="180" alt="">
+</a></td>
 </tr></table>
 <h4> HTML-like labels (Feb. 2004)</h4>
 This <a href="http://www.research.att.com/%7Eerg/graphviz/info/shapes.html#html">
@@ -75,13 +76,14 @@ This feature (due to Emden Gansner) places connected
 components by a new tiling algorithm that improves both
 compaction and running time.
 <table width="600">
-<tbody><tr>
-<td align="center"> <img src="News/withoutpack.gif" alt=""> </td>
-<td align="center"> <img src="News/withpack.gif" alt=""> </td>
-</tr>
-<tr>
-<td align="center"> Without pack </td> <td align="center"> With pack </td>
-</tr></tbody></table>
+  <tbody><tr>
+    <td align="center"> <img src="News/withoutpack.gif" alt=""> </td>
+    <td align="center"> <img src="News/withpack.gif" alt=""> </td>
+  </tr>
+  <tr>
+    <td align="center"> Without pack </td> <td align="center"> With pack </td>
+  </tr></tbody>
+</table>
 <h4>Dynagraph</h4>
 Beta code is included in the source release, but it is not
 compiled by default.   Also see the mpeg and Quicktime
@@ -110,24 +112,24 @@ and a very brief <a href="http://www.research.att.com/sw/tools/graphviz/doc/grap
 <ul>
 <li><a href="http://www.research.att.com/sw/tools/graphviz/license/source.html"> Open Source license</a> and
 <a href="http://www.research.att.com/sw/tools/graphviz/license/faq.html"> FAQ</a>
-</li><li><a href="http://www.research.att.com/sw/tools/graphviz/license/binary.html"> Compatible binary license</a>
-</li><li>Example finite state machine animator
+<li><a href="http://www.research.att.com/sw/tools/graphviz/license/binary.html"> Compatible binary license</a>
+<li>Example finite state machine animator
 <a href="http://www.research.att.com/sw/tools/graphviz/packages/fademo.tgz">script</a> for dotty 
-</li><li> <a href="http://www.research.att.com/sw/tools/montage">Montage</a> - customizable ActiveX container
-</li><li> <a href="http://www.research.att.com/sw/tools/graphviz/gtools.html"> source tarball </a> for add-on streaming graph tools
-</li></ul>
+<li> <a href="http://www.research.att.com/sw/tools/montage">Montage</a> - customizable ActiveX container
+<li> <a href="http://www.research.att.com/sw/tools/graphviz/gtools.html"> source tarball </a> for add-on streaming graph tools
+</ul>
 <h4>GraphViz 1.4 </h4>
 <ul>
 <li> improved layout algorithms in <i>neato</i> to avoid
 node-node and node-edge overlaps.  (To do: resolve
  edge-edge and edge label overlaps.)
-</li><li>
+<li>
 <a href="http://www.research.att.com/sw/tools/graphviz/packages/spline-o-matic/">Spline-o-Matic</a> -
 (reusable spline router library)
-</li><li> drivers for VRML, VTX (Confluent Visual Thought),
+<li> drivers for VRML, VTX (Confluent Visual Thought),
 and server-side image maps
-</li><li> Bug fixes, e.g. edge concentrators and clusters.
-</li></ul>
+<li> Bug fixes, e.g. edge concentrators and clusters.
+</ul>
 <p>
 <h4> GraphViz 1.3 </h4>
 <ul>
@@ -137,29 +139,29 @@ Java library and GUI for graphs, including a dot parser.
 <i>dot</i> or your own layout mechanism is needed for
 graph layout, but these can run on a remote server.
 (Thanks to John Mocenigo, john@research.att.com.)
-</li><li> TrueType font support in GIF driver.  GIF
+<li> TrueType font support in GIF driver.  GIF
 is useful in HTML and MS-Office documents.
 (Thanks to John Ellson, ellson@research.att.com.)
-</li><li> edge connector options - arrowhead styles,
+<li> edge connector options - arrowhead styles,
 endpoint labels, etc.  (Thanks to Vladimir Alexiev.)
-</li></ul>
+</ul>
 
 <p>
 <h4> Plans </h4>
 <ul>
 <li> <a href="http://www.graphviz.org/">graphviz.org</a> site with message board
-</li><li> More binary flavors (donations accepted)
-</li><li> dot/neato merge (beta available from John Ellson)
-</li><li> Montage interface to Visual Basic scripting (in alpha)
-</li><li> incremental hierarchical layout with Grappa (in alpha)
-</li></ul>
+<li> More binary flavors (donations accepted)
+<li> dot/neato merge (beta available from John Ellson)
+<li> Montage interface to Visual Basic scripting (in alpha)
+<li> incremental hierarchical layout with Grappa (in alpha)
+</ul>
 <br>
 <h4> Wish list </h4>
 <ul>
 <li> <a href="http://www.cdrom.com/pub/png/">PNG</a> driver
-</li><li> polyline/rectilinear edges for dot
-</li><li> overhaul layout engine for general nested diagrams
-</li><li> lighten up Grappa display objects
-</li><li> integration of batch and incremental layout service
-</li><li> new graph programming foundation in C++ or Java
-</li></ul>
+<li> polyline/rectilinear edges for dot
+<li> overhaul layout engine for general nested diagrams
+<li> lighten up Grappa display objects
+<li> integration of batch and incremental layout service
+<li> new graph programming foundation in C++ or Java
+</ul>
