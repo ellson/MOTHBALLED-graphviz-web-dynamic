@@ -38,6 +38,7 @@ purpose language or system.
 <li>C# and .NET: <A HREF="http://www.codeproject.com/cs/miscctrl/quickgraph.asp"> QuickGraph </A> [Jonathan de Halleux]
 <li>COM: <a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> component [Ood Tsen]
 <li>perl: <a href="http://theoryx5.uwinnipeg.ca/CPAN/data/GraphViz/GraphViz.html"> A Perl interface to GraphViz</a> [Leon Brocard]
+<li>perl: <A HREF="http://search.cpan.org/~jgs/Tk-GraphViz/">Tk::GraphViz</A> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]
 <li>perl: <a href="http://cpan.valueclick.com/modules/by-module/Graph/"> Graph-ReadWrite module that supports 'dot' syntax graphs</a> [Neil Bowers]
 <li>perl: <a href="http://search.cpan.org/search?dist=GraphViz-DBI"> GraphViz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]
 <li>perl: <A HREF="http://search.cpan.org/search?query=graphviz&mode=all">100 more hits in CPAN</A>
@@ -46,8 +47,11 @@ purpose language or system.
 <li>python: <a href="http://www.geocities.com/foetsch/mfgraph/index.htm">mfgraph</a> - C++ interface with native bindings for python [Michael F&ouml;etsch]
 <li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]
 <li>ruby: <A HREF="http://raa.ruby-lang.org/project/ruby-graphviz/">RAA</A>
-<li> <A HREF="http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4518&objectType=file">MATLAB</A> [Leon Peshkin]
+<li> <A HREF="http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4518&objectType=file">MatLab</A> [Leon Peshkin]
 <li>R: see below for <A HREF="#Rgraphviz">R-Graphviz</A>
+<li>HTML: the original <A HREF="http://www.graphviz.org/webdot/">webdot</A> in
+TCL [John Ellson] and a simplified <A HREF="Misc/webdot.pl">webdot.pl</A>
+in perl [Stephen North, with an assist from John Linderman]
 </ul>
 
 <!-- -------------------- -->
@@ -57,8 +61,11 @@ Filters that transform other data sources and formats into Graphviz.
 <li> <a href="http://www.rbt.ca/autodoc/index.shtml">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]
 <li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render
 <li> <a href="http://www.jark.net/sql2dot/index.html"> Sql2Dot</a> - a tiny parser in java to transform sql into dot for visualizing data structures [Robert Dale]
-<li><A HREF="http://www.codeproject.com/database/sqlpp.asp">SqlPP</A> a scripted SQL query generation framework that generates graphviz
-<li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> is a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams GraphViz or GD) [Szil&aacute;rd Vajda]
+<li><A HREF="http://www.codeproject.com/database/sqlpp.asp">SqlPP</A> - a scripted SQL query generation framework that generates graphviz
+<li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams GraphViz or GD) [Szil&aacute;rd Vajda]
+<li><A HREF="http://zvon.org/ZvonSW/ZvonGraphotron/index.html">Graphotron</A> - an XML language for graph drawing with Xpath [Miloslav Nic]
+<li>gprof filters (<A HREF="Misc/pl_from_gprof.pl">pl_from_gprof</A>
+and <A HREF="Misc/dot_from_pl.pl">dot_from_pl</A>) [Robert Nielsen]
 </ul>
 
 <!-- -------------------- -->
@@ -147,7 +154,8 @@ SVG plugin</A> required, may need <A HREF="http://www.adobe.com/svg/viewer/insta
 <!-- -------------------- -->
 <a name="document-preparation"><h4>Document preparation with Graphviz</h4></a>
 <ul>
-<li> <A HREF="http://users.skynet.be/ppareit/projects/graphviz-dot-mode/graphviz-dot-mode.html">graphviz mode for emacs</A> [Peter Pareit]
+<li> <A HREF="http://users.skynet.be/ppareit/projects/graphviz-dot-mode/graphviz-dot-mode.html">graphviz mode for emacs</A>
+(or <A HREF="Misc/graphviz-dot-mode.el">here</A>).
 <li> <a href="http://brighten.bigw.org/projects/ladot/">Ladot</a>: scripts for including LaTeX in your Graphviz files [Brighten Godfrey]
 <li> <A HREF="http://web.mit.edu/~drayside/www/graphviz.tex/main.pdf">graphviz.tex</a>: macros for including Graphviz in your LaTeX files [Derek Rayside]
 <li> <a href="http://mharnisch.gmxhome.de/projects.html">epswrap</a>, a Perl program that wraps EPS files containing bitmap data for user shapes in Graphviz [Marcus Harnisch]
