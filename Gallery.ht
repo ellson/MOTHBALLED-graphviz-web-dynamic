@@ -1,63 +1,26 @@
 <table rules="groups">
-
 <tbody><tr>
-<td align=center>
-<img src="Gallery/directed/cluster.small.png" alt="" title="cluster">
-</td>
-<td align=center>
-<img src="Gallery/directed/crazy.small.png" alt="" title="crazy">
-</td>
-<td align=center>
-<img src="Gallery/directed/datastruct.small.png" alt="" title="datastruct">
-</td>
-<td align=center>
-<img src="Gallery/directed/fsm.small.png" alt="" title="fsm">
-</td>
-</tr>
-<tr>  <td align=center> <A HREF="Gallery/directed/cluster.html">cluster</A></td> <td align=center> <A HREF="Gallery/directed/crazy.html">crazy</A></td> <td align=center> <A HREF="Gallery/directed/datastruct.html">datastruct</A></td> <td align=center> <A HREF="Gallery/directed/fsm.html">fsm</A></td> </tr></tbody>
-
+<td align=center><a href="Gallery/directed/cluster.html"><img src="Gallery/directed/cluster.small.png" border="0" alt="" title="cluster"></a></td>
+<td align=center><a href="Gallery/directed/crazy.html"><img src="Gallery/directed/crazy.small.png" border="0" alt="" title="crazy"></a></td>
+<td align=center><a href="Gallery/directed/datastruct.html"><img src="Gallery/directed/datastruct.small.png" border="0" alt="" title="datastruct"></a></td>
+<td align=center><a href="Gallery/directed/fsm.html"><img src="Gallery/directed/fsm.small.png" border="0" alt="" title="fsm"></a></td>
+</tr><tr>  <td align=center> <a href="Gallery/directed/cluster.html">cluster</a></td> <td align=center> <a href="Gallery/directed/crazy.html">crazy</a></td> <td align=center> <a href="Gallery/directed/datastruct.html">datastruct</a></td> <td align=center> <a href="Gallery/directed/fsm.html">fsm</a></td> </tr></tbody>
 <tbody><tr>
-<td align=center>
-<img src="Gallery/directed/hello.small.png" alt="" title="hello">
-</td>
-<td align=center>
-<img src="Gallery/directed/profile.small.png" alt="" title="profile">
-</td>
-<td align=center>
-<img src="Gallery/directed/sdh.small.png" alt="" title="sdh">
-</td>
-<td align=center>
-<img src="Gallery/directed/switch.small.png" alt="" title="switch">
-</td>
-</tr>
-<tr>  <td align=center> <A HREF="Gallery/directed/hello.html">hello</A></td> <td align=center> <A HREF="Gallery/directed/profile.html">profile</A></td> <td align=center> <A HREF="Gallery/directed/sdh.html">sdh</A></td> <td align=center> <A HREF="Gallery/directed/switch.html">switch</A></td> </tr></tbody>
-
+<td align=center><a href="Gallery/directed/hello.html"><img src="Gallery/directed/hello.small.png" border="0" alt="" title="hello"></a></td>
+<td align=center><a href="Gallery/directed/profile.html"><img src="Gallery/directed/profile.small.png" border="0" alt="" title="profile"></a></td>
+<td align=center><a href="Gallery/directed/sdh.html"><img src="Gallery/directed/sdh.small.png" border="0" alt="" title="sdh"></a></td>
+<td align=center><a href="Gallery/directed/switch.html"><img src="Gallery/directed/switch.small.png" border="0" alt="" title="switch"></a></td>
+</tr><tr>  <td align=center> <a href="Gallery/directed/hello.html">hello</a></td> <td align=center> <a href="Gallery/directed/profile.html">profile</a></td> <td align=center> <a href="Gallery/directed/sdh.html">sdh</a></td> <td align=center> <a href="Gallery/directed/switch.html">switch</a></td> </tr></tbody>
 <tbody><tr>
-<td align=center>
-<img src="Gallery/directed/unix.small.png" alt="" title="unix">
-</td>
-<td align=center>
-<img src="Gallery/directed/world.small.png" alt="" title="world">
-</td>
-<td align=center>
-<img src="Gallery/undirected/ER.small.png" alt="" title="ER">
-</td>
-<td align=center>
-<img src="Gallery/undirected/fdpclust.small.png" alt="" title="fdpclust">
-</td>
-</tr>
-<tr>  <td align=center> <A HREF="Gallery/directed/unix.html">unix</A></td> <td align=center> <A HREF="Gallery/directed/world.html">world</A></td> <td align=center> <A HREF="Gallery/undirected/ER.html">ER</A></td> <td align=center> <A HREF="Gallery/undirected/fdpclust.html">fdpclust</A></td> </tr></tbody>
-
+<td align=center><a href="Gallery/directed/unix.html"><img src="Gallery/directed/unix.small.png" border="0" alt="" title="unix"></a></td>
+<td align=center><a href="Gallery/directed/world.html"><img src="Gallery/directed/world.small.png" border="0" alt="" title="world"></a></td>
+<td align=center><a href="Gallery/undirected/ER.html"><img src="Gallery/undirected/ER.small.png" border="0" alt="" title="ER"></a></td>
+<td align=center><a href="Gallery/undirected/fdpclust.html"><img src="Gallery/undirected/fdpclust.small.png" border="0" alt="" title="fdpclust"></a></td>
+</tr><tr>  <td align=center> <a href="Gallery/directed/unix.html">unix</a></td> <td align=center> <a href="Gallery/directed/world.html">world</a></td> <td align=center> <a href="Gallery/undirected/ER.html">ER</a></td> <td align=center> <a href="Gallery/undirected/fdpclust.html">fdpclust</a></td> </tr></tbody>
 <tbody><tr>
-<td align=center>
-<img src="Gallery/undirected/inet.small.png" alt="" title="inet">
-</td>
-<td align=center>
-<img src="Gallery/undirected/process.small.png" alt="" title="process">
-</td>
-<td align=center>
-<img src="Gallery/undirected/softmaint.small.png" alt="" title="softmaint">
-</td>
-</tr>
-<tr>  <td align=center> <A HREF="Gallery/undirected/inet.html">inet</A></td> <td align=center> <A HREF="Gallery/undirected/process.html">process</A></td> <td align=center> <A HREF="Gallery/undirected/softmaint.html">softmaint</A></td> </tr></tbody>
+<td align=center><a href="Gallery/undirected/inet.html"><img src="Gallery/undirected/inet.small.png" border="0" alt="" title="inet"></a></td>
+<td align=center><a href="Gallery/undirected/process.html"><img src="Gallery/undirected/process.small.png" border="0" alt="" title="process"></a></td>
+<td align=center><a href="Gallery/undirected/softmaint.html"><img src="Gallery/undirected/softmaint.small.png" border="0" alt="" title="softmaint"></a></td>
+<td align=center><a href="Gallery/undirected/transparency.html"><img src="Gallery/undirected/transparency.small.png" border="0" alt="" title="transparency"></a></td>
+</tr><tr>  <td align=center> <a href="Gallery/undirected/inet.html">inet</a></td> <td align=center> <a href="Gallery/undirected/process.html">process</a></td> <td align=center> <a href="Gallery/undirected/softmaint.html">softmaint</a></td> <td align=center> <a href="Gallery/undirected/transparency.html">transparency</a></td> </tr></tbody>
 </table>
