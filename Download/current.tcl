@@ -40,12 +40,12 @@ proc puts_latest {fout docroot dir} {
     foreach {fn v} $fnv {break}
     lappend FILES($t) $fn
   }
-  foreach nt [array names WEBFONTS] {
-    foreach {n t} $nt {break}
-    set fnv [lindex [lsort -decreasing -dictionary -index 1 $WEBFONTS($nt)] 0]
-    foreach {fn v} $fnv {break}
-    lappend FILES($t) $fn
-  }
+#  foreach nt [array names WEBFONTS] {
+#    foreach {n t} $nt {break}
+#    set fnv [lindex [lsort -decreasing -dictionary -index 1 $WEBFONTS($nt)] 0]
+#    foreach {fn v} $fnv {break}
+#    lappend FILES($t) $fn
+#  }
   cd $owd
   foreach t $types {
     if {[info exists FILES($t)]} {
