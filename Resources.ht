@@ -8,7 +8,7 @@
 [<a HREF="#bio-informatics">bio-informatics</a>]
 [<a HREF="#document-preparation">document preparation</a>]
 [<a HREF="#third-party-distributions">third-party distributions</a>]
-<P>
+<p>
 These are some representative external resources.
 The list includes tools that complement Graphviz, such
 as graph generators, postprocessors and interactive viewers.
@@ -18,75 +18,75 @@ Please <a href="mailto:north@graphviz.org">send us</a>
 suggestions for additions to this list.
 
 <!--- very little action here lately
-<A HREF="http://c2.com/cgi/wiki?GraphViz">GraphViz Wiki Web</A>
+<a href="http://c2.com/cgi/wiki?GraphViz">GraphViz Wiki Web</a>
 -->
 
-<a name="graphical-interfaces"><h4>Graphical Interfaces</h4></a>
+<h4><a name="graphical-interfaces">Graphical Interfaces</a></h4>
 Interactive viewers.
 <ul>
-<li><A HREF="http://www.research.att.com/~john/Grappa/">Grappa</A>, a Graph Package for Java (also provides graph programming clases) [John Mocenigo]
+<li><a href="http://www.research.att.com/~john/Grappa/">Grappa</a>, a Graph Package for Java (also provides graph programming clases) [John Mocenigo]
 <!-- John Mocenigo and Rich Drexler - YOIX not there yet -->
-<li><A HREF="http://zvtm.sourceforge.net/zgrviewer.html">ZGRViewer</A>, an SVG-based zooming graph viewer for large graphs [Emmanuel Pietriga]
+<li><a href="http://zvtm.sourceforge.net/zgrviewer.html">ZGRViewer</a>, an SVG-based zooming graph viewer for large graphs [Emmanuel Pietriga]
 <li><a href="http://tintfu.sourceforge.net/">TINTFU</a>, a Java-based editor
 for .dot graph files. [Walter Stroebel]
 </ul>
 
 <!-- -------------------- -->
 
-<a name="language-bindings"><h4>Language Bindings</h4></a>
+<h4><a name="language-bindings">Language Bindings</a></h4>
 Interfaces that allow graphviz to be called from a general
 purpose language or system.
 <ul>
-<li>C# and .NET: <A HREF="http://www.codeproject.com/cs/miscctrl/quickgraph.asp"> QuickGraph </A> [Jonathan de Halleux]
+<li>C# and .NET: <a href="http://www.codeproject.com/cs/miscctrl/quickgraph.asp"> QuickGraph </a> [Jonathan de Halleux]
 <li>COM: <a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> component [Ood Tsen]
 <li>perl: <a href="http://theoryx5.uwinnipeg.ca/CPAN/data/GraphViz/GraphViz.html"> A Perl interface to GraphViz</a> [Leon Brocard]
-<li>perl: <A HREF="http://search.cpan.org/~jgs/Tk-GraphViz/">Tk::GraphViz</A> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]
+<li>perl: <a href="http://search.cpan.org/~jgs/Tk-GraphViz/">Tk::GraphViz</a> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]
 <li>perl: <a href="http://cpan.valueclick.com/modules/by-module/Graph/"> Graph-ReadWrite module that supports 'dot' syntax graphs</a> [Neil Bowers]
 <li>perl: <a href="http://search.cpan.org/search?dist=GraphViz-DBI"> GraphViz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]
-<li>perl: <A HREF="http://search.cpan.org/search?query=graphviz&mode=all">100 more hits in CPAN</A>
+<li>perl: <a href="http://search.cpan.org/search?query=graphviz&amp;mode=all">100 more hits in CPAN</a>
 <li>perl: <a href="http://search.cpan.org/search?dist=GraphViz-ISA"> GraphViz::ISA</a> - graph Perl packages' ISA runtime hierarchies [Marcel Grunauer]
 <li>python: <a href="http://dkbza.org/pydot.html">PyDOT</a> - Python library for writing dot files and calling gv to render them [Ero Carrera]
 <li>python: <a href="http://www.geocities.com/foetsch/mfgraph/index.htm">mfgraph</a> - C++ interface with native bindings for python [Michael F&ouml;etsch]
 <li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]
-<li>ruby: <A HREF="http://raa.ruby-lang.org/project/ruby-graphviz/">RAA</A>
-<li> <A HREF="http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4518&objectType=file">MatLab</A> [Leon Peshkin]
-<li>R: see below for <A HREF="#Rgraphviz">R-Graphviz</A>
-<li>HTML: the original <A HREF="http://www.graphviz.org/webdot/">webdot</A> in
-TCL [John Ellson] and a simplified <A HREF="Misc/webdot.pl">webdot.pl</A>
+<li>ruby: <a href="http://raa.ruby-lang.org/project/ruby-graphviz/">RAA</a>
+<li> <a href="http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4518&amp;objectType=file">MatLab</a> [Leon Peshkin]
+<li>R: see below for <a href="#Rgraphviz">R-Graphviz</a>
+<li>HTML: the original <a href="http://www.graphviz.org/webdot/">webdot</a> in
+TCL [John Ellson] and a simplified <a href="Misc/webdot.pl">webdot.pl</a>
 in perl [Stephen North, with an assist from John Linderman]
 </ul>
 
 <!-- -------------------- -->
-<a name="generators-and-translators"><h4>Generators and Translators</h4></a>
+<h4><a name="generators-and-translators">Generators and Translators</a></h4>
 Filters that transform other data sources and formats into Graphviz.
 <ul>
 <li> <a href="http://www.rbt.ca/autodoc/index.shtml">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]
 <li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render
 <li> <a href="http://www.jark.net/sql2dot/index.html"> Sql2Dot</a> - a tiny parser in java to transform sql into dot for visualizing data structures [Robert Dale]
-<li><A HREF="http://www.codeproject.com/database/sqlpp.asp">SqlPP</A> - a scripted SQL query generation framework that generates graphviz
+<li><a href="http://www.codeproject.com/database/sqlpp.asp">SqlPP</a> - a scripted SQL query generation framework that generates graphviz
 <li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams GraphViz or GD) [Szil&aacute;rd Vajda]
-<li><A HREF="http://zvon.org/ZvonSW/ZvonGraphotron/index.html">Graphotron</A> - an XML language for graph drawing with Xpath [Miloslav Nic]
-<li>gprof filters (<A HREF="Misc/pl_from_gprof.pl">pl_from_gprof</A>
-and <A HREF="Misc/dot_from_pl.pl">dot_from_pl</A>) [Robert Nielsen]
+<li><a href="http://zvon.org/ZvonSW/ZvonGraphotron/index.html">Graphotron</a> - an XML language for graph drawing with Xpath [Miloslav Nic]
+<li>gprof filters (<a href="Misc/pl_from_gprof.pl">pl_from_gprof</a>
+and <a href="Misc/dot_from_pl.pl">dot_from_pl</a>) [Robert Nielsen]
 </ul>
 
 <!-- -------------------- -->
 <a name="network-and-web"><h4>Network and Web Engineering Tools Using Graphviz</h4></a>
 <ul>
-<li> <A HREF="http://netmap.sourceforge.net/">netmap</A> draws the
+<li> <a href="http://netmap.sourceforge.net/">netmap</a> draws the
 route connecting you with the Internet
 <li><a href="http://pear.php.net/package-info.php?package=Image_GraphViz">Image_GraphViz</a> class in PHP's <a href="http://pear.php.net/">PEAR repository</a> [Sebastian Bergmann] 
 <li><a href="http://www.phpOpenTracker.de">phpOpenTracker</a> uses Image_GraphViz to <a href="http://www.phpOpenTracker.de/images/all_paths.png">visualize clickpaths</a> taken by users on websites. [Sebastian Bergmann]
 <li>
 <a href="http://pathalizer.sourceforge.net/">Pathalizer</a> visualizes paths traversed by users through web sites [Arnout Engelen]
-<li><A HREF="http://www.chaosreigns.com/code/apache2dot">apache2dot</a>
+<li><a href="http://www.chaosreigns.com/code/apache2dot">apache2dot</a>
 Apache log file visualizer
 <li><a href="http://www.chaosreigns.com/code/sig2dot/">sig2dot</a> generates a graph of all of the signature relationships in a GPG/PGP keyring
-<li> <a href="http://www.hotscripts.com/Detailed/16749.html">PHP+GraphViz tool</a> that makes a sitemap of a web site dynamically <a href="http://webloria.loria.fr/~szathmar/off/projects/php/phptraverse/traverse.php?dir=.&sitemap=1">(example)</a> [Laszlo Szathmary]
-<li><A HREF="http://www.cs.washington.edu/research/networking/rocketfuel">
-Rocketfuel</A> ISP mapper (well, look <A HREF="http://www.cs.washington.edu/research/networking/rocketfuel/interactive/">here</A>) [U. Washington]
-<li><A HREF=http://www.zonecut.net/dns/> DNS server visualization </A>
-<li><A HREF="http://urlgreyhot.com/graphviz/">urlgrey</a> PHP-based Site Map Generator [Michael Angeles]
+<li> <a href="http://www.hotscripts.com/Detailed/16749.html">PHP+GraphViz tool</a> that makes a sitemap of a web site dynamically <a href="http://webloria.loria.fr/~szathmar/off/projects/php/phptraverse/traverse.php?dir=.&amp;sitemap=1">(example)</a> [Laszlo Szathmary]
+<li><a href="http://www.cs.washington.edu/research/networking/rocketfuel">
+Rocketfuel</a> ISP mapper (well, look <a href="http://www.cs.washington.edu/research/networking/rocketfuel/interactive/">here</a>) [U. Washington]
+<li><a href="http://www.zonecut.net/dns/">DNS server visualization</a>
+<li><a href="http://urlgreyhot.com/graphviz/">urlgrey</a> PHP-based Site Map Generator [Michael Angeles]
 <li><a href="http://www.grotto-group.com/~gulfie/projects/monitoring/tcpdump2dot/">tcpdump2dot filter</a> to allow admins to network activity [Gulfie]
 </ul>
 
@@ -95,27 +95,27 @@ Rocketfuel</A> ISP mapper (well, look <A HREF="http://www.cs.washington.edu/rese
 <ul>
 <li>Andreas Romeyke's <a href="http://andreas-romeyke.de/privat/txt2graph/txt2graph.html"> txt2graph</a> - visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout
 <li>
-<A HREF="http://protege.stanford.edu/plugins/ontoviz/ontoviz.html">Ontoviz</A>
+<a href="http://protege.stanford.edu/plugins/ontoviz/ontoviz.html">Ontoviz</a>
 is a plugin for displaying knowledge base diagrams in the
-<A HREF="http://protege.stanford.edu/">Protoge</A> system
+<a href="http://protege.stanford.edu/">Protoge</a> system
 <li> <a href="http://www.canoo.net/services/WordformationDictionary/Controller"> CanooNet </a>, a German word formation dictionary. (Try 
-<a href="http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=blockfl%F6te&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive"><i>Blockfl&ouml;te</i></a>,
-<a href="http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=hochschule&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive"><i>Hochschule</i></a>,
+<a href="http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&amp;input=blockfl%F6te&amp;features=%28Cat+N%29%28Gender+F%29&amp;lang=de&amp;country=CH&amp;lookup=caseInSensitive"><i>Blockfl&ouml;te</i></a>,
+<a href="http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&amp;input=hochschule&amp;features=%28Cat+N%29%28Gender+F%29&amp;lang=de&amp;country=CH&amp;lookup=caseInSensitive"><i>Hochschule</i></a>,
 or
-<a href="http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=massanzug&features=%28Cat+N%29%28Gender+M%29&lang=de&country=CH&lookup=caseInSensitive"><i>Massanzug</i></a>
+<a href="http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&amp;input=massanzug&amp;features=%28Cat+N%29%28Gender+M%29&amp;lang=de&amp;country=CH&amp;lookup=caseInSensitive"><i>Massanzug</i></a>
 in the entry field)
 <li> <a href="http://www.hotscripts.com/Detailed/28164.html">DAWG CREATOR</a>,
 a C++ class for creating a prefix tree representation of a given lexicon.
 </ul>
 
 <!-- -------------------- -->
-<a name="software-engineering"><h4>Programming and Software Engineering Tools Using Graphviz</h4></a>
+<h4><a name="software-engineering">Programming and Software Engineering Tools Using Graphviz</a></h4>
 <ul>
 <li><a href="http://www.doxygen.org/"> doxygen</a> uses graphviz to produce class hierarchies and other diagrams directly from source code [Dimitri van Heesch]
-<li><A HREF="http://research.microsoft.com/fse/asml/"> AsmL </A> an executable specification language from Microsoft Research.
+<li><a href="http://research.microsoft.com/fse/asml/"> AsmL </a> an executable specification language from Microsoft Research.
 <li> <a href="http://www.spinellis.gr/sw/umlgraph/">UMLGraph</a> - a java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot [Diomidis Spinellis] (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-)
-<li><A HREF="http://rdoc.sourceforge.net">RDOC</A> Ruby documentation [Dave Thomas]
-<li><A HREF="http://www.lo-res.org/~aaron/yaccviso/">YaccViso</A> YACC visualization tool
+<li><a href="http://rdoc.sourceforge.net">RDOC</a> Ruby documentation [Dave Thomas]
+<li><a href="http://www.lo-res.org/~aaron/yaccviso/">YaccViso</a> YACC visualization tool
 <li> <a href="http://www.fokus.gmd.de/research/cc/glone/employees/joerg.schilling/private/index.html">calltree</a> generates dot representations of callgraphs from C sources [J&ouml;rg Schillin]
 <li> <a href="http://www.tcs.hut.fi/maria/"> Maria</a> - Modular Reachability Analyzer - a reachability analyzer for concurrent systems that uses Algebraic System Nets as its modelling formalism [Marko M&auml;kel&auml;]
 
@@ -136,41 +136,44 @@ for generating UML diagrams from: Perl, Java, PHP, or C++ code [Aaron Trevena]
 <!-- shouldn't this be in English? what does it say?  -sn -->
 <li><a href="http://www.pimentech.net/pimentech/plain/site/technologies/outils/noframe.html">Pimentech-DbUtils</a> - Outils pour &eacute;crire vos sch&eacute;mas de Basese donn&eacute;es en XML, et les exporter au format dot (graphviz) et sql (doc pdf). Ces outils proposent &eacute;galement des scripts shell surchargeant les commandes postgresql.
 <li>
-<A HREF="http://www.cs.auckland.ac.nz/~j-hamer/LJV.html">LJV.java</A>
+<a href="http://www.cs.auckland.ac.nz/~j-hamer/LJV.html">LJV.java</a>
 (Lightweight Java Visualizer)
 is tool for visualizing Java data structures with Graphviz. It has
 been used to good effect in CS1 and CS2-level data structures courses.
 [John Hammer]
 </ul>
 
-<a name="bio-informatics"><h4>Bio-Informatics Tools and Resources Using Graphviz</h4></a>
+<h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
 Relational structures abound in the study of biological information.
 The following list barely scratches the surface.
 <ul>
-<li><A name="Rgraphviz"><A HREF="http://www.bioconductor.org/repository/release1.4/package/html/Rgraphviz.html">R-Graphviz</a> (<A HREF="http://www.bioconductor.org/repository/devel/vignette/Rgraphviz.pdf">guide</A>) from the Bio-Conductor project integrates graphs and statistical models. [Robert Gentleman, Jeff Gentry and the R team]
+<li><a name="Rgraphviz" href="http://www.bioconductor.org/repository/release1.4/package/html/Rgraphviz.html">R-Graphviz</a>
+(<a href="http://www.bioconductor.org/repository/devel/vignette/Rgraphviz.pdf">guide</a>)
+from the Bio-Conductor project integrates graphs and statistical models.
+[Robert Gentleman, Jeff Gentry and the R team]
 <li><I>Science</I> Online
-<A HREF="http://www.stke.org/">protein database visualization</A>
+<a href="http://www.stke.org/">protein database visualization</a>
 (click on Connections - free registration and
-<A HREF="http://www.adobe.com/svg/viewer/install/main.html">
-SVG plugin</A> required, may need <A HREF="http://www.adobe.com/svg/viewer/install/beta.html">beta</A> for Mozilla FireFox)
+<a href="http://www.adobe.com/svg/viewer/install/main.html">
+SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox)
 [American Association for the Advancement of Science (AAAS) and Stanford University Digital Libraries Project]
-<li><A HREF="http://www.PubGene.com">Pubgene</A> - Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery (go <A HREF="http://www.pubgene.org">here</A> for original academic web site)
-<li><A HREF=" http://cmap.nci.nih.gov/PW/DrawPathway?pathway_id=1094&what=graphic&svg=on">cancer.gov</A>: National Cancer Institute (NIH) pathway interaction database (CMAP) (requires
-<A HREF="http://www.adobe.com/svg/viewer/install/main.html">SVG plugin</A>, may need <A HREF="http://www.adobe.com/svg/viewer/install/beta.html">beta</A> for Mozilla FireFox) [Kotien Wu]
-<li><a href="http://udgenome.ags.udel.edu/gofigure/help.html">GO Figure</A> Gene Ontology Annotator</a> provides an organized vocabulary of terms describing molecular functions, biological processes and cellular components of gene products [Gang Situ]
+<li><a href="http://www.PubGene.com">Pubgene</a> - Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery (go <a href="http://www.pubgene.org">here</a> for original academic web site)
+<li><a href=" http://cmap.nci.nih.gov/PW/DrawPathway?pathway_id=1094&amp;what=graphic&amp;svg=on">cancer.gov</a>: National Cancer Institute (NIH) pathway interaction database (CMAP) (requires
+<a href="http://www.adobe.com/svg/viewer/install/main.html">SVG plugin</a>, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox) [Kotien Wu]
+<li><a href="http://udgenome.ags.udel.edu/gofigure/help.html">GO Figure</a> Gene Ontology Annotator</a> provides an organized vocabulary of terms describing molecular functions, biological processes and cellular components of gene products [Gang Situ]
 </ul>
 
 <!-- -------------------- -->
 <a name="document-preparation"><h4>Document preparation with Graphviz</h4></a>
 <ul>
-<li> <A HREF="http://users.skynet.be/ppareit/projects/graphviz-dot-mode/graphviz-dot-mode.html">graphviz mode for emacs</A>
-(or <A HREF="Misc/graphviz-dot-mode.el">here</A>).
+<li> <a href="http://users.skynet.be/ppareit/projects/graphviz-dot-mode/graphviz-dot-mode.html">graphviz mode for emacs</a>
+(or <a href="Misc/graphviz-dot-mode.el">here</a>).
 <li> <a href="http://brighten.bigw.org/projects/ladot/">Ladot</a>: scripts for including LaTeX in your Graphviz files [Brighten Godfrey]
-<li> <A HREF="http://web.mit.edu/~drayside/www/graphviz.tex/main.pdf">graphviz.tex</a>: macros for including Graphviz in your LaTeX files [Derek Rayside]
+<li> <a href="http://web.mit.edu/~drayside/www/graphviz.tex/main.pdf">graphviz.tex</a>: macros for including Graphviz in your LaTeX files [Derek Rayside]
 <li> <a href="http://mharnisch.gmxhome.de/projects.html">epswrap</a>, a Perl program that wraps EPS files containing bitmap data for user shapes in Graphviz [Marcus Harnisch]
 <li><a href="http://www.texmacs.org/">TeXmacs</a>, a scientific text editor, inspired by TeX and GNU Emacs, has a GraphViz interface [Joris van der Hoeven]
 <li><a href="http://www.aivosto.com/visustin.html">Visustin flow chart generator</a>[Aivosto]
-<li> <A HREF="http://paco.to/blog/000040.html"> Using Mac OmniGraffle </A> with Graphviz blog entry [Pac Hope]
+<li> <a href="http://paco.to/blog/000040.html"> Using Mac OmniGraffle </a> with Graphviz blog entry [Pac Hope]
 </ul>
 
 <!-- -------------------- -->
@@ -180,7 +183,7 @@ SVG plugin</A> required, may need <A HREF="http://www.adobe.com/svg/viewer/insta
 <li><a href="http://dag.wieers.com/packages/graphviz/"><img src="Resources/dag.png" border="0" alt="dag logo"> Dag Wieers</a> - rpms for some RedHat Linux distributions.
 <li><a href="http://atrpms.net/name/graphviz/">Axel Thimm</a> - rpms for some RedHat Linux distributions ("atrpms").
 <li><a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent Bell-Labs WWExptools</a> - binaries for Unix variants.
-<li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=">RPM Find</a> - many distros and architectures.
+<li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&amp;submit=Search+...&amp;system=&amp;arch=">RPM Find</a> - many distros and architectures.
 <li><a href="http://packages.gentoo.org/search/?sstring=graphviz"><img src="Resources/gentoo.jpeg" border="0" alt="gentoo logo"> Gentoo</a> - Linux packages.
-<li><a href="http://freshmeat.net/search/?q=graphviz&section=projects&Go.x=0&Go.y=0">FreshMeat</a> - related projects from a search for "graphviz".
+<li><a href="http://freshmeat.net/search/?q=graphviz&amp;section=projects&amp;Go.x=0&amp;Go.y=0">FreshMeat</a> - related projects from a search for "graphviz".
 </ul>
