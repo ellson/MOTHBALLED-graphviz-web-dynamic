@@ -7,7 +7,7 @@ PAGESET=About.html \
 	Bugs.html \
 	MailingList.html \
 	License.html \
-	Links.html \
+	Resources.html \
 	Credits.html
 
 .SUFFIXES: .ht .html
