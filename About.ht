@@ -34,6 +34,7 @@ either as raw text files or within a graphical editor.
 (Graphviz was not intended to be a Visio replacement, so it
 is probably frustrating to try to use it that way.)
 
+<!--
 <h2>The Dynagraph saga</h2>
 Graphviz is actively maintained and improved, but from 1996-2003
 the Graphviz team (particularly Gordon Woodhull) also worked on
@@ -53,15 +54,17 @@ The ambition of this undertaking, and the sheer effort needed
 to keep Montage working with all the different versions of
 Windows and Office programs, has brought us to the point that
 we need to change directions and find a new strategy for this work.
+-->
 
 <h2>Roadmap</h2>
-Layout Tools
+<ul>
+<li>
+<!-- <a href="/cgi-bin/man?dot">dot</a> -->
 dot - makes ``hierarchical'' or layered drawings of directed graphs.
 The layout algorithm
 aims edges in the same direction (top to bottom, or left to right) and
 then attempts to avoid edge crossings and minimize the layout area.
 
-<ul>
 <li>
 neato and fdp - make ``spring model'' layouts.  neato uses the Kamada-Kawai
 algorithm, which is equivalent to statistical multi-dimensional scaling.
@@ -106,7 +109,8 @@ gvpr is a general purpose graph stream editor, in the spirit
 of awk, sed (or think of perl if you don't know those).
 </ul>
 
-</h2>Generators</h2>
+<!--
+<h2>Generators</h2>
 Many external projects provide filters that translate other formats
 and database into Graphviz format.
 See...
@@ -130,6 +134,7 @@ To us it's pretty spiffy, but it hasn't seen much outside interest.
 </ul>
 
 <p>GraphViz provides a collection of tools for manipulating graph structures and generating graph layouts.
+-->
 
 <h2>Example applications</h2>
 <ul>
@@ -145,6 +150,7 @@ WWW Graph Server:
 For a WWW application of GraphViz, please see <a href="/webdot/">WebDot</a>.
 </li></ul>
 
+<!--
 <h2>What tools does it provide?</h2>
 <h3>Programs</h3>
 <dl>
@@ -200,7 +206,6 @@ can also be used independently.</dd>
 <dd>A small extension to add bezier-spline smoothing methods to Tk.
 Supports the edge routing algorithms used by Tcldot.</dd>
 
-<!--
 <dt><a href="http://www.graphviz.org/cgi-bin/man?tcldgr">tcldgr</a></dt>
 <dd>Functions for the incremental manipulation of graph data structures.</dd>
 
@@ -210,7 +215,6 @@ Designed for use with Tcldgr, but can also be used independantly.</dd>
 
 <dt>tclpathplan</dt>
 <dd>Functions for computing shortest paths around polygon obstacles.</dd>
--->
 </dl>
 
 <h3>Tcl Demonstration Scripts</h3>
@@ -223,24 +227,20 @@ Designed for use with Tcldgr, but can also be used independantly.</dd>
 Use the mouse to enter nodes and edges, then click on the
 green button to layout the graph.</dd>
 
-<!--
 <dt><a href="http://www.graphviz.org/dge_demo.gif">dge</a></dt>
 <dd>A dynamic graph editor demonstrating the facilities of
 <b>tcldgr</b> and <b>tcldgl</b>.
 Use the mouse to enter nodes and edges and the layout happens automatically
 as you work.</dd>
--->
 
 <dt><a href="http://www.graphviz.org/entities_demo.png">entities</a></dt>
 <dd>A demonstration of the TrueType font capabilities of <b>gdtclft</b>.</dd>
 
-<!--
 <dt><a href="http://www.graphviz.org/ihi_demo.gif">ihi</a></dt>
 <dd>An implementation of the algorithm for Inferring Inheritance Heirarchies
 by Ivan Moore and Tim Clement.  This is intended as a demonstration of the
 usability of <b>tcldgr</b> without a layout engine (although the demo does still
 use dot to visualize the result of the algorithm.)</dd>
--->
 
 <dt><a href="http://www.graphviz.org/pathplan_demo.gif">pathplan</a></dt>
 <dd>A development tool that we used during the development of pathplan.
@@ -252,6 +252,7 @@ bezier path between any two points.</dd>
 <dd>A simple demonstration of the additional smoothing method
 provided by <b>tkspline</b>.</dd>
 </dl>
+-->
 
 <h3>Contacts</h3>
 <dl>
