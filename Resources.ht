@@ -26,7 +26,7 @@ Interactive viewers.
 <ul>
 <li><A HREF="http://www.research.att.com/~john/Grappa/">Grappa</A>, a Graph Package for Java (also provides graph programming clases) [John Mocenigo]
 <!-- John Mocenigo and Rich Drexler - YOIX not there yet -->
-<li><A HREF="http://zvtm.sourceforge.net/zgrviewer.html">ZGRviewer</A>, an SVG-based zooming graph viewer for large graphs [Emanuel Peritrega]
+<li><A HREF="http://zvtm.sourceforge.net/zgrviewer.html">ZGRViewer</A>, an SVG-based zooming graph viewer for large graphs [Emmanuel Pietriga]
 <li><a href="http://tintfu.sourceforge.net/">TINTFU</a>, a Java-based editor
 for .dot graph files. [Walter Stroebel]
 </ul>

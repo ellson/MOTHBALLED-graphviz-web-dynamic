@@ -97,7 +97,8 @@ written in perl.
 <a href="http://www.research.att.com/~john/Grappa/">Grappa</a>
 - a Java package for graphs with full Java graph data structures
 <li>
-ZGRV - (find some info)
+<a href="http://zvtm.sourceforge.net/zgrviewer.html">ZGRViewer</a>
+- an SVG-based zooming graph viewer for large graphs.
 <li>
 <a href="http://www.pixelglow.com/graphviz/">Mac OS X graphviz</a>
 </ul>
