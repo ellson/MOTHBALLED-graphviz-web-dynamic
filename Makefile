@@ -1,32 +1,34 @@
-PAGESET=About.html \
-	Download.html \
-	Download_source.html \
-	Download_linux.html \
-	Download_windows.html \
-	News.html \
-	Gallery.html \
-	Documentation.html \
-	Theory.html \
-	Bugs.html \
-	MailingList.html \
-	License.html \
-	Resources.html \
-	Credits.html
+PAGESET=About.php \
+	Download.php \
+	Download_source.php \
+	Download_linux.php \
+	Download_windows.php \
+	News.php \
+	Gallery.php \
+	Documentation.php \
+	Theory.php \
+	Bugs.php \
+	MailingList.php \
+	License.php \
+	Resources.php \
+	Credits.php
 
-.SUFFIXES: .ht .html
+.SUFFIXES: .ht .php
 
-.ht.html:
-	./ht2html.py "${PAGESET}" $<
+.ht.php:
+	./ht2php.py "${PAGESET}" $<
 
-all: ${PAGESET} index.html
+all: ${PAGESET} index.php
 
-${PAGESET}: ht2html.py Makefile
+${PAGESET}: ht2php.py Makefile
 
-index.html: About.html
-	rm -f index.html
-	ln -s About.html index.html
+index.php: About.php
+	rm -f index.php
+	ln -s About.php index.php
 
 .PHONY: Download_source.ht Download_linux.ht Download_windows.ht
+
+Download.php: Agree.ht Download.ht
 
 Download_source.ht:
 	./Download_source/source_current.tcl
@@ -38,4 +40,4 @@ Download_windows.ht:
 	./Download_windows/windows_current.tcl
 
 clean:
-	rm -f ${PAGESET} index.html Download_*.ht
+	rm -f ${PAGESET} index.php Download_*.ht
