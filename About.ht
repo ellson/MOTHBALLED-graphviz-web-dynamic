@@ -63,12 +63,13 @@ we need to change directions and find a new strategy for this work.
 dot - makes ``hierarchical'' or layered drawings of directed graphs.
 The layout algorithm
 aims edges in the same direction (top to bottom, or left to right) and
-then attempts to avoid edge crossings and minimize the layout area.
+then attempts to avoid edge crossings and reduce edge length.
 
 <li>
 neato and fdp - make ``spring model'' layouts.  neato uses the Kamada-Kawai
 algorithm, which is equivalent to statistical multi-dimensional scaling.
-fdp is based on 
+fdp implements the Fruchterman-Reingold heuristic including a multigrid
+solver that handles larger graphs and clustered undirected graphs.
 <li>
 twopi - radial layout, after Graham Wills 97.
 <li>
@@ -99,7 +100,6 @@ written in perl.
 ZGRV - (find some info)
 <li>
 <a href="http://www.pixelglow.com/graphviz/">Mac OS X graphviz</a>
-- 
 </ul>
 
 <h2>Filters</h2>
@@ -113,14 +113,13 @@ of awk, sed (or think of perl if you don't know those).
 <h2>Generators</h2>
 Many external projects provide filters that translate other formats
 and database into Graphviz format.
-See...
+See <A HREF="Resources.html#generators-and-translators>this list</A>.
 
 <h2>Libraries</h2>
 Full disclosure requires us to explain that despite considerable interest
 from outsiders, the Graphviz library APIs were really only intended to be
 used by the Graphviz insiders.  For graph algorithm libraries you are
 probably better off looking at LEDA, the Boost Graph Library, or similar packages.
-
 <ul>
 <li>
 libgraph/libagraph
