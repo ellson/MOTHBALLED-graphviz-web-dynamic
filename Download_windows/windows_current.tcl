@@ -9,13 +9,10 @@ set releases {
 
 set packages {
     graphviz
-    webdot
 }
 
 set platforms {
-    Sources {tar.gz src.rpm} ""
-    RH73 {rh73.i386.rpm noarch.rpm} "Redhat 7.3 or later - does not use fontconfig"
-    FC1 {fc1.i386.rpm noarch.rpm} "Fedora 1 or later - uses fontconfig"
+    Sources {tgz} ""
     Windows {exe} "Microsoft Windows"
 }
                                                                                 
@@ -47,14 +44,8 @@ proc puts_latest {fout docroot dir package type} {
     }
 }
 
-set fout [open Download.ht w]
+set fout [open Download_windows.ht w]
 
-puts $fout "<p>This page lists sources and binaries that we provide.
-There are also some <a href=\"Resources.html#third-party-distributions\">third-party distributions</a>
-that we know of.<p>"
-
-puts $fout "<table>"
-puts $fout "<tr><td>"
 puts $fout "<table frame=\"void\" rules=\"groups\" border=\"1\" width=\"100%\">"
 puts $fout "<col>"
 for {set i 0} {$i < [llength $releases] / 2} {incr i} {
@@ -84,19 +75,5 @@ foreach package $packages {
 }
 
 puts $fout "</table>"
-puts $fout "</td></tr>"
-	
-# CVS instructions
-puts $fout "<tr><td>"
-puts $fout "<table rules=\"all\" width=\"100%\">"
-puts $fout "<tr><th align=\"left\">CVS</th></tr>"
-puts $fout "<tr><td align=left>"
-puts $fout "<b>cvs -d :pserver:anoncvs@cvs-graphviz.research.att.com:/home/cvsroot login</b><br>"
-puts $fout "<i>(password is \"anoncvs\")</i></br>"
-puts $fout "<b>cvs -d :pserver:anoncvs@cvs-graphviz.research.att.com:/home/cvsroot co graphviz</b><br>"
-puts $fout "</td></tr>"
-puts $fout "</table>"
-
-puts $fout "</td></tr></table>"
 
 close $fout

@@ -1,5 +1,8 @@
 PAGESET=About.html \
 	Download.html \
+	Download_source.html \
+	Download_linux.html \
+	Download_windows.html \
 	News.html \
 	Gallery.html \
 	Documentation.html \
@@ -23,10 +26,16 @@ index.html: About.html
 	rm -f index.html
 	ln -s About.html index.html
 
-.PHONY: Download.ht
+.PHONY: Download_source.ht Download_linux.ht Download_windows.ht
 
-Download.ht:
-	./Download/current.tcl
+Download_source.ht:
+	./Download_source/source_current.tcl
+
+Download_linux.ht:
+	./Download_linux/linux_current.tcl
+
+Download_windows.ht:
+	./Download_windows/windows_current.tcl
 
 clean:
-	rm -f ${PAGESET} index.html Download.ht
+	rm -f ${PAGESET} index.html Download_*.ht
