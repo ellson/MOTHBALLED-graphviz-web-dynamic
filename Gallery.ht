@@ -1,0 +1,35 @@
+<table rules="rows">
+
+<tr><td>
+<img src="Gallery/hello.png" width="96" height="179" alt="" title="Hello World">
+</td>
+<td>
+A "Hello World" example produced by the command:
+<p>
+<code>
+echo "digraph G {Hello->World}" | dot -Tpng >hello.png
+</code>
+</td></tr>
+
+<tr><td colspan="2">
+A (non-authoritative) diagram of heritage of the Unix operating system.
+This "crazy" version of the classic graph was created to stress test the polygon shape generator code and the color code with random values.</br>
+<img src="Gallery/crazy.png" alt="" title="Crazy Unix heritage diagram"><br>
+<a href="Gallery/crazy.dot">(source)</a>
+</td></tr>
+
+<tr><td colspan="2">
+A diagram of the relationships between objects in an SDH (Synchronous Digital Hierarchy) network.
+This graph was created to show a multiplicity of semantic relationships in a single graph.</br>
+<img src="Gallery/sdh.png" alt="" width="735" height="685" title="SDH network diagram"><br>
+<a href="Gallery/sdh.dot">(source)</a>
+</td></tr>
+
+<tr><td colspan="2">
+A non-blocking switch network consisting of only 2-way splitters and selectors.
+This graph was created to illustrate the parallel edge feature.<br>
+<img src="Gallery/switch.png" width="585" height="417" alt="" title="A non-blocking switch network"><br>
+<a href="Gallery/switch.dot">(source)</a>
+</td></tr>
+
+</table>
