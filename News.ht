@@ -1,43 +1,44 @@
-<A HREF="http://developer.apple.com/wwdc/ada.html"><img src=News/ADA04BestOpenSource_Win_40k.png alt="Apple Design Award" border=0></A> <br> <br>
-<P style="width: 542; background-color : #eeeeee;">
-Pixelglow's outstanding <A HREF="http://www.pixelglow.com/graphviz">adaption</A> of Graphviz 1.12 won two
-<A HREF="http://developer.apple.com/wwdc/ada/2004winners.html">2004 Apple Design Awards</A>: <b>Best Mac OS X Open Source Product</b> and runner up,
+<a href="http://developer.apple.com/wwdc/ada.html">
+<img src="News/ADA04BestOpenSource_Win_40k.png" alt="Apple Design Award" border="0"></a> <br> <br>
+<p style="width: 542; background-color : #eeeeee;">
+Pixelglow's outstanding <a href="http://www.pixelglow.com/graphviz">adaption</a> of Graphviz 1.12 won two
+<a href="http://developer.apple.com/wwdc/ada/2004winners.html">2004 Apple Design Awards</a>: <b>Best Mac OS X Open Source Product</b> and runner up,
 Best Product New to Mac OS X.  The awards were presented at the
-2004 <A HREF="http://developer.apple.com/wwdc/">Apple World Wide Developers Conference</A> at the Moscone Center in San Francisco on June 29.  Congratulations
+2004 <a href="http://developer.apple.com/wwdc/">Apple World Wide Developers Conference</a> at the Moscone Center in San Francisco on June 29.  Congratulations
 to Glen Low and the Graphviz core team.
-</P>
-<TABLE>
-<TR>
-	<TD><img src=News/ADA-team.png alt="graphviz team"></TD>
-	<TD><img src=News/ADA-trophies.png alt="photo of trophies"></TD>
-</TR>
-<TR>
-</TR>
-</TR>
-</TABLE>
+
+<table>
+<tr>
+	<td><img src="News/ADA-team.png" alt="graphviz team"></td>
+	<td><img src="News/ADA-trophies.png" alt="photo of trophies"></td>
+</tr>
+<tr>
+</tr>
+</tr>
+</table>
 Lefty Koutsofios, Emden Gansner, Stephen North, John Ellson (Glen Low missing)
-<P>
+<p>
 <h4> R-Graphviz (Aug. 2004)</h4>
-<P style="width: 542px;">
-<A HREF="http://www.bioconductor.org/repository/release1.4/package/html/Rgraphviz.html">R-Graphviz</A> is a graph layout and display module from
-the <A HREF="http://www.bioconductor.org">Bio-Conductor project</A>
-for the <A HREF="http://www.r-project.org">R statistics language</A>.
-Thanks to <A HREF="http://www.biostat.harvard.edu/~rgentlem/HTML/home.html">Robert Gentleman</A> and <A HREF="http://biowww.dfci.harvard.edu/~jgentry/">Jeff Gentry</A> (Dana Farber Cancer Institute, Harvard) for leading this work.</P>
-<TABLE WIDTH=542>
-<TR>
-<A href="http://www.bioconductor.org/Screenshots/">
+<p style="width: 542px;">
+<a href="http://www.bioconductor.org/repository/release1.4/package/html/Rgraphviz.html">R-Graphviz</a> is a graph layout and display module from
+the <a href="http://www.bioconductor.org">Bio-Conductor project</a>
+for the <a href="http://www.r-project.org">R statistics language</a>.
+Thanks to <a href="http://www.biostat.harvard.edu/~rgentlem/HTML/home.html">Robert Gentleman</a> and <a href="http://biowww.dfci.harvard.edu/~jgentry/">Jeff Gentry</a> (Dana Farber Cancer Institute, Harvard) for leading this work.
+<table width="542">
+<tr>
+<a href="http://www.bioconductor.org/Screenshots/">
 <img src="http://www.bioconductor.org/Screenshots/icon-Tcell.png" width=180>
 <img src="http://www.bioconductor.org/Screenshots/litGnc.jpg" width=180>
 <img src="http://www.bioconductor.org/Screenshots/clustGallc.jpg" width=180>
-</A>
-</TR></TABLE>
+</a>
+</tr></table>
 <h4> HTML-like labels (Feb. 2004)</h4>
 This <a href="http://www.research.att.com/%7Eerg/graphviz/info/shapes.html#html">
 new label formatter</a> supports many helpful options for text formatting,
 coloring and URL linking, similar to HTML tables.
 (Special thanks to Emden Gansner and Serban Jora.)
 <center>
-<img src="News/html2.gif" width="400">
+<img src="News/html2.gif" width="400" alt="">
 </center>
 <h4> Circo - circular layout tool (Feb. 2004)</h4>
 <h4> Mac OSX port (Feb. 2004)</h4>
@@ -75,13 +76,11 @@ components by a new tiling algorithm that improves both
 compaction and running time.
 <table width="600">
 <tbody><tr>
-<td align="center"> <img src="News/withoutpack.gif"> </td>
-<td align="center"> <img src="News/withpack.gif"> </td>
+<td align="center"> <img src="News/withoutpack.gif" alt=""> </td>
+<td align="center"> <img src="News/withpack.gif" alt=""> </td>
 </tr>
 <tr>
 <td align="center"> Without pack </td> <td align="center"> With pack </td>
-</tr>
-<tr>
 </tr></tbody></table>
 <h4>Dynagraph</h4>
 Beta code is included in the source release, but it is not
@@ -130,7 +129,7 @@ and server-side image maps
 </li><li> Bug fixes, e.g. edge concentrators and clusters.
 </li></ul>
 <p>
-</p><h4> GraphViz 1.3 </h4>
+<h4> GraphViz 1.3 </h4>
 <ul>
 <li>
 <a href="http://www.research.att.com/%7Ejohn/Grappa/grappa.html">Grappa</a> -
@@ -146,7 +145,7 @@ endpoint labels, etc.  (Thanks to Vladimir Alexiev.)
 </li></ul>
 
 <p>
-</p><h4> Plans </h4>
+<h4> Plans </h4>
 <ul>
 <li> <a href="http://www.graphviz.org/">graphviz.org</a> site with message board
 </li><li> More binary flavors (donations accepted)
@@ -164,23 +163,3 @@ endpoint labels, etc.  (Thanks to Vladimir Alexiev.)
 </li><li> integration of batch and incremental layout service
 </li><li> new graph programming foundation in C++ or Java
 </li></ul>
-
-<center>
-<!-- /user content -->
-
-</center></td>
-</tr>
-<tr>
-<td></td>
-<td align="center">
-<!-- bottom navigation-->
-<br><br><br>
-<font face="arial,helvetica" size="-1">
-<a href="http://www.research.att.com/">home</a> | 
-<a href="http://www.research.att.com/info/">people</a> |
-<a href="http://www.research.att.com/info/Projects">projects</a> |
-<a href="http://www.research.att.com/areas/">research areas</a> |
-<a href="http://www.research.att.com/resources/">resources</a> |
-<a href="http://www.research.att.com/search.html">search</a> |
-<a href="http://www.research.att.com/%7Enorth/graphviz">graphviz</a>
-</font>
