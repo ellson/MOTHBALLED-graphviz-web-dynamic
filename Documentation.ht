@@ -10,6 +10,16 @@
 
 <p>
 
+<dt><b>FAQs, Contributions</b></dt><br>
+<dd><a href=http://www.research.att.com/sw/tools/graphviz/doc/gvizfaq.html>Graphviz FAQ</a></dd>
+<dd><a href="http://www.research.att.com/sw/tools/graphviz/shapehowto.html">How to create custom shapes</a></dd>
+<dd><a href="http://www.research.att.com/sw/tools/graphviz/layers.html">How to use drawing layers (overlays)</a></dd>
+<dd><a href="http://ttf2pt1.sourceforge.net/">How to convert TrueType fonts to PostScript</a></dd>
+<dd><a href="http://xml.apache.org/batik/ttf2svg.html">How to convert TrueType fonts to SVG</a></dd>
+<dd><a href="http://www.research.att.com/sw/tools/graphviz/isofonts.txt">Postscript defs for ISO-latin1 fonts</a> (by<a href="mailto:evidal@iti.upv.es">Enrique Vidal</a>)</dd>
+
+<p>
+
 <dt><b>Web sites</b></dt><br>
 <dd><a href="http://www.research.att.com/areas/visualization/">Information Visualization Research at AT&amp;T Labs</a></dd>
 <dd><a href="http://www.research.att.com/sw/tools/reuse/">
@@ -32,14 +42,5 @@ programs from book on reusable software</dt>
 dot's algorithm.</dd>
 <dd><a href="http://www.research.att.com/sw/tools/graphviz/EN96.pdf">tcldg</a>- incremental layout architecture</dd>
 <dd><a href="http://www.research.att.com/sw/tools/graphviz/dynadag.pdf">Dynamic layout in Dynadag</a></dd>
-
-<p>
-
-<dt><b>FAQs, Contributions</b></dt><br>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/shapehowto.html">How to create custom shapes</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/layers.html">How to use drawing layers (overlays)</a></dd>
-<dd><a href="http://ttf2pt1.sourceforge.net/">How to convert TrueType fonts to PostScript</a></dd>
-<dd><a href="http://xml.apache.org/batik/ttf2svg.html">How to convert TrueType fonts to SVG</a></dd>
-<dd><a href="http://www.research.att.com/sw/tools/graphviz/isofonts.txt">Postscript defs for ISO-latin1 fonts</a> (by<a href="mailto:evidal@iti.upv.es">Enrique Vidal</a>)</dd>
 
 </dl>
