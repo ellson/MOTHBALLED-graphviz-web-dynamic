@@ -154,23 +154,17 @@ is useful in HTML and MS-Office documents.
 <li> edge connector options - arrowhead styles,
 endpoint labels, etc.  (Thanks to Vladimir Alexiev.)
 </ul>
-
-<p>
 <h4> Plans </h4>
 <ul>
-<li> <a href="http://www.graphviz.org/">graphviz.org</a> site with message board
-<li> More binary flavors (donations accepted)
-<li> dot/neato merge (beta available from John Ellson)
-<li> Montage interface to Visual Basic scripting (in alpha)
-<li> incremental hierarchical layout with Grappa (in alpha)
+<li> Cairo canvas and scripting plugin (Ellson)
+<li> Improved force-directed layouts (Gansner)
+<li> Overhaul 'dot' layouts (North)
+<li> Full user interface for Toplogical Fisheye Views of large graphs
 </ul>
-<br>
 <h4> Wish list </h4>
 <ul>
-<li> <a href="http://www.cdrom.com/pub/png/">PNG</a> driver
-<li> polyline/rectilinear edges for dot
-<li> overhaul layout engine for general nested diagrams
-<li> lighten up Grappa display objects
-<li> integration of batch and incremental layout service
-<li> new graph programming foundation in C++ or Java
+<li> Polyline/rectilinear edges for dot
+<li> Spline router for parallel edges
+<li> Integration of batch and incremental layout service
+<li> Someone to adopt and finish Dynagraph in C++
 </ul>
