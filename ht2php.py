@@ -61,7 +61,7 @@ for page in pageset:
 
 fout.write('''\t</table> 
 </td>
-<td valign="top">
+<td bgcolor="#c0ffc0" height="40">
 <!-- header -->
 <h2>Graphviz - Graph Visualization Software</h2>
 </td></tr>
