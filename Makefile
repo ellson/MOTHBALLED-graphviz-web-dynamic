@@ -19,8 +19,9 @@ all: ${PAGESET} index.html
 
 ${PAGESET}: ht2html.py Makefile
 
-index.html: Home.html
-	ln -s Home.html index.html
+index.html: About.html
+	rm index.html
+	ln -s About.html index.html
 
 .PHONY: Download.ht
 
