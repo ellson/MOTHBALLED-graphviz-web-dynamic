@@ -1,6 +1,6 @@
 #!/usr/bin/tclsh
                                                                                 
-set docroot /var/www/html
+set docroot /var/www/www.graphviz.org
 set archive pub/graphviz/ARCHIVE
 set current pub/graphviz/CURRENT
                                                                                 
