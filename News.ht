@@ -1,0 +1,153 @@
+<h4> HTML-like labels (Feb. 2004)</h4>
+This <a href="http://www.research.att.com/%7Eerg/graphviz/info/shapes.html#html">
+new label formatter</a> supports many helpful options for text formatting,
+coloring and URL linking, similar to HTML tables.
+(Special thanks to Emden Gansner and Serban Jora.)
+<center>
+<img src="News/html2.gif" width="400">
+</center>
+<h4> Circo - circular layout tool (Feb. 2004)</h4>
+<h4> Mac OSX port (Feb. 2004)</h4>
+A quite elegant-looking <a href="http://www.pixelglow.com/graphviz/">
+port of graphviz to Mac OSX</a> includes a new document-based GUI,
+export to PDF and many bitmap formats, full alpha transparency, native
+font support and anti-aliasing. (Special thanks to Glen Low.)
+<h4> gvpr (aka gpr) </h4> 
+The generic graph processor (written by Emden Gansner) has some
+new features. It has string and substring matching and substitution using POSIX
+shell pattern syntax. It also has a <tt>lock</tt> primitive to
+save graphs in the input stream, making it easier to write
+scripts that operate on multiple graphs.  
+It now provides access to common math functions and a random number
+generator. There are additional graph traversals available.
+<h4>gvpack</h4> 
+The tool
+packs multiple layouts using a 2D tiling algorithm based on polyominos.
+It's a standalone tool using the same algorithm that is shown below
+for <tt>neato -Gpack</tt>.
+
+<h4>Zoomable 2-1/2D
+<a href="http://zvtm.sourceforge.net/zgrviewer.html">
+graph viewer</a>
+(in Java) by <a href="http://www.w3.org/People/Emmanuel/">Emmanuel Pietriga</a> at the W3C.</h4>
+<h4>Agraph library <a href="http://www.research.att.com/sw/tools/graphviz/Agraph.pdf">tutorial</a></h4>
+<h4>WinGraphviz update</h4>
+Added CMAP support.  The 
+<a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">
+download</a> includes support for the most common output formats
+for dot and neato, and sample ASP code.  Thanks to ood Tsen!
+<h4>Neato -Gpack</h4>
+This feature (due to Emden Gansner) places connected
+components by a new tiling algorithm that improves both
+compaction and running time.
+<table width="600">
+<tbody><tr>
+<td align="center"> <img src="News/withoutpack.gif"> </td>
+<td align="center"> <img src="News/withpack.gif"> </td>
+</tr>
+<tr>
+<td align="center"> Without pack </td> <td align="center"> With pack </td>
+</tr>
+<tr>
+</tr></tbody></table>
+<h4>Dynagraph</h4>
+Beta code is included in the source release, but it is not
+compiled by default.   Also see the mpeg and Quicktime
+<a href="http://www.research.att.com/%7Enorth/videos/gd2001">
+demo movies</a>.
+<p>
+</p><h4> GraphViz 1.8.+</h4>
+See the
+<a href="http://www.research.att.com/sw/tools/graphviz/download.html">download page</a> for packages including
+perl and Python APIs.<br>
+We've incorporated a new collection of <b>graph tools</b>
+including "gpr", a graph stream editor, in the spirit of awk.
+(Thanks to Emden Gansner for these tools.)
+<a href="http://www.research.att.com/sw/tools/graphviz/webdot.cgi.pl">webdot.cgi</a> server (in perl).
+See instructions at top of the script regarding use.<br>
+The SVG driver is more usable.<br>
+All known memory leaks banished! Rock solid.<br>
+<h4> GraphViz and Visual Basic (Contributed)</h4>
+<a href="http://ood.personal.hgc.com.tw/GraphvizLib/index.htm">
+GraphvizLib</a> COM Component and Visual Basic Examples.<br>
+(Older <a href="http://www.research.att.com/sw/tools/graphviz/dist/GraphvizTool.CAB">GraphvizTool.CAB</a>
+and a very brief <a href="http://www.research.att.com/sw/tools/graphviz/doc/graphviztool.txt">description</a>.)
+
+
+<h4> GraphViz 1.5 </h4>
+<ul>
+<li><a href="http://www.research.att.com/sw/tools/graphviz/license/source.html"> Open Source license</a> and
+<a href="http://www.research.att.com/sw/tools/graphviz/license/faq.html"> FAQ</a>
+</li><li><a href="http://www.research.att.com/sw/tools/graphviz/license/binary.html"> Compatible binary license</a>
+</li><li>Example finite state machine animator
+<a href="http://www.research.att.com/sw/tools/graphviz/packages/fademo.tgz">script</a> for dotty 
+</li><li> <a href="http://www.research.att.com/sw/tools/montage">Montage</a> - customizable ActiveX container
+</li><li> <a href="http://www.research.att.com/sw/tools/graphviz/gtools.html"> source tarball </a> for add-on streaming graph tools
+</li></ul>
+<h4>GraphViz 1.4 </h4>
+<ul>
+<li> improved layout algorithms in <i>neato</i> to avoid
+node-node and node-edge overlaps.  (To do: resolve
+ edge-edge and edge label overlaps.)
+</li><li>
+<a href="http://www.research.att.com/sw/tools/graphviz/packages/spline-o-matic/">Spline-o-Matic</a> -
+(reusable spline router library)
+</li><li> drivers for VRML, VTX (Confluent Visual Thought),
+and server-side image maps
+</li><li> Bug fixes, e.g. edge concentrators and clusters.
+</li></ul>
+<p>
+</p><h4> GraphViz 1.3 </h4>
+<ul>
+<li>
+<a href="http://www.research.att.com/%7Ejohn/Grappa/grappa.html">Grappa</a> -
+Java library and GUI for graphs, including a dot parser.
+<i>dot</i> or your own layout mechanism is needed for
+graph layout, but these can run on a remote server.
+(Thanks to John Mocenigo, john@research.att.com.)
+</li><li> TrueType font support in GIF driver.  GIF
+is useful in HTML and MS-Office documents.
+(Thanks to John Ellson, ellson@research.att.com.)
+</li><li> edge connector options - arrowhead styles,
+endpoint labels, etc.  (Thanks to Vladimir Alexiev.)
+</li></ul>
+
+<p>
+</p><h4> Plans </h4>
+<ul>
+<li> <a href="http://www.graphviz.org/">graphviz.org</a> site with message board
+</li><li> More binary flavors (donations accepted)
+</li><li> dot/neato merge (beta available from John Ellson)
+</li><li> Montage interface to Visual Basic scripting (in alpha)
+</li><li> incremental hierarchical layout with Grappa (in alpha)
+</li></ul>
+<br>
+<h4> Wish list </h4>
+<ul>
+<li> <a href="http://www.cdrom.com/pub/png/">PNG</a> driver
+</li><li> polyline/rectilinear edges for dot
+</li><li> overhaul layout engine for general nested diagrams
+</li><li> lighten up Grappa display objects
+</li><li> integration of batch and incremental layout service
+</li><li> new graph programming foundation in C++ or Java
+</li></ul>
+
+<center>
+<!-- /user content -->
+
+</center></td>
+</tr>
+<tr>
+<td></td>
+<td align="center">
+<!-- bottom navigation-->
+<br><br><br>
+<font face="arial,helvetica" size="-1">
+<a href="http://www.research.att.com/">home</a> | 
+<a href="http://www.research.att.com/info/">people</a> |
+<a href="http://www.research.att.com/info/Projects">projects</a> |
+<a href="http://www.research.att.com/areas/">research areas</a> |
+<a href="http://www.research.att.com/resources/">resources</a> |
+<a href="http://www.research.att.com/search.html">search</a> |
+<a href="http://www.research.att.com/%7Enorth/graphviz">graphviz</a>
+</font>
