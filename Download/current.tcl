@@ -42,7 +42,7 @@ proc puts_latest {fout docroot dir} {
   }
   foreach nt [array names WEBFONTS] {
     foreach {n t} $nt {break}
-    set fnv [lindex [lsort -decreasing -dictionary -index 1 $WEBDOT($nt)] 0]
+    set fnv [lindex [lsort -decreasing -dictionary -index 1 $WEBFONTS($nt)] 0]
     foreach {fn v} $fnv {break}
     lappend FILES($t) $fn
   }
