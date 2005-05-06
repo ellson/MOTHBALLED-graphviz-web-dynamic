@@ -3,7 +3,7 @@
 set docroot /var/www/www.graphviz.org
 
 set releases {
-    "current release" pub/graphviz/ARCHIVE
+    "current stable release" pub/graphviz/ARCHIVE
     "development snapshot" pub/graphviz/CURRENT
 }
 
@@ -57,14 +57,14 @@ for {set i 0} {$i < [llength $releases] / 2} {incr i} {
 foreach package $packages {
     puts $fout "<tr><th align=\"left\"><font size=\"+1\">$package</font></th>"
     foreach {releasename releasedir} $releases {
-    	puts $fout "<th><font size=\"-2\">$releasename</font></th>"
+    	puts $fout "<th><font size=\"-1\">$releasename</font></th>"
     }
     puts $fout "</tr>"
     foreach {platform types comment} $platforms {
         puts $fout "<tbody>"
-        puts $fout "<tr><th align=\"right\"><font size=\"-2\">$platform</font></th>"
+        puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
         foreach {releasename releasedir} $releases {
-            puts $fout "<td align=\"left\"><font size=\"-2\">"
+            puts $fout "<td align=\"left\"><font size=\"-1\">"
             foreach type $types {
                 puts_latest $fout $docroot $releasedir $package $type
             }
