@@ -163,7 +163,7 @@ from the Bio-Conductor project integrates graphs and statistical models.
 SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox)
 [American Association for the Advancement of Science (AAAS) and Stanford University Digital Libraries Project]
 <li><a href="http://www.PubGene.com">Pubgene</a> - Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery (go <a href="http://www.pubgene.org">here</a> for original academic web site)
-<li><a href="http://cmap.nci.nih.gov/PW/DrawPathway?pathway_id=1094&amp;what=graphic&amp;svg=on">cancer.gov</a>: National Cancer Institute (NIH) pathway interaction database (CMAP) (requires
+<li><a href="http://cmap.nci.nih.gov/PW">cancer.gov</a>: National Cancer Institute (NIH) pathway interaction database (CMAP) (requires
 <a href="http://www.adobe.com/svg/viewer/install/main.html">SVG plugin</a>, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox) [Kotien Wu]
 <li><a href="http://udgenome.ags.udel.edu/gofigure/help.html"><b>GO Figure</b> Gene Ontology Annotator</a> provides an organized vocabulary of terms describing molecular functions, biological processes and cellular components of gene products [Gang Situ]
 </ul>
