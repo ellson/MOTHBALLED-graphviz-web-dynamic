@@ -28,10 +28,10 @@
 <dt><b>Papers</b>
 (<a href="http://www.adobe.com/prodindex/acrobat/readstep.html">PDF</a> format)</dt>
 <dd><a href="Documentation/EGKNW03.pdf">Graphviz and Dynagraph - Static and Dynamic Graph Drawing Tools - overview</a></dd>
-<dd><a href="Documentation/GN99.pdf">An open graph visualization system and its applications to software engineering - overview</a></dd>
+<dd><a href="Documentation/GN99.pdf">An open graph visualization system and its applications to software engineering - overview</a> (<A HREF="http://citeseer.ist.psu.edu/gansner99open.html">citeseer</A>).</dd>
 <dd><a href="Documentation/GI94.pdf">Applications of Graph Visualization</a></dd>
 <dd><a href="Documentation/TSE93.pdf">A method for drawing directed graphs</a>-
-dot's algorithm (1993).</dd>
+dot's algorithm (1993) (<A HREF="http://citeseer.ist.psu.edu/gansner93technique.html">citeseer</A>).</dd>
 <dd><a href="Documentation/EN96.pdf">tcldg</a>- incremental layout architecture</dd>
 <dd><a href="Documentation/NW01.pdf">On-line Hierarchical Graph Drawing - dynadag algorithm</a></dd>
 
