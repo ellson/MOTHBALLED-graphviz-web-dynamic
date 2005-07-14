@@ -20,7 +20,7 @@ if basename == 'Download':
   fout.write(fin.read())
   fin.close
   fout = open(basename + '..php', 'w')
-  fout.write('<?php setcookie(\'CPLclickthroughlicense\', clicked, time()+60*60*24*30); ?>\n')
+  fout.write('<?php setcookie(\'CPLclickthroughlicense\', \'clicked\', time()+60*60*24*30); ?>\n')
 else:
   fout = open(basename + '.php', 'w')
 
