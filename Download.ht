@@ -20,6 +20,27 @@ to build Graphviz on Windows.
 <b>Windows</b><br>
 <a href="Download_windows.php">Stable and development Windows Install packages</a>
 and third-party <a href="Misc/third-party.zip">libraries</a>.
+<H3>Java Support</H3>
+Grappa is a separate Java graph library and user interface that works
+with Graphviz.  It calls Graphviz programs for remote layout service.
+Grappa can run as a browser applet (if you can resolev the Java
+plugin nightmare on your own) and it provides convenient extendible
+classes.  Grappa is no longer active work, so we are not planning
+major improvements or difficult bug fixes - caveat emptor.
+<p>
+<a href="http://www.research.att.com/~john/Grappa/grappa.tgz">Download Grappa</a>.
+<p>
+Subsequent to writing Grappa, we encountered problems with applets having
+to cope with so many incompatible versions of Java extant
+(didn't Sun hire any engineers who believe in backward compatibility?)
+and we found performance problems when scaling up object-oriented Java
+code to handle graphs of many thousands of objects.
+Our work on <A HREF="http://www.yoix.org">Yoix</A> is a new approach
+to these engineering problems. Note that Yoix itself is a web application
+language and is not Graphviz-specific. On its own, it is not a replacement
+for Grappa. We do plan to release a Graphviz extension module for Yoix in
+late 2005 or 2006.
+
 <H3>Third-Party (non-AT&amp;T) Executable Packages</H3>
 Please contact us if you can offer a platform we don't have,
 or you've improved on what's here.  
