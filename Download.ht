@@ -22,24 +22,27 @@ to build Graphviz on Windows.
 and third-party <a href="Misc/third-party.zip">libraries</a>.
 <H3>Java Support</H3>
 Grappa is a separate Java graph library and user interface that works
-with Graphviz.  It calls Graphviz programs for remote layout service.
-Grappa can run as a browser applet (if you can resolev the Java
-plugin nightmare on your own) and it provides convenient extendible
-classes.  Grappa is no longer active work, so we are not planning
-major improvements or difficult bug fixes - caveat emptor.
+with Graphviz. It was written by <A HREF="http://www.research.att.com/~john">
+John Mocenigo</A> in our lab. It calls Graphviz programs for remote
+layout service.  Grappa can run as a browser applet (if you can resolve
+the Java plugin nightmare on your own) and it provides convenient graph
+programming classes.  Grappa is no longer active work, so we are not
+planning major improvements or difficult bug fixes - caveat emptor.
 <p>
 <a href="http://www.research.att.com/~john/Grappa/grappa.tgz">Download Grappa</a>.
 <p>
-Subsequent to writing Grappa, we encountered problems with applets having
-to cope with so many incompatible versions of Java extant
-(didn't Sun hire any engineers who believe in backward compatibility?)
-and we found performance problems when scaling up object-oriented Java
-code to handle graphs of many thousands of objects.
-Our work on <A HREF="http://www.yoix.org">Yoix</A> is a new approach
-to these engineering problems. Note that Yoix itself is a web application
-language and is not Graphviz-specific. On its own, it is not a replacement
-for Grappa. We do plan to release a Graphviz extension module for Yoix in
-late 2005 or 2006.
+In our experience with Grappa applications, we encountered many
+problems in trying to get applets to run under the various
+incompatible versions of Java extant (didn't Sun hire any engineers who
+believe
+in backward compatibility?) and we found performance problems when
+working with graphs of many hundreds or thousands of objects.
+Our work on <A HREF="http://www.yoix.org">Yoix</A> is a new attack
+to these engineering problems. Yoix itself is a web application
+language, and is not Graphviz-aware. So, the base system it is not
+a replacement for Grappa.  Instead, we are working on a Graphviz
+extension module that loads in Yoix.  We plan to release this extension
+to Yoix in late 2005 or 2006.
 
 <H3>Third-Party (non-AT&amp;T) Executable Packages</H3>
 Please contact us if you can offer a platform we don't have,
