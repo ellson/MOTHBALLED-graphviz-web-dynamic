@@ -97,8 +97,8 @@ puts $fout "</td></tr>"
 # puts $fout "</table>"
 
 puts $fout "<p><b>"
-puts $fout "<a href=\"/git/gitweb.cgi\">Graphviz Source Control</a> - is now using
-puts $fout "<a href=\"http://www.kernel.org/pub/software/scm/cogito/\">cogito</a>.
+puts $fout "<a href=\"/git/gitweb.cgi\">Graphviz Source Control</a> - is now using"
+puts $fout "<a href=\"http://www.kernel.org/pub/software/scm/cogito/\">cogito</a>."
 puts $fout "</b></p>"
 
 puts $fout "</td></tr></table>"
