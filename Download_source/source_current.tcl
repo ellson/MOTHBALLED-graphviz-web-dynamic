@@ -79,6 +79,7 @@ foreach package $packages {
 puts $fout "</table>"
 puts $fout "</td></tr>"
 	
+<!--
 # CVS instructions
 puts $fout "<table rules=\"all\" width=\"100%\">"
 puts $fout "<tr><td>"
@@ -95,6 +96,11 @@ puts $fout "The old \"graphviz\" cvs tree has been frozen at the graphviz-2.2 st
 puts $fout "Starting with the graphviz-2.3 development series we have moved to a new \"graphviz2\" tree."
 puts $fout "</td></tr>"
 puts $fout "</table>"
+-->
+<p><b>
+<a href="/git/gitweb.cgi">Graphviz Source Control</a> - is now using
+<a href="http://www.kernel.org/pub/software/scm/cogito/">cogito</a>.
+</b></p>
 
 puts $fout "</td></tr></table>"
 
