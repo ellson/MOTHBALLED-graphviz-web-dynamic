@@ -79,28 +79,27 @@ foreach package $packages {
 puts $fout "</table>"
 puts $fout "</td></tr>"
 	
-<!--
-# CVS instructions
-puts $fout "<table rules=\"all\" width=\"100%\">"
-puts $fout "<tr><td>"
-puts $fout "<table rules=\"all\" width=\"100%\">"
-puts $fout "<tr><th align=\"left\">CVS</th></tr>"
-puts $fout "<tr><td align=left>"
-puts $fout "<b>cvs -d :pserver:anoncvs@cvs-graphviz.research.att.com:/home/cvsroot login</b><br>"
-puts $fout "<i>(password is \"anoncvs\")</i><br>"
-puts $fout "<b>cvs -d :pserver:anoncvs@cvs-graphviz.research.att.com:/home/cvsroot co graphviz2</b><br>"
-puts $fout "</td></tr>"
-puts $fout "<tr><td><p>"
-puts $fout "<font size=\"+1\" color=\"red\">Note:</font>"
-puts $fout "The old \"graphviz\" cvs tree has been frozen at the graphviz-2.2 stable release."
-puts $fout "Starting with the graphviz-2.3 development series we have moved to a new \"graphviz2\" tree."
-puts $fout "</td></tr>"
-puts $fout "</table>"
--->
-<p><b>
-<a href="/git/gitweb.cgi">Graphviz Source Control</a> - is now using
-<a href="http://www.kernel.org/pub/software/scm/cogito/">cogito</a>.
-</b></p>
+# # CVS instructions
+# puts $fout "<table rules=\"all\" width=\"100%\">"
+# puts $fout "<tr><td>"
+# puts $fout "<table rules=\"all\" width=\"100%\">"
+# puts $fout "<tr><th align=\"left\">CVS</th></tr>"
+# puts $fout "<tr><td align=left>"
+# puts $fout "<b>cvs -d :pserver:anoncvs@cvs-graphviz.research.att.com:/home/cvsroot login</b><br>"
+# puts $fout "<i>(password is \"anoncvs\")</i><br>"
+# puts $fout "<b>cvs -d :pserver:anoncvs@cvs-graphviz.research.att.com:/home/cvsroot co graphviz2</b><br>"
+# puts $fout "</td></tr>"
+# puts $fout "<tr><td><p>"
+# puts $fout "<font size=\"+1\" color=\"red\">Note:</font>"
+# puts $fout "The old \"graphviz\" cvs tree has been frozen at the graphviz-2.2 stable release."
+# puts $fout "Starting with the graphviz-2.3 development series we have moved to a new \"graphviz2\" tree."
+# puts $fout "</td></tr>"
+# puts $fout "</table>"
+
+puts $fout "<p><b>"
+puts $fout "<a href=\"/git/gitweb.cgi\">Graphviz Source Control</a> - is now using
+puts $fout "<a href=\"http://www.kernel.org/pub/software/scm/cogito/\">cogito</a>.
+puts $fout "</b></p>"
 
 puts $fout "</td></tr></table>"
 
