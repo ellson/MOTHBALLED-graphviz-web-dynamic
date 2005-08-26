@@ -16,6 +16,18 @@ Yahoo, I've tried Teoma, and they don't work.  -->
 </td>
 </tr>
 <tr>
+<td> Search the graphviz-devel list archives: </td>
+<td>
+	<form method="get" action="http://www.google.com/custom">
+      <input type="text" name="q" size="50" maxlength="255" value="" />
+      <input type="submit" name="sa" value="Search" />
+			<input type='hidden' name='as_q' value='graphviz-devel'/>
+      <input type="hidden" name="domains" value="mailman.research.att.com" />
+      <input type="hidden" name="sitesearch" value="mailman.research.att.com" />
+	</form>
+</td>
+</tr>
+<tr>
 <td> Search the graphviz site: </td>
 <td>
 	<form method="get" action="http://www.google.com/custom">
@@ -35,7 +47,11 @@ Yahoo, I've tried Teoma, and they don't work.  -->
       <input type="submit" name="sa" value="Search" />
 	</form>
 </td>
-<td> Visit the <A HREF="http://www.graphviz.org/MailingList.php">full archives</A>.</td>
+</tr>
+<tr colspan=2>
+Visit the full
+<A HREF="https://mailman.research.att.com/pipermail/graphviz-interest/">graphviz-interest</A> and
+<A HREF="https://mailman.research.att.com/pipermail/graphviz-devel/">graphviz-devel</A> archives.
 </tr>
 </table>
 <HR>
@@ -43,4 +59,6 @@ Yahoo, I've tried Teoma, and they don't work.  -->
 Go to the subscription sign-up and options page for
 <a href="https://mailman.research.att.com/mailman/listinfo/graphviz-interest">
 graphviz-interest list</a>
-(see also <a href="https://mailman.research.att.com/mailman/listinfo/dynagraph-interest">dynagraph-interest list</a>)<br>
+(see also the
+<a href="https://mailman.research.att.com/mailman/listinfo/graphviz-devel">graphviz-devel</a> and
+<a href="https://mailman.research.att.com/mailman/listinfo/dynagraph-interest">dynagraph-interest</a> lists.)
