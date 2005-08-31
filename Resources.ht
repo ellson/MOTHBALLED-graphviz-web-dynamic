@@ -61,6 +61,7 @@ in perl [Stephen North, with an assist from John Linderman]
 <h4><a name="generators-and-translators">Generators and Translators</a></h4>
 Filters that transform other data sources and formats into Graphviz.
 <ul>
+<li> <a href="http://www.softwaresecretweapons.com/jspwiki/Wiki.jsp?page=LinguineMaps">Linguine Maps</A> visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming (examples <a href="http://www.softwaresecretweapons.com/jspwiki/Wiki.jsp?page=HowToUseLinguineMapsJavaAPI">here</A>) [Pavel Simakov]
 <li> <a href="http://www.rbt.ca/autodoc/index.shtml">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]
 <li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render
 <li> <a href="Misc/sql2dot"> Sql2Dot</a> - a tiny parser in java to transform sql into dot for visualizing data structures [Robert Dale]
