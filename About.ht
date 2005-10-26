@@ -1,7 +1,15 @@
-<img src="Gallery/directed/unix.small.png" alt="" align="top">
-<img src="Gallery/directed/sdh.small.png" alt="" align="top">
-<img src="Gallery/directed/fsm.small.png" alt="" align="top">
-<img src="Gallery/undirected/softmaint.small.png" alt="" align="top">
+<a href="Gallery/directed/unix.html">
+<img src="Gallery/directed/unix.small.png" border="0" alt="" align="top">
+</a>
+<a href="Gallery/directed/sdh.html">
+<img src="Gallery/directed/sdh.small.png" border="0" alt="" align="top">
+</a>
+<a href="Gallery/directed/fsm.html">
+<img src="Gallery/directed/fsm.small.png" border="0" alt="" align="top">
+</a>
+<a href="Gallery/undirected/softmaint.html">
+<img src="Gallery/undirected/softmaint.small.png" border="0" alt="" align="top">
+</a>
 
 <META name="keywords" content="graph drawing, graph layout,
 network visualization, graph visualization, graphviz">
