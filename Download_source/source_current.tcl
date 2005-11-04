@@ -13,7 +13,7 @@ set packages {
 }
 
 set platforms {
-    Sources {tar.gz} ""
+    Sources {tar.gz tar.gz.md5} ""
 }
                                                                                 
 proc puts_latest {fout docroot dir package type} {
@@ -96,13 +96,14 @@ puts $fout "Starting with the graphviz-2.3 development series we have moved to a
 puts $fout "</td></tr>"
 puts $fout "</table>"
 
+## GIT instructions
 #puts $fout "<table rules=\"all\" width=\"100%\">"
 #puts $fout "<tr><td><b>"
 #puts $fout "<a href=\"/git/gitweb.cgi\">Graphviz Source Control</a> - is now using"
 #puts $fout "<a href=\"http://www.kernel.org/pub/software/scm/cogito/\">cogito</a>."
 #puts $fout "</b></td></tr>"
 #puts $fout "</table>"
-#
+
 puts $fout "</td></tr></table>"
 
 close $fout
