@@ -1,4 +1,24 @@
 <h4>
+New scalable algorithm for directed graphs (Oct. 2005)
+</h4>
+Graphviz now incorporates <em><a href="http://www.csse.monash.edu.au/~tdwyer/dig-cola_slides.ppt">DiG-COLA</a></em> (directed graph constrained layout)
+algorithm for which <a href="http://www.research.att.com/areas/visualization/people/bios/yehuda.html">Yehuda Koren</a> and <a href="http://www.csse.monash.edu.au/~tdwyer/">Tim Dwyer</a> (Monash University) won the IEEE Infovis 2005 Best Paper Award.  (Try: <tt>dot -Gmode=hier</tt>).  Neato already incorporates
+the <em>stress majorization</em> algorithm presented at Graph Drawing 2004,
+that supports an alternative model for graphs with nodes of high degree.
+(Try: <tt>neato -Gmodel=subset</tt>)
+<h4>
+New plug-in architecture for layout, scripting languages and renderers (Oct. 2005)
+</h4>
+Graphviz now has a more modular architecture that supports multiple
+layout engines, scripting languages, and renderers.  About a dozen
+scripting languages, including perl, python, tcl and ruby are
+supported.  An optional backend with high-quality antialiased
+graphics is written in
+<A HREF="http://cairographics.org/introduction">cairo</A>,
+and it also provides portable interactive graph canvas objects
+in <A HREF="http://www.gtk.org">GTK+</A>.
+This work was done by John Ellson.
+<h4>
 <table><tr>
 <td valign=bottom><img src="http://opensource.org/trademarks/opensource/web/opensource-110x95.gif" height=95 width=110></td>
 <td valign=bottom><b>Release under Certified Open Source License (Dec. 2004)</b></td>
