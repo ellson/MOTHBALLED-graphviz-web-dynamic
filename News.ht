@@ -2,7 +2,7 @@
 New scalable algorithm for directed graphs (Oct. 2005)
 </h4>
 Graphviz now incorporates <em><a href="http://www.csse.monash.edu.au/~tdwyer/dig-cola_slides.ppt">DiG-COLA</a></em> (directed graph constrained layout)
-algorithm for which <a href="http://www.research.att.com/areas/visualization/people/bios/yehuda.html">Yehuda Koren</a> and <a href="http://www.csse.monash.edu.au/~tdwyer/">Tim Dwyer</a> (Monash University) won the IEEE Infovis 2005 Best Paper Award.  (Try: <tt>dot -Gmode=hier</tt>).  Neato already incorporates
+algorithm for which <a href="http://www.research.att.com/areas/visualization/people/bios/yehuda.html">Yehuda Koren</a> and <a href="http://www.csse.monash.edu.au/~tdwyer/">Tim Dwyer</a> (Monash University) won the IEEE Infovis 2005 Best Paper Award.  (Try: <tt>neato -Gmode=hier</tt>).  Neato already incorporates
 the <em>stress majorization</em> algorithm presented at Graph Drawing 2004,
 that supports an alternative model for graphs with nodes of high degree.
 (Try: <tt>neato -Gmodel=subset</tt>)
