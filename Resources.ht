@@ -63,6 +63,7 @@ in perl [Stephen North, with an assist from John Linderman]
 <h4><a name="generators-and-translators">Generators and Translators</a></h4>
 Filters that transform other data sources and formats into Graphviz.
 <ul>
+<li><a href="http://schemaspy.sourceforge.net/">SchemaSpy</a> analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables [John Currier]
 <li> <a href="http://www.softwaresecretweapons.com/jspwiki/Wiki.jsp?page=LinguineMaps">Linguine Maps</A> visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming (examples <a href="http://www.softwaresecretweapons.com/jspwiki/Wiki.jsp?page=HowToUseLinguineMapsJavaAPI">here</A>) [Pavel Simakov]
 <li> <a href="http://www.rbt.ca/autodoc/index.shtml">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]
 <li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render
@@ -78,6 +79,7 @@ and an old <a href="Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]
 <!-- -------------------- -->
 <h4><a name="network-and-web">Network and Web Engineering Tools Using Graphviz</a></h4>
 <ul>
+<li> <a href="http://map.efnet.org/">EFnet</A> IRC Network server routing maps [Douglas Boldt]
 <li> <a href="http://www.spamviz.net/">SpamViz</a> generates *.dot
 file of network resources - primary intent is spam-net hunting,
 but any domain can be graphed [Mike Zick]
