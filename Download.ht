@@ -6,10 +6,10 @@ software distributions, as long as the license terms are met.
 <a href="Download_source.php">Source code</a> for the latest stable
 and development versions of Graphviz are available, along with
 instructions for CVS anonymous access to the sources.  Also see
-build <a href="/pub/scm/graphviz2/doc/build.html">notes</a>.
+build <a href="/doc/build.html">notes</a>.
 <p>
 Trimmed-down <a href="Download_windows.php">Windows sources</a>
-and <a href="/pub/scm/graphviz2/doc/winbuild.html">notes</a> on how
+and <a href="/doc/winbuild.html">notes</a> on how
 to build Graphviz on Windows.
 
 <H3>Executable Packages from AT&amp;T</H3>
