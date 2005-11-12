@@ -98,6 +98,8 @@ Rocketfuel</a> ISP mapper (well, look <a href="http://www.cs.washington.edu/rese
 <li><a href="http://www.zonecut.net/dns/">DNS server visualization</a>
 <li><a href="http://urlgreyhot.com/graphviz/">urlgrey</a> PHP-based Site Map Generator [Michael Angeles]
 <li><a href="http://www.grotto-group.com/~gulfie/projects/annalysis/tcpdump2dot.subpage.html">tcpdump2dot filter</a> to allow admins to network activity [Gulfie]
+<li><a href="http://www.hping.org/visitors">Visitors, a fast web log analyzer</a>
+uses graphviz to display usage patterns showing how users are using your web site. [Salvatore Sanfilippo]
 </ul>
 
 <!-- -------------------- -->
