@@ -33,6 +33,8 @@ fout.write('''<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 <title>Graphviz</title>
+<META name="keywords" content="graph drawing, graph layout,
+network visualization, graph visualization, graphviz">
 </head>
 <body bgcolor="white">
 <table cellspacing="20">
