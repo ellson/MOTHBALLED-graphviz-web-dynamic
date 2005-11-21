@@ -47,17 +47,19 @@ proc puts_latest {fout docroot dir package type} {
 set fout [open Download_windows.ht w]
 
 puts $fout "<table frame=\"void\" rules=\"groups\" border=\"1\" width=\"100%\">"
-puts $fout "<col>"
-for {set i 0} {$i < [llength $releases] / 2} {incr i} {
+for {set i 0} {$i <= [llength $releases] / 2} {incr i} {
     puts $fout "<colgroup><col></colgroup>"
 }
 
 foreach package $packages {
-    puts $fout "<tr><th align=\"left\"><font size=\"+1\">$package</font></th>"
+    puts $fout "<tbody>"
+    puts $fout "<tr>"
+    puts $fout "<th align=\"left\"><font size=\"+1\">$package</font></th>"
     foreach {releasename releasedir} $releases {
     	puts $fout "<th><font size=\"-1\">$releasename</font></th>"
     }
     puts $fout "</tr>"
+    puts $fout "</tbody>"
     foreach {platform types comment} $platforms {
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
@@ -71,7 +73,9 @@ foreach package $packages {
         puts $fout "</tr>"
         puts $fout "</tbody>"
     }
+    puts $fout "<tbody>"
     puts $fout "<tr><td colspan=\"[expr {1 + ([llength $releases] / 2)}]\">&nbsp;</td></tr>"
+    puts $fout "</tbody>"
 }
 
 puts $fout "</table>"
