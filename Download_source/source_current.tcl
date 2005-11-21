@@ -82,10 +82,9 @@ foreach package $packages {
 
 puts $fout "</table>"
 puts $fout "</td></tr>"
+puts $fout "<tr><td>"
 	
 # CVS instructions
-puts $fout "<table rules=\"all\" width=\"100%\">"
-puts $fout "<tr><td>"
 puts $fout "<table rules=\"all\" width=\"100%\">"
 puts $fout "<tr><th align=\"left\">CVS</th></tr>"
 puts $fout "<tr><td align=left>"
