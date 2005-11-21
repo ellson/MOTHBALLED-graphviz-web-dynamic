@@ -1,6 +1,7 @@
 <!-- I am sorry we have to promote Google here, but I've tried
 Yahoo, I've tried Teoma, and they don't work.  -->
-<a href="http://www.google.com/search"> <IMG SRC="http://www.google.com/intl/en/logos/Logo_25wht.gif" border=0 ALT=Google align=TOP></a>
+<a href="http://www.google.com/search">
+<img src="http://www.google.com/intl/en/logos/Logo_25wht.gif" border="0" alt="Google" align="top"></a>
 <P>
 <table>
 <tr>
@@ -48,14 +49,16 @@ Yahoo, I've tried Teoma, and they don't work.  -->
 	</form>
 </td>
 </tr>
-<tr colspan=2>
+<tr>
+<td colspan=2>
 Visit the full
-<A HREF="https://mailman.research.att.com/pipermail/graphviz-interest/">graphviz-interest</A> and
-<A HREF="https://mailman.research.att.com/pipermail/graphviz-devel/">graphviz-devel</A> archives.
+<a href="https://mailman.research.att.com/pipermail/graphviz-interest/">graphviz-interest</a> and
+<a href="https://mailman.research.att.com/pipermail/graphviz-devel/">graphviz-devel</a> archives.
+</td>
 </tr>
 </table>
-<HR>
-<P>
+<hr>
+<p>
 Go to the subscription sign-up and options page for
 <a href="https://mailman.research.att.com/mailman/listinfo/graphviz-interest">
 graphviz-interest list</a>
