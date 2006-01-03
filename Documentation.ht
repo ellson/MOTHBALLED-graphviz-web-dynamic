@@ -9,6 +9,10 @@
 <dd><a href="/doc/info/colors.html">Colors</a></dd>
 
 <dt><b>User's Guides</b> (<a href="http://www.adobe.com/prodindex/acrobat/readstep.html">PDF</a> format)</dt>
+<dd><b>NOTE:</b>The first two documents are not current with the features
+and details of Graphviz. They can serve as tutorials for understanding how
+to use Graphviz, but the most up-to-date documentation is provided in the
+on-line pages listed above.</dd>
 <dd><a href="Documentation/dotguide.pdf">dot</a></dd>
 <dd><a href="Documentation/neatoguide.pdf">neato</a></dd>
 <dd><a href="Documentation/leftyguide.pdf">lefty</a></dd>
