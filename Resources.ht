@@ -55,8 +55,11 @@ purpose language or system.
 <li> <a href="http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4518&amp;objectType=file">MatLab</a> [Leon Peshkin]
 <li>R: see below for <a href="#Rgraphviz">R-Graphviz</a>
 <li>HTML: the original <a href="http://www.graphviz.org/webdot/">webdot</a> in
-TCL [John Ellson] and a simplified <a href="Misc/webdot.pl">webdot.pl</a>
-in perl [Stephen North, with an assist from John Linderman]
+TCL [John Ellson]<br>
+(also see this <A HREF="Misc/webdot_cgi.txt">shell wrapper</A>
+to protect webdot servers from overload)<br>
+and a simplified <a href="Misc/webdot.pl">webdot.pl</a>
+in perl [Stephen North, with a huge assist from John Linderman]
 </ul>
 
 <!-- -------------------- -->
