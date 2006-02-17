@@ -12,8 +12,8 @@ set packages {
 }
 
 set platforms {
-    Sources {tgz} ""
-    Windows {exe} "Microsoft Windows"
+    Sources {src.tgz} ""
+    Windows {exe bin.tgz} "Microsoft Windows"
 }
                                                                                 
 proc puts_latest {fout docroot dir package type} {
