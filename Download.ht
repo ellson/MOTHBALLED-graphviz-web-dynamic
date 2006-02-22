@@ -70,7 +70,7 @@ An enhanced GUI application based on Graphviz code.
 <a href="http://www.phil.uu.nl/%7Ejs/graphviz/">Mac OS X</a>
 also <a href="http://www.bell-labs.com/cgi-user/wwexptools/gensnapshot/powerpc-apple-darwin/graphviz.tar.gz">here</a>.<br>
 <a href="http://www.bell-labs.com/cgi-user/wwexptools/gensnapshot?graphviz">Graphviz binaries</a> from <a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent wwExptools</a> for an impressive array of architectures
-(Sun, HP-UX, SGI IRIX, Cygwin, Apple) but apparently not maintained any more as they only have Graphviz 1.10.
+(Sun, HP-UX, SGI IRIX, Cygwin, Apple).
 <p>
 <b>Really Olde Executable Packages for version 1.7+</b><br>
 <a href="Download/old/gviz17c.sol.i386.tgz">Sun x86 Solaris 5.7</a> <br>
