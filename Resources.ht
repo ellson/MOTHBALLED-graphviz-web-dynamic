@@ -69,8 +69,9 @@ Filters that transform other data sources and formats into Graphviz.
 <li><a href="http://schemaspy.sourceforge.net/">SchemaSpy</a> analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables [John Currier]
 <li> <a href="http://www.softwaresecretweapons.com/jspwiki/Wiki.jsp?page=LinguineMaps">Linguine Maps</A> visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming (examples <a href="http://www.softwaresecretweapons.com/jspwiki/Wiki.jsp?page=HowToUseLinguineMapsJavaAPI">here</A>) [Pavel Simakov]
 <li> <a href="http://www.rbt.ca/autodoc/index.shtml">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]
-<li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render
-<li> <a href="Misc/sql2dot"> Sql2Dot</a> - a tiny parser in java to transform sql into dot for visualizing data structures [Robert Dale]
+<li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render [Martin Loetzsch]
+<li><a href="http://www.martin-loetzsch.de/S-DOT/">S-DOT</a> - a Common Lisp interface to dot [also Martin Loetzsch]
+<li> <a href="Misc/sql2dot"> Sql2Dot</a> - a tiny parser in Java to transform sql into dot for visualizing data structures [Robert Dale]
 <li><a href="http://www.codeproject.com/database/sqlpp.asp">SqlPP</a> - a scripted SQL query generation framework that generates graphviz
 <li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) [Szil&aacute;rd Vajda]
 <li><a href="http://zvon.org/ZvonSW/ZvonGraphotron/index.html">Graphotron</a> - an XML language for graph drawing with Xpath [Miloslav Nic]
@@ -130,7 +131,7 @@ a C++ class for creating a prefix tree representation of a given lexicon.
 <li><a href="http://www.doxygen.org/"> doxygen</a> uses graphviz to produce class hierarchies and other diagrams directly from source code [Dimitri van Heesch]
 <li><a href="http://nmdepend.sourceforge.net/">nmdepend</a> is a lightweight link-time dependency analyzer for C/C++ object files and libraries, helps manage cross-directory dependencies [Eddy Pronk]
 <li><a href="http://research.microsoft.com/fse/asml/"> AsmL </a> an executable specification language from Microsoft Research.
-<li> <a href="http://www.spinellis.gr/sw/umlgraph/">UMLGraph</a> - a java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot [Diomidis Spinellis] (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-)
+<li> <a href="http://www.spinellis.gr/sw/umlgraph/">UMLGraph</a> - a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot [Diomidis Spinellis] (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-)
 <li><a href="http://rdoc.sourceforge.net">RDOC</a> Ruby documentation [Dave Thomas]
 <li><a href="http://www.lo-res.org/~aaron/yaccviso/">YaccViso</a> YACC visualization tool
 <li> <a href="http://www.fokus.gmd.de/research/cc/glone/employees/joerg.schilling/private/index.html">calltree</a> generates dot representations of callgraphs from C sources [J&ouml;rg Schillin]
