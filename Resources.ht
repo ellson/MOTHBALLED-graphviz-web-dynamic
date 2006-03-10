@@ -129,6 +129,7 @@ a C++ class for creating a prefix tree representation of a given lexicon.
 <h4><a name="software-engineering">Programming and Software Engineering Tools Using Graphviz</a></h4>
 <ul>
 <li><a href="http://osteele.com/tools/rematch">reMatch</a> is an interactive visualization of how finite-state automata match regular expressions (needs Flash, n.g. on Linux/Firefox 1.5?) [Oliver Steele] 
+<li><a href="http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html">anifsm</A> animates graphs in dot format via tcldot (part of the <A HREF="http://fmt.cs.utwente.nl/tools/torxviz/">TorX</A> software visualization suite) [Alex Belinfante and TorX consortium]
 <li><a href="http://www.doxygen.org/"> doxygen</a> uses graphviz to produce class hierarchies and other diagrams directly from source code [Dimitri van Heesch]
 <li><a href="http://nmdepend.sourceforge.net/">nmdepend</a> is a lightweight link-time dependency analyzer for C/C++ object files and libraries, helps manage cross-directory dependencies [Eddy Pronk]
 <li><a href="http://research.microsoft.com/fse/asml/"> AsmL </a> an executable specification language from Microsoft Research.
