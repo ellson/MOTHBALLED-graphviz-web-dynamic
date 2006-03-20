@@ -23,8 +23,11 @@ suggestions for additions to this list.
 
 <h4><a name="graphical-interfaces">Graphical Interfaces</a></h4>
 Interactive viewers.
-<ul>
-<li><a href="http://www.research.att.com/~john/Grappa/">Grappa</a>, a Graph Package for Java (also provides graph programming clases) [John Mocenigo]
+< ul >
+  <li >< a href =
+  "http://www.research.att.com/~john/Grappa/" > Grappa < /a >,
+  a Graph Package for Java
+  (also provides graph programming clases)[John Mocenigo]
 <!-- John Mocenigo and Rich Drexler - YOIX not there yet -->
 <li><a href="http://zvtm.sourceforge.net/zgrviewer.html">ZGRViewer</a>, an SVG-based zooming graph viewer for large graphs [Emmanuel Pietriga]
 <li><a href="http://tintfu.sourceforge.net/">TINTFU</a>, a Java-based editor
@@ -41,6 +44,8 @@ Interfaces that allow graphviz to be called from a general
 purpose language or system.
 <ul>
 <li>python: <A HREF="http://yapgvb.sourceforge.net/">yapgvb</A> is Yet Another Graphviz Python Binding [Lonnie Princehouse]
+<li>java: a <A HREF="http://www.lmonson.com/downloads/dotparser/">parser</A> for dot files [Lynn Monson]
+<li>java: <A HREF=""http://www.research.att.com/~john/Grappa/">Grappa</A> (a GUI but offers basic graph classes) [John Mocenigo]
 <li>C# and .NET: <a href="http://www.codeproject.com/cs/miscctrl/quickgraph.asp"> QuickGraph </a> [Jonathan de Halleux]
 <li>COM: <a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> component [Ood Tsen]
 <li>perl: <a href="http://theoryx5.uwinnipeg.ca/CPAN/data/Graphviz/Graphviz.html"> A Perl interface to Graphviz</a> [Leon Brocard]
