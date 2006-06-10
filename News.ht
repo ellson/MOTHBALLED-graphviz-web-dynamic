@@ -1,4 +1,17 @@
 <h4>
+<A HREF="http://home.carolina.rr.com/jcurrier/">John Currier</A>'s <A HREF="http://schemaspy.sourceforge.net/">SchemaSpy</A> is runner up as
+<A HREF="http://www.oreillynet.com/onjava/blog/2006/04/the_2nd_most_useful_javaoracle.html">O'Reilly's most useful Java-Oracle tool</A>. 
+</h4>
+<P>
+According to the reviewer, Paul Brown, the winner is Oracle's own
+Project Raptor, so this award is quite an accomplishment for a
+one-person, open source project.
+SchemaSpy relies on Graphviz for visualization. Its description on
+SourceForge explains:
+<blockquote>
+SchemaSpy analyzes schema metadata, letting you click through the hierarchy of your tables' parent/child relationships either graphically or through HTML tables. It works with just about any RDBMS given an appropriate JDBC driver. SchemaSpy also identifies several common schema anomalies.
+</blockquote>
+<h4>
 New scalable algorithm for directed graphs (Oct. 2005)
 </h4>
 Graphviz now incorporates <em><a href="http://www.csse.monash.edu.au/~tdwyer/dig-cola_slides.ppt">DiG-COLA</a></em> (directed graph constrained layout)
