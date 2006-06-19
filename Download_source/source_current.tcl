@@ -136,25 +136,25 @@ puts $fout {
 </dl>
 <h3>Tools</h3>
 <dl>
-	<dt>autoconf-2.59.tar.gz
-	<dl><a href="http://ftp.gnu.org/gnu/autoconf/">http://ftp.gnu.org/gnu/autoconf/</a> [if building from CVS]
-	<dt>automake-1.9.6.tar.gz
-	<dd><a href="http://ftp.gnu.org/gnu/automake/">http://ftp.gnu.org/gnu/automake/</a> [if building from CVS]
-	<dt>bison-2.3.tar.gz
-	<dd><a href="http://ftp.gnu.org/gnu/bison/">http://ftp.gnu.org/gnu/bison/</a> [if building from CVS]
-	<dt>cvs-1.11.22.tar.gz
-	<dd><a href="http://ftp.gnu.org/non-gnu/cvs/source/stable/">http://ftp.gnu.org/non-gnu/cvs/source/stable/</a> [if building from CVS]
-	<dt>flex-2.5.4a.tar.gz
-	<dd><a href="http://ftp.gnu.org/non-gnu/flex/">http://ftp.gnu.org/non-gnu/flex/</a> [if building from CVS]
+	<dt>autoconf-2.59.tar.gz [if building from CVS]
+	<dd><a href="http://ftp.gnu.org/gnu/autoconf/">http://ftp.gnu.org/gnu/autoconf/</a>
+	<dt>automake-1.9.6.tar.gz [if building from CVS]
+	<dd><a href="http://ftp.gnu.org/gnu/automake/">http://ftp.gnu.org/gnu/automake/</a>
+	<dt>bison-2.3.tar.gz [if building from CVS]
+	<dd><a href="http://ftp.gnu.org/gnu/bison/">http://ftp.gnu.org/gnu/bison/</a>
+	<dt>cvs-1.11.22.tar.gz [if building from CVS]
+	<dd><a href="http://ftp.gnu.org/non-gnu/cvs/source/stable/">http://ftp.gnu.org/non-gnu/cvs/source/stable/</a>
+	<dt>flex-2.5.4a.tar.gz [if building from CVS]
+	<dd><a href="http://ftp.gnu.org/non-gnu/flex/">http://ftp.gnu.org/non-gnu/flex/</a>
 	<dt>gcc-4.1.1.tar.bz2
 	<dd><a href="http://ftp.gnu.org/gnu/gcc/">http://ftp.gnu.org/gnu/gcc/</a>
 	<dt>gcc-g++-4.1.1.tar.bz2
 	<dd><a href="http://ftp.gnu.org/gnu/gcc/">http://ftp.gnu.org/gnu/gcc/</a>
 	<dt>ghostscript-8.54-gpl.tar.gz
 	<dd><a href="http://www.cs.wisc.edu/~ghost/">http://www.cs.wisc.edu/~ghost/</a>
-	<dt>libtool-1.5.22.tar.gz
-	<dd><a href="http://ftp.gnu.org/gnu/libtool/">http://ftp.gnu.org/gnu/libtool/</a> [if building from CVS]
-	<dt>m4-1.4.4.tar.gz
+	<dt>libtool-1.5.22.tar.gz [if building from CVS]
+	<dd><a href="http://ftp.gnu.org/gnu/libtool/">http://ftp.gnu.org/gnu/libtool/</a>
+	<dt>m4-1.4.4.tar.gz [if building from CVS]
 	<dd><a href="http://ftp.gnu.org/gnu/m4/">http://ftp.gnu.org/gnu/m4/</a> [if building from CVS]
 	<dt>pkg-config-0.20.tar.gz
 	<dd><a href="http://pkgconfig.freedesktop.org/wiki/">http://pkgconfig.freedesktop.org/wiki/</a>
