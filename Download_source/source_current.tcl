@@ -108,7 +108,7 @@ puts $fout "</table>"
 #puts $fout "</table>"
 
 puts $fout {
-<h2>Requirements></h2>
+<h2>Requirements</h2>
 <h3>Dependencies</h3>
 <dl>
 	<dt>cairo-1.1.10.tar.gz [optional (required for pango), recommended]
