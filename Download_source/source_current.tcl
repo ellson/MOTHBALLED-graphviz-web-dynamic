@@ -107,6 +107,63 @@ puts $fout "</table>"
 #puts $fout "</b></td></tr>"
 #puts $fout "</table>"
 
+puts $fout {
+<h2>Requirements></h2>
+<h3>Dependencies</h3>
+<dl>
+	<dt>cairo-1.1.10.tar.gz
+	<dd><a href="http://cairographics.org/">http://cairographics.org/</a> [optional (required for pango) recommended]
+	<dt>expat-2.0.0.tar.gz
+	<dd><a href="http://expat.sourceforge.net/">http://expat.sourceforge.net/</a> 
+	<dt>freetype-2.1.10.tar.gz
+	<dd><a href="http://www.freetype.org/">http://www.freetype.org/</a> [optional (required for pango, optional for gd) recommended]
+	<dt>fontconfig-2.3.95.tar.gz
+<!--
+	<dt>gd-2.0.33.tar.gz
+	<dd><a href="http://www.boutell.com/gd/">http://www.boutell.com/gd/</a> [optional, not recommended but needed for GIF output]
+-->
+	<dd><a href="http://www.fontconfig.org/wiki/">http://www.fontconfig.org/wiki/</a> [optional (required for pango,  optional for gd) recommended]
+	<dt>gettext-0.14.5.tar.gz
+	<dd><a href="http://www.gnu.org/software/gettext/">http://www.gnu.org/software/gettext/</a>
+	<dt>glib-2.11.1.tar.gz
+	<dd><a href="http://www.gtk.org/">http://www.gtk.org/</a> [optional (required for pango) recommended]
+	<dt>libpng-1.2.10.tar.gz
+	<dd><a href="http://www.libpng.org/pub/png/">http://www.libpng.org/pub/png/</a> [optional (required for cairo, optional for gd) recommended]
+	<dt>pango-1.13.2.tar.gz
+	<dd><a href="http://www.pango.org/">http://www.pango.org/"</a> [optional recommended]
+	<dt>zlib-1.2.3.tar.gz
+	<dd><a href="http://www.zlib.net/">http://www.zlib.net/</a> [optional (required for libpng) recommended]
+</dl>
+<h3>Tools</h3>
+<dl>
+	<dt>autoconf-2.59.tar.gz
+	<dl><a href="http://ftp.gnu.org/gnu/autoconf/">http://ftp.gnu.org/gnu/autoconf/</a> [if building from CVS]
+	<dt>automake-1.9.6.tar.gz
+	<dl><a href="http://ftp.gnu.org/gnu/automake/">http://ftp.gnu.org/gnu/automake/</a> [if building from CVS]
+	<dt>bison-2.3.tar.gz
+	<dl><a href="http://ftp.gnu.org/gnu/bison/">http://ftp.gnu.org/gnu/bison/</a> [if building from CVS]
+	<dt>cvs-1.11.22.tar.gz
+	<dd><a href="http://ftp.gnu.org/non-gnu/cvs/source/stable/">http://ftp.gnu.org/non-gnu/cvs/source/stable/</a> [if building from CVS]
+	<dt>flex-2.5.4a.tar.gz
+	<dd><a href="http://ftp.gnu.org/non-gnu/flex/">http://ftp.gnu.org/non-gnu/flex/</a> [if building from CVS]
+	<dt>gcc-4.1.1.tar.bz2
+	<dd><a href="http://ftp.gnu.org/gnu/gcc/">http://ftp.gnu.org/gnu/gcc/</a>
+	<dt>gcc-g++-4.1.1.tar.bz2
+	<dd><a href="http://ftp.gnu.org/gnu/gcc/">http://ftp.gnu.org/gnu/gcc/</a>
+	<dt>ghostscript-8.54-gpl.tar.gz
+	<dd><a href="http://www.cs.wisc.edu/~ghost/">http://www.cs.wisc.edu/~ghost/</a>
+	<dt>libtool-1.5.22.tar.gz
+	<dd><a href="http://ftp.gnu.org/gnu/libtool/">http://ftp.gnu.org/gnu/libtool/</a> [if building from CVS]
+	<dt>m4-1.4.4.tar.gz
+	<dd><a href="http://ftp.gnu.org/gnu/m4/">http://ftp.gnu.org/gnu/m4/</a> [if building from CVS]
+	<dt>pkg-config-0.20.tar.gz
+	<dd><a href="http://pkgconfig.freedesktop.org/wiki/">http://pkgconfig.freedesktop.org/wiki/</a>
+	<dt>swig-1.3.29.tar.gz
+	<dd><a href="http://www.swig.org/">http://www.swig.org/</a>
+</dl>
+}
+
+
 puts $fout "</td></tr></table>"
 
 close $fout
