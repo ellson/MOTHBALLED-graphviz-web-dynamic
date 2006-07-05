@@ -123,6 +123,9 @@ puts $fout {
 -->
 	<dt>fontconfig-2.3.95.tar.gz [optional (required for pango,  optional for gd), recommended]
 	<dd><a href="http://www.fontconfig.org/wiki/">http://www.fontconfig.org/wiki/</a>
+	<dt>urw-fonts.tar.gz [optional, required if fontconfig is unable to find any fonts]
+	<dd><a href="ftp://ftp.gimp.org/pub/gimp/fonts">ftp://ftp.gimp.org/pub/gimp/fonts/</a>
+	<dt>[optional (required for pango,  optional for gd), recommended]
 	<dt>gettext-0.14.5.tar.gz
 	<dd><a href="http://www.gnu.org/software/gettext/">http://www.gnu.org/software/gettext/</a>
 	<dt>glib-2.11.1.tar.gz [optional (required for pango), recommended]
