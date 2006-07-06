@@ -57,6 +57,7 @@ for the contents of these software products.
 Fedora extras <a href="http://www.fedoraproject.org/extras/3">3</a>
 <a href="http://www.fedoraproject.org/extras/4">4</a>
 <a href="http://www.fedoraproject.org/extras/5">5</a>
+<a href="http://www.fedoraproject.org/extras/development">development (aka 6)</a>
 packages.  (Note: as of 29 June 2006 fonts are broken in FC5, use
 <a href="http://www.graphviz.org/pub/graphviz/CURRENT/">
 our RPM</a> instead.)
