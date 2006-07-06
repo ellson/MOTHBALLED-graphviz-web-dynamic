@@ -66,6 +66,8 @@ our RPM</a> instead.)
 An enhanced GUI application based on Graphviz code.
 <br>
 <a href="http://darwinports.opendarwin.org/darwinports/dports/graphics/graphviz/Portfile">Graphviz port by Darwinports</a>
+<br>
+<a href="http://www.ryandesign.com/graphviz/">Mac OS X builds of nightly Graphviz snapshots, provided by Ryan Schmidt.</a>
 <p>
 <b>Windows</b> <br>
 <a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).
