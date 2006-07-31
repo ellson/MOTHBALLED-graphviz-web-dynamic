@@ -23,9 +23,8 @@ suggestions for additions to this list.
 
 <h4><a name="graphical-interfaces">Graphical Interfaces</a></h4>
 Interactive viewers.
-< ul >
-  <li >< a href =
-  "http://www.research.att.com/~john/Grappa/" > Grappa < /a >,
+<ul>
+  <li><a href="http://www.research.att.com/~john/Grappa/"> Grappa </a>,
   a Graph Package for Java
   (also provides graph programming clases)[John Mocenigo]
 <!-- John Mocenigo and Rich Drexler - YOIX not there yet -->
