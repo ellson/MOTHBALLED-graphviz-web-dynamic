@@ -48,13 +48,16 @@ purpose language or system.
 <li>java: <A HREF=""http://www.research.att.com/~john/Grappa/">Grappa</A> (a GUI but offers basic graph classes) [John Mocenigo]
 <li>C# and .NET: <a href="http://www.codeproject.com/cs/miscctrl/quickgraph.asp"> QuickGraph </a> [Jonathan de Halleux]
 <li>COM: <a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> component [Ood Tsen]
-<li>perl: <a href="http://theoryx5.uwinnipeg.ca/CPAN/data/Graphviz/Graphviz.html"> A Perl interface to Graphviz</a> [Leon Brocard]
-<li>perl: <a href="http://search.cpan.org/~jgs/Tk-Graphviz/">Tk::Graphviz</a> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]
+<li>perl: <a href="http://search.cpan.org/~lbrocard/GraphViz-2.02/lib/GraphViz.pm"> A Perl interface to Graphviz</a> [Leon Brocard]
+<li>perl: <a href="http://search.cpan.org/~jgs/Tk-GraphViz/">Tk::GraphViz</a> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]
 <li>perl: <a href="http://cpan.valueclick.com/modules/by-module/Graph/"> Graph-ReadWrite module that supports 'dot' syntax graphs</a> [Neil Bowers]
-<li>perl: <a href="http://search.cpan.org/search?dist=Graphviz-DBI"> Graphviz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]
+<li>perl: <a href="http://search.cpan.org/search?dist=GraphViz-DBI"> GraphViz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]
 <li>perl: <a href="http://search.cpan.org/search?query=graphviz&amp;mode=all">100 more hits in CPAN</a>
-<li>perl: <a href="http://search.cpan.org/search?dist=Graphviz-ISA"> Graphviz::ISA</a> - graph Perl packages' ISA runtime hierarchies [Marcel Grunauer]
+<li>perl: <a href="http://search.cpan.org/search?dist=GraphViz-ISA"> GraphViz::ISA</a> - graph Perl packages' ISA runtime hierarchies [Marcel Grunauer]
 <li>python: <a href="http://dkbza.org/pydot.html">PyDOT</a> - Python library for writing dot files and calling gv to render them [Ero Carrera]
+<li>perl: <a href="http://search.cpan.org/~tels/Graph-Easy/">Graph::Easy</a> is a rectilinear graph drawing program compatible with Graphviz and written<br>
+entirely in perl for ease of installation. 
+It also has a <a href="http://search.cpan.org/~tels/mediawiki-graph/">MediaWiki</a> extension.  [Tels]
 <li>python: <a href="http://www.geocities.com/foetsch/mfgraph/index.htm">mfgraph</a> - C++ interface with native bindings for python [Michael F&ouml;etsch]
 <li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]
 <li>ruby: <a href="http://raa.ruby-lang.org/project/ruby-graphviz/">RAA</a>
@@ -191,6 +194,8 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <!-- -------------------- -->
 <h4><a name="document-preparation">Document preparation with Graphviz</a></h4>
 <ul>
+<li> <a href="http://www.fauskes.net/code/dot2tex/">dot2tex</a> is a LaTeX-friendly converter from Graphviz (xdot) to converting xdot PSTricks or PGF/TikZ commands, with support for LaTeX labels and arrows.
+[Kjell Magne Fauske]
 <li> <a href="http://users.skynet.be/ppareit/projects/graphviz-dot-mode/graphviz-dot-mode.html">graphviz mode for emacs</a>
 (or <a href="Misc/graphviz-dot-mode.el">here</a>).
 <li> <a href="http://brighten.bigw.org/projects/ladot/">Ladot</a>: scripts for including LaTeX in your Graphviz files [Brighten Godfrey]
