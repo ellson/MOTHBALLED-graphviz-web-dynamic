@@ -34,7 +34,7 @@ proc puts_latest {fout docroot dir package type} {
 	foreach {excl} $packages_exclude {
 	    if {[string first $excl $fn] == 0} {incr exclude_this}
 	}
-	if {$exclude_this} {continue)
+	if {$exclude_this} {continue}
         if {[string first $package $fn] == 0} {
             lappend PACKAGE([list $n $t]) [list $fn $v]
         }
