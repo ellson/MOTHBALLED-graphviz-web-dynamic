@@ -14,6 +14,7 @@ set packages {
 
 set package_exclude {
     graphviz-cairo
+    graphviz-python-2.8-1.fc4
 }
 
 set platforms {
