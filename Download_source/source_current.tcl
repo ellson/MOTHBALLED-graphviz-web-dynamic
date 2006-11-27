@@ -12,7 +12,7 @@ set packages {
     webdot
 }
 
-set packages_exclude {
+set package_exclude {
     graphviz-cairo
 }
 
@@ -20,7 +20,7 @@ set platforms {
     Sources {tar.gz tar.gz.md5} ""
 }
                                                                                 
-proc puts_latest {fout docroot dir package type} {
+proc puts_latest {fout docroot dir package package_exclude type} {
     set regexp {([-a-z]*)([-0-9.]*)([a-z][.a-z0-9]*)}
     if {![file exists $docroot/$dir]} {
         puts $fout "<font color=\"red\">Directory \"$docroot/$dir/\" was not found.</font>"
@@ -31,7 +31,7 @@ proc puts_latest {fout docroot dir package type} {
     foreach {fn n v t} [regexp -all -inline $regexp [glob -nocomplain *]] {
         if {[file isdir $fn]} {continue}
 	set exclude_this 0
-	foreach {excl} $packages_exclude {
+	foreach {excl} $package_exclude {
 	    if {[string first $excl $fn] == 0} {incr exclude_this}
 	}
 	if {$exclude_this} {continue}
@@ -77,7 +77,7 @@ foreach package $packages {
         foreach {releasename releasedir} $releases {
             puts $fout "<td align=\"left\"><font size=\"-1\">"
             foreach type $types {
-                puts_latest $fout $docroot $releasedir $package $type
+                puts_latest $fout $docroot $releasedir $package $package_exclude $type
             }
             puts $fout "</font></td>"
         }
