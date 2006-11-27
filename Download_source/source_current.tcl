@@ -12,6 +12,10 @@ set packages {
     webdot
 }
 
+set packages_exclude {
+    graphviz-cairo
+}
+
 set platforms {
     Sources {tar.gz tar.gz.md5} ""
 }
@@ -26,6 +30,11 @@ proc puts_latest {fout docroot dir package type} {
     cd $docroot/$dir
     foreach {fn n v t} [regexp -all -inline $regexp [glob -nocomplain *]] {
         if {[file isdir $fn]} {continue}
+	set exclude_this 0
+	foreach {excl} $packages_exclude {
+	    if {[string first $excl $fn] == 0} {incr exclude_this}
+	}
+	if {$exclude_this} {continue)
         if {[string first $package $fn] == 0} {
             lappend PACKAGE([list $n $t]) [list $fn $v]
         }
