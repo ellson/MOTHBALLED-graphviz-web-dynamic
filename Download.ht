@@ -54,38 +54,29 @@ for the contents of these software products.
 <b>Linux</b> <br>
 <a href="http://packages.debian.org/unstable/graphics/graphviz.html">Debian package</a>
 <br>
+<a href="http://packages.ubuntu.com/edgy/graphics/graphviz">Ubuntu package</a>
+<br>
 Fedora extras <a href="http://www.fedoraproject.org/extras/3">3</a>
 <a href="http://www.fedoraproject.org/extras/4">4</a>
 <a href="http://www.fedoraproject.org/extras/5">5</a>
-<a href="http://www.fedoraproject.org/extras/development">development (aka 6)</a>
-packages.  (Note: as of 29 June 2006 fonts are broken in FC5, use
-<a href="http://www.graphviz.org/pub/graphviz/CURRENT/">
-our RPM</a> instead.)
+<a href="http://www.fedoraproject.org/extras/6">6</a>
+<a href="http://www.fedoraproject.org/extras/development">development (aka 7)</a>
+packages. 
 <p>
 <b>Apple</b> <br>
 <a href="http://www.pixelglow.com/graphviz/">Pixelglow Graphviz for Mac OSx.</a>
-An enhanced GUI application based on Graphviz code.
+An enhanced GUI application based on Graphviz 2.2 (but out of date, not maintained).
 <br>
-<a href="http://darwinports.opendarwin.org/darwinports/dports/graphics/graphviz/Portfile">Graphviz port by Darwinports</a>
+<a href="http://graphviz.darwinports.com/">Mac OS X (Darwinports)</a>
 <br>
 <a href="http://www.ryandesign.com/graphviz/">Mac OS X builds of nightly Graphviz snapshots, provided by Ryan Schmidt.</a>
 <p>
 <b>Windows</b> <br>
 <a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).
 <p>
-<b>Unix</b> <br>
-<a href="http://www.freshports.org/graphics/graphviz/">FreeBSD</a>
-<a href="http://www.openbsd.org/ports.html#Get">OpenBSD (old)</a>
-<a href="http://www.phil.uu.nl/%7Ejs/graphviz/">Mac OS X</a>
-also <a href="http://www.bell-labs.com/cgi-user/wwexptools/gensnapshot/powerpc-apple-darwin/graphviz.tar.gz">here</a>.<br>
-<a href="http://www.bell-labs.com/cgi-user/wwexptools/gensnapshot?graphviz">Graphviz binaries</a> from <a href="http://www.bell-labs.com/project/wwexptools/packages.html">Lucent wwExptools</a> for an impressive array of architectures
-(Sun, HP-UX, SGI IRIX, Cygwin, Apple).
-<p>
-<b>Really Olde Executable Packages for version 1.7+</b><br>
-<a href="Download/old/gviz17c.sol.i386.tgz">Sun x86 Solaris 5.7</a> <br>
-<a href="Download/old/gviz17c.hp10.pa.tgz">HPUX B.10.20</a><br>
-<a href="Download/old/gviz17c.osf.alpha.tgz">DEC Alpha OSF V4.0</a> <br>
-<a href="Download/old/gviz17c.sgi.mips3.tgz">SGI MIPS3 Irix6.5</a><br>
+<b>Other Unix</b> <br>
+<a href="http://www.freshports.org/graphics/graphviz/">FreeBSD</a><br>
+<a href="http://www.genunix.org/wiki/index.php/Graphviz">Solaris</a>
 <p>
 <H3>Fonts</H3>
 <a href="Misc/fonts.tgz">FreeType-compatible</a>.
@@ -95,4 +86,4 @@ on legacy Unix systems that lack native fonts.
 <h3><A HREF="Misc/spline-o-matic/">Spline-o-matic</A> distribution</h3>
 <A href="Misc/spline-o-matic/splino.tgz">Source code</A>
 for a reusable spline path router library and Tcl/Tk GUI
-(for experts only).
+(experts only).
