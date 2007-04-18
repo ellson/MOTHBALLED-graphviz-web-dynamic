@@ -72,17 +72,25 @@ dot - makes ``hierarchical'' or layered drawings of directed graphs.
 The layout algorithm
 aims edges in the same direction (top to bottom, or left to right) and
 then attempts to avoid edge crossings and reduce edge length.
+<a href="Gallery/directed/cluster.html">
+<img src="Gallery/directed/cluster.small.png" border="0" alt="" align="top">
+</a>
 
 <li>
 neato and fdp - make ``spring model'' layouts.  neato uses the Kamada-Kawai
 algorithm, which is equivalent to statistical multi-dimensional scaling.
 fdp implements the Fruchterman-Reingold heuristic including a multigrid
 solver that handles larger graphs and clustered undirected graphs.
+<a href="Gallery/directed/cluster.html">
+<img src="Gallery/directed/cluster.small.png" border="0" alt="" align="top">
+</a>
 <li>
-twopi - radial layout, after Graham Wills 97.
+twopi - radial layout, after Graham Wills 97. The nodes are placed on
+concentric circles depending their distance from a given root node.
 <li>
 circo - circular layout, after Six and Tollis 99, Kauffman and Wiese 02.
-Suitable for certain diagrams of multiple cyclic structures.  
+This is suitable for certain diagrams of multiple cyclic structures such
+as certain telecommunications networks.  
 </ul>
 
 <h2>Viewers</h2>
