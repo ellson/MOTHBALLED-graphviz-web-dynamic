@@ -1,5 +1,5 @@
 [<a HREF="#graphical-interfaces">GUIs</a>]
-[<a HREF="#language-bindings">language bindings</a>]
+[<a HREF="#language-bindings">external bindings (web, programming language)</a>]
 [<a HREF="#generators-and-translators">generators</a>]
 [<a HREF="#network-and-web">network and web engineering</a>]
 [<a HREF="#ai-and-language">AI and natural language</a>]
@@ -46,7 +46,7 @@ for .dot graph files. [Walter Stroebel]
 Interfaces that allow graphviz to be called from a general
 purpose language or system.
 <ul>
-<li>web: <A HREF="http://www.wickle.com/wikis/index.php/Graphviz_extension">MediaWiki</A> extension [Coffman] (also for <A HREF="http://www.wickle.com/wiki/index.php/Windows_Graphviz_Installation_Instructions">Windows</A> [Dknox])
+<li>web: <A HREF="http://www.mediawiki.org/wiki/Extension:GraphViz">MediaWiki</A> extension [Coffman] (also for <A HREF="http://www.wickle.com/wiki/index.php/Windows_Graphviz_Installation_Instructions">Windows</A> [Dknox])
 <li>python: <A HREF="http://yapgvb.sourceforge.net/">yapgvb</A> is Yet Another Graphviz Python Binding [Lonnie Princehouse]
 <li>java: a <A HREF="http://www.lmonson.com/downloads/dotparser/">parser</A> for dot files [Lynn Monson]
 <li>java: <A HREF=""http://www.research.att.com/~john/Grappa/">Grappa</A> (a GUI but offers basic graph classes) [John Mocenigo]
