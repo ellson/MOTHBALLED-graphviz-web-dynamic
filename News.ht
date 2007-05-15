@@ -136,7 +136,7 @@ graph viewer</a>
 <h4>Agraph library <a href="http://www.research.att.com/sw/tools/graphviz/Agraph.pdf">tutorial</a></h4>
 <h4>WinGraphviz update</h4>
 Added CMAP support.  The 
-<a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">
+<a href="http://wingraphviz.sourceforge.net/wingraphviz/">
 download</a> includes support for the most common output formats
 for dot and neato, and sample ASP code.  Thanks to ood Tsen!
 <h4>Neato -Gpack</h4>

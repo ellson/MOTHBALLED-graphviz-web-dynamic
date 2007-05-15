@@ -74,7 +74,7 @@ Latest stable version of Graphviz for Mac OS X
 An enhanced GUI application for Mac OS X based on Graphviz 1.13 (out of date, not maintained)
 <p>
 <b>Windows</b> <br>
-<a href="http://home.so-net.net.tw/oodtsen/wingraphviz/index.htm">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).
+<a href="http://wingraphviz.sourceforge.net/wingraphviz/">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).
 <p>
 <b>Other Unix</b> <br>
 <a href="http://www.freshports.org/graphics/graphviz/">FreeBSD</a><br>
