@@ -91,7 +91,7 @@ Filters that transform other data sources and formats into Graphviz.
 <li>gprof filters - <a href="Misc/pl_from_gprof.pl">pl_from_gprof</a>
 and <a href="Misc/dot_from_pl.pl">dot_from_pl</a> [Robert Nielsen]
 and an old <a href="Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]
-<li><a href="http://mypage.bluewin.ch/huanderegg/ClanDraw/ClanDraw.pdf">Family relationship</a> genealogy visualization, works with GEDCOM, Java 1.5 [Hansuli Anderegg]
+<li><a href="http://mypage.bluewin.ch/huanderegg/ClanDraw/ClanDraw.pdf">ClanDraw</a> family relationship (genealogy) visualization, works with GEDCOM, Java 1.5 [Hansuli Anderegg]
 </ul>
 
 <!-- -------------------- -->
