@@ -12,8 +12,8 @@ set packages {
 }
 
 set platforms {
-    Sources {src.tgz} ""
-    Windows {exe bin.tgz} "Microsoft Windows"
+    Sources {tar.gz} ""
+    Windows {exe bin.tar.gz} "Microsoft Windows"
 }
                                                                                 
 proc puts_latest {fout docroot dir package type} {
@@ -61,12 +61,17 @@ foreach package $packages {
     puts $fout "</tr>"
     puts $fout "</tbody>"
     foreach {platform types comment} $platforms {
+        if {$platform == "Sources"} {
+            set pkg $package-win
+        } else {
+            set pkg $package
+        }
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
         foreach {releasename releasedir} $releases {
             puts $fout "<td align=\"left\"><font size=\"-1\">"
             foreach type $types {
-                puts_latest $fout $docroot $releasedir $package $type
+                puts_latest $fout $docroot $releasedir $pkg $type
             }
             puts $fout "</font></td>"
         }
