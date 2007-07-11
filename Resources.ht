@@ -146,7 +146,7 @@ a C++ class for creating a prefix tree representation of a given lexicon.
 <li><a href="http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html">anifsm</A> animates graphs in dot format via tcldot (part of the <A HREF="http://fmt.cs.utwente.nl/tools/torxviz/">TorX</A> software visualization suite) [Alex Belinfante and TorX consortium]
 <li><a href="http://www.doxygen.org/"> doxygen</a> uses graphviz to produce class hierarchies and other diagrams directly from source code [Dimitri van Heesch]
 <li><a href="http://nmdepend.sourceforge.net/">nmdepend</a> is a lightweight link-time dependency analyzer for C/C++ object files and libraries, helps manage cross-directory dependencies [Eddy Pronk]
-<li><a href="http://thyer.name/lambda-animator/">Lambda Animator</a> is a tool for demonstrating and experimenting with alternative reduction strategies in the lambda-calculus. 
+<li><a href="http://thyer.name/lambda-animator/">Lambda Animator</a> is a tool for demonstrating and experimenting with alternative reduction strategies in the lambda-calculus [Mike Thyer]
 <li><a href="http://research.microsoft.com/fse/asml/"> AsmL </a> an executable specification language from Microsoft Research.
 <li> <a href="http://www.spinellis.gr/sw/umlgraph/">UMLGraph</a> - a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot [Diomidis Spinellis] (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-)
 <li><a href="http://rdoc.sourceforge.net">RDOC</a> Ruby documentation [Dave Thomas]
