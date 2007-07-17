@@ -82,7 +82,7 @@ algorithm, which is equivalent to statistical multi-dimensional scaling.
 fdp implements the Fruchterman-Reingold heuristic including a multigrid
 solver that handles larger graphs and clustered undirected graphs.
 <a href="Gallery/directed/cluster.html">
-<img src="Gallery/directed/cluster.small.png" border="0" alt="" align="top">
+<img src="Gallery/undirected/ER.small.png" border="0" alt="" align="top">
 </a>
 <li>
 twopi - radial layout, after Graham Wills 97. The nodes are placed on
