@@ -1,4 +1,49 @@
 <h4>
+Graphviz for Windows (2007)
+</h4>
+The 2.16 release is imminent and will have full support for plugins, Cairo rendering, and fontconfig.
+Stay tuned for even more!
+<h4>
+Tools built on Graphviz
+</h4>
+You can find great tools and demos in our <A HREF="resources.php">Resources</A> section.
+Here's a sample:
+<table align=centered width="80%">
+<tr>
+<td align=center>
+<A HREF="http://www.fauskes.net/code/dot2tex/">
+<img src="News/pgf-snakes.png" width="50%">
+</td>
+<td align=center>
+<A HREF="http://ashitani.jp/gv/">
+<img src="News/ajax.png" width="50%">
+</A>
+</td>
+<td align=center>
+<center>
+<A HREF="http://zvtm.sourceforge.net/zgrviewer.html">
+<img src="News/zgrviewer2_th.png" width="100%">
+</A>
+</td>
+</tr>
+<tr>
+<td align=center>
+<A HREF="http://www.fauskes.net/code/dot2tex/">
+dot2tex
+</td>
+<td align=center>
+<A HREF="http://ashitani.jp/gv/">
+ajax
+</A>
+</td>
+<td align=center>
+<A HREF="http://zvtm.sourceforge.net/zgrviewer.html">
+zoomable applet
+</A>
+</td>
+</tr>
+</table>
+<h4>
 <A HREF="http://home.carolina.rr.com/jcurrier/">John Currier</A>'s <A HREF="http://schemaspy.sourceforge.net/">SchemaSpy</A> is runner up as
 <A HREF="http://www.oreillynet.com/onjava/blog/2006/04/the_2nd_most_useful_javaoracle.html">O'Reilly's most useful Java-Oracle tool</A>. 
 </h4>
