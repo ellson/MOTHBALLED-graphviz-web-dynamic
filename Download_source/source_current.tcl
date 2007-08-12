@@ -120,27 +120,27 @@ puts $fout {
 <h2>Requirements</h2>
 <h3>Dependencies</h3>
 <dl>
-	<dt>cairo-1.1.10.tar.gz [optional (required for pango), recommended]
+	<dt>cairo-1.1.10.tar.gz [optional (required for libpangocairo), recommended]
 	<dd><a href="http://cairographics.org/">http://cairographics.org/</a>
 	<dt>expat-2.0.0.tar.gz
 	<dd><a href="http://expat.sourceforge.net/">http://expat.sourceforge.net/</a> 
-	<dt>freetype-2.1.10.tar.gz [optional (required for pango, optional for gd), recommended]
+	<dt>freetype-2.1.10.tar.gz [optional (required for libpangocairo, optional for gd), recommended]
 	<dd><a href="http://www.freetype.org/">http://www.freetype.org/</a>
 <!--
 	<dt>gd-2.0.33.tar.gz [optional, not recommended but needed for GIF output]
 	<dd><a href="http://www.boutell.com/gd/">http://www.boutell.com/gd/</a>
 -->
-	<dt>fontconfig-2.3.95.tar.gz [optional (required for pango,  optional for gd), recommended]
+	<dt>fontconfig-2.3.95.tar.gz [optional (required for libpangocairo,  optional for gd), recommended]
 	<dd><a href="http://www.fontconfig.org/wiki/">http://www.fontconfig.org/wiki/</a>
 	<dt>urw-fonts.tar.gz [optional, required if fontconfig is unable to find any fonts]
 	<dd><a href="ftp://ftp.gimp.org/pub/gimp/fonts">ftp://ftp.gimp.org/pub/gimp/fonts/</a>
 	<dt>gettext-0.14.5.tar.gz
 	<dd><a href="http://www.gnu.org/software/gettext/">http://www.gnu.org/software/gettext/</a>
-	<dt>glib-2.11.1.tar.gz [optional (required for pango), recommended]
+	<dt>glib-2.11.1.tar.gz [optional (required for libpangocairo), recommended]
 	<dd><a href="http://www.gtk.org/">http://www.gtk.org/</a>
 	<dt>libpng-1.2.10.tar.gz [optional (required for cairo, optional for gd), recommended]
 	<dd><a href="http://www.libpng.org/pub/png/">http://www.libpng.org/pub/png/</a>
-	<dt>pango-1.13.2.tar.gz [optional, recommended]
+	<dt>pango-1.12.4.tar.gz provides libpangocairo [optional, recommended]
 	<dd><a href="http://www.pango.org/">http://www.pango.org/</a>
 	<dt>zlib-1.2.3.tar.gz [optional (required for libpng), recommended]
 	<dd><a href="http://www.zlib.net/">http://www.zlib.net/</a>
