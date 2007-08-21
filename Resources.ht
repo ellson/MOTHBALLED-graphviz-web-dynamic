@@ -39,6 +39,7 @@ a pre-YOIX Graph Package for Java
 <li><a href="http://ashitani.jp/gv/">an AJAX viewer</a> written with Rico [T. Ashitani]
 <li><a href="http://tintfu.sourceforge.net/">TINTFU</a>, a Java-based editor
 for .dot graph files. [Walter Stroebel]
+<li><a href="http://www.ryandesign.com/canviz/">Canviz<a>, an HTML5/Javascript canvas viewer (beta). [Ryan Schmidt]
 </ul>
 
 <!-- -------------------- -->

@@ -25,6 +25,12 @@ Here's a sample:
 <img src="News/zgrviewer2_th.png" width="100%">
 </A>
 </td>
+<td align=center>
+<center>
+<A HREF="http://www.ryandesign.com/canviz/">
+<img src="News/canviz.png" width="40%">
+</A>
+</td>
 </tr>
 <tr>
 <td align=center>
@@ -39,6 +45,11 @@ ajax
 <td align=center>
 <A HREF="http://zvtm.sourceforge.net/zgrviewer.html">
 zoomable applet
+</A>
+</td>
+<td align=center>
+<A HREF="http://www.ryandesign.com/canviz/">
+HTML5 and Javascript
 </A>
 </td>
 </tr>
