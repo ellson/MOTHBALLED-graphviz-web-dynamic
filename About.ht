@@ -272,6 +272,6 @@ provided by <b>tkspline</b>.</dd>
 
 <h3>Contacts</h3>
 <dl>
-<dt><a href="mailto:ellson@graphviz.org">John Ellson</a> (for all Tcl issues and for problems with CVS, RPMS, Makefiles, or this Graphviz web server.)</dt>
-<dt><a href="mailto:north@graphviz.org">Stephen North</a> (for all graph layout issues and for questions about the AT&amp;T license.)</dt>
+<dt><a href="mailto:ellson@graphviz.org">John Ellson</a> (for problems with builds, installation, software configuration or this web server)</dt>
+<dt><a href="mailto:erg@graphviz.org">Emden Gansner</a> (for all graph layout issues)</dt>
 </dl>
