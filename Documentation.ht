@@ -3,7 +3,7 @@
 <dd><a href="/doc/info/lang.html">The DOT Language</a></dd>
 <dd><a href="/doc/info/command.html">Command-line Usage</a></dd>
 <dd><a href="/doc/info/output.html">Output Formats</a></dd>
-<dd><a href="/doc/info/attrs.html">Graph Attributes</a></dd>
+<dd><a href="/doc/info/attrs.html">Node, Edge and Graph Attributes</a></dd>
 <dd><a href="/doc/info/shapes.html">Node Shapes</a></dd>
 <dd><a href="/doc/info/arrows.html">Arrow Shapes</a></dd>
 <dd><a href="/doc/info/colors.html">Colors</a></dd>
