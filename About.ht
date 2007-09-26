@@ -106,7 +106,7 @@ subsequently been ported to Microsoft Windows.
 <a href="/webdot/">WebDot</a>.
 - a tcldot scripted WWW service for graphs in HTML documents.
 There is also
-<a href="http://www.research.att.com/sw/tools/graphviz/webdot.cgi.pl">
+<a href="http://www.research.att.com/Misc/webdot.pl">
 a simplified version</a>
 written in perl.
 <li>
