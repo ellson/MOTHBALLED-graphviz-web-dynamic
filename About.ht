@@ -106,9 +106,7 @@ subsequently been ported to Microsoft Windows.
 <a href="/webdot/">WebDot</a>.
 - a tcldot scripted WWW service for graphs in HTML documents.
 There is also
-<a href="http://www.research.att.com/Misc/webdot.pl">
-a simplified version</a>
-written in perl.
+<a href="/Misc/webdot.pl">a simplified version</a> written in perl.
 <li>
 <a href="http://www.research.att.com/~john/Grappa/">Grappa</a>
 - a Java package for graphs with full Java graph data structures
