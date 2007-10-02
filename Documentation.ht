@@ -34,8 +34,7 @@ on-line pages listed above.</dd>
 <dd><a href="Documentation/EGKNW03.pdf">Graphviz and Dynagraph - Static and Dynamic Graph Drawing Tools</a> - a condensed overview.</dd>
 <dd><a href="Documentation/GN99.pdf">An open graph visualization system and its applications to software engineering</a> (<A HREF="http://citeseer.ist.psu.edu/gansner99open.html">citeseer</A>) - longer overview, preferred for citation</dd>
 <dd><a href="http://www.research.att.com/areas/visualization/papers_videos/abstracts/2004gkn_2.html">Graph Drawing by Stress Majorization</a> - new algorithm (run <tt>neato -Gmodel=subset</tt>) for larger networks.</dd>
-<dd><a href="http://www.research.att.com/areas/visualization/papers_videos/abstracts/2004gkn_1.html">Topological Fisheye Views for Visualizing Large Graphs</A> - a new approach</dd>
-<!-- <dd><a href="Documentation/GI94.pdf">Applications of Graph Visualization</a></dd> -->
+<dd><a href="http://www.research.att.com/areas/visualization/papers_videos/abstract.php?id=DBLP-conf-infovis-GansnerKN04">Topological Fisheye Views for Visualizing Large Graphs</A> - a new approach</dd>
 <dd><a href="Documentation/TSE93.pdf">A method for drawing directed graphs</a>-
 dot's algorithm (1993) (<A HREF="http://citeseer.ist.psu.edu/gansner93technique.html">citeseer</A>).</dd>
 <!-- <dd><a href="Documentation/EN96.pdf">tcldg</a>- incremental layout architecture</dd> -->
