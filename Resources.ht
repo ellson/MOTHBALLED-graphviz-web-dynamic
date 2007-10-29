@@ -34,12 +34,19 @@ called YDAT that provides interactive display of GraphViz files
 (use  <tt>-Txdot -y</tt>) [John Mocenigo]
 <li><a href="http://www.research.att.com/~john/Grappa/"> Grappa </a>,
 a pre-YOIX Graph Package for Java
-(also provides graph programming clases)[John Mocenigo]
+(also provides graph programming classes)[John Mocenigo]
 <li><a href="http://www.pixelglow.com/graphviz/">Pixelglow's document-based GUI</a> for Mac OS X (slightly out of date, but won a 2004 award from Apple) [Glen Low]
 <li><a href="http://ashitani.jp/gv/">an AJAX viewer</a> written with Rico [T. Ashitani]
 <li><a href="http://tintfu.sourceforge.net/">TINTFU</a>, a Java-based editor
 for .dot graph files. [Walter Stroebel]
 <li><a href="http://www.ryandesign.com/canviz/">Canviz<a>, an HTML5/Javascript canvas viewer (beta). [Ryan Schmidt]
+<li><a href="http://www.bioquest.org/esteem/esteem_details.php?product_id=6509">BioGrapher</a> Excel front-end (WinXP and Mac) for Graphviz that
+allows the user to
+specify graphs in a spreadsheet using adjacency matrix, node
+list or Newick notation (for phylogenetic trees)
+and  visualize the layout generated
+by Graphviz as an Excel (vector graphics) picture object.
+[Rama Viswanathan]
 </ul>
 
 <!-- -------------------- -->
@@ -49,7 +56,9 @@ Interfaces that allow graphviz to be called from a general
 purpose language or system.
 <ul>
 <li>web: <A HREF="http://www.mediawiki.org/wiki/Extension:GraphViz">MediaWiki</A> extension [Coffman] (also for <A HREF="http://www.wickle.com/wiki/index.php/Windows_Graphviz_Installation_Instructions">Windows</A> [Dknox])
-<li>python: <A HREF="http://yapgvb.sourceforge.net/">yapgvb</A> is Yet Another Graphviz Python Binding [Lonnie Princehouse]
+<li>python: <A HREF="http://yapgvb.sourceforge.net/">yapgvb</A> Yet Another Graphviz Python Binding [Lonnie Princehouse]
+<li>python: <a href="http://www.geocities.com/foetsch/mfgraph/index.htm">mfgraph</a> - C++ interface with native bindings for python [Michael F&ouml;etsch]
+<li>python: <a href="http://software.inl.fr/trac/trac.cgi/wiki/GvGen">GvGen</a> - a python class to generate dot files [Sebastien Tricaud]
 <li>java: a <A HREF="http://www.lmonson.com/downloads/dotparser/">parser</A> for dot files [Lynn Monson]
 <li>java: <A HREF="http://www.research.att.com/~john/Grappa/">Grappa</A> (a GUI but offers basic graph classes) [John Mocenigo]
 <li>C# and .NET: <a href="http://www.codeproject.com/cs/miscctrl/quickgraph.asp"> QuickGraph </a> [Jonathan de Halleux]
@@ -63,7 +72,6 @@ purpose language or system.
 <li>perl: <a href="http://search.cpan.org/~tels/Graph-Easy/">Graph::Easy</a> is a rectilinear graph drawing program compatible with Graphviz and written<br>
 entirely in perl for ease of installation. 
 It also has a <a href="http://search.cpan.org/~tels/mediawiki-graph/">MediaWiki</a> extension.  [Tels]
-<li>python: <a href="http://www.geocities.com/foetsch/mfgraph/index.htm">mfgraph</a> - C++ interface with native bindings for python [Michael F&ouml;etsch]
 <li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]
 <li>ruby: <a href="http://raa.ruby-lang.org/project/ruby-graphviz/">RAA</a>
 <li> <a href="http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4518&amp;objectType=file">MatLab</a> [Leon Peshkin]
