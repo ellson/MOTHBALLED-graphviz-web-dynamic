@@ -7,6 +7,7 @@
 [<a HREF="#software-engineering">software engineering</a>]
 [<a HREF="#bio-informatics">bio-informatics</a>]
 [<a HREF="#document-preparation">document preparation</a>]
+[<a HREF="#social-networking">social networking</a>]
 [<a HREF="#third-party-distributions">third-party distributions</a>]
 <p>
 These are some representative external resources.
@@ -220,6 +221,13 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <li><a href="http://www.texmacs.org/">TeXmacs</a>, a scientific text editor, inspired by TeX and GNU Emacs, has a Graphviz interface [Joris van der Hoeven]
 <li><a href="http://www.aivosto.com/visustin.html">Visustin flow chart generator</a>[Aivosto]
 <li> <a href="http://paco.to/blog/000040.html"> Using Mac OmniGraffle </a> with Graphviz blog entry [Pac Hope]
+</ul>
+
+<!-- -------------------- -->
+<h4><a name="social-networking">Social Networking</a></h4>
+<ul>
+<li><a href="http://www.research.att.com/~volinsky/cgi-bin/prox/prox.pl">Proximity Subgraphs</a> - visualize communities in the Internet Movie Database
+<li><a href="http://www.hammondjazz.net/index.php?page=article&task=current&mode=detail&section=News&target=70">Hammond Jazz Inventory</a> - show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!)
 </ul>
 
 <!-- -------------------- -->
