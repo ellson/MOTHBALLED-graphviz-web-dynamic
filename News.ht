@@ -1,8 +1,25 @@
 <h4>
 Graphviz for Windows (2007)
 </h4>
-The 2.16 release is imminent and will have full support for plugins, Cairo rendering, and fontconfig.
-Stay tuned for even more!
+The 2.16 release occurred on 9 November. In general, in addition to
+various bug fixes, the release provides three new node shapes, "tab", "box3d" 
+and "component", provided by Diomidis Spinellis, and we've added support 
+for the "image" and "imagescale" attributes to simplify 
+the use of images in nodes.
+<p>
+More importantly for Windows users, the release provides many system 
+features which were previously only available on Unix systems. These include:
+<ul>
+<li> Rendering using the Cairo library. In particular, using this it is
+possible to get PostScript output using general Unicode input and 
+non-Type 1 fonts.
+<li> Font naming using the fontconfig library.
+<li> Support for plug-ins. With this architectural change, users can add
+their own layout engines or renderers without having to make any changes
+to the Graphviz programs.
+<li> The <it>gvpr</it> tool, which enables a user to process graphs
+simply.
+</ul>
 <h4>
 Tools built on Graphviz
 </h4>
@@ -12,23 +29,23 @@ Here's a sample:
 <tr>
 <td align=center>
 <A HREF="http://www.fauskes.net/code/dot2tex/">
-<img src="News/pgf-snakes.png" width="50%">
+<img src="News/pgf-snakes.png" width="160">
 </td>
 <td align=center>
 <A HREF="http://ashitani.jp/gv/">
-<img src="News/ajax.png" width="50%">
+<img src="News/ajax.png" width="160">
 </A>
 </td>
 <td align=center>
 <center>
 <A HREF="http://zvtm.sourceforge.net/zgrviewer.html">
-<img src="News/zgrviewer2_th.png" width="100%">
+<img src="News/zgrviewer2_th.png" width="160">
 </A>
 </td>
 <td align=center>
 <center>
 <A HREF="http://www.ryandesign.com/canviz/">
-<img src="News/canviz.png" width="40%">
+<img src="News/canviz.png" width="160">
 </A>
 </td>
 </tr>
