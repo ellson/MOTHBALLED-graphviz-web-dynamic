@@ -13,7 +13,7 @@ set packages {
 
 set platforms {
     Sources {tar.gz} ""
-    Windows {exe bin.tar.gz} "Microsoft Windows"
+    Windows {exe bin.tar.gz static.exe static.bin.tar.gz} "Microsoft Windows"
 }
                                                                                 
 proc puts_latest {fout docroot dir package type} {
