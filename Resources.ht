@@ -48,6 +48,7 @@ list or Newick notation (for phylogenetic trees)
 and  visualize the layout generated
 by Graphviz as an Excel (vector graphics) picture object.
 [Rama Viswanathan]
+<li><a href="http://graph.gafol.net/">graph.gafol.net<a>, a service which helps to create and publish graphs online. [Paul Colomiets]
 </ul>
 
 <!-- -------------------- -->
