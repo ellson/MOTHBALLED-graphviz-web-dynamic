@@ -108,11 +108,14 @@ and an old <a href="Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]
 <!-- -------------------- -->
 <h4><a name="network-and-web">Network and Web Engineering Tools Using Graphviz</a></h4>
 <ul>
+<li> <a href="http://afterglow.sourceforge.net/">afterglow</a> is a collection of scripts to generate graphs for Graphviz (and LGL), from various network logs and firewall rulesets [Raffael Marty] (see also <a href="http://dev.inversepath.com/trac/tenshi">tenshi</a> for logfile filtering)
 <li> <a href="http://sourceforge.net/projects/safemap">SMART</A> passive network flow visualization tool  [Cisco's Critical Infrastructure Assurance Group (CIAG) Research team]
 <li> <a href="http://map.efnet.org/">EFnet</A> IRC Network server routing maps [Douglas Boldt]
+<!--- seems dead
 <li> <a href="http://freshmeat.net/projects/spamviz/">SpamViz</a> generates *.dot
 file of network resources - primary intent is spam-net hunting,
 but any domain can be graphed [Mike Zick]
+-->
 <li> <a href="http://netmap.sourceforge.net/">netmap</a> draws the
 route connecting you with the Internet
 <li><a href="http://pear.php.net/package-info.php?package=Image_Graphviz">Image_Graphviz</a> class in PHP's <a href="http://pear.php.net/">PEAR repository</a> [Sebastian Bergmann] 
