@@ -119,7 +119,7 @@ but any domain can be graphed [Mike Zick]
 <li> <a href="http://netmap.sourceforge.net/">netmap</a> draws the
 route connecting you with the Internet
 <li><a href="http://pear.php.net/package-info.php?package=Image_Graphviz">Image_Graphviz</a> class in PHP's <a href="http://pear.php.net/">PEAR repository</a> [Sebastian Bergmann] 
-<li><a href="http://www.phpOpenTracker.de">phpOpenTracker</a> uses Image_Graphviz to <a href="http://www.phpOpenTracker.de/images/all_paths.png">visualize clickpaths</a> taken by users on websites. [Sebastian Bergmann]
+<li><a href="http://www.phpOpenTracker.de">phpOpenTracker</a> uses Image_Graphviz to <a href="http://www.phpopentracker.de/docs/en/api-reference.html#api-reference.api-calls.all_paths">visualize clickpaths</a> taken by users on websites. [Sebastian Bergmann]
 <li>
 <a href="http://pathalizer.sourceforge.net/">Pathalizer</a> visualizes paths traversed by users through web sites [Arnout Engelen]
 <li><a href="http://www.chaosreigns.com/code/apache2dot">apache2dot</a>
@@ -165,7 +165,7 @@ a C++ class for creating a prefix tree representation of a given lexicon.
 <li> <a href="http://www.spinellis.gr/sw/umlgraph/">UMLGraph</a> - a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot [Diomidis Spinellis] (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-)
 <li><a href="http://rdoc.sourceforge.net">RDOC</a> Ruby documentation [Dave Thomas]
 <li><a href="http://www.lo-res.org/~aaron/yaccviso/">YaccViso</a> YACC visualization tool
-<li> <a href="http://www.fokus.gmd.de/research/cc/glone/employees/joerg.schilling/private/index.html">calltree</a> generates dot representations of callgraphs from C sources [J&ouml;rg Schillin]
+<li> <a href="http://kcachegrind.sourceforge.net/cgi-bin/show.cgi">Callgrind</a> makes callgraphs from <a href="http://kcachegrind.sourceforge.net/cgi-bin/show.cgi/KcacheGrindValgrind">Valgrind</A> [J&ouml;rg Schillin and Josef Weidendorfer]
 <li> <a href="http://www.tcs.hut.fi/maria/"> Maria</a> - Modular Reachability Analyzer - a reachability analyzer for concurrent systems that uses Algebraic System Nets as its modelling formalism [Marko M&auml;kel&auml;]
 
 <li> <a href="http://www.inxar.org/syntacs/">Syntacs Translation Toolkit</a> (<a href="http://www.inxar.org/syntacs/inxar/syntacs/docs/lexerman/lexerman.html#SEC20">example</a>)
@@ -241,7 +241,7 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <li><a href="http://dag.wieers.com/packages/graphviz/"><img src="Resources/dag.png" border="0" alt="dag logo"> Dag Wieers</a> - rpms for some RedHat Linux distributions.
 <li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&amp;submit=Search+...&amp;system=&amp;arch=">RPM Find</a> - many distros and architectures.
 <li><a href="http://packages.debian.org/unstable/graphics/graphviz.html"><img src="Resources/debian-logo.png" border="0" alt="debian logo"> Debian</a> - Linux packages for several architectures.
-<li><a href="http://packages.gentoo.org/search/?sstring=graphviz"><img src="Resources/gentoo.jpeg" border="0" alt="gentoo logo"> Gentoo</a> - Linux packages.
+<li><a href="http://mirror.linux.org.mt/mirror/gentoo-portage/media-gfx/graphviz/"><img src="Resources/gentoo.jpeg" border="0" alt="gentoo logo"> Gentoo-portage</a> - Linux packages.
 <li><a href="http://download.fedora.redhat.com/pub/fedora/linux/extras/"><img src="Resources/fedora_logo.png" border="0" alt="fedora logo"> Fedora Extras</a> - rpms for Fedora Core 3 and later.
 <li><a href="http://freshmeat.net/search/?q=graphviz&amp;section=projects&amp;Go.x=0&amp;Go.y=0"><img src="Resources/freshmeat-logo.gif" border="0" alt="freshmeat logo"> FreshMeat</a> - related projects from a search for "graphviz".
 <li><a href="http://www.bell-labs.com/project/wwexptools/packages.html"><img src="Resources/lucent-logo.gif" border="0" alt="lucent logo"> WWExptools</a> - binaries for many Unix variants.
