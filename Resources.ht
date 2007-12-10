@@ -140,7 +140,7 @@ uses graphviz to display usage patterns showing how users are using your web sit
 <ul>
 <li>Andreas Romeyke's <a href="http://andreas-romeyke.de/privat/txt2graph/txt2graph.html"> txt2graph</a> - visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout
 <li>
-<a href="http://protege.stanford.edu/plugins/ontoviz/ontoviz.html">Ontoviz</a>
+<a href="http://protege.cim3.net/cgi-bin/wiki.pl?OntoViz">Ontoviz</a>
 is a plugin for displaying knowledge base diagrams in the
 <a href="http://protege.stanford.edu/">Protoge</a> system
 <li> <a href="http://www.canoo.net/services/WordformationDictionary/Controller"> CanooNet </a>, a German word formation dictionary. (Try 
@@ -197,7 +197,7 @@ Relational structures abound in the study of biological information.
 The following list barely scratches the surface.
 <ul>
 <li><a name="Rgraphviz" href="http://www.bioconductor.org/repository/release1.4/package/html/Rgraphviz.html">R-Graphviz</a>
-(<a href="http://www.bioconductor.org/repository/devel/vignette/Rgraphviz.pdf">guide</a>)
+(<a href="http://bioconductor.org/packages/1.9/bioc/vignettes/Rgraphviz/inst/doc/Rgraphviz.pdf">guide</a>)
 from the Bio-Conductor project integrates graphs and statistical models.
 [Robert Gentleman, Jeff Gentry and the R team]
 <li><I>Science</I> Online
