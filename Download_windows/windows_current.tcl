@@ -70,11 +70,11 @@ foreach package $packages {
     puts $fout "</tr>"
     puts $fout "</tbody>"
     foreach {platform types comment} $platforms {
-        if {$platform == "Sources"} {
-            set pkg $package-win
-        } else {
+#        if {$platform == "Sources"} {
+#            set pkg $package-win
+#        } else {
             set pkg $package
-        }
+#        }
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
         foreach {releasename releasedir} $releases {
