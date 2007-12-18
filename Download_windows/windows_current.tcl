@@ -12,7 +12,7 @@ set packages {
 }
 
 set package_exclude {
-    graphviz-win*
+    graphviz-win-
 }
 
 set platforms {
@@ -32,7 +32,7 @@ proc puts_latest {fout docroot dir package package_exclude type} {
         if {[file isdir $fn]} {continue}
 	set exclude_this 0
         foreach {excl} $package_exclude {
-            incr exclude_this [string match $excl $fn]
+	    if {[string first $excl $fn] == 0} {incr exclude_this}
         }
         if {$exclude_this} {continue}
         if {[string first $package $fn] == 0} {
@@ -70,11 +70,7 @@ foreach package $packages {
     puts $fout "</tr>"
     puts $fout "</tbody>"
     foreach {platform types comment} $platforms {
-#        if {$platform == "Sources"} {
-#            set pkg $package-win
-#        } else {
-            set pkg $package
-#        }
+        set pkg $package
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
         foreach {releasename releasedir} $releases {
