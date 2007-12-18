@@ -30,10 +30,6 @@ Here's a sample:
 <td align=center>
 <A HREF="http://www.fauskes.net/code/dot2tex/">
 <img src="News/pgf-snakes.png" width="160">
-</td>
-<td align=center>
-<A HREF="http://ashitani.jp/gv/">
-<img src="News/ajax.png" width="160">
 </A>
 </td>
 <td align=center>
@@ -48,16 +44,16 @@ Here's a sample:
 <img src="News/canviz.png" width="160">
 </A>
 </td>
+<td align=center>
+<A HREF="http://ashitani.jp/gv/">
+<img src="News/ajax.png" width="160">
+</A>
+</td>
 </tr>
 <tr>
 <td align=center>
 <A HREF="http://www.fauskes.net/code/dot2tex/">
 dot2tex
-</td>
-<td align=center>
-<A HREF="http://ashitani.jp/gv/">
-ajax
-</A>
 </td>
 <td align=center>
 <A HREF="http://zvtm.sourceforge.net/zgrviewer.html">
@@ -67,6 +63,11 @@ zoomable applet
 <td align=center>
 <A HREF="http://www.ryandesign.com/canviz/">
 HTML5 and Javascript
+</A>
+</td>
+<td align=center>
+<A HREF="http://ashitani.jp/gv/">
+ajax
 </A>
 </td>
 </tr>
