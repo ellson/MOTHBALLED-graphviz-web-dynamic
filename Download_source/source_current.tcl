@@ -14,6 +14,7 @@ set packages {
 
 set package_exclude {
     graphviz-cairo
+    graphviz-win*
 }
 
 set platforms {

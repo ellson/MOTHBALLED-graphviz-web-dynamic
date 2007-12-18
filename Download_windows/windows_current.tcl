@@ -11,12 +11,16 @@ set packages {
     graphviz
 }
 
+set package_exclude {
+    graphviz-win*
+}
+
 set platforms {
     Sources {tar.gz} ""
     Windows {exe bin.tar.gz static.exe static.bin.tar.gz} "Microsoft Windows"
 }
                                                                                 
-proc puts_latest {fout docroot dir package type} {
+proc puts_latest {fout docroot dir package package_exclude type} {
     set regexp {([-a-z]*)(-[0-9][-0-9.]*)([a-z][.a-z0-9]*)}
     if {![file exists $docroot/$dir]} {
         puts $fout "<font color=\"red\">Directory \"$docroot/$dir/\" was not found.</font>"
@@ -26,6 +30,11 @@ proc puts_latest {fout docroot dir package type} {
     cd $docroot/$dir
     foreach {fn n v t} [regexp -all -inline $regexp [glob -nocomplain *]] {
         if {[file isdir $fn]} {continue}
+	set exclude_this 0
+        foreach {excl} $package_exclude {
+            incr exclude_this [string match $excl $fn]
+        }
+        if {$exclude_this} {continue}
         if {[string first $package $fn] == 0} {
             lappend PACKAGE([list $n $t]) [list $fn $v]
         }
@@ -71,7 +80,7 @@ foreach package $packages {
         foreach {releasename releasedir} $releases {
             puts $fout "<td align=\"left\"><font size=\"-1\">"
             foreach type $types {
-                puts_latest $fout $docroot $releasedir $pkg $type
+                puts_latest $fout $docroot $releasedir $pkg $package_exclude $type
             }
             puts $fout "</font></td>"
         }
