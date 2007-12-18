@@ -124,13 +124,13 @@ puts $fout {
 	<dd><a href="http://cairographics.org/">http://cairographics.org/</a>
 	<dt>expat-2.0.0.tar.gz
 	<dd><a href="http://expat.sourceforge.net/">http://expat.sourceforge.net/</a> 
-	<dt>freetype-2.1.10.tar.gz [optional (required for libpangocairo, optional for gd), recommended]
+	<dt>freetype-2.1.10.tar.gz [optional (required for libpangocairo and forgd), recommended]
 	<dd><a href="http://www.freetype.org/">http://www.freetype.org/</a>
-<!--
-	<dt>gd-2.0.33.tar.gz [optional, not recommended but needed for GIF output]
-	<dd><a href="http://www.boutell.com/gd/">http://www.boutell.com/gd/</a>
--->
-	<dt>fontconfig-2.3.95.tar.gz [optional (required for libpangocairo,  optional for gd), recommended]
+
+	<dt>gd-2.0.34.tar.gz [optional, deprecated but needed for GIF output]
+	<dd><a href="http://www.libgd.org//">http://www.libgd.org/</a>
+
+	<dt>fontconfig-2.3.95.tar.gz [optional (required for libpangocairo and for gd), recommended]
 	<dd><a href="http://www.fontconfig.org/wiki/">http://www.fontconfig.org/wiki/</a>
 	<dt>urw-fonts.tar.gz [optional, required if fontconfig is unable to find any fonts]
 	<dd><a href="ftp://ftp.gimp.org/pub/gimp/fonts">ftp://ftp.gimp.org/pub/gimp/fonts/</a>
