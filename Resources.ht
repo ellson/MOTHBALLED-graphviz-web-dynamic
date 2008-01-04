@@ -151,6 +151,7 @@ or
 in the entry field)
 <li> <a href="http://www.hotscripts.com/Detailed/28164.html">DAWG CREATOR</a>,
 a C++ class for creating a prefix tree representation of a given lexicon.
+<li> <a href="http://blog.prashanthellina.com/2007/12/21/topic-extraction-using-wikipedia-data/">Topic extraction using Wikipedia data</a>.
 </ul>
 
 <!-- -------------------- -->
@@ -190,6 +191,8 @@ for generating UML diagrams from: Perl, Java, PHP, or C++ code [Aaron Trevena]
 is tool for visualizing Java data structures with Graphviz. It has
 been used to good effect in CS1 and CS2-level data structures courses.
 [John Hammer]
+<li><a href="http://blog.prashanthellina.com/2007/11/14/generating-call-graphs-for-understanding-and-refactoring-python-code/">Python call graphs</a>
+for understanding and refactoring Python code.
 </ul>
 
 <h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
