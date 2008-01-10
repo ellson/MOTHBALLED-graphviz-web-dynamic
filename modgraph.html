@@ -4,7 +4,19 @@
 </head>
 <body>
 <h1>modgraph demo scripts</h1>
-<table>
+The "modgraph" scripts are intended to demostrate the graphviz
+SWIG-generated language-bindings (11 currently).
+The scripts are supposed to perform exactly the same way in each
+language so as to provide comparable working examples.
+<p>
+The script extracts the Linux kernel modules and dependencies from /proc/modules
+and generates a graph like the one below.  I don't know if this actually useful
+for Linux, but it demonstrates loading of the "gv" extension, the generation of a graph, and the layout and display of that graph.
+<p>
+The scripts are currently incomplete because <a href="mailto:ellson@graphviz.org">John Ellson</a> is not familiar enough with all of the languages to write them.  Your help is solicited to complete the set.
+<h2>status matrix</h2>
+<p align="center">
+<table border="1">
 <tr><th>language</th><th>demo</th><th>credit</th><th>status</th><th>comment</th></tr>
 <tr><td>C#</td><td></td><td></td><td>0%</td></tr>
 <tr><td>Guile</td><td></td><td></td><td>0%</td></tr>
@@ -19,5 +31,8 @@
 <tr><td>Ruby</td><td><a href="/cvs/tclpkg/gv/demo/modgraph.rb">modgraph.rb</a></td><td></td><td>50%</td><td>needs code porting</td></tr>
 <tr><td>TCL</td><td><a href="/cvs/tclpkg/gv/demo/modgraph.tcl">modgraph.tcl</a></td><td>John Ellson</td><td>100%</td></tr>
 </table>
+<h2>example output</h2>
+<p align="center">
+<img src="modgraph.png">
 </body>
 </html>
