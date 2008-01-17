@@ -21,7 +21,8 @@ on-line pages listed above.</dd>
 <dd><a href="/doc/libguide/libguide.pdf">Using Graphviz as a library</a></dd>
 
 <dt><b>FAQs, Contributions</b></dt>
-<dd><a href="/doc/FAQ.html">Graphviz FAQ</a></dd>
+<!-- <dd><a href="/doc/FAQ.html">Graphviz FAQ</a></dd> -->
+<dd><a href="/mywiki/FAQ">Graphviz FAQ</a></dd>
 <dd><a href="Documentation/html/shapehowto.html">How to create custom shapes</a></dd>
 <dd><a href="Documentation/html/layers/">How to use drawing layers (overlays)</a></dd>
 <dd><a href="/doc/todo.html">Our TODO list</a></dd>
