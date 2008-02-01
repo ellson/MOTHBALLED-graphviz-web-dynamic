@@ -8,6 +8,9 @@
 <dd><a href="/doc/info/arrows.html">Arrow Shapes</a></dd>
 <dd><a href="/doc/info/colors.html">Colors</a></dd>
 
+<dt><b>Schema Files</b> (<a href="http://www.w3.org/XML/Schema">XSD</a> format)</dt>
+<dd><a href="/doc/schema/attributes.xml">Node, Edge and Graph Attributes</a></dd>
+
 <dt><b>User's Guides</b> (<a href="http://www.adobe.com/prodindex/acrobat/readstep.html">PDF</a> format)</dt>
 <dd><b>NOTE:</b>The first two documents are not current with the features
 and details of Graphviz. They can serve as tutorials for understanding how
