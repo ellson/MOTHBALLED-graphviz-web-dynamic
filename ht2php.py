@@ -1,5 +1,14 @@
 #!/usr/bin/python
 
+'''  put the following before <body> to enable analytics (tracking)
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-3543530-1";
+urchinTracker();
+</script>
+'''
+
 import sys
 
 if len(sys.argv) < 2:
@@ -36,12 +45,6 @@ fout.write('''<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <META name="keywords" content="graph drawing, graph layout,
 network visualization, graph visualization, graphviz">
 </head>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-3543530-1";
-urchinTracker();
-</script>
 <body bgcolor="white">
 <table cellspacing="20">
 <tr><td valign="top" rowspan="2">
