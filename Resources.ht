@@ -165,8 +165,7 @@ a C++ class for creating a prefix tree representation of a given lexicon.
 <li><a href="http://thyer.name/lambda-animator/">Lambda Animator</a> is a tool for demonstrating and experimenting with alternative reduction strategies in the lambda-calculus [Mike Thyer]
 <li><a href="http://research.microsoft.com/fse/asml/"> AsmL </a> an executable specification language from Microsoft Research.
 <li> <a href="http://www.spinellis.gr/sw/umlgraph/">UMLGraph</a> - a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot [Diomidis Spinellis] (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-)
-<li> <a href="http://oss.phear.org/merisedot/">Merisedot</a> - tool to
-support Merise, a subset of UML (Seulement en Fran&ccedil;ais)
+<li> <a href="http://oss.phear.org/merisedot/">Merisedot</a> - a tool to generate MCD Entity/Relation graphics of Merise. (Seulement en Fran&ccedil;ais)
 <li><a href="http://rdoc.sourceforge.net">RDOC</a> Ruby documentation [Dave Thomas]
 <li><a href="http://www.lo-res.org/~aaron/yaccviso/">YaccViso</a> YACC visualization tool
 <li> <a href="http://kcachegrind.sourceforge.net/cgi-bin/show.cgi">Callgrind</a> makes callgraphs from <a href="http://kcachegrind.sourceforge.net/cgi-bin/show.cgi/KcacheGrindValgrind">Valgrind</A> [J&ouml;rg Schillin and Josef Weidendorfer]
