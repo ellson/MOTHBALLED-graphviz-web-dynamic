@@ -8,12 +8,13 @@ and development versions of Graphviz are available, along with
 instructions for CVS anonymous access to the sources.  Also see
 build <a href="/doc/build.html">notes</a>.
 <p>
-<a href="/doc/winbuild.html">notes</a> on how
+<a href="/doc/winbuild.html">Notes</a> on how
 to build Graphviz on Windows. <B>N.B.</B> Except in rare cases,
 such as a desire to modify the core Graphviz code, there is no
 need to build Graphviz on Windows from source. We strongly recommend
 that one should just install one of the available binary packages
-from <a href="Download_windows.php">here</A>.
+from <a href="Download_windows.php">here</A>. If you insist, we
+will answer questions but basically you are on your own.
 
 <H3>Executable Packages from AT&amp;T</H3>
 <b>Linux</b><br>
