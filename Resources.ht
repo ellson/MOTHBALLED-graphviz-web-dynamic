@@ -59,7 +59,7 @@ purpose language or system.
 <ul>
 <li>web: <A HREF="http://www.mediawiki.org/wiki/Extension:GraphViz">MediaWiki</A> extension [Coffman] (also for <A HREF="http://www.wickle.com/wiki/index.php/Windows_Graphviz_Installation_Instructions">Windows</A> [Dknox])
 <li>web: <A HREF="http://ociotec.com/index.php/2008/02/25/eht-graphviz-plugin-para-wordpress/">EHT Graphviz</A> plugin for <A HREF="http://wordpress.org/">Wordpress</A>, to allow Graphviz images to be easily integrated 
-into a Wordpress page.
+into a Wordpress page. [Emilio Gonz&aacute;lez Monta&ntilde;a]
 <li>python: <A HREF="http://yapgvb.sourceforge.net/">yapgvb</A> Yet Another Graphviz Python Binding [Lonnie Princehouse]
 <li>python: <a href="http://www.geocities.com/foetsch/mfgraph/index.htm">mfgraph</a> - C++ interface with native bindings for python [Michael F&ouml;etsch]
 <li>python: <a href="http://software.inl.fr/trac/trac.cgi/wiki/GvGen">GvGen</a> - a python class to generate dot files [Sebastien Tricaud]
