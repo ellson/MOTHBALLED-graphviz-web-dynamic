@@ -18,7 +18,7 @@ set package_exclude {
 
 set platforms {
     Sources {tar.gz} ""
-    Windows {exe bin.tar.gz static.exe static.bin.tar.gz} "Microsoft Windows"
+    Windows {msi exe bin.tar.gz static.exe static.bin.tar.gz} "Microsoft Windows"
 }
                                                                                 
 proc puts_latest {fout docroot dir package package_exclude type} {
