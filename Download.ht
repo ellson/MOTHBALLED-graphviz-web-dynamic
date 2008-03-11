@@ -19,10 +19,13 @@ will answer questions but basically you are on your own.
 <H3>Executable Packages from AT&amp;T</H3>
 <b>Linux</b><br>
 <a href="Download_linux.php">Stable and development rpms for Redhat systems</a>
-<br>
 <p>
 <b>Windows</b><br>
 <a href="Download_windows.php">Stable and development Windows Install packages</a>
+<p>
+<b>Mac</b><br>
+<a href="Download_macos.php">Stable and development Mac OS Install packages</a>
+<p>
 and third-party <a href="Misc/third-party.zip">libraries</a>.
 <H3>Java Support</H3>
 Grappa is a separate Java graph library and user interface that works

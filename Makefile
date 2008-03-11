@@ -3,6 +3,7 @@ PAGESET=About.php \
 	Download_source.php \
 	Download_linux.php \
 	Download_windows.php \
+	Download_macos.php \
 	News.php \
 	Gallery.php \
 	Documentation.php \
@@ -26,7 +27,7 @@ index.php: About.php
 	rm -f index.php
 	ln -s About.php index.php
 
-.PHONY: Download_source.ht Download_linux.ht Download_windows.ht
+.PHONY: Download_source.ht Download_linux.ht Download_windows.ht Download_macos.ht
 
 Download.php: Agree.ht Download.ht
 
@@ -38,6 +39,9 @@ Download_linux.ht:
 
 Download_windows.ht:
 	./Download_windows/windows_current.tcl
+
+Download_macos.ht:
+	./Download_macos/macos_current.tcl
 
 clean:
 	rm -f ${PAGESET} index.php Download_*.ht
