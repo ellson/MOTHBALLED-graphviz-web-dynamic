@@ -91,7 +91,11 @@ foreach package $packages {
 
 puts $fout "</table>"
 
-puts $fout "Note for Windows users: Some Windows operating systems may\n\
+puts $fout "<p>Note for Windows users:\n\
+<p>The .msi packages are EXPERIMENTAL and in particular do not yet\n\
+include fontconfig and cairopango. Also, the minimum system\n\
+requirement is for Windows XP or Windows 2003 Server.\n\
+<p>Some Windows operating systems may\n\
 require run-time components of Visual C++ libraries to properly run \n\
 Graphviz executables. We are still working on this issue.  Meanwhile, \n\
 if you get error messages like:\n\
