@@ -81,7 +81,7 @@ neato and fdp - make ``spring model'' layouts.  neato uses the Kamada-Kawai
 algorithm, which is equivalent to statistical multi-dimensional scaling.
 fdp implements the Fruchterman-Reingold heuristic including a multigrid
 solver that handles larger graphs and clustered undirected graphs.
-<a href="Gallery/directed/cluster.html">
+<a href="Gallery/undirected/ER.html">
 <img src="Gallery/undirected/ER.small.png" border="0" alt="" align="top">
 </a>
 <li>
