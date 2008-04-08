@@ -18,7 +18,8 @@ set package_exclude {
 
 set platforms {
     Sources {tar.gz} ""
-    Windows {msi exe bin.tar.gz static.exe static.bin.tar.gz} "Microsoft Windows"
+    Windows {exe bin.tar.gz static.exe static.bin.tar.gz} "Microsoft Windows"
+    "Windows (experimental)" {msi} "Microsoft Windows (experimental)"
 }
                                                                                 
 proc puts_latest {fout docroot dir package package_exclude type} {
@@ -92,8 +93,8 @@ foreach package $packages {
 puts $fout "</table>"
 
 puts $fout "<p>Note for Windows users:\n\
-<p>The .msi packages are EXPERIMENTAL and in particular do not yet\n\
-include fontconfig and cairopango. Also, the minimum system\n\
+<p>The .msi packages contain different code and are EXPERIMENTAL. In particular these do not yet\n\
+include fontconfig and cairopango and the gdiplus renderer drawings are not yet correct. The minimum system\n\
 requirement is for Windows XP or Windows 2003 Server.\n\
 <p>Some Windows operating systems may\n\
 require run-time components of Visual C++ libraries to properly run \n\
