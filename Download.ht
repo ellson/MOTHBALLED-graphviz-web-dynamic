@@ -73,9 +73,12 @@ packages.
 <b>Mac OS X</b> <br>
 <a href="http://www.ryandesign.com/graphviz/">Standalone installer packages</a>
 of latest stable versions and nightly snapshots. (For testing the new
-viewer <i>smyrna</i>:  the Macports prerequisites are <tt>gtkglext</tt>
-and <tt>glade</tt>.  If you check out code from cvs also install a
-new <tt>automake</tt> so you can generate a working configure script.)
+<i>smyrna</i> viewer: the MacPorts prerequisites are, at least,
+<tt>gtkglext</tt> and <tt>libglade</tt>. This will bring in scads of other
+packages, probably including new versions of perl, python, ssh, and multimedia
+players, in case you ever want to replace your entire OSX desktop with Gnome.
+Hey you just might!  If you check out code from cvs, also install a new
+<tt>automake</tt> to generate a working configure script.)
 <br>
 <a href="http://www.macports.org/">MacPorts</a>
 Latest stable version of Graphviz for Mac OS X
