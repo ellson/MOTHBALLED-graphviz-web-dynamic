@@ -64,11 +64,12 @@ for page in pageset:
     menuparent = ''
     menuname = menuitem
     indent = ''
-  if basename == menuparent or baseparent == menuparent or menuparent == '':
-    if basename == menuitem:
-      fout.write('\t<tr><td bgcolor="#c0ffc0">' + indent + menuname + '</td></tr>\n')
-    else:
-      fout.write('\t<tr><td>' + indent + '<a href="' + menuitem + '.php">' + menuname + '</a></td></tr>\n')
+  if menuname != "att":
+      if basename == menuparent or baseparent == menuparent or menuparent == '':
+        if basename == menuitem:
+          fout.write('\t<tr><td bgcolor="#c0ffc0">' + indent + menuname + '</td></tr>\n')
+        else:
+          fout.write('\t<tr><td>' + indent + '<a href="' + menuitem + '.php">' + menuname + '</a></td></tr>\n')
 
 fout.write('''\t</table> 
 </td>
