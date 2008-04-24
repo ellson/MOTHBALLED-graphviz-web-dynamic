@@ -27,7 +27,7 @@ index.php: About.php
 	rm -f index.php
 	ln -s About.php index.php
 
-.PHONY: Download_source.ht Download_linux.ht Download_windows.ht Download_macos.ht
+.PHONY: Download_source.ht Download_linux.ht Download_att_linux.ht Download_windows.ht Download_macos.ht
 
 Download.php: Agree.ht Download.ht
 
@@ -36,6 +36,8 @@ Download_source.ht:
 
 Download_linux.ht:
 	./Download_linux/linux_current.tcl
+
+Download_att_linux.ht:
 	./Download_att_linux/att_linux_current.tcl
 
 Download_windows.ht:
