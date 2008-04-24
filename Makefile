@@ -36,6 +36,7 @@ Download_source.ht:
 
 Download_linux.ht:
 	./Download_linux/linux_current.tcl
+	./Download_linux/att_linux_current.tcl
 
 Download_windows.ht:
 	./Download_windows/windows_current.tcl
