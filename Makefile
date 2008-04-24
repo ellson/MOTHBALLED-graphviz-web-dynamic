@@ -2,7 +2,6 @@ PAGESET=About.php \
 	Download.php \
 	Download_source.php \
 	Download_linux.php \
-	Download_att_linux.php \
 	Download_windows.php \
 	Download_macos.php \
 	News.php \
