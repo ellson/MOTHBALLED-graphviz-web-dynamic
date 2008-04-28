@@ -49,7 +49,7 @@ and  visualize the layout generated
 by Graphviz as an Excel (vector graphics) picture object.
 [Rama Viswanathan]
 <li><a href="http://graph.gafol.net/">graph.gafol.net<a>, a service which helps to create and publish graphs online. [Paul Colomiets]
-<li><a href="http://code.google.com/p/jrfonseca/wiki/XDot/">xdot.py<a>, an interactive viewer for graphs. [José Fonseca]
+<li><a href="http://code.google.com/p/jrfonseca/wiki/XDot">xdot.py<a>, an interactive viewer for graphs. [José Fonseca]
 </ul>
 
 <!-- -------------------- -->
