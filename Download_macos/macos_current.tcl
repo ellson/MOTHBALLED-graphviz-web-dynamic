@@ -91,6 +91,6 @@ foreach package $packages {
 
 puts $fout "</table>"
 
-puts $fout "<p><b>NB:</b> The .pkg packages for MacOS are EXPERIMENTAL and in particular do not yet include fontconfig and cairopango. Also, the minimum system requirement is for Mac OS X 10.5."
+puts $fout "<p><b>NB:</b> The .pkg packages for MacOS are EXPERIMENTAL and in particular do not yet include fontconfig and cairopango.  Also, the minimum system requirement is Mac OS X 10.5 + Xcode Tools (an optional install on the Mac OS X 10.5 install disk)."
 
 close $fout
