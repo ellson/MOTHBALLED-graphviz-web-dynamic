@@ -241,6 +241,15 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 </ul>
 
 <!-- -------------------- -->
+<h4><a name="project-management">Project Management</a></h4>
+<ul>
+<li><a href="https://fedorahosted.org/TheHat">The Hat</a>, an 
+interactive (IRC, XMPP(Jabber))
+workflow engine that renders the progress of workflows with Graphviz to an
+auto-refreshing web page with client side maps [Dave Parker].
+</ul>
+
+<!-- -------------------- -->
 <h4><a name="social-networking">Social Networking</a></h4>
 <ul>
 <li><a href="http://www.research.att.com/~volinsky/cgi-bin/prox/prox.pl">Proximity Subgraphs</a> - visualize communities in the Internet Movie Database
