@@ -115,6 +115,9 @@ and an old <a href="Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]
 <ul>
 <li> <a href="http://afterglow.sourceforge.net/">afterglow</a> is a collection of scripts to generate graphs for Graphviz (and LGL), from various network logs and firewall rulesets [Raffael Marty] (see also <a href="http://dev.inversepath.com/trac/tenshi">tenshi</a> for logfile filtering)
 <li> <a href="http://sourceforge.net/projects/safemap">SMART</A> passive network flow visualization tool  [Cisco's Critical Infrastructure Assurance Group (CIAG) Research team]
+<li> <a href="http://www.csoonline.com/article/348317/What_a_Botnet_Looks_Like">
+CSO Online</A>: What a Botnet Looks like (Flash) [David Vorel]
+<li>
 <li> <a href="http://map.efnet.org/">EFnet</A> IRC Network server routing maps [Douglas Boldt]
 <!--- seems dead
 <li> <a href="http://freshmeat.net/projects/spamviz/">SpamViz</a> generates *.dot
@@ -165,6 +168,7 @@ a C++ class for creating a prefix tree representation of a given lexicon.
 <h4><a name="software-engineering">Programming and Software Engineering Tools Using Graphviz</a></h4>
 <ul>
 <li><a href="http://osteele.com/tools/rematch">reMatch</a> is an interactive visualization of how finite-state automata match regular expressions (needs Flash, n.g. on Linux/Firefox 1.5?) [Oliver Steele] 
+<li><a href="https://fedorahosted.org/TheHat">TheHat workflow engine</A> based on IRC, XMPP (Jabber) shows workflows in auto-refreshing webpages [Dave Parker]
 <li><a href="http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html">anifsm</A> animates graphs in dot format via tcldot (part of the <A HREF="http://fmt.cs.utwente.nl/tools/torxviz/">TorX</A> software visualization suite) [Alex Belinfante and TorX consortium]
 <li><a href="http://www.doxygen.org/"> doxygen</a> uses graphviz to produce class hierarchies and other diagrams directly from source code [Dimitri van Heesch]
 <li><a href="http://nmdepend.sourceforge.net/">nmdepend</a> is a lightweight link-time dependency analyzer for C/C++ object files and libraries, helps manage cross-directory dependencies [Eddy Pronk]
@@ -238,15 +242,6 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <li><a href="http://www.texmacs.org/">TeXmacs</a>, a scientific text editor, inspired by TeX and GNU Emacs, has a Graphviz interface [Joris van der Hoeven]
 <li><a href="http://www.aivosto.com/visustin.html">Visustin flow chart generator</a>[Aivosto]
 <li> <a href="http://paco.to/blog/000040.html"> Using Mac OmniGraffle </a> with Graphviz blog entry [Pac Hope]
-</ul>
-
-<!-- -------------------- -->
-<h4><a name="project-management">Project Management</a></h4>
-<ul>
-<li><a href="https://fedorahosted.org/TheHat">The Hat</a>, an 
-interactive (IRC, XMPP(Jabber))
-workflow engine that renders the progress of workflows with Graphviz to an
-auto-refreshing web page with client side maps [Dave Parker].
 </ul>
 
 <!-- -------------------- -->
