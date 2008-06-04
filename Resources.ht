@@ -245,9 +245,11 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 </ul>
 
 <!-- -------------------- -->
-<h4><a name="social-networking">Social Networking</a></h4>
+<h4><a name="social-networking">Social Networking and Collaborative Work</a></h4>
 <ul>
 <li><a href="http://www.research.att.com/~volinsky/cgi-bin/prox/prox.pl">Proximity Subgraphs</a> - visualize communities in the Internet Movie Database
+<li><a href="http://ideatree.us/">IdeaTree</a>, a platform for
+concurrent, shared knowledge mapping [Ron Newman]
 <li><a href="http://www.hammondjazz.net/index.php?page=article&task=current&mode=detail&section=News&target=70">Hammond Jazz Inventory</a> - show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!)
 </ul>
 
