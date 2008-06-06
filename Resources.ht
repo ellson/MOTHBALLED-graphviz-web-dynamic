@@ -49,7 +49,7 @@ and  visualize the layout generated
 by Graphviz as an Excel (vector graphics) picture object.
 [Rama Viswanathan]
 <li><a href="http://graph.gafol.net/">graph.gafol.net<a>, a service which helps to create and publish graphs online. [Paul Colomiets]
-<li><a href="http://code.google.com/p/jrfonseca/wiki/XDot">xdot.py<a>, an interactive viewer for graphs. [José Fonseca]
+<li><a href="http://code.google.com/p/jrfonseca/wiki/XDot">xdot.py<a>, an interactive viewer for graphs. [Jose Fonseca]
 </ul>
 
 <!-- -------------------- -->
@@ -148,6 +148,8 @@ uses graphviz to produce a graph of your iptables ruleset. [Chris Forno]
 <!-- -------------------- -->
 <h4><a name="ai-and-language">AI and Language Tools Using Graphviz</a></h4>
 <ul>
+<li>
+<a href="http://IdeaTree.us/">IdeaTree</a> mind-mapping software [Ron Newman]
 <li>Andreas Romeyke's <a href="http://andreas-romeyke.de/privat/txt2graph/txt2graph.html"> txt2graph</a> - visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout
 <li>
 <a href="http://protege.cim3.net/cgi-bin/wiki.pl?OntoViz">Ontoviz</a>
