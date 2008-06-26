@@ -61,7 +61,9 @@ for the contents of these software products.
 <b>Linux</b> <br>
 <a href="http://packages.debian.org/unstable/graphics/graphviz.html">Debian package</a>
 <br>
-<a href="http://packages.ubuntu.com/edgy/graphics/graphviz">Ubuntu package</a>
+<a href="http://packages.ubuntu.com/hardy/graphics/graphviz">Ubuntu Hardy</a>, 
+<a href="http://packages.ubuntu.com/intrepid/graphics/graphviz">Interpid</a>
+package.
 <br>
 Fedora extras <a href="http://www.fedoraproject.org/extras/3">3</a>
 <a href="http://www.fedoraproject.org/extras/4">4</a>
