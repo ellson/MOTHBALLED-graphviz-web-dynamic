@@ -207,6 +207,7 @@ been used to good effect in CS1 and CS2-level data structures courses.
 <li><a href="http://argouml-graphviz.tigris.org/">ArgoUML Graphviz</a>
 Enabling export to SVG, PDF, etc. and repositioning of the elements for
 each ArgoUML diagram.
+<li><a href="http://research.cs.queensu.ca/~thurston/ragel/">Ragel</a> (think "lex") compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format.
 </ul>
 
 <h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
