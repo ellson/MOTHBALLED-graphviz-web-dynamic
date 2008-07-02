@@ -208,6 +208,7 @@ been used to good effect in CS1 and CS2-level data structures courses.
 Enabling export to SVG, PDF, etc. and repositioning of the elements for
 each ArgoUML diagram.
 <li><a href="http://research.cs.queensu.ca/~thurston/ragel/">Ragel</a> (think "lex") compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format.
+<li><a href="http://http://code.google.com/p/apiviz">APIviz</a> is a JavaDoc doclet which extends the Java standard doclet. It generates comprehensive UML-like class and package diagrams.
 </ul>
 
 <h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
