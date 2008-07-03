@@ -1,17 +1,17 @@
+Arif Bilgin, AT&amp;T Research (smyrna and Windows support)<br>
 <a href="http://www.research.att.com/info/ellson">John Ellson</a>, AT&amp;T Research (Tcl/Tk and codegen extensions)<br>
-<a href="http://www.research.att.com/info/erg">Emden Gansner</a>, AT&amp;T Research (dot, neato, twopi, circo)<br>
+<a href="http://www.research.att.com/info/erg">Emden Gansner</a>, AT&amp;T Research (dot, neato, twopi, circo, fdp, smyrna)<br>
+<a href="http://www.research.att.com/info/yifanhu">Yifan Hu</a>, AT&amp;T Research (sfdp)<br>
 <a href="http://www.research.att.com/~yehuda">Yehuda Koren</a>, AT&amp;T Research (neato) <br>
-<a href="http://www.research.att.com/info/ek">Eleftherios Koutsofios</a>, AT&amp;T Research (dotty, lefty, spline-o-matic) <br>
-
-<a href="http://www.research.att.com/info/john">John Mocenigo</a>, AT&amp;T Research (Grappa) <br>
 <a href="http://www.research.att.com/info/north/">Stephen North</a>, AT&amp;T Research (dot, neato) <br>
-<a href="http://gordon.woodhull.com/">Gordon Woodhull</a> (<a href="http://www.research.att.com/sw/tools/graphviz/dgwin/">Dynagraph</a>) <br>
 <p>and
 <p>
-<a href="http://www.cs.princeton.edu/~dpd">David Dobkin</a> (spline-o-matic)<br>
-
 <a href="http://www.cs.ualberta.ca/~vladimir/">Vladimir Alexiev</a> (codegen improvements)<br>
+<a href="http://www.cs.princeton.edu/~dpd">David Dobkin</a> (spline-o-matic)<br>
+<a href="http://www.research.att.com/info/ek">Eleftherios Koutsofios</a>, AT&amp;T Research (dotty, lefty, spline-o-matic) <br>
 <a href="http://users.erols.com/blilly/">Bruce Lilly</a> (pic driver)<br>
+<a href="http://www.pixelglow.com/">Glen Low</a> (Apple Mac OS X port, also the page icons on this site.)<br>
+<a href="http://www.research.att.com/info/john">John Mocenigo</a>, AT&amp;T Research (Grappa) <br>
 <a href="http://www.xs4all.nl/%7Ejs/index.html">Jeroen Scheerder</a> (allow URLs in PDF distilled from Postscript output)<br>
 <a href="http://fox.mit.edu/skunk/">Daniel Richard G.</a> (RPM packaging)<br>
-<a href="http://www.pixelglow.com/">Glen Low</a> (Apple Mac OS X port, also the page icons on this site.)<br>
+<a href="http://gordon.woodhull.com/">Gordon Woodhull</a> (<a href="http://www.research.att.com/sw/tools/graphviz/dgwin/">Dynagraph</a>) <br>
