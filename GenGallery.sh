@@ -20,3 +20,9 @@ if (( ( cnt - 1 )  % 4 != 3)); then
 	caption=""
 fi
 echo "</table>"
+
+echo "<center>"
+echo "Please send copyright-free donations to"
+echo "<a href=\"http://www.research.att.com/~yifanhu/contact.html\"> Yifan Hu </a>"
+echo "</center>"
+
