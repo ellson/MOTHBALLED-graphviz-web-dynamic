@@ -37,10 +37,10 @@ Download_source.ht:
 	./Download_source/source_current.tcl
 
 Download_linux_fedora.ht:
-	./Download_linux_fedora/fedora_linux_current.tcl
+	./Download_linux_fedora/linux_fedora_current.tcl
 
 Download_linux_rhel.ht:
-	./Download_linux_rhel/rhel_linux_current.tcl
+	./Download_linux_rhel/linux_rhel_current.tcl
 
 Download_att_linux.ht:
 	./Download_att_linux/att_linux_current.tcl
