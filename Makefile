@@ -1,7 +1,8 @@
 PAGESET=About.php \
 	Download.php \
 	Download_source.php \
-	Download_linux.php \
+	Download_linux_fedora.php \
+	Download_linux_rhel.php \
 	Download_att_linux.php \
 	Download_windows.php \
 	Download_macos.php \
@@ -28,15 +29,18 @@ index.php: About.php
 	rm -f index.php
 	ln -s About.php index.php
 
-.PHONY: Download_source.ht Download_linux.ht Download_att_linux.ht Download_windows.ht Download_macos.ht
+.PHONY: Download_source.ht Download_linux_fedora.ht Download_linux_rhel.ht Download_att_linux.ht Download_windows.ht Download_macos.ht
 
 Download.php: Agree.ht Download.ht
 
 Download_source.ht:
 	./Download_source/source_current.tcl
 
-Download_linux.ht:
-	./Download_linux/linux_current.tcl
+Download_linux_fedora.ht:
+	./Download_linux_fedora/fedora_linux_current.tcl
+
+Download_linux_rhel.ht:
+	./Download_linux_rhel/rhel_linux_current.tcl
 
 Download_att_linux.ht:
 	./Download_att_linux/att_linux_current.tcl

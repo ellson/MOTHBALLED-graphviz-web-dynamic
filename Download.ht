@@ -18,7 +18,9 @@ will answer questions but basically you are on your own.
 
 <H3>Executable Packages from AT&amp;T</H3>
 <b>Linux</b><br>
-<a href="Download_linux.php">Stable and development rpms for Redhat systems</a>
+<a href="Download_linux_rhel.php">Stable and development rpms for Redhat Enterprise, or Centos systems</a>
+<br>
+<a href="Download_linux_fedora.php">Stable and development rpms for Fedora systems</a>
 <p>
 <b>Windows</b><br>
 <a href="Download_windows.php">Stable and development Windows Install packages</a>
