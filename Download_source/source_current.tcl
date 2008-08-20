@@ -3,8 +3,8 @@
 set docroot /var/www/www.graphviz.org
 
 set releases {
-    "current stable release" pub/graphviz/ARCHIVE
-    "development snapshot" pub/graphviz/CURRENT
+    "current stable release" pub/graphviz/stable/SOURCES
+    "development snapshot" pub/graphviz/development/SOURCES
 }
 
 set packages {
