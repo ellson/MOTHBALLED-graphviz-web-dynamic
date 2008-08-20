@@ -3,8 +3,8 @@
 set docroot /var/www/www.graphviz.org
 
 set releases {
-    "current stable release<br>" pub/graphviz/ARCHIVE
-    "development snapshot<br>(If red, then they are more than 36 hours old<br>and we have a problem with the latest snapshot.)" pub/graphviz/CURRENT
+    "current stable release<br>" pub/ext_repos/stable
+    "development snapshot<br>(If red, then they are more than 36 hours old<br>and we have a problem with the latest snapshot.)" pub/ext_repos/development
 }
 
 set packages_platforms {
@@ -12,43 +12,17 @@ set packages_platforms {
     webdot {Sources Noarch}
 }
 
-# Separated out
-# FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64
-# Just too old to support any more!
-# FC6.i386 FC6.x86_64 FC5.i386 FC5.x86_64 FC4.i386 FC4.x86_64
-
-# Just too old and broken to support any more!
-# RHL9.i386 RHL8.i386 RHL7.i386
-
 set platform_type_comments {
-    Sources {src.rpm} ""
-    FC10.i386 {fc10.i386.rpm} "Fedora 10 (Rawhide) or later"
-    FC10.x86_64 {fc10.x86_64.rpm} "Fedora 10 (Rawhide) or later"
-    FC9.i386 {fc9.i386.rpm} "Fedora 9"
-    FC9.x86_64 {fc9.x86_64.rpm} "Fedora 9"
-    FC8.i386 {fc8.i386.rpm} "Fedora 8"
-    FC8.x86_64 {fc8.x86_64.rpm} "Fedora 8"
-    FC7.i386 {fc7.i386.rpm} "Fedora 7"
-    FC7.x86_64 {fc7.x86_64.rpm} "Fedora 7"
-    FC6.i386 {fc6.i386.rpm} "Fedora-Core 6 - uses pango,cairo"
-    FC6.x86_64 {fc6.x86_64.rpm} "Fedora-Core 6 - uses pango,cairo"
-    FC5.i386 {fc5.i386.rpm} "Fedora-Core 5- uses gcc4 and fontconfig"
-    FC5.x86_64 {fc5.x86_64.rpm} "Fedora-Core 5 - uses gcc4 and fontconfig"
-    FC4.i386 {fc4.i386.rpm} "Fedora-Core 4 - uses gcc4 and fontconfig"
-    FC4.x86_64 {fc4.x86_64.rpm} "Fedora-Core 4 - uses gcc4 and fontconfig"
-    EL5.i386 {el5.i386.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL5.x86_64 {el5.x86_64.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL4.i386 {el4.i386.rpm} "Enterprise Linux 4 or later - uses fontconfig"
-    EL4.x86_64 {el4.x86_64.rpm} "Enterprise Linux 4 or later - uses fontconfig"
-    EL3.i386 {el3.i386.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    EL3.x86_64 {el3.x86_64.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    EL3.ia64 {el3.ia64.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    Noarch {noarch.rpm} ""
+    Sources SOURCES {src.rpm} ""
+    EL5.i386 RPMS/el5/i386 {el5.i386.rpm} "Enterprise Linux 5 or later - uses fontconfig"
+    EL5.x86_64 RPMS/el5/x86_64 {el5.x86_64.rpm} "Enterprise Linux 5 or later - uses fontconfig"
+    EL4.i386 RPMS/el4/i386 {el4.i386.rpm} "Enterprise Linux 4 or later - uses fontconfig"
+    EL4.x86_64 RPMS/el4/x86_64 {el4.x86_64.rpm} "Enterprise Linux 4 or later - uses fontconfig"
+    EL3.i386 RPMS/el3/i386 {el3.i386.rpm} "Enterprise Linux 3 or later - uses fontconfig"
+    EL3.x86_64 RPMS/el3/x86_64 {el3.x86_64.rpm} "Enterprise Linux 3 or later - uses fontconfig"
+    EL3.ia64 RPMS/el3/ia64 {el3.ia64.rpm} "Enterprise Linux 3 or later - uses fontconfig"
+    Noarch noarch {noarch.rpm} ""
 }
-# Just too old and broken to support anymore!
-#    RHL9.i386 {rhl9.i386.rpm} "Redhat 9 or later - does not use fontconfig"
-#    RHL8.i386 {rhl8.i386.rpm} "Redhat 8 or later - does not use fontconfig"
-#    RHL7.i386 {rhl7.i386.rpm} "Redhat 7 or later - does not use fontconfig"
 
 set package_exclude {
     graphviz-cairo-*
@@ -162,14 +136,14 @@ foreach {package platforms} $packages_platforms {
     }
     puts $fout "</tr>"
     puts $fout "</tbody>"
-    foreach {platform types comment} $platform_type_comments {
+    foreach {platform types comment} $platform_directory_type_comments {
 	if {[lsearch $platforms $platform] == -1} continue
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
         foreach {releasename releasedir} $releases {
             puts $fout "<td align=\"left\"><font size=\"-1\">"
             foreach type $types {
-                puts_latest $fout $docroot $releasedir $package $package_exclude $type
+                puts_latest $fout $docroot $releasedir/$directory $package $package_exclude $type
             }
             puts $fout "</font></td>"
         }
