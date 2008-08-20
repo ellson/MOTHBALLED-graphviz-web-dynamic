@@ -136,7 +136,7 @@ foreach {package platforms} $packages_platforms {
     }
     puts $fout "</tr>"
     puts $fout "</tbody>"
-    foreach {platform types comment} $platform_directory_type_comments {
+    foreach {platform directory types comment} $platform_directory_type_comments {
 	if {[lsearch $platforms $platform] == -1} continue
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
