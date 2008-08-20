@@ -14,14 +14,14 @@ set packages_platforms {
 
 set platform_directory_type_comments {
     Sources SRPMS {src.rpm} ""
-    EL5.i386 RPMS/el5/i386 {el5.i386.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL5.x86_64 RPMS/el5/x86_64 {el5.x86_64.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL4.i386 RPMS/el4/i386 {el4.i386.rpm} "Enterprise Linux 4 or later - uses fontconfig"
-    EL4.x86_64 RPMS/el4/x86_64 {el4.x86_64.rpm} "Enterprise Linux 4 or later - uses fontconfig"
-    EL3.i386 RPMS/el3/i386 {el3.i386.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    EL3.x86_64 RPMS/el3/x86_64 {el3.x86_64.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    EL3.ia64 RPMS/el3/ia64 {el3.ia64.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    Noarch RPMS/noarch {noarch.rpm} ""
+    EL5.i386 redhat/el5/i386/os {el5.i386.rpm} "Enterprise Linux 5 or later - uses fontconfig"
+    EL5.x86_64 redhat/el5/x86_64/os {el5.x86_64.rpm} "Enterprise Linux 5 or later - uses fontconfig"
+    EL4.i386 redhat/el4/i386/os {el4.i386.rpm} "Enterprise Linux 4 or later - uses fontconfig"
+    EL4.x86_64 redhat/el4/x86_64/os {el4.x86_64.rpm} "Enterprise Linux 4 or later - uses fontconfig"
+    EL3.i386 redhat/el3/i386/os {el3.i386.rpm} "Enterprise Linux 3 or later - uses fontconfig"
+    EL3.x86_64 redhat/el3/x86_64/os {el3.x86_64.rpm} "Enterprise Linux 3 or later - uses fontconfig"
+    EL3.ia64 redhat/el3/ia64/os {el3.ia64.rpm} "Enterprise Linux 3 or later - uses fontconfig"
+    Noarch redhat/noarch {noarch.rpm} ""
 }
 
 set package_exclude {

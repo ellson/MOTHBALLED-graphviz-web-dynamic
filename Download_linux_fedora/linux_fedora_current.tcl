@@ -14,15 +14,15 @@ set packages_platforms {
 
 set platform_directory_type_comments {
     Sources SRPMS {src.rpm} ""
-    FC10.i386 RPMS/fc10/i386 {fc10.i386.rpm} "Fedora 10 (Rawhide) or later"
-    FC10.x86_64 RPMS/fc10/x86_64 {fc10.x86_64.rpm} "Fedora 10 (Rawhide) or later"
-    FC9.i386 RPMS/fc9/i386 {fc9.i386.rpm} "Fedora 9"
-    FC9.x86_64 RPMS/fc9/x86_64 {fc9.x86_64.rpm} "Fedora 9"
-    FC8.i386 RPMS/fc8/i386 {fc8.i386.rpm} "Fedora 8"
-    FC8.x86_64 RPMS/fc8/x86_64 {fc8.x86_64.rpm} "Fedora 8"
-    FC7.i386 RPMS/fc7/i386 {fc7.i386.rpm} "Fedora 7"
-    FC7.x86_64 RPMS/fc7/x86_64 {fc7.x86_64.rpm} "Fedora 7"
-    Noarch RPMS/noarch {noarch.rpm} ""
+    FC10.i386 redhat/fc10/i386/os {fc10.i386.rpm} "Fedora 10 (Rawhide) or later"
+    FC10.x86_64 redhat/fc10/x86_64/os {fc10.x86_64.rpm} "Fedora 10 (Rawhide) or later"
+    FC9.i386 redhat/fc9/i386/os {fc9.i386.rpm} "Fedora 9"
+    FC9.x86_64 redhat/fc9/x86_64/os {fc9.x86_64.rpm} "Fedora 9"
+    FC8.i386 redhat/fc8/i386/os {fc8.i386.rpm} "Fedora 8"
+    FC8.x86_64 redhat/fc8/x86_64/os {fc8.x86_64.rpm} "Fedora 8"
+    FC7.i386 redhat/fc7/i386/os {fc7.i386.rpm} "Fedora 7"
+    FC7.x86_64 redhat/fc7/x86_64/os {fc7.x86_64.rpm} "Fedora 7"
+    Noarch redhat/noarch {noarch.rpm} ""
 }
 
 set package_exclude {
