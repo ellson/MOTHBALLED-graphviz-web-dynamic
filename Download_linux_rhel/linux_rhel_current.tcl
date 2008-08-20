@@ -13,7 +13,7 @@ set packages_platforms {
 }
 
 set platform_directory_type_comments {
-    Sources SOURCES {src.rpm} ""
+    Sources SRPMS {src.rpm} ""
     EL5.i386 RPMS/el5/i386 {el5.i386.rpm} "Enterprise Linux 5 or later - uses fontconfig"
     EL5.x86_64 RPMS/el5/x86_64 {el5.x86_64.rpm} "Enterprise Linux 5 or later - uses fontconfig"
     EL4.i386 RPMS/el4/i386 {el4.i386.rpm} "Enterprise Linux 4 or later - uses fontconfig"
@@ -21,7 +21,7 @@ set platform_directory_type_comments {
     EL3.i386 RPMS/el3/i386 {el3.i386.rpm} "Enterprise Linux 3 or later - uses fontconfig"
     EL3.x86_64 RPMS/el3/x86_64 {el3.x86_64.rpm} "Enterprise Linux 3 or later - uses fontconfig"
     EL3.ia64 RPMS/el3/ia64 {el3.ia64.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    Noarch noarch {noarch.rpm} ""
+    Noarch RPMS/noarch {noarch.rpm} ""
 }
 
 set package_exclude {

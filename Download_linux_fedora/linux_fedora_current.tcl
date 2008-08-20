@@ -8,12 +8,12 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {Sources FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64}
+    graphviz {Sources FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64 Noarch}
     webdot {Sources Noarch}
 }
 
 set platform_directory_type_comments {
-    Sources SOURCES {src.rpm} ""
+    Sources SRPMS {src.rpm} ""
     FC10.i386 RPMS/fc10/i386 {fc10.i386.rpm} "Fedora 10 (Rawhide) or later"
     FC10.x86_64 RPMS/fc10/x86_64 {fc10.x86_64.rpm} "Fedora 10 (Rawhide) or later"
     FC9.i386 RPMS/fc9/i386 {fc9.i386.rpm} "Fedora 9"
@@ -22,7 +22,7 @@ set platform_directory_type_comments {
     FC8.x86_64 RPMS/fc8/x86_64 {fc8.x86_64.rpm} "Fedora 8"
     FC7.i386 RPMS/fc7/i386 {fc7.i386.rpm} "Fedora 7"
     FC7.x86_64 RPMS/fc7/x86_64 {fc7.x86_64.rpm} "Fedora 7"
-    Noarch noarch {noarch.rpm} ""
+    Noarch RPMS/noarch {noarch.rpm} ""
 }
 
 set package_exclude {
