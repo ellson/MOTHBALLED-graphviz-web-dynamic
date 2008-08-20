@@ -12,7 +12,7 @@ set packages_platforms {
     webdot {Sources Noarch}
 }
 
-set platform_type_comments {
+set platform_directory_type_comments {
     Sources SOURCES {src.rpm} ""
     EL5.i386 RPMS/el5/i386 {el5.i386.rpm} "Enterprise Linux 5 or later - uses fontconfig"
     EL5.x86_64 RPMS/el5/x86_64 {el5.x86_64.rpm} "Enterprise Linux 5 or later - uses fontconfig"
