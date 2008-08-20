@@ -3,8 +3,8 @@
 set docroot /var/www/www.graphviz.org
 
 set releases {
-    "current stable release<br>" pub/ext_repos/stable
-    "development snapshot<br>(If red, then they are more than 36 hours old<br>and we have a problem with the latest snapshot.)" pub/ext_repos/development
+    "current stable release<br>" att/graphviz/stable
+    "development snapshot<br>(If red, then they are more than 36 hours old<br>and we have a problem with the latest snapshot.)" att/graphviz/development
 }
 
 set packages_platforms {
