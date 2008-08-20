@@ -3,8 +3,8 @@
 set docroot /var/www/www.graphviz.org
 
 set releases {
-    "current stable release" pub/graphviz/stable/macos
-    "development snapshot" pub/graphviz/development/macos
+    "current stable release" pub/graphviz/stable
+    "development snapshot" pub/graphviz/development
 }
 
 set packages {
@@ -17,8 +17,8 @@ set package_exclude {
 }
 
 set platforms {
-    Sources {tar.gz} ""
-    MacOS {pkg} "MacOS"
+    Sources SOURCES {tar.gz} ""
+    MacOS macos {pkg} "MacOS"
 }
                                                                                 
 proc puts_latest {fout docroot dir package package_exclude type} {
@@ -70,14 +70,14 @@ foreach package $packages {
     }
     puts $fout "</tr>"
     puts $fout "</tbody>"
-    foreach {platform types comment} $platforms {
+    foreach {platform directory types comment} $platforms {
         set pkg $package
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
         foreach {releasename releasedir} $releases {
             puts $fout "<td align=\"left\"><font size=\"-1\">"
             foreach type $types {
-                puts_latest $fout $docroot $releasedir $pkg $package_exclude $type
+                puts_latest $fout $docroot $releasedir/$directory $pkg $package_exclude $type
             }
             puts $fout "</font></td>"
         }
