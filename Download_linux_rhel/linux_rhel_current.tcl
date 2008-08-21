@@ -98,6 +98,35 @@ set fout [open Download_linux_rhel.ht w]
 #}
 
 puts $fout {
+<h4>Yum Repository</h4>
+The easiest way to install and maintain graphviz on RHEL or Centos
+is to use <code>yum</code>.
+To set up yum, download the <a href=\"graphviz-rhel.repo\">graphviz-rhel.repo</a> file and save it
+(as root) in <code>/etc/yum.repos.d/</code>
+<p>
+Then you can (as root) type:
+<p>
+<pre>
+        yum list available 'graphviz*'
+        yum install 'graphviz*'
+</pre>
+<p>
+Caution: Our snapshot builds are generated automatically every day from CVS.
+The new snapshot rpms don't necessarily contain any changes,
+other than datestamps.
+Also, it sometimes happens that changes we are making will
+compile OK but will break things.
+Instead of enabling graphviz-snapshot for automatic updates,
+we recommend that you only manually update to a snapshot if you
+have reason to believe that it fixes a particular problem you
+are seeing.
+To manually update to a snapshot release, use the command:
+<p>
+<pre>
+        yum --enablerepo=graphviz-snapshot update 'graphviz*'
+</pre>
+<p>
+
 <h4>Organization of Binary packages for RHEL or Centos Linux</h4>
 <font size="-1">
 <dl>
