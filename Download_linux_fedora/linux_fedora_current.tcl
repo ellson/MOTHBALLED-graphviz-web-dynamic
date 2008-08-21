@@ -102,7 +102,7 @@ puts $fout {
 <h4>Yum Repository</h4>
 The easiest way to install and maintain graphviz on Fedora
 is to use <code>yum</code>.
-To set up yum, download the <a href=\"graphviz-fedora.repo\">graphviz-fedora.repo</a> file and save it
+To set up yum, download the <a href="graphviz-fedora.repo">graphviz-fedora.repo</a> file and save it
 (as root) in <code>/etc/yum.repos.d/</code>
 <p>
 Then you can (as root) type:
