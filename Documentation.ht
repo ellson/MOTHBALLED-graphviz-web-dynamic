@@ -45,5 +45,5 @@ dot's algorithm (1993) (<A HREF="http://citeseer.ist.psu.edu/gansner93technique.
 <dd><a href="Documentation/NW01.pdf">On-line Hierarchical Graph Drawing</a> - dynadag algorithm</dd>
 
 <dt><b>Source Documetation</b></dt>
-<dd><a href="/pub/graphviz/CURRENT/doxygen/html/index.html">Doxygen generated documentation of Graphviz, with dot generated diagrams</a></dd>
+<dd><a href="/pub/graphviz/development/doxygen/html/index.html">Doxygen generated documentation of Graphviz, with dot generated diagrams</a></dd>
 </dl>
