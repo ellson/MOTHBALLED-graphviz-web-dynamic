@@ -21,7 +21,7 @@ PAGESET=About.php \
 .ht.php:
 	./ht2php.py "${PAGESET}" $<
 
-all: ${PAGESET} index.php php doc
+all: ${PAGESET} index.php pdf doc
 
 ${PAGESET}: ht2php.py Makefile
 
@@ -29,7 +29,7 @@ index.php: About.php
 	rm -f index.php
 	ln -s About.php index.php
 
-.PHONY: Download_source.ht Download_linux_fedora.ht Download_linux_rhel.ht Download_att_linux.ht Download_windows.ht Download_macos.ht pdf
+.PHONY: Download_source.ht Download_linux_fedora.ht Download_linux_rhel.ht Download_att_linux.ht Download_windows.ht Download_macos.ht pdf doc
 
 Download.php: Agree.ht Download.ht
 
