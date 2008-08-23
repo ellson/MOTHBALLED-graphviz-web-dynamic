@@ -53,10 +53,12 @@ Download_macos.ht:
 
 #  http://www.graphviz.org/pdf requires graphviz-doc to be installed 
 pdf:
+	rm -f pdf
 	ln -sf /usr/share/doc/graphviz-doc-*/pdf pdf
 	
 #  http://www.graphviz.org/doc requires graphviz-doc to be installed 
 doc:
+	rm -f doc
 	ln -sf /usr/share/doc/graphviz-doc-*/html doc
 
 clean:
