@@ -4,8 +4,8 @@ PAGESET=About.php \
 	Download_linux_fedora.php \
 	Download_linux_rhel.php \
 	Download_att_linux.php \
-	Download_windows.php \
 	Download_macos.php \
+	Download_windows.php \
 	News.php \
 	Gallery.php \
 	Documentation.php \
@@ -29,7 +29,7 @@ index.php: About.php
 	rm -f index.php
 	ln -s About.php index.php
 
-.PHONY: Download_source.ht Download_linux_fedora.ht Download_linux_rhel.ht Download_att_linux.ht Download_windows.ht Download_macos.ht pdf doc
+.PHONY: Download_source.ht Download_linux_fedora.ht Download_linux_rhel.ht Download_att_linux.ht Download_macos.ht Download_windows.ht pdf doc
 
 Download.php: Agree.ht Download.ht
 
@@ -45,11 +45,11 @@ Download_linux_rhel.ht:
 Download_att_linux.ht:
 	./Download_att_linux/att_linux_current.tcl
 
-Download_windows.ht:
-	./Download_windows/windows_current.tcl
-
 Download_macos.ht:
 	./Download_macos/macos_current.tcl
+
+Download_windows.ht:
+	./Download_windows/windows_current.tcl
 
 #  http://www.graphviz.org/pdf requires graphviz-doc to be installed 
 pdf:

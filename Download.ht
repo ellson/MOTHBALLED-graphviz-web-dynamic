@@ -67,12 +67,11 @@ for the contents of these software products.
 <a href="http://packages.ubuntu.com/intrepid/graphics/graphviz">Interpid</a>
 package.
 <br>
-Fedora extras <a href="http://www.fedoraproject.org/extras/3">3</a>
-<a href="http://www.fedoraproject.org/extras/4">4</a>
-<a href="http://www.fedoraproject.org/extras/5">5</a>
-<a href="http://www.fedoraproject.org/extras/6">6</a>
-<a href="http://www.fedoraproject.org/extras/development">development (aka 7)</a>
-packages. 
+<a href="http://fedoraproject.org/">Fedora</a>.  On a working Fedora system, use:
+<pre>
+                  yum list 'graphviz*' 
+</pre>
+to see all available greaphviz pacakges.
 <p>
 <b>Mac OS X</b> <br>
 <a href="http://www.ryandesign.com/graphviz/">Standalone installer packages</a>
