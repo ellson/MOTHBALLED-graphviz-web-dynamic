@@ -12,7 +12,7 @@ set packages_platforms {
 }
 
 set platform_directory_type_comments {
-    UB8.i386 ubuntu/ub8/i386 {*.deb} "Ubuntu 2 (hardy)"
+    UB8.i386 ubuntu/ub8/i386 {i386.deb all.deb} "Ubuntu 2 (hardy)"
 }
 
 set package_exclude {
@@ -49,9 +49,9 @@ proc puts_latest {fout docroot dir package package_exclude type} {
             incr exclude_this [string match $excl $fn]
         }
         if {$exclude_this} {continue}
-        if {[string first $package $fn] == 0} {
+#        if {[string first $package $fn] == 0} {
             lappend PACKAGE([list $n $t]) [list $fn $v]
-        }
+#        }
     }
     foreach nt [array names PACKAGE] {
         foreach {n t} $nt {break}
