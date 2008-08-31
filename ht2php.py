@@ -59,7 +59,7 @@ for page in pageset:
   if len(menuitem.split('_')) > 1:
     menuparent = menuitem.split('_')[0]
     if len(menuitem.split('_')) > 2:
-      menuname = menuitem.split('_')[1] + ' ' + menuitem.split('_')[2]
+      menuname = menuitem.split('_')[2]
     else:
       menuname = menuitem.split('_')[1]
     indent = '&nbsp;&nbsp;'
