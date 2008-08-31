@@ -109,7 +109,6 @@ subsequently been ported to Microsoft Windows.
 Webdot
 - a tcldot scripted WWW service for graphs in HTML documents.
 (The webdot demo is currently broken).
-<p>
 There is also
 <a href="/Misc/webdot.pl">a simplified version</a> written in perl.
 <li>
