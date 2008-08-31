@@ -9,10 +9,11 @@ set releases {
 
 set packages_platforms {
     graphviz {UB8.i386}
+    lib {UB8.i386}
 }
 
 set platform_directory_type_comments {
-    UB8.i386 ubuntu/ub8/i386 {.deb} "Ubuntu 2 (hardy)"
+    UB8.i386 ubuntu/ub8/i386 {*.deb} "Ubuntu 2 (hardy)"
 }
 
 set package_exclude {
@@ -78,13 +79,13 @@ proc puts_latest {fout docroot dir package package_exclude type} {
 set fout [open Download_linux_ubuntu.ht w]
 
 puts $fout {
+<!--
 <p>
 <h4>Organization of Binary packages for Ubuntu Linux</h4>
 <font size="-1">
 <dl>
 <dt><i>graphviz</i>
 <dd>TBD</dd>
-<!--
 <dd>The base package providing /usr/bin/dot, /usr/bin/neato, etc.
 <dt><i>graphviz-doc, graphviz-graphs</i>
 <dd>Optional user documentation and examples.
@@ -92,18 +93,14 @@ puts $fout {
 <dd>Optional for developers: headers, debugging symbols, regression test scripts and data.
 <dt><i>graphviz-gd, graphviz-devil, graphviz_gdk_pixbuf, graphviz-ming</i>
 <dd>Optional renderers.
-<!--
-<dt><i>graphviz-cairo</i>
-<dd>Superceded by pango/cairo support in the base <i>graphviz</i> package in FC5 and later.
--->
 <dt><i>graphviz-guile, graphviz-java, graphviz-lua, graphviz-ocaml, graphviz-perl, graphviz-php, graphviz-python, graphviz-R, graphviz-ruby, graphviz-sharp, graphviz-tcl</i>
 <dd>Optional language bindings to enable programs in those languages to use the facilities of graphviz.
 <dt><i>webdot</i>
 <dd>Optional cgi-bin graph server.  Requires <i>graphviz</i> and <i>graphviz-tcl</i>.
--->
 </dl>
 </font>
 <p>
+-->
 }
 
 puts $fout "<table frame=\"void\" rules=\"groups\" border=\"1\" width=\"100%\">"
