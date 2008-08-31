@@ -103,8 +103,13 @@ subsequently been ported to Microsoft Windows.
 <a href="http://www.graphviz.org/cgi-bin/man?tcldot">tcldot</a>
 - a TCL/TK scripting language extension for Graphviz
 <li>
+<!--
 <a href="/webdot/">WebDot</a>.
+-->
+Webdot
 - a tcldot scripted WWW service for graphs in HTML documents.
+(The webdot demo is currently broken).
+<p>
 There is also
 <a href="/Misc/webdot.pl">a simplified version</a> written in perl.
 <li>
