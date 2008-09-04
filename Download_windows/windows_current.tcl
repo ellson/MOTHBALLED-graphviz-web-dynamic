@@ -18,8 +18,7 @@ set package_exclude {
 
 set platforms {
     Sources SOURCES {tar.gz} ""
-    Windows windows {exe bin.tar.gz static.exe static.bin.tar.gz} "Microsoft Windows"
-    "Windows (experimental)" windows {msi} "Microsoft Windows (experimental)"
+    "Windows" windows {msi} "Microsoft Windows (experimental)"
 }
                                                                                 
 proc puts_latest {fout docroot dir package package_exclude type} {
@@ -92,23 +91,4 @@ foreach package $packages {
 
 puts $fout "</table>"
 
-puts $fout "<p>Note for Windows users:\n\
-<p>The .msi packages contain different code and are EXPERIMENTAL. In particular these do not yet\n\
-include fontconfig and cairopango and the gdiplus renderer drawings are not yet correct. The minimum system\n\
-requirement is for Windows XP or Windows 2003 Server.\n\
-<p>Some Windows operating systems may\n\
-require run-time components of Visual C++ libraries to properly run \n\
-Graphviz executables. We are still working on this issue.  Meanwhile, \n\
-if you get error messages like:\n\
-<P>\n\
-\"The application has failed to start because the application configuration\n\
-is incorrect. Reinstalling the application may fix the problem.\"\n\
-<P>\n\
-or\n\
-<P>\n\
-\"The application has failed to start because somefilename.dll was not found.\n\
-Re-installing the application may fix this problem.\"\n\
-<P>\n\
-please click this <A HREF=http://www.microsoft.com/downloads/details.aspx?familyid=32bc1bee-a3f9-4c13-9c99-220b62a191ee&displaylang=en>link</A>\n\
-and install Microsoft Visual C++ 2005 Redistributable Package (x86).\n"
 close $fout
