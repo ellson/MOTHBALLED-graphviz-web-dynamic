@@ -18,7 +18,7 @@ set package_exclude {
 
 set platforms {
     Sources SOURCES {tar.gz} ""
-    "Windows" windows {msi} "Microsoft Windows (experimental)"
+    "Windows" windows {exe msi} "Microsoft Windows"
 }
                                                                                 
 proc puts_latest {fout docroot dir package package_exclude type} {
