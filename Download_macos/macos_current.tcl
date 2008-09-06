@@ -20,9 +20,25 @@ set platforms {
     Sources SOURCES {tar.gz} ""
     MacOS macos {pkg} "MacOS"
 }
+
+set time_cutoff [expr {[clock seconds] - 36*60*60}]
+proc checkdate {fnv} {
+    global time_cutoff
+    set color blue
+    foreach {fn v} $fnv {break}
+    set lst [split $v {-.}]
+    if {[llength $lst] >= 5} {
+        foreach {. . dt tm .} $lst {break}
+        set time_stamp [clock scan [string range $dt 2 end]T${tm}00 -gmt 1]
+        if {$time_stamp < $time_cutoff} {
+            set color red
+        }
+    }
+    return [list $fn $color]
+}
                                                                                 
 proc puts_latest {fout docroot dir package package_exclude type} {
-    set regexp {([-a-z]*)(-[0-9][-0-9.]*)([a-z][.a-z0-9]*)}
+    set regexp {([-a-zA-Z]*)([-0-9.]*)([a-z][.a-z0-9]*)}
     if {![file exists $docroot/$dir]} {
         puts $fout "<font color=\"red\">Directory \"$docroot/$dir/\" was not found.</font>"
         return
@@ -42,14 +58,13 @@ proc puts_latest {fout docroot dir package package_exclude type} {
     }
     foreach nt [array names PACKAGE] {
       foreach {n t} $nt {break}
-      set fnv [lindex [lsort -decreasing -dictionary -index 1 $PACKAGE($nt)] 0]
-      foreach {fn v} $fnv {break}
-      lappend FILES($t) $fn
+      lappend FILES($t) [lindex [lsort -decreasing -dictionary -index 1 $PACKAGE($nt)] 0]
     }
     cd $owd
     if {[info exists FILES($type)]} {
-        foreach fn [lsort $FILES($type)] {
-            puts $fout "<a href=\"/$dir/$fn\">$fn</a><br>"
+        foreach {fnv} [lsort $FILES($type)] {
+	    foreach {fn color} [checkdate $fnv] {break}
+	    puts $fout "<a href=\"/$dir/$fn\"><font color=\"$color\">$fn</font></a><br>"
         }
     }
 }
