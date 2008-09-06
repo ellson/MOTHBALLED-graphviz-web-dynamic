@@ -17,9 +17,10 @@ set package_exclude {
 }
 
 set platforms {
-    Sources SOURCES {tar.gz} ""
     MacOS macos {pkg} "MacOS"
 }
+
+#    Sources SOURCES {tar.gz} ""
 
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
 proc checkdate {fnv} {
