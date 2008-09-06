@@ -38,7 +38,7 @@ proc checkdate {fnv} {
 }
                                                                                 
 proc puts_latest {fout docroot dir package package_exclude type} {
-    set regexp {([-a-z]*)(-[0-9][-0-9.]*)([a-z][.a-z0-9]*)}
+    set regexp {([-a-z]*)(-[0-9.]*)([a-z][.a-z0-9]*)}
     if {![file exists $docroot/$dir]} {
         puts $fout "<font color=\"red\">Directory \"$docroot/$dir/\" was not found.</font>"
         return
@@ -58,12 +58,11 @@ proc puts_latest {fout docroot dir package package_exclude type} {
     }
     foreach nt [array names PACKAGE] {
       foreach {n t} $nt {break}
-      set fnv [lindex [lsort -decreasing -dictionary -index 1 $PACKAGE($nt)] 0]
-      lappend FILES($t) $fnv
+      lappend FILES($t) [lindex [lsort -decreasing -dictionary -index 1 $PACKAGE($nt)] 0]
     }
     cd $owd
     if {[info exists FILES($type)]} {
-        foreach fnv [lsort $FILES($type)] {
+        foreach {fnv} [lsort $FILES($type)] {
 	    foreach {fn color} [checkdate $fnv] {break}
             puts $fout "<a href=\"/$dir/$fn\"><font color=\"$color\">$fn</font></a><br>"
         }
