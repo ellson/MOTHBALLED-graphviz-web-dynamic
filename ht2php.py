@@ -67,7 +67,7 @@ for page in pageset:
     menuparent = ''
     menuname = menuitem
     indent = ''
-  if menuname != "att linux":
+  if menuname != "att":
       if basename == menuparent or baseparent == menuparent or menuparent == '':
         if basename == menuitem:
           fout.write('\t<tr><td bgcolor="#c0ffc0">' + indent + menuname + '</td></tr>\n')
