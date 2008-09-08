@@ -3,8 +3,8 @@
 set docroot /var/www/www.graphviz.org
 
 set releases {
-    "current stable release<br>" att_pub/graphviz/stable
-    "development snapshot<br>(If red, then they are more than 36 hours old<br>and we have a problem with the latest snapshot.)" att_pub/graphviz/development
+    "current stable release<br>" /data/att_pub/graphviz/stable
+    "development snapshot<br>(If red, then they are more than 36 hours old<br>and we have a problem with the latest snapshot.)" /data/att_pub/graphviz/development
 }
 
 set packages_platforms {
@@ -83,14 +83,16 @@ proc puts_latest {fout docroot dir package package_exclude type} {
         foreach {fnv} [lsort -dictionary -index 0 $FILES($type)] {
             foreach {fn color} [checkdate $fnv] {break}
 	    if {[string first debuginfo $fn] == -1 && [string first rtest $fn] == -1} {
-                puts $fout "<a href=\"/$dir/$fn\"><font color=\"$color\">$fn</font></a><br>"
+#                puts $fout "<a href=\"/$dir/$fn\"><font color=\"$color\">$fn</font></a><br>"
+                puts $fout "<font color=\"$color\">$fn</font><br>"
 	    }
 	
         }
         foreach {fnv} [lsort -dictionary -index 0 $FILES($type)] {
             foreach {fn color} [checkdate $fnv] {break}
 	    if {[string first debuginfo $fn] != -1 || [string first rtest $fn] != -1} {
-                puts $fout "&nbsp;&nbsp;<a href=\"/$dir/$fn\"><font color=\"$color\" size=\"-2\">$fn</font></a><br>"
+#                puts $fout "&nbsp;&nbsp;<a href=\"/$dir/$fn\"><font color=\"$color\" size=\"-2\">$fn</font></a><br>"
+                puts $fout "&nbsp;&nbsp;<font color=\"$color\" size=\"-2\">$fn</font><br>"
 	    }
         }
     }
@@ -150,7 +152,7 @@ foreach {package platforms} $packages_platforms {
         foreach {releasename releasedir} $releases {
             puts $fout "<td align=\"left\"><font size=\"-1\">"
             foreach type $types {
-                puts_latest $fout $docroot $releasedir/$directory $package $package_exclude $type
+                puts_latest $fout / $releasedir/$directory $package $package_exclude $type
             }
             puts $fout "</font></td>"
         }
