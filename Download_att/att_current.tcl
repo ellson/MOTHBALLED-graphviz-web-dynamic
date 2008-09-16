@@ -8,7 +8,7 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64 EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64}
+    graphviz {SRPMS FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64 EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64 UB8.i386}
 }
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
@@ -27,6 +27,7 @@ set platform_directory_type_comments {
     EL3.i386 redhat/el3/i386/os {el3.i386.rpm el3.noarch.rpm} "Enterprise Linux 3 or later - uses fontconfig"
     EL3.x86_64 redhat/el3/x86_64/os {el3.x86_64.rpm el3.noarch.rpm} "Enterprise Linux 3 or later - uses fontconfig"
     EL3.ia64 redhat/el3/ia64/os {el3.ia64.rpm el3.noarch.rpm} "Enterprise Linux 3 or later - uses fontconfig"
+    UB8.i386 ubuntu/ub8/i386 {i386.deb all.deb} "Ubuntu 2 (hardy)"
 }
 
 set package_exclude {
