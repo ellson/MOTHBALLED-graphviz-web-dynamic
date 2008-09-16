@@ -57,14 +57,17 @@ proc checkdate {fnv} {
 }
                                                                                 
 proc puts_latest {fout docroot dir package package_exclude type} {
-    set regexp {([-a-zA-Z]*)([-0-9.at]*)([a-z][.a-z0-9_]*)}
+    set regexp1 {([-a-zA-Z]*)([-0-9.at]*)([a-z][.a-z0-9_]*)}
+    set regexp2 {([-a-zA-Z0-9]*)_([-0-9.]*)_([a-z][.a-z0-9_]*)}
     if {![file exists $docroot/$dir]} {
         puts $fout "<font color=\"red\">Directory \"$docroot/$dir/\" was not found.</font>"
         return
     }
     set owd [pwd]
     cd $docroot/$dir
-    foreach {fn n v t} [regexp -all -inline $regexp [glob -nocomplain *]] {
+    foreach {fn n v t} [concat \
+		[regexp -all -inline $regexp1 [glob -nocomplain *]] \
+		[regexp -all -inline $regexp2 [glob -nocomplain *]]] {
         if {[file isdir $fn]} {continue}
         set exclude_this 0
         foreach {excl} $package_exclude {
