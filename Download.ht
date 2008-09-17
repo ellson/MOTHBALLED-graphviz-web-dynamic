@@ -73,7 +73,7 @@ package.
 <pre>
                   yum list 'graphviz*' 
 </pre>
-to see all available greaphviz pacakges.
+to see all available graphviz packages.
 <p>
 <b>Mac OS X</b> <br>
 <a href="http://www.ryandesign.com/graphviz/">Standalone installer packages</a>
