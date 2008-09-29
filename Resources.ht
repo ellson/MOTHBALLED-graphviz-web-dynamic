@@ -50,6 +50,7 @@ by Graphviz as an Excel (vector graphics) picture object.
 [Rama Viswanathan]
 <li><a href="http://graph.gafol.net/">graph.gafol.net<a>, a service which helps to create and publish graphs online. [Paul Colomiets]
 <li><a href="http://code.google.com/p/jrfonseca/wiki/XDot">xdot.py<a>, an interactive viewer for graphs. [Jose Fonseca]
+<li><a href="http://markandrewgoetz.com/vizierfx/">VizierFX<a>, a renderer for Graphviz written in Adobe Flex. [Mark A. Goetz]
 </ul>
 
 <!-- -------------------- -->
