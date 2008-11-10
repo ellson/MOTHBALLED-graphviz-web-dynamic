@@ -7,8 +7,8 @@ set releases {
     "development snapshot" pub/graphviz/development
 }
 
-set packages {
-    graphviz
+set packages_platforms {
+    graphviz {leopard tiger}
 }
 
 set package_exclude {
@@ -16,8 +16,9 @@ set package_exclude {
     graphviz-win-
 }
 
-set platforms {
-    MacOS macos {pkg} "MacOS"
+set platform_directory_type_comments {
+    leopard macos/leopard {pkg} "MacOS 10.5 (Leopard)"
+    tiger macos/tiger {pkg} "MacOS 10.4 (Tiger)"
 }
 
 #    Sources SOURCES {tar.gz} ""
@@ -77,7 +78,7 @@ for {set i 0} {$i <= [llength $releases] / 2} {incr i} {
     puts $fout "<colgroup><col></colgroup>"
 }
 
-foreach package $packages {
+foreach {package platforms} $packages_platforms {
     puts $fout "<tbody>"
     puts $fout "<tr>"
     puts $fout "<th align=\"left\"><font size=\"+1\">$package</font></th>"
@@ -86,7 +87,8 @@ foreach package $packages {
     }
     puts $fout "</tr>"
     puts $fout "</tbody>"
-    foreach {platform directory types comment} $platforms {
+    foreach {platform directory types comment} $platform_directory_type_comments {
+	if {[lsearch $platforms $platform] == -1} continue
         set pkg $package
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
@@ -106,7 +108,5 @@ foreach package $packages {
 }
 
 puts $fout "</table>"
-
-puts $fout "<p>These packages require Mac OS X 10.5 (Leopard)."
 
 close $fout
