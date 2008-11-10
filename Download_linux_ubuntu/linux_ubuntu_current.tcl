@@ -8,11 +8,11 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {UB8.i386 UB8.all}
+    graphviz {UB8.10.i386 UB8.10.all}
 }
 
 set platform_directory_type_comments {
-    UB8.i386 ubuntu/ub8/i386 {i386.deb all.deb} "Ubuntu 2 (hardy)"
+    UB8.10.i386 ubuntu/ub8.10/i386 {i386.deb all.deb} "Ubuntu 2 (hardy)"
 }
 
 set package_exclude {
