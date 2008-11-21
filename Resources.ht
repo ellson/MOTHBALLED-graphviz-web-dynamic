@@ -97,6 +97,7 @@ in perl [Stephen North, with a huge assist from John Linderman]
 Filters that transform other data sources and formats into Graphviz.
 <ul>
 <li><a href="http://schemaspy.sourceforge.net/">SchemaSpy</a> analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables [John Currier]
+<li><a href="http://www.worldcat.org/xissn/titlehistory">WorldCat xISSN</a> shows the history of a journal indexed by ISSN [OCLC Online Computer Library Center, Inc.]
 <li> <a href="http://www.softwaresecretweapons.com/jspwiki/Wiki.jsp?page=LinguineMaps">Linguine Maps</A> visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming (examples <a href="http://www.softwaresecretweapons.com/jspwiki/Wiki.jsp?page=HowToUseLinguineMapsJavaAPI">here</A>) [Pavel Simakov]
 <li> <a href="http://www.rbt.ca/autodoc/index.shtml">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]
 <li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render [Martin Loetzsch]
@@ -114,6 +115,7 @@ and an old <a href="Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]
 <!-- -------------------- -->
 <h4><a name="network-and-web">Network and Web Engineering Tools Using Graphviz</a></h4>
 <ul>
+<li> <a href="http://www.hokstad.com/traceviz-visualizing-traceroute-output-with-graphivz.html">TraceViz</a> Traceroute visualization with sharp-looking SVG styles [Vidar Hokstad]
 <li> <a href="http://afterglow.sourceforge.net/">afterglow</a> is a collection of scripts to generate graphs for Graphviz (and LGL), from various network logs and firewall rulesets [Raffael Marty] (see also <a href="http://dev.inversepath.com/trac/tenshi">tenshi</a> for logfile filtering)
 <li> <a href="http://sourceforge.net/projects/safemap">SMART</A> passive network flow visualization tool  [Cisco's Critical Infrastructure Assurance Group (CIAG) Research team]
 <li> <a href="http://www.csoonline.com/article/348317/What_a_Botnet_Looks_Like">
