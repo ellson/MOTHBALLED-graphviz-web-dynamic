@@ -213,7 +213,7 @@ each ArgoUML diagram.
 <li><a href="http://research.cs.queensu.ca/~thurston/ragel/">Ragel</a> (think "lex") compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format.
 <li><a href="http://code.google.com/p/apiviz">APIviz</a> is a JavaDoc doclet which extends the Java standard doclet. It generates comprehensive UML-like class and package diagrams.
 <li><a href="http://sourceforge.net/projects/revj">Reverse Snowflake Joins</a> is a tool that parses SQL Select statements and generates a diagram. There is
-also a <a href="http://www.snowflakejoins.com/revj">demo</a>. [Toth Alexandru]
+<li><a href="http://www.latticesoft.com/downloads/latticeframeworkstudio.msi">LatticeFramework Studio</a> is a .net-based tool (requires .net framework 2.0 or higher) that analyzes the metadata of a schema in a database to generate entity-relationship diagrams and UML class diagrams. [Li Xin]
 </ul>
 
 <h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
