@@ -8,8 +8,8 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64}
-    webdot {SRPMS FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64}
+    graphviz {SRPMS FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64}
+    webdot {SRPMS FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64}
 }
 
 set platform_directory_type_comments {
