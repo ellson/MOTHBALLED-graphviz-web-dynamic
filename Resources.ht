@@ -217,6 +217,7 @@ each ArgoUML diagram.
 <li><a href="http://www.latticesoft.com/downloads/latticeframeworkstudio.msi">LatticeFramework Studio</a> is a .net-based tool (requires .net framework 2.0 or higher) that analyzes the metadata of a schema in a database to generate entity-relationship diagrams and UML class diagrams. [Li Xin]
 <li><a href="http://research.eeye.com/html/tools/RT20060801-1.html">eEye Binary Diffing Suite</a> is a suite of tools for binary differential analysis, especially for reverse engineering patches as well as program updates.
 <li><a href="http://www.nocsos.com/">myDBR</a> is web-based reporting system for relational databases using Graphviz as one of its charting modules.
+<li><a href="http://www.albertolluch.com/adr/">ADR</a> is a system for formal software design by means of graphical methods. [Alberto Lluch Lafuente]
 </ul>
 
 <h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
