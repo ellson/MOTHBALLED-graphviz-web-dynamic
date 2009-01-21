@@ -82,7 +82,7 @@ into a Wordpress page. [Emilio Gonz&aacute;lez Monta&ntilde;a]
 entirely in perl for ease of installation. 
 It also has a <a href="http://search.cpan.org/~tels/mediawiki-graph/">MediaWiki</a> extension.  [Tels]
 <li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]
-<li>ruby: <a href="http://raa.ruby-lang.org/project/ruby-graphviz/">RAA</a>
+<li>ruby: <a href="http://raa.ruby-lang.org/project/ruby-graphviz/">RAA (ruby-graphviz)</a>
 <li> <a href="http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4518&amp;objectType=file">MatLab</a> [Leon Peshkin]
 <li>R: see below for <a href="#Rgraphviz">R-Graphviz</a>
 <li>HTML: the original <a href="http://www.graphviz.org/webdot/">webdot</a> in
@@ -218,6 +218,9 @@ each ArgoUML diagram.
 <li><a href="http://research.eeye.com/html/tools/RT20060801-1.html">eEye Binary Diffing Suite</a> is a suite of tools for binary differential analysis, especially for reverse engineering patches as well as program updates.
 <li><a href="http://www.nocsos.com/">myDBR</a> is web-based reporting system for relational databases using Graphviz as one of its charting modules.
 <li><a href="http://www.albertolluch.com/adr/">ADR</a> is a system for formal software design by means of graphical methods. [Alberto Lluch Lafuente]
+<li><a href="http://lizards.opensuse.org/2009/01/19/graph-of-storage-devices/">YaST</a> openSUSE installation and configuration 
+showing a graph of storage devices
+with dependencies. [Arvin Schnell]
 </ul>
 
 <h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
