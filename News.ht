@@ -1,8 +1,29 @@
 <h4>
+Graph Visualization Is Our Brand
+</h4>
+<A HREF="News/Dulles_map_01.pdf">
+<IMG SRC="http://farm1.static.flickr.com/69/162370394_0c8251d3a5_m.jpg">
+</A>
+<A HREF="News/MAP_DC_1157_Lo.jpg">
+<IMG SRC="News/MAP_DC_1157_Lo_small.jpg">
+</A>
+<A HREF="News/MAP_DC_1168_Lo.jpg">
+<IMG SRC="News/MAP_DC_1168_Lo_small.jpg">
+</A>
+<br>
+Dioramas featuring network visualization from our lab are on display
+at Washington Dulles airport (click on the airport photo to see locations).
+Mercury Seattle designed the ads with layouts made by Bill Cheswick.
+Bill combined tools he wrote at
+<A HREF="http://www.lumeta.com">Lumeta</A> and
+<A HREF="http://www.research.att.com/~yifanhu/GALLERY/GRAPHS/">sfdp</A>,
+a new scalable visualization program by Yifan Hu that is slated for a
+future release of Graphviz. Meanwhile, here's a
+<A HREF="News/new1.pdf">pdf</A> for your enjoyment (3.1M).
+<h4>
 <font color=gold4>Software Visualization of the Graphviz Project</font>
 </h4>
-See this
-<a href="http://www.vimeo.com/2300505">code swarm</a> animation.
+<object width="400" height="225"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=2300505&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=2300505&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="225"></embed></object><br /><a href="http://vimeo.com/2300505">Graphviz code_swarm</a> from <a href="http://vimeo.com/user925215">Pander Musubi</a> on <a href="http://vimeo.com">Vimeo</a>.
 <h4>
 <font color=gold4>Curated Example Graphs (2008)</font>
 </h4>
