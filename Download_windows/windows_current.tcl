@@ -17,7 +17,7 @@ set package_exclude {
 }
 
 set platforms {
-    "Windows" windows {msi} "Microsoft Windows"
+    "Windows" windows {msi zip} "Microsoft Windows"
 }
 
 #    Sources SOURCES {tar.gz} ""
