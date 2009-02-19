@@ -8,13 +8,13 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64}
+    graphviz {SRPMS FC11.i586 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64}
     webdot {SRPMS FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 FC7.i386 FC7.x86_64}
 }
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
-    FC11.i386 redhat/fc11/i386/os {fc11.i386.rpm fc11.noarch.rpm} "Fedora 11 (Rawhide)"
+    FC11.i586 redhat/fc11/i386/os {fc11.i586.rpm fc11.noarch.rpm} "Fedora 11 (Rawhide)"
     FC11.x86_64 redhat/fc11/x86_64/os {fc11.x86_64.rpm fc11.noarch.rpm} "Fedora 11 (Rawhide)"
     FC10.i386 redhat/fc10/i386/os {fc10.i386.rpm fc10.noarch.rpm} "Fedora 10"
     FC10.x86_64 redhat/fc10/x86_64/os {fc10.x86_64.rpm fc10.noarch.rpm} "Fedora 10"
