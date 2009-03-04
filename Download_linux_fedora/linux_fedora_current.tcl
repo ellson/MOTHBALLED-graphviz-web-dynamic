@@ -39,6 +39,8 @@ set package_exclude {
     graphviz-perl-*.el3.*
     graphviz-php-*.el\[345\].*
     graphviz-php-*.fc4.*
+    graphviz-graphs-*.fc11.*[64].rpm
+    graphviz-doc-*.fc11.*[64].rpm
 }
 
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
