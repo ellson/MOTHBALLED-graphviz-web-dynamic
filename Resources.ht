@@ -52,6 +52,8 @@ by Graphviz as an Excel (vector graphics) picture object.
 <li><a href="http://graph.gafol.net/">graph.gafol.net<a>, a service which helps to create and publish graphs online. [Paul Colomiets]
 <li><a href="http://code.google.com/p/jrfonseca/wiki/XDot">xdot.py<a>, an interactive viewer for graphs. [Jose Fonseca]
 <li><a href="http://markandrewgoetz.com/vizierfx/">VizierFX<a>, a renderer for Graphviz written in Adobe Flex. [Mark A. Goetz]
+<li><a href="http://ideatree.us/">IdeaTree</a>, a platform for
+concurrent, shared knowledge mapping [Ron Newman]
 </ul>
 
 <!-- -------------------- -->
@@ -263,8 +265,6 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <h4><a name="social-networking">Social Networking and Collaborative Work</a></h4>
 <ul>
 <li><a href="http://www.research.att.com/~volinsky/cgi-bin/prox/prox.pl">Proximity Subgraphs</a> - visualize communities in the Internet Movie Database
-<li><a href="http://ideatree.us/">IdeaTree</a>, a platform for
-concurrent, shared knowledge mapping [Ron Newman]
 <li><a href="http://www.hammondjazz.net/index.php?page=article&task=current&mode=detail&section=News&target=70">Hammond Jazz Inventory</a> - show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!)
 </ul>
 
