@@ -53,7 +53,7 @@ by Graphviz as an Excel (vector graphics) picture object.
 <li><a href="http://code.google.com/p/jrfonseca/wiki/XDot">xdot.py<a>, an interactive viewer for graphs. [Jose Fonseca]
 <li><a href="http://markandrewgoetz.com/vizierfx/">VizierFX<a>, a renderer for Graphviz written in Adobe Flex. [Mark A. Goetz]
 <li><a href="http://ideatree.us/">IdeaTree</a>, a platform for
-concurrent, shared knowledge mapping [Ron Newman]
+concurrent, shared knowledge mapping
 </ul>
 
 <!-- -------------------- -->
