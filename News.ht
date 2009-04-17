@@ -1,4 +1,34 @@
 <h4>
+Graphs at CHI 2009
+</h4>
+An interesting session on
+<A HREF="http://chi2009.org/Attending/AdvanceProgram/66.html">
+<b>Understanding Graphs</b></A>
+was chaired by Martin Watternberg at CHI 2009 in Boston.
+One of the talks,
+<A HREF="http://www.moscovich.net/tomer/papers/moscovich_toponav_chi_2009.pdf">
+Topology-Aware Navigation in Large Networks</A>
+presented novel techniques that were implemented and are available 
+in the excellent <A HREF="http://zvtm.sf.net/zgrviewer.html">
+ZGRViewer</A> zooming graph viewer Java program for Graphviz.
+And how can anyone not admire the cool
+<A HREF="http://zvtm.sourceforge.net/zgrviewer/applet/" applet</A> version.
+<br>
+<h4>
+Graphviz iPhone App
+</h4>
+<table align=centered width="80%">
+<tr>
+<td>
+<img src=http://instaviz.com/instaviz-girl.jpg width=200>
+</td>
+<td>
+``Sketch a rough shape with your finger and Instaviz transforms what you drew in a split second. Sketch a link between two shapes and Instaviz quickly redraws the graph with the best layout. No pesky user interface getting in the way of your brainstorm!''  (Well, maybe.)  <A HREF="http://instaviz.com/">Read more.</A>
+</td>
+</tr>
+</table>
+<br>
+<h4>
 Graph Visualization Is Our Brand
 </h4>
 <A HREF="News/Dulles_map_01.pdf">
@@ -11,14 +41,14 @@ Graph Visualization Is Our Brand
 <IMG SRC="News/MAP_DC_1168_Lo_small.jpg">
 </A>
 <br>
-Dioramas featuring network visualization from our lab are on display
+Dioramas featuring network visualization from our lab were displayed
 at Washington Dulles airport (click on the airport photo to see locations).
 Mercury Seattle designed the ads with layouts made by Bill Cheswick.
 Bill combined tools he wrote at
 <A HREF="http://www.lumeta.com">Lumeta</A> and
 <A HREF="http://www.research.att.com/~yifanhu/GALLERY/GRAPHS/">sfdp</A>,
-a new scalable visualization program by Yifan Hu that is slated for a
-future release of Graphviz. Meanwhile, here's a
+a new scalable visualization program by Yifan Hu that is slated for the
+next main release of Graphviz. Meanwhile, here's a
 <A HREF="News/new1.pdf">pdf</A> for your enjoyment (3.1M).
 <h4>
 <font color=gold4>Software Visualization of the Graphviz Project</font>
