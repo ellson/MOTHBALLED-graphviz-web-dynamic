@@ -57,11 +57,11 @@ Download_att.ht:
 
 #  http://www.graphviz.org/pdf requires graphviz-doc to be installed 
 pdf:
-	cp -rf /usr/share/doc/graphviz-doc-*/pdf pdf
+	cp -rf /usr/share/doc/graphviz-doc-*/pdf/* pdf/
 	
 #  http://www.graphviz.org/doc requires graphviz-doc to be installed 
 doc:
-	cp -rf /usr/share/doc/graphviz-doc-*/html doc
+	cp -rf /usr/share/doc/graphviz-doc-*/html/* doc/
 
 clean:
 	rm -f ${PAGESET} index.php Download_*.ht
