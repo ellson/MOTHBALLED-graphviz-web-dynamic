@@ -72,6 +72,18 @@ proc puts_latest {fout docroot dir package package_exclude type} {
 
 set fout [open Download_windows.ht w]
 
+puts $fout {
+If a package name contains 'mingw', that indicates the package was
+built using MinGW. Otherwise, the package was built with Visual
+Studio. 
+<p>
+<b>Warning</b>: If you plan to use Graphviz as a library, make sure
+you download the version compatible with your compiler. MinGW binaries
+will not work with Visual Studio code. Also, note that the Visual
+Studio packages provide only the Release version. If you link these
+in with a program using Debug mode, your program will crash.
+}
+
 puts $fout "<table frame=\"void\" rules=\"groups\" border=\"1\" width=\"100%\">"
 for {set i 0} {$i <= [llength $releases] / 2} {incr i} {
     puts $fout "<colgroup><col></colgroup>"
