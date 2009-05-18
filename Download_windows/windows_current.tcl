@@ -84,6 +84,8 @@ Studio packages provide only the Release version. If you link these
 in with a program using Debug mode, your program will crash.
 }
 
+puts $fout "<P>"
+
 puts $fout "<table frame=\"void\" rules=\"groups\" border=\"1\" width=\"100%\">"
 for {set i 0} {$i <= [llength $releases] / 2} {incr i} {
     puts $fout "<colgroup><col></colgroup>"
@@ -118,5 +120,10 @@ foreach package $packages {
 }
 
 puts $fout "</table>"
-
+puts $fout {
+<p>
+If you encounter problems running or building the Windows version,
+submit a <A HREF="http://www.graphviz.org/bugs/bugform.html">bug report</A>
+or contact <a href="mailto:arif@research.att.com">Arif Bilgin</a>.
+}
 close $fout
