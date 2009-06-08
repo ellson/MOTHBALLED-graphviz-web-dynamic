@@ -8,12 +8,16 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64 UB8.i386}
+    graphviz {SRPMS FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64 EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64 UB8.i386}
 }
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
-    FC10.i386 redhat/fc10/i386/os {fc10.i386.rpm fc10.noarch.rpm} "Fedora 10 (Rawhide) or later"
-    FC10.x86_64 redhat/fc10/x86_64/os {fc10.x86_64.rpm fc10.noarch.rpm} "Fedora 10 (Rawhide) or later"
+    FC12.i386 redhat/fc12/i386/os {fc12.i586.rpm fc12.i386.rpm fc12.noarch.rpm} "Fedora 12 (Rawhide)"
+    FC12.x86_64 redhat/fc12/x86_64/os {fc12.x86_64.rpm fc12.noarch.rpm} "Fedora 12 (Rawhide)"
+    FC11.i386 redhat/fc11/i386/os {fc11.i386.rpm fc11.i386.rpm fc11.noarch.rpm} "Fedora 11"
+    FC11.x86_64 redhat/fc11/x86_64/os {fc11.x86_64.rpm fc11.noarch.rpm} "Fedora 10"
+    FC10.i386 redhat/fc10/i386/os {fc10.i386.rpm fc10.noarch.rpm} "Fedora 10"
+    FC10.x86_64 redhat/fc10/x86_64/os {fc10.x86_64.rpm fc10.noarch.rpm} "Fedora 10"
     FC9.i386 redhat/fc9/i386/os {fc9.i386.rpm fc9.noarch.rpm} "Fedora 9"
     FC9.x86_64 redhat/fc9/x86_64/os {fc9.x86_64.rpm fc9.noarch.rpm} "Fedora 9"
     FC8.i386 redhat/fc8/i386/os {fc8.i386.rpm fc8.noarch.rpm} "Fedora 8"
@@ -34,6 +38,10 @@ set package_exclude {
     graphviz-perl-*.el3.*
     graphviz-php-*.el\[345\].*
     graphviz-php-*.fc4.*
+    graphviz-graphs-*.fc11.*[64].rpm
+    graphviz-doc-*.fc11.*[64].rpm
+    graphviz-*.fc11.i386.rpm
+    graphviz-*.fc12.i386.rpm
 }
 
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
