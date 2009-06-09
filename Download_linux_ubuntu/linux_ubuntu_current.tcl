@@ -8,12 +8,12 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {UB9.4.x86_64 UB9.4.i386 UB8.10.i386 UB8.10.all}
+    graphviz {UB9.04.x86_64 UB9.04.i386 UB8.10.i386 UB8.10.all}
 }
 
 set platform_directory_type_comments {
-    UB9.4.x86_64 ubuntu/ub9.4/x86_64 {x86_64.deb all.deb} "Ubuntu 9.4 (Jaunty Jackalope)"
-    UB9.4.i386 ubuntu/ub9.4/i386 {i386.deb all.deb} "Ubuntu 9.4 (Jaunty Jackalope)"
+    UB9.04.x86_64 ubuntu/ub9.04/x86_64 {x86_64.deb all.deb} "Ubuntu 9.04 (Jaunty Jackalope)"
+    UB9.04.i386 ubuntu/ub9.04/i386 {i386.deb all.deb} "Ubuntu 9.04 (Jaunty Jackalope)"
     UB8.10.i386 ubuntu/ub8.10/i386 {i386.deb all.deb} "Ubuntu 8.10 ((Intrepid Ibex))"
 }
 
