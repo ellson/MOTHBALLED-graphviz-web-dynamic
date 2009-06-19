@@ -157,6 +157,8 @@ To manually update to a snapshot release, use the command:
 </dl>
 </font>
 <p>
+Note: The \"sfdp\" feature available in graphvizs for el5 (but not el3 or el4) requires gts.  We have backported gts from fc8 and provided rpms below.  If you are using yum it should find these automatically.
+<p>
 }
 
 puts $fout "<table frame=\"void\" rules=\"groups\" border=\"1\" width=\"100%\">"
@@ -193,5 +195,7 @@ foreach {package platforms} $packages_platforms {
 }
 
 puts $fout "</table>"
+puts $fout "<p>"
+puts $fout "The gts sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/8/Everything/source/SRPMS/gts-0.7.6-7.fc8.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-7.fc8.src.rpm</i>"
 	
 close $fout
