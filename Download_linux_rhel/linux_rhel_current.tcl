@@ -10,6 +10,7 @@ set releases {
 set packages_platforms {
     graphviz {SRPMS EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64 EL3.i386 EL3.x86_64 EL3.ia64}
     webdot {SRPMS EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64 EL3.i386 EL3.x86_64 EL3.ia64}
+    gts {SRPMS EL5.i386 EL5.x86_64}
 }
 
 set platform_directory_type_comments {
