@@ -14,7 +14,7 @@ set packages_platforms {
 }
 
 set platform_directory_type_comments {
-    SRPMS SRPMS {src.rpm} ""
+    SRPMS SRPMS {src.rpm fc8.src.rpm} ""
     FC10.i386 redhat/fc10/i386/os {fc10.i386.rpm fc10.noarch.rpm} "Fedora 10 (Rawhide) or later"
     FC10.x86_64 redhat/fc10/x86_64/os {fc10.x86_64.rpm fc10.noarch.rpm} "Fedora 10 (Rawhide) or later"
     FC9.i386 redhat/fc9/i386/os {fc9.i386.rpm fc9.noarch.rpm} "Fedora 9"
