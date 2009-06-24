@@ -199,7 +199,7 @@ foreach {package platforms} $packages_platforms {
 puts $fout "</table>"
 puts $fout "<p>The gts sources were obtained <a href=\"http://download.fedora.redhat.com/pub/fedora/linux/updates/9/SRPMS.newkey/gts-0.7.6-11.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-11.fc9.src.rpm</i>"
 puts $fout "<p>The gtkglarea2 sources were obtained <a href=\"http://download.fedora.redhat.com/pub/fedora/linux/releases/9/Everything/source/SRPMS/gtkglarea2-1.99.0-8.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gtkglarea2-1.99.0-8.fc9.src.rpm</i>"
-puts $fout "<p>The gtkglext sources were obtained <a href=\"http://download.fedora.redhat.com/pub/fedora/linux/updates/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>"
+puts $fout "<p>The gtkglext sources were obtained <a href=\"http://download.fedora.redhat.com/pub/fedora/linux/releases/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>"
 puts $fout "<br>(The \"fedora 8\" define is a hack to cause the spec to omit .la targets from the package.)"
 	
 close $fout
