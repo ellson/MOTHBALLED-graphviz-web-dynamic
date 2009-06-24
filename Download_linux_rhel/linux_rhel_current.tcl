@@ -11,10 +11,12 @@ set packages_platforms {
     graphviz {SRPMS EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64 EL3.i386 EL3.x86_64 EL3.ia64}
     webdot {SRPMS EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64 EL3.i386 EL3.x86_64 EL3.ia64}
     gts {SRPMS EL5.i386 EL5.x86_64}
+    gtkglext {SRPMS EL5.i386 EL5.x86_64}
+    gtkglarea2 {SRPMS EL5.i386 EL5.x86_64}
 }
 
 set platform_directory_type_comments {
-    SRPMS SRPMS {src.rpm fc8.src.rpm} ""
+    SRPMS SRPMS {src.rpm fc9.src.rpm} ""
     FC10.i386 redhat/fc10/i386/os {fc10.i386.rpm fc10.noarch.rpm} "Fedora 10 (Rawhide) or later"
     FC10.x86_64 redhat/fc10/x86_64/os {fc10.x86_64.rpm fc10.noarch.rpm} "Fedora 10 (Rawhide) or later"
     FC9.i386 redhat/fc9/i386/os {fc9.i386.rpm fc9.noarch.rpm} "Fedora 9"
@@ -195,7 +197,9 @@ foreach {package platforms} $packages_platforms {
 }
 
 puts $fout "</table>"
-puts $fout "<p>"
-puts $fout "The gts sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/8/Everything/source/SRPMS/gts-0.7.6-7.fc8.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-7.fc8.src.rpm</i>"
+puts $fout "<p>The gts sources were obtained <a href=\"http://download.fedora.redhat.com/pub/fedora/linux/updates/9/Everything/source/SRPMS/gts-0.7.6-11.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-11.fc9.src.rpm</i>"
+puts $fout "<p>The gtkglarea2 sources were obtained <a href=\"http://download.fedora.redhat.com/pub/fedora/linux/releases/9/Everything/source/SRPMS/gtkglarea2-1.99.0-8.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gtkglarea2-1.99.0-8.fc9.src.rpm</i>"
+puts $fout "<p>The gtkglext sources were obtained <a href=\"http://download.fedora.redhat.com/pub/fedora/linux/updates/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>"
+puts $fout "<br>(The \"fedora 8\" define is a hack to cause the spec to omit .la targets from the package.)"
 	
 close $fout
