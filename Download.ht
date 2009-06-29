@@ -1,6 +1,7 @@
 <i>graphviz</i> is Open Source, CPL licensed software.
 It may be redistributed, without cost, and in other
-software distributions, as long as the license terms are met.
+software distributions, as long as the 
+<a href="http://www.graphviz.org/License.php">license</a> terms are met.
 
 <h3>Source Code</h3>
 <a href="Download_source.php">Source code</a> for the latest stable
