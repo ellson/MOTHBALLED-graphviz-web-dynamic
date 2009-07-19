@@ -14,7 +14,7 @@ set packages_platforms {
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
-    FC12.i386 redhat/fc12/i386/os {fc12.i586.rpm fc12.i386.rpm fc12.noarch.rpm} "Fedora 12 (Rawhide)"
+    FC12.i386 redhat/fc12/i386/os {fc12.i686.rpm fc12.i586.rpm fc12.i386.rpm fc12.noarch.rpm} "Fedora 12 (Rawhide)"
     FC12.x86_64 redhat/fc12/x86_64/os {fc12.x86_64.rpm fc12.noarch.rpm} "Fedora 12 (Rawhide)"
     FC11.i386 redhat/fc11/i386/os {fc11.i586.rpm fc11.i386.rpm fc11.noarch.rpm} "Fedora 11"
     FC11.x86_64 redhat/fc11/x86_64/os {fc11.x86_64.rpm fc11.noarch.rpm} "Fedora 11"
