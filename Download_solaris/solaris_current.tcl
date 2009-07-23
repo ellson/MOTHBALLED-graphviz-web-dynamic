@@ -117,10 +117,6 @@ To manually update to a snapshot release, use the command:
 <dd>Optional for developers: headers, debugging symbols, regression test scripts and data.
 <dt><i>graphviz-gd, graphviz-devil, graphviz_gdk_pixbuf, graphviz-ming</i>
 <dd>Optional renderers.
-<!--
-<dt><i>graphviz-cairo</i>
-<dd>Superceded by pango/cairo support in the base <i>graphviz</i> package in FC5 and later.
--->
 <dt><i>graphviz-guile, graphviz-java, graphviz-lua, graphviz-ocaml, graphviz-perl, graphviz-php, graphviz-python, graphviz-R, graphviz-ruby, graphviz-sharp, graphviz-tcl</i>
 <dd>Optional language bindings to enable programs in those languages to use the facilities of graphviz.
 <dt><i>webdot</i>
