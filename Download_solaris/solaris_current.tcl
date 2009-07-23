@@ -74,7 +74,7 @@ proc puts_latest {fout docroot dir package package_exclude type} {
     }
 }
 
-set fout [open Download_linux_fedora.ht w]
+set fout [open Download_solaris.ht w]
 
 puts $fout {
 <!--
