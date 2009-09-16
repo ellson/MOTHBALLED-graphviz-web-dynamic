@@ -123,7 +123,7 @@ puts $fout {
 <dl>
 	<dt>cairo-1.1.10.tar.gz [optional (required for libpangocairo), recommended]
 	<dd><a href="http://cairographics.org/">http://cairographics.org/</a>
-	<dt>expat-2.0.0.tar.gz
+	<dt>expat-2.0.0.tar.gz [optional (required for HTML-like labels), recommended]
 	<dd><a href="http://expat.sourceforge.net/">http://expat.sourceforge.net/</a> 
 	<dt>freetype-2.1.10.tar.gz [optional (required for libpangocairo and for gd), recommended]
 	<dd><a href="http://www.freetype.org/">http://www.freetype.org/</a>
