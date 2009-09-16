@@ -147,6 +147,8 @@ puts $fout {
 	<dd><a href="http://www.pango.org/">http://www.pango.org/</a>
 	<dt>zlib-1.2.3.tar.gz [optional (required for libpng), recommended]
 	<dd><a href="http://www.zlib.net/">http://www.zlib.net/</a>
+	<dt>GTS [optional (required for sfdp, prism), recommended]
+	<dd><a href="http://gts.sourceforge.net/">http://gts.sourceforge.net/</a>
 </dl>
 <h3>Tools</h3>
 <dl>
