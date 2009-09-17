@@ -60,10 +60,12 @@ Download_att.ht:
 	./Download_att/att_current.tcl
 
 #  http://www.graphviz.org/pdf requires graphviz-doc to be installed 
+.IGNORE: pdf
 pdf:
 	cp -rf /usr/share/doc/graphviz-doc-*/pdf/* pdf/
 	
 #  http://www.graphviz.org/doc requires graphviz-doc to be installed 
+.IGNORE: doc
 doc:
 	cp -rf /usr/share/doc/graphviz-doc-*/html/* doc/
 
