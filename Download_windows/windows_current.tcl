@@ -73,15 +73,20 @@ proc puts_latest {fout docroot dir package package_exclude type} {
 set fout [open Download_windows.ht w]
 
 puts $fout {
-If a package name contains 'mingw', that indicates the package was
-built using MinGW. Otherwise, the package was built with Visual
-Studio. 
-<p>
-<b>Warning</b>: If you plan to use Graphviz as a library, make sure
-you download the version compatible with your compiler. MinGW binaries
-will not work with Visual Studio code. Also, note that the Visual
+<b>Warning</b>: Note that the Visual
 Studio packages provide only the Release version. If you link these
 in with a program using Debug mode, your program will crash.
+<p>
+<b>Warning for Vista users</b>: Even if you are logged in as
+adminstrator, double-clicking on the MSI file or running the MSI file
+from a command prompt may still not may not provide sufficient
+privileges. You have to run
+<p>
+<PRE>
+  <tt>msiexec /a graphviz-x.xx.msi</tt>
+</PRE>
+<p>
+from a command prompt.
 }
 
 puts $fout "<P>"
