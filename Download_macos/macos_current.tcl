@@ -17,11 +17,11 @@ set package_exclude {
 }
 
 set platform_directory_type_comments {
-    snowleopard macos/snowleopard {pkg} "MacOS 10.6 (Snow Leopard)"
-    leopard macos/leopard {pkg} "MacOS 10.5 (Leopard)"
-    tiger macos/tiger {pkg} "MacOS 10.4 (Tiger)"
+    leopard/snowleopard macos/leopard {pkg} "MacOS 10.5 (Leopard)"
 }
 
+#    snowleopard macos/snowleopard {pkg} "MacOS 10.6 (Snow Leopard)"
+#    tiger macos/tiger {pkg} "MacOS 10.4 (Tiger)"
 #    Sources SOURCES {tar.gz} ""
 
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
