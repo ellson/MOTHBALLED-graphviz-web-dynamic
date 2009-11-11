@@ -65,33 +65,88 @@ we need to change directions and find a new strategy for this work.
 -->
 
 <h2>Roadmap</h2>
-<ul>
-<li>
+<center>
+<table>
+<tr>
 <!-- <a href="/cgi-bin/man?dot">dot</a> -->
-dot - makes ``hierarchical'' or layered drawings of directed graphs.
+<td width=800>
+<b>dot</b> - ``hierarchical'' or layered drawings of directed graphs.
 The layout algorithm
 aims edges in the same direction (top to bottom, or left to right) and
 then attempts to avoid edge crossings and reduce edge length.
+</td>
+<td align=center>
 <a href="Gallery/directed/cluster.html">
 <img src="Gallery/directed/cluster.small.png" border="0" alt="" align="top">
 </a>
+</td>
+</tt>
 
-<li>
-neato and fdp - make ``spring model'' layouts.  neato uses the Kamada-Kawai
-algorithm, which is equivalent to statistical multi-dimensional scaling.
+<tr>
+<td width=800>
+<b>neato</b> - ``spring model'' layouts.  Neato attempts to minimize
+a global energy function,
+which is equivalent to statistical multi-dimensional scaling.
+The solution is achieved using stress majorization, though the older
+Kamada-Kawai algorithm, using steepest descent, is also available.
+
 fdp implements the Fruchterman-Reingold heuristic including a multigrid
 solver that handles larger graphs and clustered undirected graphs.
+</td>
+<td align=center>
 <a href="Gallery/undirected/ER.html">
 <img src="Gallery/undirected/ER.small.png" border="0" alt="" align="top">
 </a>
-<li>
-twopi - radial layout, after Graham Wills 97. The nodes are placed on
+</td>
+</tr>
+
+<tr>
+<td width=800>
+<b>fdp</b> - ``spring model'' layouts similar to those of neato, but
+does this by reducing forces rather than working with energy. 
+Fdp implements the Fruchterman-Reingold heuristic including a multigrid
+solver that handles larger graphs and clustered undirected graphs.
+</td>
+<td align=center>
+<a href="Gallery/undirected/fdpclust.html">
+<img src="Gallery/undirected/fdpclust.small.png" border="0" alt="" align="top">
+</a>
+</td>
+</tr>
+
+<tr>
+<td width=800>
+<b>sfdp</b> - multiscale version of fdp for the layout of large graphs.
+</td>
+<td align=center>
+<img src="Gallery/undirected/200910_viz_matrix_188w.png" border="0" alt="" align="top">
+</td>
+</tr>
+
+<tr>
+<td width=800>
+<b>twopi</b> - radial layouts, after Graham Wills 97. The nodes are placed on
 concentric circles depending their distance from a given root node.
-<li>
-circo - circular layout, after Six and Tollis 99, Kauffman and Wiese 02.
+</td>
+<td align=center>
+<a href="Gallery/twopi/twopi2.html">
+<img src="Gallery/twopi/twopi2.small.png" border="0" alt="" align="top">
+</a>
+</td>
+</tr>
+
+<tr>
+<td width=800>
+<b>circo</b> - circular layout, after Six and Tollis 99, Kauffman and Wiese 02.
 This is suitable for certain diagrams of multiple cyclic structures such
 as certain telecommunications networks.  
-</ul>
+</td>
+<td align=center>
+<img src="Gallery/undirected/honda-tokoro.circo.png" border="0" alt="" align="top">
+</td>
+</tr>
+</table>
+</center>
 
 <h2>Viewers</h2>
 <ul>
