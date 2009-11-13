@@ -17,14 +17,6 @@ set packages_platforms {
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm fc9.src.rpm} ""
-    FC10.i386 redhat/fc10/i386/os {fc10.i386.rpm fc10.noarch.rpm} "Fedora 10 (Rawhide) or later"
-    FC10.x86_64 redhat/fc10/x86_64/os {fc10.x86_64.rpm fc10.noarch.rpm} "Fedora 10 (Rawhide) or later"
-    FC9.i386 redhat/fc9/i386/os {fc9.i386.rpm fc9.noarch.rpm} "Fedora 9"
-    FC9.x86_64 redhat/fc9/x86_64/os {fc9.x86_64.rpm fc9.noarch.rpm} "Fedora 9"
-    FC8.i386 redhat/fc8/i386/os {fc8.i386.rpm fc8.noarch.rpm} "Fedora 8"
-    FC8.x86_64 redhat/fc8/x86_64/os {fc8.x86_64.rpm fc8.noarch.rpm} "Fedora 8"
-    FC7.i386 redhat/fc7/i386/os {fc7.i386.rpm fc7.noarch.rpm} "Fedora 7"
-    FC7.x86_64 redhat/fc7/x86_64/os {fc7.x86_64.rpm fc7.noarch.rpm} "Fedora 7"
     EL5.i386 redhat/el5/i386/os {el5.i386.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
     EL5.x86_64 redhat/el5/x86_64/os {el5.x86_64.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
     EL4.i386 redhat/el4/i386/os {el4.i386.rpm el4.noarch.rpm} "Enterprise Linux 4 or later - uses fontconfig"

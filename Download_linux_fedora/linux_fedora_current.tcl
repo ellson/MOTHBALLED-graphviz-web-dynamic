@@ -8,29 +8,22 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64}
-    webdot {SRPMS FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64 FC8.i386 FC8.x86_64}
+    graphviz {SRPMS FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64}
+    webdot {SRPMS FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64}
 }
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
-    FC12.i386 redhat/fc12/i386/os {fc12.i686.rpm fc12.i586.rpm fc12.i386.rpm fc12.noarch.rpm} "Fedora 12 (Rawhide)"
-    FC12.x86_64 redhat/fc12/x86_64/os {fc12.x86_64.rpm fc12.noarch.rpm} "Fedora 12 (Rawhide)"
+    FC13.i386 redhat/fc13/i386/os {fc13.i686.rpm fc13.i586.rpm fc13.i386.rpm fc13.noarch.rpm} "Fedora 13 (Rawhide)"
+    FC13.x86_64 redhat/fc13/x86_64/os {fc13.x86_64.rpm fc13.noarch.rpm} "Fedora 13 (Rawhide)"
+    FC12.i386 redhat/fc12/i386/os {fc12.i686.rpm fc12.i586.rpm fc12.i386.rpm fc12.noarch.rpm} "Fedora 12"
+    FC12.x86_64 redhat/fc12/x86_64/os {fc12.x86_64.rpm fc12.noarch.rpm} "Fedora 12"
     FC11.i386 redhat/fc11/i386/os {fc11.i586.rpm fc11.i386.rpm fc11.noarch.rpm} "Fedora 11"
     FC11.x86_64 redhat/fc11/x86_64/os {fc11.x86_64.rpm fc11.noarch.rpm} "Fedora 11"
     FC10.i386 redhat/fc10/i386/os {fc10.i386.rpm fc10.noarch.rpm} "Fedora 10"
     FC10.x86_64 redhat/fc10/x86_64/os {fc10.x86_64.rpm fc10.noarch.rpm} "Fedora 10"
     FC9.i386 redhat/fc9/i386/os {fc9.i386.rpm fc9.noarch.rpm} "Fedora 9"
     FC9.x86_64 redhat/fc9/x86_64/os {fc9.x86_64.rpm fc9.noarch.rpm} "Fedora 9"
-    FC8.i386 redhat/fc8/i386/os {fc8.i386.rpm fc8.noarch.rpm} "Fedora 8"
-    FC8.x86_64 redhat/fc8/x86_64/os {fc8.x86_64.rpm fc8.noarch.rpm} "Fedora 8"
-    EL5.i386 redhat/el5/i386/os {el5.i386.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL5.x86_64 redhat/el5/x86_64/os {el5.x86_64.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL4.i386 redhat/el4/i386/os {el4.i386.rpm el5.noarch.rpm} "Enterprise Linux 4 or later - uses fontconfig"
-    EL4.x86_64 redhat/el4/x86_64/os {el4.x86_64.rpm el4.noarch.rpm} "Enterprise Linux 4 or later - uses fontconfig"
-    EL3.i386 redhat/el3/i386/os {el3.i386.rpm el3.noarch.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    EL3.x86_64 redhat/el3/x86_64/os {el3.x86_64.rpm el3.noarch.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    EL3.ia64 redhat/el3/ia64/os {el3.ia64.rpm el3.noarch.rpm} "Enterprise Linux 3 or later - uses fontconfig"
 }
 
 set package_exclude {
