@@ -8,7 +8,7 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {leopard/snowleopard}
+    graphviz {snowleopard leopard}
 }
 
 set package_exclude {
@@ -17,10 +17,10 @@ set package_exclude {
 }
 
 set platform_directory_type_comments {
-    leopard/snowleopard macos/leopard {pkg} "MacOS 10.5 (Leopard)"
+    snowleopard macos/snowleopard {pkg} "MacOS 10.6 (Snow Leopard)"
+    leopard macos/leopard {pkg} "MacOS 10.5 (Leopard)"
 }
 
-#    snowleopard macos/snowleopard {pkg} "MacOS 10.6 (Snow Leopard)"
 #    tiger macos/tiger {pkg} "MacOS 10.4 (Tiger)"
 #    Sources SOURCES {tar.gz} ""
 
