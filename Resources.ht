@@ -227,6 +227,7 @@ each ArgoUML diagram.
 showing a graph of storage devices
 with dependencies. [Arvin Schnell]
 <li><a href="http://grails.org/plugin/class-diagram/">Grails class diagram plugin</a> provides an UML-like diagram of grails domain classes.  [Trygve Amundsen]
+<li><a href="http://plantuml.sourceforge.net/">PlantUML</a> generates UML diagrams (classes, usecases, activities, components) using a simple text description language.  [Arnaud Roques]
 </ul>
 
 <h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
