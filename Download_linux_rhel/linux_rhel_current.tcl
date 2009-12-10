@@ -8,8 +8,8 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64 EL3.i386 EL3.x86_64 EL3.ia64}
-    webdot {SRPMS EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64 EL3.i386 EL3.x86_64 EL3.ia64}
+    graphviz {SRPMS EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64}
+    webdot {SRPMS EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64}
     gts {SRPMS EL5.i386 EL5.x86_64}
     gtkglext {SRPMS EL5.i386 EL5.x86_64}
     gtkglarea2 {SRPMS EL5.i386 EL5.x86_64}
