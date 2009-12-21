@@ -73,8 +73,8 @@ proc puts_latest {fout docroot dir package package_exclude type} {
 set fout [open Download_windows.ht w]
 
 puts $fout {
-<b>Note</b>: The Visual
-Studio packages now provide both the Release and Debug versions of the
+<b>Note</b>: As of version 2.26, the Visual
+Studio packages provide both the Release and Debug versions of the
 libraries.
 <p>
 <b>Warning for Vista users</b>: Even if you are logged in as
