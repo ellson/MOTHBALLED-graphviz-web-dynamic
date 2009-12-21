@@ -73,9 +73,9 @@ proc puts_latest {fout docroot dir package package_exclude type} {
 set fout [open Download_windows.ht w]
 
 puts $fout {
-<b>Warning</b>: Note that the Visual
-Studio packages provide only the Release version. If you link these
-in with a program using Debug mode, your program will crash.
+<b>Note</b>: The Visual
+Studio packages now provide both the Release and Debug versions of the
+libraries.
 <p>
 <b>Warning for Vista users</b>: Even if you are logged in as
 adminstrator, double-clicking on the MSI file or running the MSI file
