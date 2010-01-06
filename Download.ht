@@ -3,6 +3,30 @@ It may be redistributed, without cost, and in other
 software distributions, as long as the 
 <a href="http://www.graphviz.org/License.php">license</a> terms are met.
 
+<h3>General Installation Notes</h3>
+For ordinary Graphviz builds and installation, 
+the following notes can be ignored.
+They are only reveleant if you decide to move the software after the
+initial installation.
+<p>
+The Graphviz software needs to find certain files at runtime, so
+one cannot just copy the binary and library files. Most importantly,
+it looks for a file <tt>config<i>N</i></tt>. This file is used to
+determine which layout and rendering features are available. It is 
+assumed to be in the same directory as the plugin libraries.
+<p>
+By default, the path to the directory containing the <tt>config</tt>
+file and the plugins in built in a build time. On Windows and Linux
+systems, this path is determined dynamically using the file system
+location of the gvc library. These can all be overridden by defining
+the environment variable <STRONG>GVBINDIR</STRONG>.
+<p>
+For convenience, the Windows binary package also provides some basic
+configuration files for the <tt>fontconfig</tt> library. These are stored in
+the <tt>etc</tt> directory. If the Graphviz software is moved, 
+this directory should probably also be moved to be in the same
+directory as the Graphviz <tt>bin</tt> and <tt>lib</tt> directories.
+
 <h3>Source Code</h3>
 <a href="Download_source.php">Source code</a> for the latest stable
 and development versions of Graphviz are available, along with
