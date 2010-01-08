@@ -214,8 +214,9 @@ been used to good effect in CS1 and CS2-level data structures courses.
 [John Hammer]
 <li><a href="http://blog.prashanthellina.com/2007/11/14/generating-call-graphs-for-understanding-and-refactoring-python-code/">Python call graphs</a>
 <li><a href="http://argouml-graphviz.tigris.org/">ArgoUML Graphviz</a>
-Enabling export to SVG, PDF, etc. and repositioning of the elements for
-each ArgoUML diagram.
+Automatically repositioning all visual elements from UML diagrams
+that are stored in XMI. These can be exported with DOT to PDF, SVG, PNG,
+etc. This XLST runs independently of ArgoUML. [Pander]
 <li><a href="http://research.cs.queensu.ca/~thurston/ragel/">Ragel</a> (think "lex") compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format.
 <li><a href="http://code.google.com/p/apiviz">APIviz</a> is a JavaDoc doclet which extends the Java standard doclet. It generates comprehensive UML-like class and package diagrams.
 <li><a href="http://sourceforge.net/projects/revj">Reverse Snowflake Joins</a> is a tool that parses SQL Select statements and generates a diagram.
