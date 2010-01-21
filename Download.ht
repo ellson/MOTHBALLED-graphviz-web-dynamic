@@ -4,6 +4,12 @@ software distributions, as long as the
 <a href="http://www.graphviz.org/License.php">license</a> terms are met.
 
 <h3>General Installation Notes</h3>
+The code related to the swig-generated bindings can sometimes cause problems.
+If this happens, you will see errors for files being built in the tclpkg directory.
+These bindings are not part of the core layout and rendering tools, and are
+not necessary for many users. If you have problems and don't need these bindings,
+try rerunning configure with the <tt>--disable-swig</tt> option.
+<p>
 For ordinary Graphviz builds and installation, 
 the following notes can be ignored.
 They are only reveleant if you decide to move the software after the
@@ -15,8 +21,8 @@ it looks for a file <tt>config<i>N</i></tt>. This file is used to
 determine which layout and rendering features are available. It is 
 assumed to be in the same directory as the plugin libraries.
 <p>
-By default, the path to the directory containing the <tt>config</tt>
-file and the plugins in built in a build time. On Windows and Linux
+By default, the path to the directory containing the <tt>config<i>N</i></tt>
+file and the plugins is built in at build time. On Windows and Linux
 systems, this path is determined dynamically using the file system
 location of the gvc library. These can all be overridden by defining
 the environment variable <STRONG>GVBINDIR</STRONG>.
