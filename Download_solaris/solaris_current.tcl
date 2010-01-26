@@ -5,7 +5,25 @@ set fout [open Download_solaris.ht w]
 puts $fout {
 
 	For Solaris, please use the graphviz stable releases at:
-	<a href="http://www.opencsw.org/packages/graphviz">http://www.opencsw.org/packages/graphviz</a>, maintained by John ellson.
+	<a href="http://www.opencsw.org/packages">http://www.opencsw.org/packages</a>, maintained by John ellson. Currently available packages are:
+
+<p>
+<pre>
+	graphviz 	Graph Visualization Tools
+	graphvizdevel 	Graphviz Headers etc. for development
+	graphvizdoc 	Graphviz documentation
+	graphvizgd 	Graphviz renderers using gd
+	graphvizgraphs 	Graphviz example graphs
+	graphvizguile 	Graphviz language binding for guile
+	graphvizperl 	Graphviz language binding for perl
+	graphvizpython 	Graphviz language binding for python
+	graphvizsharp 	Graphviz language binding for C
+	graphviztcl 	Graphviz language binding for tcl
+</pre>
+<p>
+Minimally, graphviz and graphvizgd should be installed.
+
+
 
 }
 
