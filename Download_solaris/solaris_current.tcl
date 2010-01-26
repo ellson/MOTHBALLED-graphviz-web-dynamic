@@ -1,5 +1,19 @@
 #!/usr/bin/tclsh
                                                                                 
+set fout [open Download_solaris.ht w]
+
+puts $fout {
+
+	For Solaris, please use the graphviz stable releases at:
+	<a href="http://www.opencsw.org/packages/graphviz">http://www.opencsw.org/packages/graphviz</a>, maintained by John ellson.
+
+}
+
+exit
+###   IGNORE EVERYTHING BELOW 
+
+
+
 set docroot /var/www/www.graphviz.org
 
 set releases {
