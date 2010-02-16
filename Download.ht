@@ -97,7 +97,7 @@ We list these links as a courtesy, but disclaim responsibility
 for the contents of these software products.
 <p>
 <b>Linux</b> <br>
-<a href="http://packages.debian.org/unstable/graphics/graphviz.html">Debian package</a>
+<a href="http://packages.debian.org/search?suite=all&searchon=names&keywords=graphviz">Debian package</a>
 <br>
 <a href="http://packages.ubuntu.com/hardy/graphics/graphviz">Ubuntu Hardy</a>, 
 <a href="http://packages.ubuntu.com/intrepid/graphics/graphviz">Interpid</a>
