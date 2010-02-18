@@ -8,8 +8,8 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64}
-    webdot {SRPMS FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64 FC9.i386 FC9.x86_64}
+    graphviz {SRPMS FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64}
+    webdot {SRPMS FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64}
 }
 
 set platform_directory_type_comments {
@@ -24,8 +24,6 @@ set platform_directory_type_comments {
     FC11.x86_64 redhat/fc11/x86_64/os {fc11.x86_64.rpm fc11.noarch.rpm} "Fedora 11"
     FC10.i386 redhat/fc10/i386/os {fc10.i386.rpm fc10.noarch.rpm} "Fedora 10"
     FC10.x86_64 redhat/fc10/x86_64/os {fc10.x86_64.rpm fc10.noarch.rpm} "Fedora 10"
-    FC9.i386 redhat/fc9/i386/os {fc9.i386.rpm fc9.noarch.rpm} "Fedora 9"
-    FC9.x86_64 redhat/fc9/x86_64/os {fc9.x86_64.rpm fc9.noarch.rpm} "Fedora 9"
 }
 
 set package_exclude {
