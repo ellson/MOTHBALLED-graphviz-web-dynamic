@@ -231,6 +231,9 @@ with dependencies. [Arvin Schnell]
 <li><a href="http://plantuml.sourceforge.net/">PlantUML</a> generates UML diagrams (classes, usecases, activities, components) using a simple text description language.  [Arnaud Roques]
 <li><a href="http://code.google.com/p/javashot/">javashot</a>  captures the
 dynamic execution flow of a Java programa. The traces can be viewed using Graphviz.
+<li><a href="http://code.google.com/p/scxml2dot/">scxml2dot</a> - a very simple 
+conversion function in perl to plot a finite state machine written in 
+scxml using the graphviz tools. [Fabrizio Morbini]
 </ul>
 
 <h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
