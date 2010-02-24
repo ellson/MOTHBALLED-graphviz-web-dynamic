@@ -17,7 +17,7 @@ puts $fout {
 	graphvizguile 	Graphviz language binding for guile
 	graphvizperl 	Graphviz language binding for perl
 	graphvizpython 	Graphviz language binding for python
-	graphvizsharp 	Graphviz language binding for C
+	graphvizsharp 	Graphviz language binding for C&#35;
 	graphviztcl 	Graphviz language binding for tcl
 </pre>
 <p>
