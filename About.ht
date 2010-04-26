@@ -327,6 +327,11 @@ provided by <b>tkspline</b>.</dd>
 -->
 
 <h3>Contacts</h3>
+If you have a bug or feel something is not working as expected, please
+submit a bug report using the <A HREF="http://www.graphviz.org/bugs/bugform.html">form</A>.<BR>
+If you have a general question or are unsure how things work, please consider
+posting first to the Graphviz <A HREF="http://www.graphviz.org/MailingList.php">mailing list</A>. We follow the list, but there are also many users who might
+be able to respond to you better or faster than we can.
 <dl>
 <dt><a href="mailto:ellson@graphviz.org">John Ellson</a> (for problems with builds, installation, software configuration or this web server)</dt>
 <dt><a href="mailto:erg@graphviz.org">Emden Gansner</a> (for all graph layout issues)</dt>
