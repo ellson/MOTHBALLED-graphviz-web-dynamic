@@ -126,6 +126,8 @@ Latest stable version of Graphviz for Mac OS X
 An enhanced GUI application for Mac OS X based on Graphviz 1.13 (out of date, not maintained)
 <p>
 <b>Windows</b> <br>
+<a href="http://sourceware.org/cygwinports/">Cygwin Ports</a> provides a port of Graphviz to Cygwin.
+<br>
 <a href="http://wingraphviz.sourceforge.net/wingraphviz/">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).
 <p>
 <b>Other Unix</b> <br>
