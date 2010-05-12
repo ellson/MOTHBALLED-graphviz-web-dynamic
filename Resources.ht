@@ -271,6 +271,8 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <li><a href="http://www.aivosto.com/visustin.html">Visustin flow chart generator</a>[Aivosto]
 <li> <a href="http://paco.to/blog/000040.html"> Using Mac OmniGraffle </a> with Graphviz blog entry [Pac Hope]
 <li> <a href="http://wdot.rubyforge.org/">wdot.rb</a>, a tool that allows workflow diagrams and flowcharts to be easily created and updated.[Loh Siu Yin]
+<li> <a href="http://www.calvert.ch/graphvizio/">GraphVizio</a> is an addin
+for Visio that allows you to lay out diagrams using Graphviz.[Maurice Calvert]
 </ul>
 
 <!-- -------------------- -->
