@@ -73,9 +73,8 @@ into a Wordpress page. [Emilio Gonz&aacute;lez Monta&ntilde;a]
 <li>python: <a href="http://software.inl.fr/trac/trac.cgi/wiki/GvGen">GvGen</a> - a python class to generate dot files [Sebastien Tricaud]
 <li>java: a <A HREF="http://www.lmonson.com/downloads/dotparser/">parser</A> for dot files [Lynn Monson]
 <li>java: <A HREF="http://www.research.att.com/~john/Grappa/">Grappa</A> (a GUI but offers basic graph classes) [John Mocenigo]
-<li>C# and .NET: <a href="http://www.codeproject.com/cs/miscctrl/quickgraph.asp"> QuickGraph </a> [Jonathan de Halleux]
-<li>C# and .NET: <a href="http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/"> Tigris QuickGraph</a>
 <li>C# and .NET: <a href="http://www.codeplex.com/quickgraph/">CodePlex QuickGraph</a>
+<li>C# and .NET: <a href="http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/"> Tigris QuickGraph</a>
 <li>COM: <a href="http://wingraphviz.sourceforge.net/wingraphviz/">WinGraphviz</a> component [Ood Tsen]
 <li>perl: <a href="http://search.cpan.org/~lbrocard/GraphViz-2.02/lib/GraphViz.pm"> A Perl interface to Graphviz</a> [Leon Brocard]
 <li>perl: <a href="http://search.cpan.org/~jgs/Tk-GraphViz/">Tk::GraphViz</a> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]
@@ -183,30 +182,26 @@ a C++ class for creating a prefix tree representation of a given lexicon.
 <li><a href="http://www.doxygen.org/"> doxygen</a> uses graphviz to produce class hierarchies and other diagrams directly from source code [Dimitri van Heesch]
 <li><a href="http://nmdepend.sourceforge.net/">nmdepend</a> is a lightweight link-time dependency analyzer for C/C++ object files and libraries, helps manage cross-directory dependencies [Eddy Pronk]
 <li><a href="http://thyer.name/lambda-animator/">Lambda Animator</a> is a tool for demonstrating and experimenting with alternative reduction strategies in the lambda-calculus [Mike Thyer]
-<li><a href="http://research.microsoft.com/fse/asml/"> AsmL </a> an executable specification language from Microsoft Research.
+<li><a href="http://research.microsoft.com/en-us/projects/asml/"> AsmL </a> an executable specification language from Microsoft Research.
 <li> <a href="http://www.umlgraph.org/">UMLGraph</a> - a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot [Diomidis Spinellis] (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-)
 <li> <a href="http://oss.phear.org/merisedot/">Merisedot</a> - a tool to generate MCD Entity/Relation graphics of Merise. (Seulement en Fran&ccedil;ais)
 <li><a href="http://rdoc.sourceforge.net">RDOC</a> Ruby documentation [Dave Thomas]
 <li><a href="http://www.lo-res.org/~aaron/yaccviso/">YaccViso</a> YACC visualization tool
 <li> <a href="http://kcachegrind.sourceforge.net/cgi-bin/show.cgi">Callgrind</a> makes callgraphs from <a href="http://kcachegrind.sourceforge.net/cgi-bin/show.cgi/KcacheGrindValgrind">Valgrind</A> [J&ouml;rg Schillin and Josef Weidendorfer]
 <li> <a href="http://www.tcs.hut.fi/maria/"> Maria</a> - Modular Reachability Analyzer - a reachability analyzer for concurrent systems that uses Algebraic System Nets as its modelling formalism [Marko M&auml;kel&auml;]
-
-<li> <a href="http://www.inxar.org/syntacs/">Syntacs Translation Toolkit</a> (<a href="http://www.inxar.org/syntacs/inxar/syntacs/docs/lexerman/lexerman.html#SEC20">example</a>)
-[Paul Johnston]
-
 <li> <a href="http://www.informatik.uni-leipzig.de/~pcp">PCP@HOME</a> - finds heavy instances of the undecidable "Post Correspondance Problem" and uses neato to <a href="http://stinfwww.informatik.uni-leipzig.de/~mai97ixb/BBexam01.eps">visualize instances</a> [Heiko Stamer]
 
 <li> <a href="http://www.w3.org/2001/11/IsaViz/">IsaViz</a>: A Visual Authoring Tool for RDF [Emmanuel Pietriga]
 <li> <a href="http://odur.let.rug.nl/~vannoord/fsademo/">Finite State Machine web visualization</a> interactively accepts input from a form [Gertjan van Noord]
 <li> <a href="http://www.pinkjuice.com/SVG/links/">SVG links</a>
 uses dot's SVG capabilities to organize SVG links [Tobias Reif]
-<li> <a href="http://www.inf.ethz.ch/personal/lombardo/projects/index.html">RPMGraph</a> uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems [Andrea Lombardoni]
+<li> <a href="http://freshmeat.net/projects/rpmgraph/">RPMGraph</a> uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems [Andrea Lombardoni]
 <li><a href="http://droogs.org/autodia/">AutoDia</a> has a Graphviz option
 for generating UML diagrams from: Perl, Java, PHP, or C++ code [Aaron Trevena]
 <li> <a href="http://www.compendium-ta.com/">Compendium-TA</a>, an integrated package of modelling tools which uses Graphviz for graph layouts [Alan Richardson]
 <li> <a href="http://www.csn.ul.ie/~mel/projects/codeviz/">CodeViz</a> - a call graph generation utility for C/C++ that assumes dot for its back end [Mel Gorman]
-<!-- shouldn't this be in English? what does it say?  -sn -->
-<li><a href="http://www.pimentech.net/pimentech/plain/site/technologies/outils/noframe.html">Pimentech-DbUtils</a> - Outils pour &eacute;crire vos sch&eacute;mas de Basese donn&eacute;es en XML, et les exporter au format dot (graphviz) et sql (doc pdf). Ces outils proposent &eacute;galement des scripts shell surchargeant les commandes postgresql.
+<li><a href="http://www.pimentech.fr/technologies/outils/">Pimentech-DbUtils</a>
+- utils for writing patterns databases in XML (Extended Entities Relationship diagram (ERA)) and exporting them to graphviz and sql.
 <li>
 <a href="http://www.cs.auckland.ac.nz/~j-hamer/LJV.html">LJV.java</a>
 (Lightweight Java Visualizer)
@@ -241,8 +236,8 @@ scxml using the graphviz tools. [Fabrizio Morbini]
 Relational structures abound in the study of biological information.
 The following list barely scratches the surface.
 <ul>
-<li><a name="Rgraphviz" href="http://www.bioconductor.org/repository/release1.4/package/html/Rgraphviz.html">R-Graphviz</a>
-(<a href="http://bioconductor.org/packages/1.9/bioc/vignettes/Rgraphviz/inst/doc/Rgraphviz.pdf">guide</a>)
+<li><a name="Rgraphviz" href="http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html">R-Graphviz</a>
+(<a href="http://www.bioconductor.org/packages/release/bioc/vignettes/Rgraphviz/inst/doc/newRgraphvizInterface.pdf">guide</a>)
 from the Bio-Conductor project integrates graphs and statistical models.
 [Robert Gentleman, Jeff Gentry and the R team]
 <li><I>Science</I> Online
@@ -254,7 +249,6 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <li><a href="http://www.PubGene.com">Pubgene</a> - Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery (go <a href="http://www.pubgene.org">here</a> for original academic web site)
 <li><a href="http://cmap.nci.nih.gov/PW">cancer.gov</a>: National Cancer Institute (NIH) pathway interaction database (CMAP) (requires
 <a href="http://www.adobe.com/svg/viewer/install/main.html">SVG plugin</a>, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox) [Kotien Wu]
-<li><a href="http://udgenome.ags.udel.edu/gofigure/help.html"><b>GO Figure</b> Gene Ontology Annotator</a> provides an organized vocabulary of terms describing molecular functions, biological processes and cellular components of gene products [Gang Situ]
 </ul>
 
 <!-- -------------------- -->
@@ -269,7 +263,7 @@ SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/insta
 <li> <a href="http://mharnisch.gmxhome.de/projects.html">epswrap</a>, a Perl program that wraps EPS files containing bitmap data for user shapes in Graphviz [Marcus Harnisch]
 <li><a href="http://www.texmacs.org/">TeXmacs</a>, a scientific text editor, inspired by TeX and GNU Emacs, has a Graphviz interface [Joris van der Hoeven]
 <li><a href="http://www.aivosto.com/visustin.html">Visustin flow chart generator</a>[Aivosto]
-<li> <a href="http://paco.to/blog/000040.html"> Using Mac OmniGraffle </a> with Graphviz blog entry [Pac Hope]
+<li> <a href="http://www.omnigroup.com/products/omnigraffle/"> Mac OmniGraffle </a> [Omni Group]
 <li> <a href="http://wdot.rubyforge.org/">wdot.rb</a>, a tool that allows workflow diagrams and flowcharts to be easily created and updated.[Loh Siu Yin]
 <li> <a href="http://www.calvert.ch/graphvizio/">GraphVizio</a> is an addin
 for Visio that allows you to lay out diagrams using Graphviz.[Maurice Calvert]
@@ -292,7 +286,6 @@ for Visio that allows you to lay out diagrams using Graphviz.[Maurice Calvert]
 <li><a href="http://mirror.linux.org.mt/mirror/gentoo-portage/media-gfx/graphviz/"><img src="Resources/gentoo.jpeg" border="0" alt="gentoo logo"> Gentoo-portage</a> - Linux packages.
 <li><a href="http://download.fedora.redhat.com/pub/fedora/linux/extras/"><img src="Resources/fedora_logo.png" border="0" alt="fedora logo"> Fedora Extras</a> - rpms for Fedora Core 3 and later.
 <li><a href="http://freshmeat.net/search/?q=graphviz&amp;section=projects&amp;Go.x=0&amp;Go.y=0"><img src="Resources/freshmeat-logo.gif" border="0" alt="freshmeat logo"> FreshMeat</a> - related projects from a search for "graphviz".
-<li><a href="http://www.bell-labs.com/project/wwexptools/packages.html"><img src="Resources/lucent-logo.gif" border="0" alt="lucent logo"> WWExptools</a> - binaries for many Unix variants.
 <li><a href="ftp://ftp.suse.com/pub/suse/"><img src="Resources/suse-logo.png" border="0" alt="suse logo"> SuSE</a> - rpms for Novell/SuSE distributions for many architectures.
 <li><a href="http://packages.ubuntu.com/search?keywords=graphviz&searchon=names&suite=all&section=all"><img src="Resources/ubuntu-logo.png" border="0" alt="ubuntu logo"> Ubuntu</a> - Linux packages.
 </ul>
