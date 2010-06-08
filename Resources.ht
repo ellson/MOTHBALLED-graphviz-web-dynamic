@@ -110,7 +110,6 @@ Filters that transform other data sources and formats into Graphviz.
 <li> <a href="Misc/sql2dot"> Sql2Dot</a> - a tiny parser in Java to transform sql into dot for visualizing data structures [Robert Dale]
 <li><a href="http://www.codeproject.com/database/sqlpp.asp">SqlPP</a> - a scripted SQL query generation framework that generates graphviz
 <li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) [Szil&aacute;rd Vajda]
-<li><a href="http://zvon.org/ZvonSW/ZvonGraphotron/index.html">Graphotron</a> - an XML language for graph drawing with Xpath [Miloslav Nic]
 <li>gprof filters - <a href="Misc/pl_from_gprof.pl">pl_from_gprof</a>
 and <a href="Misc/dot_from_pl.pl">dot_from_pl</a> [Robert Nielsen]
 and an old <a href="Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]
@@ -126,7 +125,6 @@ and an old <a href="Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]
 <li> <a href="http://sourceforge.net/projects/safemap">SMART</A> passive network flow visualization tool  [Cisco's Critical Infrastructure Assurance Group (CIAG) Research team]
 <li> <a href="http://www.csoonline.com/article/348317/What_a_Botnet_Looks_Like">
 CSO Online</A>: What a Botnet Looks like (Flash) [David Vorel]
-<li>
 <li> <a href="http://map.efnet.org/">EFnet</A> IRC Network server routing maps [Douglas Boldt]
 <!--- seems dead
 <li> <a href="http://freshmeat.net/projects/spamviz/">SpamViz</a> generates *.dot
@@ -136,7 +134,7 @@ but any domain can be graphed [Mike Zick]
 <li> <a href="http://netmap.sourceforge.net/">netmap</a> draws the
 route connecting you with the Internet
 <li><a href="http://pear.php.net/package-info.php?package=Image_Graphviz">Image_Graphviz</a> class in PHP's <a href="http://pear.php.net/">PEAR repository</a> [Sebastian Bergmann] 
-<li><a href="http://www.phpOpenTracker.de">phpOpenTracker</a> uses Image_Graphviz to <a href="http://www.phpopentracker.de/docs/en/api-reference.html#api-reference.api-calls.all_paths">visualize clickpaths</a> taken by users on websites. [Sebastian Bergmann]
+<li><a href="http://github.com/sebastianbergmann/phpOpenTracker">phpOpenTracker</a> provides a framework solution for the analysis of website traffic and visitor analysis. [Sebastian Bergmann]
 <li>
 <a href="http://pathalizer.sourceforge.net/">Pathalizer</a> visualizes paths traversed by users through web sites [Arnout Engelen]
 <li><a href="http://www.chaosreigns.com/code/apache2dot">apache2dot</a>
@@ -146,7 +144,6 @@ Apache log file visualizer
 <li><a href="http://www.cs.washington.edu/research/networking/rocketfuel">
 Rocketfuel</a> ISP mapper (well, look <a href="http://www.cs.washington.edu/research/networking/rocketfuel/interactive/">here</a>) [U. Washington]
 <li><a href="http://www.zonecut.net/dns/">DNS server visualization</a>
-<li><a href="http://urlgreyhot.com/graphviz/">urlgrey</a> PHP-based Site Map Generator [Michael Angeles]
 <li><a href="http://www.grotto-group.com/~gulfie/projects/annalysis/tcpdump2dot.subpage.html">tcpdump2dot filter</a> to allow admins to network activity [Gulfie]
 <li><a href="http://www.hping.org/visitors">Visitors, a fast web log analyzer</a>
 uses graphviz to display usage patterns showing how users are using your web site. [Salvatore Sanfilippo]
