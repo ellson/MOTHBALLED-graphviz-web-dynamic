@@ -86,7 +86,7 @@ into a Wordpress page. [Emilio Gonz&aacute;lez Monta&ntilde;a]
 entirely in perl for ease of installation. 
 It also has a <a href="http://search.cpan.org/~tels/mediawiki-graph/">MediaWiki</a> extension.  [Tels]
 <li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]
-<li>ruby: <a href="http://raa.ruby-lang.org/project/ruby-graphviz/">RAA (ruby-graphviz)</a>
+<li>ruby: <a href="http://github.com/glejeune/Ruby-Graphviz/">Ruby-Graphviz</a> - Ruby interface to Graphviz [Gr&eacute;goire Lejeune]
 <li> <a href="http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4518&amp;objectType=file">MatLab</a> [Leon Peshkin]
 <li>R: see below for <a href="#Rgraphviz">R-Graphviz</a>
 <li>HTML: the original <a href="http://www.graphviz.org/webdot/">webdot</a> in
