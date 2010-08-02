@@ -169,6 +169,9 @@ in the entry field)
 <li> <a href="http://www.hotscripts.com/Detailed/28164.html">DAWG CREATOR</a>,
 a C++ class for creating a prefix tree representation of a given lexicon.
 <li> <a href="http://blog.prashanthellina.com/2007/12/21/topic-extraction-using-wikipedia-data/">Topic extraction using Wikipedia data</a>.
+<li> <a href="http://fcastone.sourceforge.net/">FcaStone</a> lays out algebraic lattices in the sense of Formal Concept Analysis. (Try the 
+<a href="http://www.upriss.org.uk/fca/fcademo.html">demo</A>
+or the <a href="http://www.ketlab.org.uk/roget.html"> lattice visualisations of Roget's Thesaurus</A>). [Uta Priss]
 </ul>
 
 <!-- -------------------- -->
