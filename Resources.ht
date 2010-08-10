@@ -76,6 +76,7 @@ into a Wordpress page. [Emilio Gonz&aacute;lez Monta&ntilde;a]
 <li>python: <a href="http://software.inl.fr/trac/trac.cgi/wiki/GvGen">GvGen</a> - a python class to generate dot files [Sebastien Tricaud]
 <li>java: a <A HREF="http://www.lmonson.com/downloads/dotparser/">parser</A> for dot files [Lynn Monson]
 <li>java: <A HREF="http://www.research.att.com/~john/Grappa/">Grappa</A> (a GUI but offers basic graph classes) [John Mocenigo]
+<li>jave: <a href="http://www.loria.fr/~szathmar/off/projects/java/GraphVizAPI/index.php">Java API</a> [Laszlo Szathmary]
 <li>C# and .NET: <a href="http://www.codeplex.com/quickgraph/">CodePlex QuickGraph</a>
 <li>C# and .NET: <a href="http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/"> Tigris QuickGraph</a>
 <li>COM: <a href="http://wingraphviz.sourceforge.net/wingraphviz/">WinGraphviz</a> component [Ood Tsen]
