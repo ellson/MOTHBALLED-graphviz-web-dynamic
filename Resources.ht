@@ -237,6 +237,9 @@ scxml using the graphviz tools. [Fabrizio Morbini]
 <li><a href="http://www.ab.auone-net.jp/~simply/en/">Erviz</a>, an entity-relationship diagram 
 generator that converts plain text files to DOT-formatted graphical files for Graphviz. 
 [Mitsuru Kono]
+<li><a href="http://www.symfony-project.org/plugins/sfApplicationMapPlugin">Symfony application-map plugin</a>,
+an easy-to-use documentation tool for the symfony framework community. 
+[Tomasz Ducin]
 </ul>
 
 <h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
