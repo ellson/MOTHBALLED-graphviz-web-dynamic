@@ -8,22 +8,22 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64}
-    webdot {SRPMS FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64 FC10.i386 FC10.x86_64}
+    graphviz {SRPMS FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64}
+    webdot {SRPMS FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64}
 }
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
-    FC14.i386 redhat/fc14/i386/os {fc14.i686.rpm fc14.i586.rpm fc14.i386.rpm fc14.noarch.rpm} "Fedora 14 (Rawhide)"
-    FC14.x86_64 redhat/fc14/x86_64/os {fc14.x86_64.rpm fc14.noarch.rpm} "Fedora 14 (Rawhide)"
+    FC15.i386 redhat/fc15/i386/os {fc15.i686.rpm fc15.i586.rpm fc15.i386.rpm fc15.noarch.rpm} "Fedora 15 (Rawhide)"
+    FC15.x86_64 redhat/fc15/x86_64/os {fc15.x86_64.rpm fc15.noarch.rpm} "Fedora 15 (Rawhide)"
+    FC14.i386 redhat/fc14/i386/os {fc14.i686.rpm fc14.i586.rpm fc14.i386.rpm fc14.noarch.rpm} "Fedora 14"
+    FC14.x86_64 redhat/fc14/x86_64/os {fc14.x86_64.rpm fc14.noarch.rpm} "Fedora 14"
     FC13.i386 redhat/fc13/i386/os {fc13.i686.rpm fc13.i586.rpm fc13.i386.rpm fc13.noarch.rpm} "Fedora 13"
     FC13.x86_64 redhat/fc13/x86_64/os {fc13.x86_64.rpm fc13.noarch.rpm} "Fedora 13"
     FC12.i386 redhat/fc12/i386/os {fc12.i686.rpm fc12.i586.rpm fc12.i386.rpm fc12.noarch.rpm} "Fedora 12"
     FC12.x86_64 redhat/fc12/x86_64/os {fc12.x86_64.rpm fc12.noarch.rpm} "Fedora 12"
     FC11.i386 redhat/fc11/i386/os {fc11.i586.rpm fc11.i386.rpm fc11.noarch.rpm} "Fedora 11"
     FC11.x86_64 redhat/fc11/x86_64/os {fc11.x86_64.rpm fc11.noarch.rpm} "Fedora 11"
-    FC10.i386 redhat/fc10/i386/os {fc10.i386.rpm fc10.noarch.rpm} "Fedora 10"
-    FC10.x86_64 redhat/fc10/x86_64/os {fc10.x86_64.rpm fc10.noarch.rpm} "Fedora 10"
 }
 
 set package_exclude {
