@@ -59,6 +59,7 @@ concurrent, shared knowledge mapping
 "Graf" is polish for "graph." [Kamil Lemański]
 <li><a href="http://github.com/glejeune/Leonhard">Leonhard</a>, a simple viewer/editor for GraphViz, developed with MacRuby.
 (See the <a href="http://youtu.be/nyfZVGlErTo">demo</A>.)
+<li><a href="http://graphviz-dev.appspot.com">GraphViz Workspace</a>, an interactive viewer and editor for Graphviz. [Takayuki Miyamura]
 </ul>
 
 <!-- -------------------- -->
@@ -153,6 +154,8 @@ Rocketfuel</a> ISP mapper (well, look <a href="http://www.cs.washington.edu/rese
 uses graphviz to display usage patterns showing how users are using your web site. [Salvatore Sanfilippo]
 <li><a href="http://jekor.com/gressgraph/">Visualize your firewall</a>
 uses graphviz to produce a graph of your iptables ruleset. [Chris Forno]
+<li><a href="http://network-route-map.appspot.com/">Network Route Map Generator</a>
+creates a network route map from traceroute data. [Takayuki Miyamura]
 </ul>
 
 <!-- -------------------- -->
