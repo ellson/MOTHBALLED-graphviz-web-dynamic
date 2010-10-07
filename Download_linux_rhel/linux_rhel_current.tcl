@@ -17,7 +17,7 @@ set packages_platforms {
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm fc14.src.rpm fc9.src.rpm} ""
-    EL6.i386 redhat/el6/i386/os {el6.i386.rpm el6.noarch.rpm} "Enterprise Linux 6 or later - uses fontconfig"
+    EL6.i386 redhat/el6/i386/os {el6.i686.rpm el6.noarch.rpm} "Enterprise Linux 6 or later - uses fontconfig"
     EL6.x86_64 redhat/el6/x86_64/os {el6.x86_64.rpm el6.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
     EL5.i386 redhat/el5/i386/os {el5.i386.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
     EL5.x86_64 redhat/el5/x86_64/os {el5.x86_64.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
