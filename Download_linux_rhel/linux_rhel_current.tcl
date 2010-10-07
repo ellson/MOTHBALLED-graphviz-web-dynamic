@@ -153,7 +153,7 @@ To manually update to a snapshot release, use the command:
 </dl>
 </font>
 <p>
-Note: The <i>sfdp</i> feature available in graphviz for EL5 (but not EL3 or EL4) requires <i>gts</i>.  We have backported <i>gts</i> from FC9 and provided rpms below.  If you are using yum it should find these automatically.
+Note: The <i>sfdp</i> feature available in graphviz for EL6 and EL5 (but not EL4) requires <i>gts</i>.  We have backported <i>gts</i> from FC9 and provided rpms below.  If you are using yum it should find these automatically.
 <p>
 }
 
