@@ -24,6 +24,79 @@ on-line pages listed above.</dd>
 <dd><a href="/pdf/cgraph.3.pdf">Cgraph library tutorial</a></dd>
 <dd><a href="/pdf/libguide.pdf">Using Graphviz as a library</a></dd>
 
+<dt><b>Manual pages</b> (<a href="http://www.adobe.com/prodindex/acrobat/readstep.html">PDF</a> format)</dt>
+<dd><b>Layout commands</b></dd>
+<dd><a href="/pdf/circo.1.pdf">circo</a></dd>
+<dd><a href="/pdf/dot.1.pdf">dot</a></dd>
+<dd><a href="/pdf/fdp.1.pdf">fdp</a></dd>
+<dd><a href="/pdf/neato.1.pdf">neato</a></dd>
+<dd><a href="/pdf/osage.1.pdf">osage</a></dd>
+<dd><a href="/pdf/sfdp.1.pdf">sfdp</a></dd>
+<dd><a href="/pdf/twopi.1.pdf">twopi</a></dd>
+<dd><b>Tools</b></dd>
+<dd>
+<table border="0">
+<tr>
+<td><a href="/pdf/acyclic.1.pdf">acyclic</a></td>
+<td><a href="/pdf/gxl2gv.1.pdf">gxl2gv</a></td>
+<td><a href="/pdf/mm2gv.1.pdf">mm2gv</a></td>
+</tr>
+<tr>
+<td><a href="/pdf/bcomps.1.pdf">bcomps</a></td>
+<td><a href="/pdf/gv2gxl.1.pdf">gv2gxl</a></td>
+<td><a href="/pdf/nop.1.pdf">nop</a></td>
+</tr>
+<tr>
+<td><a href="/pdf/ccomps.1.pdf">ccomps</a></td>
+<td><a href="/pdf/gvcolor.1.pdf">gvcolor</a></td>
+<td><a href="/pdf/sccmap.1.pdf">sccmap</a></td>
+</tr>
+<tr>
+<td><a href="/pdf/diffimg.1.pdf">diffimg</a></td>
+<td><a href="/pdf/gvgen.1.pdf">gvgen</a></td>
+<td><a href="/pdf/smyrna.1.pdf">smyrna</a></td>
+</tr>
+<tr>
+<td><a href="/pdf/dijkstra.1.pdf">dijkstra</a></td>
+<td><a href="/pdf/gvpack.1.pdf">gvpack</a></td>
+<td><a href="/pdf/tred.1.pdf">tred</a></td>
+</tr>
+<tr>
+<td><a href="/pdf/dotty.1.pdf">dotty</a></td>
+<td><a href="/pdf/gvpr.1.pdf">gvpr</a></td>
+<td><a href="/pdf/unflatten.1.pdf">unflatten</a></td>
+</tr>
+<tr>
+<td><a href="/pdf/gc.1.pdf">gc</a></td>
+<td><a href="/pdf/lefty.1.pdf">lefty</a></td>
+<td><a href="/pdf/vimdot.1.pdf">vimdot</a></td>
+</tr>
+<tr>
+<td><a href="/pdf/gml2gv.1.pdf">gml2gv</a></td>
+<td><a href="/pdf/lneato.1.pdf">lneato</a></td>
+</tr>
+</table> </dd>
+
+<dd><b>C libraries</b></dd>
+<dd><a href="/pdf/cdt.3.pdf">cdt</a></dd>
+<dd><a href="/pdf/cgraph.3.pdf">cgraph</a></dd>
+<dd><a href="/pdf/graph.3.pdf">graph</a></dd>
+<dd><a href="/pdf/gvc.3.pdf">gvc</a></dd>
+<dd><a href="/pdf/pack.3.pdf">pack</a></dd>
+<dd><a href="/pdf/pathplan.3.pdf">pathplan</a></dd>
+<dd><a href="/pdf/xdot.3.pdf">xdot</a></dd>
+<dd><b>Tcl/tk libraries</b></dd>
+<dd><a href="/pdf/gdtclft.3tcl.pdf">gdtclft.3tcl</a></dd>
+<dd><a href="/pdf/tcldot.3tcl.pdf">tcldot.3tcl</a></dd>
+<dd><a href="/pdf/tkspline.3tk.pdf">tkspline.3tk</a></dd>
+<dd><b>Scripting APIs</b></dd>
+<dd><a href="/pdf/gv.3guile.pdf">gv.3guile</a></dd>
+<dd><a href="/pdf/gv.3java.pdf">gv.3java</a></dd>
+<dd><a href="/pdf/gv.3perl.pdf">gv.3perl</a></dd>
+<dd><a href="/pdf/gv.3python.pdf">gv.3python</a></dd>
+<dd><a href="/pdf/gv.3ruby.pdf">gv.3ruby</a></dd>
+<dd><a href="/pdf/gv.3tcl.pdf">gv.3tcl</a></dd>
+
 <dt><b>FAQs, Contributions</b></dt>
 <!-- <dd><a href="/doc/FAQ.html">Graphviz FAQ</a></dd> -->
 <dd><a href="/mywiki/FAQ">Graphviz FAQ</a></dd>
