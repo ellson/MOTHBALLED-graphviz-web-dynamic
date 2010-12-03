@@ -8,8 +8,8 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64}
-    webdot {SRPMS FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64 FC11.i386 FC11.x86_64}
+    graphviz {SRPMS FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64}
+    webdot {SRPMS FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64}
 }
 
 set platform_directory_type_comments {
@@ -22,8 +22,6 @@ set platform_directory_type_comments {
     FC13.x86_64 redhat/fc13/x86_64/os {fc13.x86_64.rpm fc13.noarch.rpm} "Fedora 13"
     FC12.i386 redhat/fc12/i386/os {fc12.i686.rpm fc12.i586.rpm fc12.i386.rpm fc12.noarch.rpm} "Fedora 12"
     FC12.x86_64 redhat/fc12/x86_64/os {fc12.x86_64.rpm fc12.noarch.rpm} "Fedora 12"
-    FC11.i386 redhat/fc11/i386/os {fc11.i586.rpm fc11.i386.rpm fc11.noarch.rpm} "Fedora 11"
-    FC11.x86_64 redhat/fc11/x86_64/os {fc11.x86_64.rpm fc11.noarch.rpm} "Fedora 11"
 }
 
 set package_exclude {
@@ -32,9 +30,6 @@ set package_exclude {
     graphviz-perl-*.el3.*
     graphviz-php-*.el\[345\].*
     graphviz-php-*.fc4.*
-    graphviz-graphs-*.fc11.*[64].rpm
-    graphviz-doc-*.fc11.*[64].rpm
-    graphviz-*.fc11.i386.rpm
     graphviz-*.fc12.i386.rpm
 }
 
