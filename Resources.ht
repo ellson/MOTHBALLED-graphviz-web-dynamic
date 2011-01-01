@@ -54,7 +54,7 @@ by Graphviz as an Excel (vector graphics) picture object.
 <li><a href="http://code.google.com/p/jrfonseca/wiki/XDot">xdot.py<a>, an interactive viewer for graphs. [Jose Fonseca]
 <li><a href="http://markandrewgoetz.com/vizierfx/">VizierFX<a>, a renderer for Graphviz written in Adobe Flex. [Mark A. Goetz]
 <li><a href="http://ideatree.us/">IdeaTree</a>, a platform for
-concurrent, shared knowledge mapping
+concurrent, shared flowcharting
 <li><a href="http://github.com/kml/Wigraf">Wigraf</a>, a Windows graphviz frontend based on WinGraphviz and C# .NET.
 "Graf" is polish for "graph." [Kamil Lemański]
 <li><a href="http://github.com/glejeune/Leonhard">Leonhard</a>, a simple viewer/editor for GraphViz, developed with MacRuby.
