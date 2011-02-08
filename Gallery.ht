@@ -32,7 +32,13 @@
 <tbody><tr>
 <td align=center><a href="Gallery/undirected/softmaint.html"><img src="Gallery/undirected/softmaint.small.png" border="0" alt="" title="softmaint"></a></td>
 <td align=center><a href="Gallery/undirected/transparency.html"><img src="Gallery/undirected/transparency.small.png" border="0" alt="" title="transparency"></a></td>
-</tr><tr>  <td align=center> <a href="Gallery/undirected/softmaint.html">softmaint</a></td> <td align=center> <a href="Gallery/undirected/transparency.html">transparency</a></td> </tr></tbody>
+<td align=center><a href="Gallery/undirected/root.html"><img src="Gallery/undirected/root.small.png" border="0" alt="" title="root"></a></td>
+</tr><tr>  
+<td align=center> <a href="Gallery/undirected/softmaint.html">softmaint</a></td> 
+<td align=center> <a href="Gallery/undirected/transparency.html">transparency</a></td> 
+<td align=center> <a href="Gallery/undirected/root.html">root</a></td>
+</tr>
+</tbody>
 </table>
 <p>
 Also see Yifan's <a href="http://www.research.att.com/~yifanhu/GALLERY/GRAPHS/index.html">gallery of large graphs</a>, all generated with the <i>sfdp</i> layout engine, but colorized by postprocessing the PostScript files.
