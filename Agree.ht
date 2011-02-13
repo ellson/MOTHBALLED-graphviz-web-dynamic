@@ -1,5 +1,5 @@
 <?php 
-  if (isset ($_COOKIE['CPLclickthroughlicense'])) {
+  if (isset ($_COOKIE['EPLclickthroughlicense'])) {
     header("Location: Download..php"); 
     exit;
   }
