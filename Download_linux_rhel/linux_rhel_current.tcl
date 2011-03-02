@@ -101,7 +101,10 @@ set fout [open Download_linux_rhel.ht w]
 #<p>
 #}
 
+#Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
+<!-- cut1 -->
+<!-- Do not remove this comment or make any web server edits above this comment -->
 <h4>Yum Repository</h4>
 The easiest way to install and maintain graphviz on RHEL or Centos
 is to use <code>yum</code>.
@@ -155,6 +158,8 @@ To manually update to a snapshot release, use the command:
 <p>
 Note: The <i>sfdp</i> feature available in graphviz for EL6 and EL5 (but not EL4) requires <i>gts</i>.  We have backported <i>gts</i> from FC9 and provided rpms below.  If you are using yum it should find these automatically.
 <p>
+<!-- Do not remove this comment or make any web server edits below this comment -->
+<!-- cut2 -->
 }
 
 puts $fout "<table frame=\"void\" rules=\"groups\" border=\"1\" width=\"100%\">"
@@ -176,7 +181,7 @@ foreach {package platforms} $packages_platforms {
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
         foreach {releasename releasedir} $releases {
-            puts $fout "<td align=\"left\"><font size=\"-1\">"
+            puts $fout "<td align=\"left\" nowrap><font size=\"-1\">"
             foreach type $types {
                 puts_latest $fout $docroot $releasedir/$directory $package $package_exclude $type
             }
