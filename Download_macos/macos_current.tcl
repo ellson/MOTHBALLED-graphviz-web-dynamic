@@ -74,6 +74,15 @@ proc puts_latest {fout docroot dir package package_exclude type} {
 
 set fout [open Download_macos.ht w]
 
+#Place any web server edits after the line containing cut1 and before the line containing cut2
+puts $fout {
+<!-- cut1 -->
+<!-- Do not remove this comment or make any web server edits above this comment -->
+
+<!-- Do not remove this comment or make any web server edits below this comment -->
+<!-- cut2 -->
+}
+
 puts $fout "<table frame=\"void\" rules=\"groups\" border=\"1\" width=\"100%\">"
 for {set i 0} {$i <= [llength $releases] / 2} {incr i} {
     puts $fout "<colgroup><col></colgroup>"
@@ -104,7 +113,7 @@ foreach {package platforms} $packages_platforms {
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
         foreach {releasename releasedir} $releases {
-            puts $fout "<td align=\"left\"><font size=\"-1\">"
+            puts $fout "<td align=\"left\" nowrap><font size=\"-1\">"
             foreach type $types {
                 puts_latest $fout $docroot $releasedir/$directory $pkg $package_exclude $type
             }
