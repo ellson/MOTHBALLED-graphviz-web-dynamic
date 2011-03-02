@@ -72,7 +72,10 @@ proc puts_latest {fout docroot dir package package_exclude type} {
 
 set fout [open Download_windows.ht w]
 
+#Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
+<!-- cut1 -->
+<!-- Do not remove this comment or make any web server edits above this comment -->
 <b>Note</b>: As of version 2.26, the Visual
 Studio packages provide both the Release and Debug versions of the
 libraries.
@@ -87,6 +90,8 @@ privileges. You have to run
 </PRE>
 <p>
 from a command prompt.
+<!-- Do not remove this comment or make any web server edits below this comment -->
+<!-- cut2 -->
 }
 
 puts $fout "<P>"
@@ -110,7 +115,7 @@ foreach package $packages {
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
         foreach {releasename releasedir} $releases {
-            puts $fout "<td align=\"left\"><font size=\"-1\">"
+            puts $fout "<td align=\"left\" nowrap><font size=\"-1\">"
             foreach type $types {
                 puts_latest $fout $docroot $releasedir/$directory $pkg $package_exclude $type
             }
