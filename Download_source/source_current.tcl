@@ -117,7 +117,10 @@ puts $fout "</table>"
 #puts $fout "</b></td></tr>"
 #puts $fout "</table>"
 
+#Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
+<!-- cut1 -->
+<!-- Do not remove this comment or make any web server edits above this comment -->
 <h2>Requirements</h2>
 <h3>Dependencies</h3>
 <dl>
@@ -185,6 +188,8 @@ puts $fout {
 	<dt>swig-1.3.29.tar.gz
 	<dd><a href="http://www.swig.org/">http://www.swig.org/</a>
 </dl>
+<!-- Do not remove this comment or make any web server edits below this comment -->
+<!-- cut2 -->
 }
 
 
