@@ -22,16 +22,17 @@ PAGESET=About.php \
 
 .ht.php:
 	./ht2php.py "${PAGESET}" $<
+	./update_html.sh $@ | mysql -u root -pgraphviz2011 -D graphviz
 
-all: ${PAGESET} index.php pdf doc
-
+all: ${PAGESET} index.php pdf doc Download..php
+	
 ${PAGESET}: ht2php.py Makefile
 
 index.php: About.php
 	rm -f index.php
 	ln -s About.php index.php
 
-.PHONY: Download_source.ht Download_linux_fedora.ht Download_linux_rhel.ht Download_linux_ubuntu.ht Download_solaris.ht Download_macos.ht Download_windows.ht Download_att.ht pdf doc
+.PHONY: Download_source.ht Download_linux_fedora.ht Download_linux_rhel.ht Download_linux_ubuntu.ht Download_solaris.ht Download_macos.ht Download_windows.ht Download_att.ht pdf doc Download..php
 
 Download.php: Agree.ht Download.ht
 
@@ -59,15 +60,25 @@ Download_windows.ht:
 Download_att.ht:
 	./Download_att/att_current.tcl
 
+Download..php:
+	./update_html.sh Download..php | mysql -u root -pgraphviz2011 -D graphviz
+
 #  http://www.graphviz.org/pdf requires graphviz-doc to be installed 
 .IGNORE: pdf
 pdf:
-	cp -rf /usr/share/doc/graphviz-doc-*/pdf/* pdf/
+	cp -rf /usr/share/doc/graphviz-doc-*/pdf/* /home/dperry/myhttpd/html/pdf/
 	
 #  http://www.graphviz.org/doc requires graphviz-doc to be installed 
 .IGNORE: doc
 doc:
-	cp -rf /usr/share/doc/graphviz-doc-*/html/* doc/
+	cp -rf /usr/share/doc/graphviz-doc-*/html/* /home/dperry/myhttpd/html/doc/
 
 clean:
 	rm -f ${PAGESET} index.php Download_*.ht
+
+get_source:
+	./select_html.sh ${PAGESET}
+
+
+
+

@@ -27,59 +27,38 @@ if basename == 'Download':
   fout = open(basename + '.php', 'w')
   fin = open('Agree.ht', 'r')
   fout.write(fin.read())
+  fout.close
   fin.close
   fout = open(basename + '..php', 'w')
-  fout.write('<?php setcookie(\'EPLclickthroughlicense\', \'clicked\', time()+60*60*24*30); ?>\n')
+  fout.write('''<!-- header --><?php setcookie(\'EPLclickthroughlicense\', \'clicked\', time()+60*60*24*30); ?>\n''')
 else:
   fout = open(basename + '.php', 'w')
+  fout.write('''<!-- header -->''')
 
 
-fout.write('''<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+fout.write('''
 <!--
-    This is a generated document.  Please edit "''' + basename + '''.ht" instead
-    and then type "make".
+    This document is generated from "''' + basename + '''.ht".  You may edit 
+    the page source locally or on the web server if you have permission to do so.
+    After editing is complete, do the following: 
+       Preserve web server edits by running "make get_source".  
+       Skip this step if editing is done locally to avoid overwriting edits.
+
+       Update source from cvs; resolve any conflicts; commit to cvs.
+ 
+       Run "make" to move the source to the web server.
 -->
-<html>
-<head>
-<title>Graphviz</title>
-<META name="keywords" content="graph drawing, graph layout,
-network visualization, graph visualization, graphviz">
-</head>
-<body bgcolor="white">
 <table cellspacing="20">
+<tbody>
 <tr><td valign="top" rowspan="2">
 <!-- icon -->
 <img src="gvicons/doc-''' + basename.lower() + '''.png" alt="''' + basename + '''">
-<p>
-<!-- menu -->
-\t<table bgcolor="#c0c0ff">\n''')
+<p>&nbsp;</p>
+''')
 
-for page in pageset:
-  menuitem = page.split('.')[0]
-  if len(menuitem.split('_')) > 1:
-    menuparent = menuitem.split('_')[0]
-    if len(menuitem.split('_')) > 2:
-      menuname = menuitem.split('_')[2]
-    else:
-      menuname = menuitem.split('_')[1]
-    indent = '&nbsp;&nbsp;'
-  else:
-    menuparent = ''
-    menuname = menuitem
-    indent = ''
-  if menuname != "att":
-      if basename == menuparent or baseparent == menuparent or menuparent == '':
-        if basename == menuitem:
-          fout.write('\t<tr><td bgcolor="#c0ffc0">' + indent + menuname + '</td></tr>\n')
-        else:
-          fout.write('\t<tr><td>' + indent + '<a href="' + menuitem + '.php">' + menuname + '</a></td></tr>\n')
-
-fout.write('''\t</table> 
+fout.write('''
 </td>
-<td bgcolor="#c0ffc0" height="40">
-<!-- header -->
-<h2>Graphviz - Graph Visualization Software</h2>
-</td></tr>
+<td>&nbsp;</td></tr>
 <tr><td valign="top">
 <!-- body -->\n''')
 
@@ -87,9 +66,10 @@ fin = open(source, 'r')
 fout.write(fin.read())
 fin.close
 
-fout.write('''</td></tr>
+fout.write('''<br /><!-- trailer -->
+</td></tr>
+</tbody>
 </table>
-</body>
-</html>\n''')
+\n''')
 
 fout.close
