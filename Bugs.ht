@@ -1,11 +1,5 @@
-<a href="bugs/bugform.html">bug form:</a>
-report bugs using a browser<br>
-<a href="bugs/bugform.txt.html">text bug form:</a>
-fill in the form and mail to
-<a href="mailto:gviz-bugs@research.att.com">gviz-bugs@research.att.com</a><br>
-<a href="bugs/openbugs.html">open bug list:</a>
-read currently open bugs<br>
-<a href="bugs/buglist.html">bug list:</a>
-read all reported bugs<br>
-If you would like to make changes or comments to a bug report, please mail them to
-<a href="mailto:gviz-bugs@research.att.com">gviz-bugs@research.att.com</a><br>
+            <a href="http://www.graphviz.org/bugs/bugform.txt.html" target="_blank">text bug form:</a> fill in the form and mail to <a href="mailto:gviz-bugs@research.att.com">gviz-bugs@research.att.com</a><br />
+            <a href="http://www.graphviz.org/bugs/openbugs.html" target="_blank">open bug list:</a> read currently open bugs<br />
+            <a href="http://www.graphviz.org/bugs/buglist.html" target="_blank">bug list:</a> read all reported bugs<br />
+            If you would like to make changes or comments to a bug report, please mail them to <a href="mailto:gviz-bugs@research.att.com">gviz-bugs@research.att.com</a><br />
+            <br />

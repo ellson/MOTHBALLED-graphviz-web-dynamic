@@ -1,9 +1,11 @@
-<?php 
-  if (isset ($_COOKIE['EPLclickthroughlicense'])) {
+<?php global $user;
+if((isset($_COOKIE['EPLclickthroughlicense']) || $_COOKIE['EPLclickthroughlicense']=='clicked') || 
+	(in_array('graphviz-team',$user->roles))){
     header("Location: Download..php"); 
     exit;
   }
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
