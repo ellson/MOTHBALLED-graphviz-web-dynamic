@@ -68,7 +68,7 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 
 		sed -ne "/${comment4}/,\$p" ${targetdir}/${targetname} >> ${targetdir}/${temptarget}
 
-		mv ${targetdir}/${temptarget} ${targetdir}/${targetname}
+		mv -f ${targetdir}/${temptarget} ${targetdir}/${targetname}
 		chmod +x ${targetdir}/${targetname}
 	fi
 else
