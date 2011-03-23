@@ -1,5 +1,3 @@
-<!-- I am sorry we have to promote Google here, but I've tried
-Yahoo, I've tried Teoma, and they don't work.  --> <a href="http://www.google.com/search"> <img border="0" align="top" alt="Google" src="http://www.google.com/intl/en/logos/Logo_25wht.gif" /></a>
             <p>
             <table>
                 <tbody>
@@ -7,7 +5,7 @@ Yahoo, I've tried Teoma, and they don't work.  --> <a href="http://www.google.co
                         <td>Search the graphviz-interest list archives:</td>
                         <td>
                         <form action="http://www.google.com/custom" method="get">
-                            <input type="text" value="" maxlength="255" size="50" name="q" />       <input type="submit" value="Search" name="sa" /><input type="hidden" value="graphviz-interest" name="as_q" />       <input type="hidden" value="mailman.research.att.com" name="domains" />       <input type="hidden" value="mailman.research.att.com" name="sitesearch" /> 
+                            <input type="text" value="" maxlength="255" size="50" name="q" />       <input type="submit" value="Search" name="sa" /><input type="hidden" value="graphviz-interest" name="as_q" />       <input type="hidden" value="mailman.research.att.com" name="domains" />       <input type="hidden" value="mailman.research.att.com" name="sitesearch" />
                         </form>
                         </td>
                     </tr>
@@ -31,15 +29,17 @@ Yahoo, I've tried Teoma, and they don't work.  --> <a href="http://www.google.co
                         <td>Search the web for graphviz-related content:</td>
                         <td>
                         <form action="http://www.google.com/custom" method="get">
-                            <input type="text" value="" maxlength="255" size="50" name="q" /> <input type="hidden" value="graphviz" name="as_q" />       <input type="submit" value="Search" name="sa" /> 
+                            <input type="text" value="" maxlength="255" size="50" name="q" /> <input type="hidden" value="graphviz" name="as_q" />       <input type="submit" value="Search" name="sa" />
                         </form>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">Visit the full <a href="https://mailman.research.att.com/pipermail/graphviz-interest/">graphviz-interest</a> and <a href="https://mailman.research.att.com/pipermail/graphviz-devel/">graphviz-devel</a> archives.</td>
+                        <td colspan="2">Visit the full <a target="_blank" href="https://mailman.research.att.com/pipermail/graphviz-interest/">graphviz-interest</a> and <a target="_blank" href="https://mailman.research.att.com/pipermail/graphviz-devel/">graphviz-devel</a> archives.</td>
                     </tr>
                 </tbody>
             </table>
             </p>
             <hr />
-            <p>Go to the subscription sign-up and options page for <a href="https://mailman.research.att.com/mailman/listinfo/graphviz-interest"> graphviz-interest list</a> (see also the <a href="https://mailman.research.att.com/mailman/listinfo/graphviz-devel">graphviz-devel</a> and <a href="https://mailman.research.att.com/mailman/listinfo/dynagraph-interest">dynagraph-interest</a> lists.) <br />
+            <p>Go to the subscription sign-up and options page for <a target="_blank" href="https://mailman.research.att.com/mailman/listinfo/graphviz-interest"> graphviz-interest list</a> (see also the <a target="_blank" href="https://mailman.research.att.com/mailman/listinfo/graphviz-devel">graphviz-devel</a>&nbsp; list.) <br />
+            <br />
+            <br />
