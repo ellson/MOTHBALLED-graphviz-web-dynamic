@@ -15,7 +15,7 @@ cd /home/dperry/graphviz-web;
 make;
 
 #Convert the document html files and upload them to the database
-cd webupdate;
+cd /home/dperry/webupdate;
 ./convert_and_upload;
 
 
