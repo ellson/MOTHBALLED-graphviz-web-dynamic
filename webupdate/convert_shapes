@@ -15,6 +15,7 @@ sed -e s/"attrs.html"/"attrs"/g  -e s/"a:"/"a"/g -e s/"d:"/"d"/g -e s/"k:"/"k"/g
 -e s/"A HREF=html"/"A HREF=\/doc\/info\/html"/g \
 -e s/"<A HREF=shapes.html"/"<A HREF="/g \
 -e s/'SRC='/'SRC=\/doc\/info\/'/g \
+-e s/"lang.html"/"dot-language"/g -e s/"command.html"/"command-line-invocation"/g\
 > shapes_db
 
 
