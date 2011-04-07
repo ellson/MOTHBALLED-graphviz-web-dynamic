@@ -8,10 +8,12 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {UB9.04.x86_64 UB9.04.i386}
+    graphviz {UB10.10.x86_64 UB10.10.i386 UB9.04.x86_64 UB9.04.i386}
 }
 
 set platform_directory_type_comments {
+    UB10.10.x86_64 ubuntu/ub10.10/x86_64 {amd64.deb all.deb} "Ubuntu 10.10 (Maverick Meerkat)"
+    UB10.10.i386 ubuntu/ub10.10/i386 {i386.deb all.deb} "Ubuntu 10.10 (Maverick Meerkat)"
     UB9.04.x86_64 ubuntu/ub9.04/x86_64 {amd64.deb all.deb} "Ubuntu 9.04 (Jaunty Jackalope)"
     UB9.04.i386 ubuntu/ub9.04/i386 {i386.deb all.deb} "Ubuntu 9.04 (Jaunty Jackalope)"
     UB8.10.i386 ubuntu/ub8.10/i386 {i386.deb all.deb} "Ubuntu 8.10 ((Intrepid Ibex))"
