@@ -96,19 +96,19 @@
             <p>&nbsp;</p>
             <hr />
             <h4>R-Graphviz (Aug. 2004)</h4>
-            <p style="width: 542px;"><a href="http://www.bioconductor.org/repository/release1.4/package/html/Rgraphviz.html" target="_blank">R-Graphviz</a> is a graph layout and display module from the <a href="http://www.bioconductor.org" target="_blank">Bio-Conductor project</a> for the <a href="http://www.r-project.org" target="_blank">R statistics language</a>. Thanks to Robert Gentleman and <a href="http://biowww.dfci.harvard.edu/~jgentry/" target="_blank">Jeff Gentry</a> (Dana Farber Cancer Institute, Harvard) for leading this work. (In Sept. 2004, an <a href="http://cran.r-project.org/doc/Rnews/Rnews_2004-2.pdf">article</a> on applying R-Graphviz to displaying metabolic pathways  was published in the R newsletter.)
+            <p style="width: 542px;"><a href="http://www.bioconductor.org/help/bioc-views/release/bioc/html/Rgraphviz.html" target="_blank">R-Graphviz</a> is a graph layout and display module from the <a href="http://www.bioconductor.org" target="_blank">Bio-Conductor project</a> for the <a href="http://www.r-project.org" target="_blank">R statistics language</a>. Thanks to Robert Gentleman and <a href="http://biowww.dfci.harvard.edu/~jgentry/" target="_blank">Jeff Gentry</a> (Dana Farber Cancer Institute, Harvard) for leading this work. (In Sept. 2004, an <a href="http://cran.r-project.org/doc/Rnews/Rnews_2004-2.pdf">article</a> on applying R-Graphviz to displaying metabolic pathways  was published in the R newsletter.)
             <table width="542">
                 <tbody>
                     <tr>
-                        <td><a href="http://www.bioconductor.org/Screenshots/" target="_blank"> <!--
+                        <td><!--
 <img src="http://www.bioconductor.org/Screenshots/icon-Tcell.png" width="180" alt="">
---> <img width="180" src="News/icon-Tcell.png" alt="" /> </a></td>
-                        <td><a href="http://www.bioconductor.org/Screenshots/" target="_blank"> <!--
+--> <img width="180" src="News/icon-Tcell.png" alt="" /></td>
+                        <td><!--
 <img src="http://www.bioconductor.org/Screenshots/litGnc.jpg" width="180" alt="">
---> <img width="180" src="News/litGnc.jpg" alt="" /> </a></td>
-                        <td><a href="http://www.bioconductor.org/Screenshots/" target="_blank"> <!--
+--> <img width="180" src="News/litGnc.jpg" alt="" /></td>
+                        <td><!--
 <img src="http://www.bioconductor.org/Screenshots/clustGallc.jpg" width="180" alt="">
---> <img width="180" src="News/clustGallc.jpg" alt="" /> </a></td>
+--> <img width="180" src="News/clustGallc.jpg" alt="" /></td>
                     </tr>
                 </tbody>
             </table>
@@ -196,4 +196,5 @@
             <br />
             <br />
             <br />
-
+            <br />
+            <br />
