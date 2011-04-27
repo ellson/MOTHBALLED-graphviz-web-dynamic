@@ -1,6 +1,7 @@
-            [<a href="#software-engineering">software engineering</a>] [<a href="#bio-informatics">bio-informatics</a>] [<a href="#document-preparation">document preparation</a>] [<a href="#social-networking">social networking</a>] [<a href="#third-party-distributions">third-party distributions</a>]
             <p>These are some representative external resources. The list includes tools that complement Graphviz, such as graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites that rely on Graphviz as a visualization service. You can also find Graphviz-related projects in <a target="_blank" href="http://code.google.com/hosting/search?q=graphviz">Google Code</a>. Please <a href="mailto:erg@graphviz.org">send us</a> suggestions for additions to this list.  <!--- very little action here lately
+
 <a href="http://c2.com/cgi/wiki?Graphviz">Graphviz Wiki Web</a>
+
 --></p>
             <h4><a name="graphical-interfaces">Graphical Interfaces</a></h4>
             Interactive viewers.
@@ -53,7 +54,7 @@
                 <li>perl: <a target="_blank" href="http://search.cpan.org/search?dist=GraphViz-DBI"> GraphViz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]</li>
                 <li>perl: <a target="_blank" href="http://search.cpan.org/search?query=graphviz&amp;mode=all">100 more hits in CPAN</a></li>
                 <li>perl: <a target="_blank" href="http://search.cpan.org/search?dist=GraphViz-ISA"> GraphViz::ISA</a> - graph Perl packages' ISA runtime hierarchies [Marcel Grunauer]</li>
-                <li>perl: <a onclick="window.open(this.href,'','resizable=no,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,status'); return false" href="http://search.cpan.org/~tels/Graph-Easy/">Graph::Easy</a> is a rectilinear graph drawing program compatible with Graphviz and written<br />
+                <li>perl: <a href="http://search.cpan.org/~tels/Graph-Easy/">Graph::Easy</a> is a rectilinear graph drawing program compatible with Graphviz and written<br />
                 entirely in perl for ease of installation.  It also has a <a target="_blank" href="http://search.cpan.org/~tels/mediawiki-graph/">MediaWiki</a> extension.  [Tels]</li>
                 <li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]</li>
                 <li>ruby: <a href="http://github.com/glejeune/Ruby-Graphviz/">Ruby-Graphviz</a> - Ruby interface to Graphviz [Gr&eacute;goire Lejeune]</li>
@@ -77,7 +78,9 @@
                 <li><a href="http://www.codeproject.com/database/sqlpp.asp">SqlPP</a> - a scripted SQL query generation framework that generates graphviz</li>
                 <li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) [Szil&aacute;rd Vajda]</li>
                 <li>gprof filters - <a href="Misc/pl_from_gprof.pl">pl_from_gprof</a> and <a href="Misc/dot_from_pl.pl">dot_from_pl</a> [Robert Nielsen] and an old <a href="Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]</li>
+<!--
                 <li><a href="http://www.juabus.ch/ClanDraw/ClanDraw.pdf" target="_blank">ClanDraw</a> family relationship (genealogy) visualization, works with GEDCOM, Java 1.5 [Hansuli Anderegg]</li>
+-->
                 <li><a href="http://code.google.com/p/dbgraphnav/">DBGraphNav</a>, a tool to facilitate the browsing of data within relational databases. [Paul McMillan]</li>
             </ul>
             <!-- -------------------- -->
@@ -88,9 +91,13 @@
                 <li><a href="http://sourceforge.net/projects/safemap">SMART</a> passive network flow visualization tool  [Cisco's Critical Infrastructure Assurance Group (CIAG) Research team]</li>
                 <li><a href="http://www.csoonline.com/article/348317/What_a_Botnet_Looks_Like"> CSO Online</a>: What a Botnet Looks like (Flash) [David Vorel]</li>
                 <li><a href="http://map.efnet.org/">EFnet</a> IRC Network server routing maps [Douglas Boldt] <!--- seems dead
+
 <li> <a href="http://freshmeat.net/projects/spamviz/">SpamViz</a> generates *.dot
+
 file of network resources - primary intent is spam-net hunting,
+
 but any domain can be graphed [Mike Zick]
+
 --></li>
                 <li><a href="http://netmap.sourceforge.net/">netmap</a> draws the route connecting you with the Internet</li>
                 <li><a href="http://pear.php.net/package-info.php?package=Image_Graphviz">Image_Graphviz</a> class in PHP's <a href="http://pear.php.net/">PEAR repository</a> [Sebastian Bergmann]</li>
@@ -201,6 +208,8 @@ but any domain can be graphed [Mike Zick]
                 <li><a href="http://software.opensuse.org/search?q=graphviz"><img border="0" src="Resources/suse-logo.png" alt="suse logo" /> SuSE</a> - rpms for Novell/SuSE distributions for many architectures.</li>
                 <li><a href="http://packages.ubuntu.com/search?keywords=graphviz&amp;searchon=names&amp;suite=all&amp;section=all"><img border="0" src="Resources/ubuntu-logo.png" alt="ubuntu logo" /> Ubuntu</a> - Linux packages.</li>
             </ul>
+            <br />
+            <br />
             <br />
             <br />
             <br />
