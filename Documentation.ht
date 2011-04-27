@@ -3,13 +3,13 @@
                 <li><span class="gv_navheadone">On-line Reference Pages</span>
                 <div id="gvlinkone">
                 <ul>
-                    <li><a href="dot-language">The DOT Language</a></li>
-                    <li><a href="command-line-invocation">Command-line Usage</a></li>
-                    <li><a href="output-formats">Output Formats</a></li>
-                    <li><a href="attrs" style="width: 220px;">Node, Edge and Graph Attributes</a></li>
-                    <li><a href="node-shapes">Node Shapes</a></li>
-                    <li><a href="arrow-shapes">Arrow Shapes</a></li>
-                    <li><a href="color-names">Colors</a></li>
+                    <li><a href="/content/dot-language">The DOT Language</a></li>
+                    <li><a href="/content/command-line-invocation">Command-line Usage</a></li>
+                    <li><a href="/content/output-formats">Output Formats</a></li>
+                    <li><a href="/content/attrs" style="width: 220px;">Node, Edge and Graph Attributes</a></li>
+                    <li><a href="/content/node-shapes">Node Shapes</a></li>
+                    <li><a href="/content/arrow-shapes">Arrow Shapes</a></li>
+                    <li><a href="/content/color-names">Colors</a></li>
                 </ul>
                 </div>
                 </li>
