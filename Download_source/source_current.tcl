@@ -132,7 +132,8 @@ puts $fout {
 	<dd><a href="http://www.freetype.org/">http://www.freetype.org/</a>
 
 	<dt>gd-2.0.34.tar.gz [optional, deprecated but needed for GIF output]
-	<dd><a href="http://www.libgd.org//">http://www.libgd.org/</a>
+	<dd><a href="http://www.boutell.com/gd/">http://www.boutell.com/gd/</a>
+        <dd><a href="http://www.graphviz.org/pub/tmp/gd-2.0.36RC1.tar.gz">www.graphviz.org/pub/tmp/</a>
 
 	<dt>fontconfig-2.3.95.tar.gz [optional (required for libpangocairo and for gd), recommended]
 	<dd><a href="http://www.fontconfig.org/wiki/">http://www.fontconfig.org/wiki/</a>
