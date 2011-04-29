@@ -9,7 +9,7 @@ set releases {
 
 set packages_platforms {
     graphviz {SRPMS FC16.i386 FC16.x86_64 FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64}
-    webdot {SRPMS FC16.i386 FC16.x86_64 FFC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64}
+    webdot {SRPMS FC16.i386 FC16.x86_64 FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64 FC12.i386 FC12.x86_64}
 }
 
 set platform_directory_type_comments {
