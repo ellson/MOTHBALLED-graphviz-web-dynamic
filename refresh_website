@@ -1,21 +1,21 @@
 # Update the contents of the website resource files: Gallery,News,gvicons,Resources,doc
-cd /home/dperry/myhttpd/html;
+cd /home/graphviz/myhttpd/html;
 /home/gviz/bin/anoncvs.tcl -qz3 update -d;
 
 
 # Get the current web pages from the database
-cd /home/dperry/graphviz-web;
+cd /home/graphviz/graphviz-web;
 make get_source;
 
 # Update the script files
 # Generate the web pages and upload them to the database
-cd /home/dperry/;
+cd /home/graphviz/;
 /home/gviz/bin/anoncvs.tcl -qz3 update -d graphviz-web;
-cd /home/dperry/graphviz-web;
+cd /home/graphviz/graphviz-web;
 make;
 
 #Convert the document html files and upload them to the database
-cd /home/dperry/webupdate;
+cd /home/graphviz/webupdate;
 ./convert_and_upload;
 
 
