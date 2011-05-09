@@ -31,8 +31,7 @@ set platform_directory_type_comments {
 set package_exclude {
     graphviz-cairo-*
     graphviz-perl-*.rhl\[789\].*
-    graphviz-perl-*.el3.*
-    graphviz-perl-....[02468]..-*
+    graphviz-perl-*.el\[345\].*
     graphviz-php-*.el\[345\].*
     graphviz-php-*.fc4.*
 }
