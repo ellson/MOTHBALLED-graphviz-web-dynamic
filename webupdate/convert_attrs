@@ -17,8 +17,9 @@ sed -e s/"d:"/"d"/g -e s/"k:"/"k"/g -e s/"a:"/"a"/g \
 -e s/'http:\/\/www.graphviz.org\/doc\/info\/output.html'/'output-formats'/g \
 -e s/'http:\/\/www.graphviz.org\/Documentation'/'\/Documentation'/g \
 -e s/"output.html"/"output-formats"/g -e s/"attrs.html"/"attrs"/g  -e s/'SRC=\"'/'SRC=\"\/doc\/info\/'/g  \
-| sed -e s/"colors.html"/"color-names"/g \
+| sed -e s/"colors.html"/"color-names"/g -e s/"shapes.html"/node-shapes/ \
 -e s/"command.html"/"command-line-invocation"/g \
+-e s/"arrows.html"/"arrow-shapes"/g \
 > attrs_db
 
 
