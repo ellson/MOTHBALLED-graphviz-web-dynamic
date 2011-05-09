@@ -32,6 +32,7 @@ set package_exclude {
     graphviz-cairo-*
     graphviz-perl-*.rhl\[789\].*
     graphviz-perl-*.el3.*
+    graphviz-perl-2.26*
     graphviz-php-*.el\[345\].*
     graphviz-php-*.fc4.*
 }
