@@ -1,14 +1,15 @@
 #! /bin/bash
 
 #changes to database name and password go here
-dbconnect="mysql -u root -pgraphviz2011 -D graphviz"
-srcfiles="/home/gviz/myhttpd/html/info"
+dbconnect="mysql -uroot -pgraphviz2011 -D graphviz"
+srcfiles="/home/graphviz/myhttpd/html/info"
 
 for doc in arrows attrs colors command lang output shapes
 do
 	#Convert html links to those appropriate for the current website
 	#Update the website database with the web page
-	./convert_${doc} ${srcfiles}; ./db_upload ${doc}_db | $dbconnect
+	./convert_${doc} ${srcfiles}
+	./db_upload ${doc}_db | $dbconnect
 	rm ${doc}_db
 done
 
