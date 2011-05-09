@@ -5,17 +5,25 @@ cd /home/graphviz/myhttpd/html;
 
 # Get the current web pages from the database
 cd /home/graphviz/graphviz-web;
+#
 make get_source;
+#
 
 # Update the script files
 # Generate the web pages and upload them to the database
 cd /home/graphviz/;
+#
 /home/gviz/bin/anoncvs.tcl -qz3 update -d graphviz-web;
+#
 cd /home/graphviz/graphviz-web;
+#
 make;
+#
 
 #Convert the document html files and upload them to the database
-cd /home/graphviz/webupdate;
+cd /home/graphviz/graphviz-web/webupdate;
+#
 ./convert_and_upload;
+#
 
 
