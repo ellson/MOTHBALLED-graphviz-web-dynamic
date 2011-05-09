@@ -86,9 +86,11 @@
         <tbody>
                     <tr>
                        <td align=center><a href="Gallery/undirected/gd_1994_2007.html"><img src="Gallery/undirected/gd_1994_2007.small.png" border="0" alt="" title="gd_1994_2007"></a></td>
+                       <td align=center><a href="Gallery/undirected/networkmap_twopi.html"><img src="Gallery/undirected/networkmap_twopi.small.png" border="0" alt="" title="networkmap_twopi"></a></td>
                     </tr>
                     <tr>  
                        <td align=center> <a href="Gallery/undirected/gd_1994_2007.html">gd_1994_2007</a></td> 
+                       <td align=center> <a href="Gallery/undirected/networkmap_twopi.html">networkmap</a></td> 
                     </tr>
                 </tbody>
             </table>
