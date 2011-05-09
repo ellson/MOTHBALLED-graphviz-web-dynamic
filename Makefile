@@ -22,7 +22,7 @@ PAGESET=About.php \
 
 .ht.php:
 	./ht2php.py "${PAGESET}" $<
-	./update_html.sh $@ | mysql -uroot -pgraphviz2011 -D graphviz2
+	./update_html.sh $@ | mysql -uroot -pgraphviz2011 -D graphviz
 
 all: ${PAGESET} index.php pdf doc Download..php
 	
@@ -61,7 +61,7 @@ Download_att.ht:
 	./Download_att/att_current.tcl
 
 Download..php:
-	./update_html.sh Download..php | mysql -uroot -pgraphviz2011 -D graphviz2
+	./update_html.sh Download..php | mysql -uroot -pgraphviz2011 -D graphviz
 
 #  http://www.graphviz.org/pdf requires graphviz-doc to be installed 
 .IGNORE: pdf
