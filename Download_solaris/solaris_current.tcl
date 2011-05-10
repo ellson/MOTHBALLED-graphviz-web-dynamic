@@ -7,7 +7,7 @@ puts $fout {
 <!-- cut1 -->
 <!-- Do not remove this comment or make any web server edits above this comment -->
  	For Solaris, please use the graphviz stable releases at:
- 	<a href="http://www.opencsw.org/packages">http://www.opencsw.org/packages</a>, maintained by John ellson. Currently available packages are:
+ 	<a href="http://www.opencsw.org/packages/">http://www.opencsw.org/packages/</a>, maintained by John ellson. Currently available packages are:
             <p>&nbsp;</p>
             <pre>
  	graphviz 	Graph Visualization Tools
