@@ -64,7 +64,7 @@ we need to change directions and find a new strategy for this work.
                 <li><a href="/webdot/index.html" target="_blank">WebDot</a> - a tcldot scripted WWW service for graphs in HTML documents.
                 <p>There is also <a href="/Misc/webdot.pl">a simplified version</a> written in perl.</p>
                 </li>
-                <li><a href="http://www.research.att.com/~john/Grappa/">Grappa</a> - a Java package for graphs with full Java graph data structures</li>
+                <li><a href="http://www2.research.att.com/~john/Grappa/">Grappa</a> - a Java package for graphs with full Java graph data structures</li>
                 <li><a href="http://zvtm.sourceforge.net/zgrviewer.html">ZGRViewer</a> - an SVG-based zooming graph viewer for large graphs.</li>
                 <li><a href="http://www.pixelglow.com/graphviz/">Mac OS X graphviz</a></li>
                 <li>smyrna - a prototype OpenGL viewer</li>
