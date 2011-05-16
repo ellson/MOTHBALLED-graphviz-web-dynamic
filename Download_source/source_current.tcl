@@ -156,7 +156,7 @@ puts $fout {
 	<dt>GTK+ [optional (required for smyrna)]
 	<dd><a href="http://www.gtk.org/">http://www.gtk.org/</a>
 	<dt>GtkGLExt [optional (required for smyrna)]
-	<dd><a href="http://gtkglext.sourceforge.net/">http://gtkglext.sourceforge.net/</a>
+	<dd><a href="http://projects.gnome.org/gtkglext/">http://projects.gnome.org/gtkglext/</a>
 	<dt>Glade [optional (required for smyrna)]
 	<dd><a href="http://glade.gnome.org/">http://glade.gnome.org/</a>
 	<dt>Glut [optional (required for smyrna)]
@@ -179,13 +179,13 @@ puts $fout {
 	<dt>gcc-g++-4.1.1.tar.bz2
 	<dd><a href="http://ftp.gnu.org/gnu/gcc/">http://ftp.gnu.org/gnu/gcc/</a>
 	<dt>ghostscript-8.54-gpl.tar.gz
-	<dd><a href="http://www.cs.wisc.edu/~ghost/">http://www.cs.wisc.edu/~ghost/</a>
+	<dd><a href="http://pages.cs.wisc.edu/~ghost/">http://pages.cs.wisc.edu/~ghost/</a>
 	<dt>libtool-1.5.22.tar.gz [if building from CVS]
 	<dd><a href="http://ftp.gnu.org/gnu/libtool/">http://ftp.gnu.org/gnu/libtool/</a>
 	<dt>m4-1.4.4.tar.gz [if building from CVS]
 	<dd><a href="http://ftp.gnu.org/gnu/m4/">http://ftp.gnu.org/gnu/m4/</a> [if building from CVS]
 	<dt>pkg-config-0.20.tar.gz
-	<dd><a href="http://pkgconfig.freedesktop.org/wiki/">http://pkgconfig.freedesktop.org/wiki/</a>
+	<dd><a href="http://www.freedesktop.org/wiki/Software/pkg-config/">http://www.freedesktop.org/wiki/Software/pkg-config/</a>
 	<dt>swig-1.3.29.tar.gz
 	<dd><a href="http://www.swig.org/">http://www.swig.org/</a>
 </dl>
