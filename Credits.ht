@@ -1,4 +1,3 @@
-Arif Bilgin, AT&amp;T Research (smyrna and Windows support)<br />
             <a href="http://www.research.att.com/info/ellson">John Ellson</a>, AT&amp;T Research (Tcl/Tk and codegen extensions)<br />
             <a href="http://www.research.att.com/info/erg">Emden Gansner</a>, AT&amp;T Research (dot, neato, twopi, circo, fdp, osage, smyrna, gvmap)<br />
             <p><a href="http://www.research.att.com/~yifanhu">Yifan Hu</a>, AT&amp;T Research (sfdp, gvmap, cluster, mm2gv)<br />
@@ -14,5 +13,6 @@ Arif Bilgin, AT&amp;T Research (smyrna and Windows support)<br />
             <a href="http://www.xs4all.nl/%7Ejs/index.html">Jeroen Scheerder</a> (allow URLs in PDF distilled from Postscript output)<br />
             Richard G. Daniel (RPM packaging)<br />
             <a href="http://gordon.woodhull.com/">Gordon Woodhull</a> (<a href="http://www.research.att.com/software_tools">Dynagraph</a>) <br />
+            <br />
             <br />
             <br />
