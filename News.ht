@@ -102,13 +102,13 @@
                     <tr>
                         <td><!--
 <img src="http://www.bioconductor.org/Screenshots/icon-Tcell.png" width="180" alt="">
---> <img width="180" alt="" src="News/icon-Tcell.png" /></td>
+--> <img width="180" alt="" src="/News/icon-Tcell.png" /></td>
                         <td><!--
 <img src="http://www.bioconductor.org/Screenshots/litGnc.jpg" width="180" alt="">
---> <img width="180" alt="" src="News/litGnc.jpg" /></td>
+--> <img width="180" alt="" src="/News/litGnc.jpg" /></td>
                         <td><!--
 <img src="http://www.bioconductor.org/Screenshots/clustGallc.jpg" width="180" alt="">
---> <img width="180" alt="" src="News/clustGallc.jpg" /></td>
+--> <img width="180" alt="" src="/News/clustGallc.jpg" /></td>
                     </tr>
                 </tbody>
             </table>
@@ -193,6 +193,7 @@
                 <li>Integration of batch and incremental layout service</li>
                 <li>Someone to adopt and finish Dynagraph in C++</li>
             </ul>
+            <br />
             <br />
             <br />
             <br />

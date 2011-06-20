@@ -160,7 +160,7 @@ puts $fout {
 	<dt>Glade [optional (required for smyrna)]
 	<dd><a href="http://glade.gnome.org/">http://glade.gnome.org/</a>
 	<dt>Glut [optional (required for smyrna)]
-	<dd><a href="http://opengl.org/resources/libraries/glut/">http://opengl.org/resources/libraries/glut/</a>
+	<dd><a href="http://www.opengl.org/resources/libraries/glut/">http://www.opengl.org/resources/libraries/glut/</a>
 </dl>
 <h3>Tools</h3>
 <dl>

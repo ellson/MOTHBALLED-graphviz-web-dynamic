@@ -77,7 +77,10 @@ set fout [open Download_macos.ht w]
 #Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
 <!-- cut1 -->
-<!-- Do not remove this comment or make any web server edits above this comment -->This package is for general use. It has Graphviz.app and the main command line tools.  It doesn't include gvedit.app (a QT-based graph editor), smyrna (an OpenGL viewer for large graphs), or the pangocairo plugin (you get the quartz plugin instead). If you need any of these, build from the <a href="http://www.graphviz.org/pub/graphviz/CURRENT/graphviz-working.tar.gz">source tarball</a> or <a href="http://www.macports.org/">macports</a> <a href="http://www.macports.org/ports.php?by=name&substr=graphviz">graphviz</a>. If you can work on fixing the build and packaging problems with these tools, send mail to gviz-bugs on research.att.com. (Note: smyrna crashes Xquartz 2.6.1 on some systems; update to <a href="http://xquartz.macosforge.org/trac/wiki/Releases">2.6.2</a>.)
+<!-- Do not remove this comment or make any web server edits above this comment -->
+This package is for general use. It has Graphviz.app and the main command line tools.  It doesn't include gvedit.app (a QT-based graph editor), smyrna (an OpenGL viewer for large graphs), or the pangocairo plugin (you get the quartz plugin instead). If you need any of these, build from the <a href="http://www.graphviz.org/pub/graphviz/CURRENT/graphviz-working.tar.gz">source tarball</a> or <a href="http://www.macports.org/">macports</a> <a href="http://www.macports.org/ports.php?by=name&substr=graphviz">graphviz</a>. If you can work on fixing the build and packaging problems with these tools, send mail to gviz-bugs on research.att.com. (Note: smyrna crashes Xquartz 2.6.1 on some systems; update to <a href="http://xquartz.macosforge.org/trac/wiki/Releases">2.6.2</a>.)
+<p>For older versions of Graphviz for Tiger, Leopard or Snow Leopard, look <a href="http://www.graphviz.org/pub/graphviz/stable/macos/">here</a>.
+
 <!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
