@@ -32,27 +32,27 @@ we need to change directions and find a new strategy for this work.
                     <tr>
                         <!-- <a href="/cgi-bin/man?dot">dot</a> -->
                         <td width="800"><b>dot</b> - ``hierarchical'' or layered drawings of directed graphs. This is the default tool to use if edges have directionality. dot aims edges in the same direction (top to bottom, or left to right) and then attempts to avoid edge crossings and reduce edge length.</td>
-                        <td align="center"><a href="Gallery/directed/cluster.html"> <img border="0" align="top" src="Gallery/directed/cluster.small.png" alt="" /> </a></td>
+                        <td align="center"><a href="Gallery/directed/cluster.html"> <img border="0" align="top" alt="" src="Gallery/directed/cluster.small.png" /> </a></td>
                     </tr>
                     <tr>
                         <td width="800"><b>neato</b> - ``spring model'' layouts. &nbsp;This is the default tool to use if the graph is not too large (about 100 nodes) and you don't know anything else about it.&nbsp;Neato attempts to minimize a global energy function, which is equivalent to statistical multi-dimensional scaling. The solution is achieved using stress majorization, though the older Kamada-Kawai algorithm, using steepest descent, is also available.  fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.</td>
-                        <td align="center"><a href="Gallery/undirected/ER.html"> <img border="0" align="top" src="Gallery/undirected/ER.small.png" alt="" /> </a></td>
+                        <td align="center"><a href="Gallery/undirected/ER.html"> <img border="0" align="top" alt="" src="Gallery/undirected/ER.small.png" /> </a></td>
                     </tr>
                     <tr>
                         <td width="800"><b>fdp</b> - ``spring model'' layouts similar to those of neato, but does this by reducing forces rather than working with energy.  Fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.</td>
-                        <td align="center"><a href="Gallery/undirected/fdpclust.html"> <img border="0" align="top" src="Gallery/undirected/fdpclust.small.png" alt="" /> </a></td>
+                        <td align="center"><a href="Gallery/undirected/fdpclust.html"> <img border="0" align="top" alt="" src="Gallery/undirected/fdpclust.small.png" /> </a></td>
                     </tr>
                     <tr>
                         <td width="800"><b>sfdp</b> - multiscale version of fdp for the layout of large graphs.</td>
-                        <td align="center"><img border="0" align="top" src="Gallery/undirected/200910_viz_matrix_188w.png" alt="" /></td>
+                        <td align="center"><img border="0" align="top" alt="" src="Gallery/undirected/200910_viz_matrix_188w.png" /></td>
                     </tr>
                     <tr>
                         <td width="800"><b>twopi</b> - radial layouts, after Graham Wills 97. Nodes are placed on concentric circles depending their distance from a given root node. You can set the root node, or let twopi do it.</td>
-                        <td align="center"><a href="Gallery/twopi/twopi2.html"> <img border="0" align="top" src="Gallery/twopi/twopi2.small.png" alt="" /> </a></td>
+                        <td align="center"><a href="Gallery/twopi/twopi2.html"> <img border="0" align="top" alt="" src="Gallery/twopi/twopi2.small.png" /> </a></td>
                     </tr>
                     <tr>
                         <td width="800"><b>circo</b> - circular layout, after Six and Tollis 99, Kauffman and Wiese 02. This is suitable for certain diagrams of multiple cyclic structures, such as certain telecommunications networks.</td>
-                        <td align="center"><img border="0" align="top" src="Gallery/undirected/honda-tokoro.circo.png" alt="" /></td>
+                        <td align="center"><img border="0" align="top" alt="" src="Gallery/undirected/honda-tokoro.circo.png" /></td>
                     </tr>
                 </tbody>
             </table>
@@ -61,7 +61,7 @@ we need to change directions and find a new strategy for this work.
             <ul>
                 <li><a href="http://www.graphviz.org/cgi-bin/man?dotty">dotty</a> - a vintage customizable Unix/X windows viewer that has  subsequently been ported to Microsoft Windows.</li>
                 <li><a href="http://www.graphviz.org/cgi-bin/man?tcldot">tcldot</a> - a TCL/TK scripting language extension for Graphviz</li>
-                <li><a href="/webdot/index.html" target="_blank">WebDot</a> - a tcldot scripted WWW service for graphs in HTML documents.
+                <li><a target="_blank" href="/webdot/index.html">WebDot</a> - a tcldot scripted WWW service for graphs in HTML documents.
                 <p>There is also <a href="/Misc/webdot.pl">a simplified version</a> written in perl.</p>
                 </li>
                 <li><a href="http://www2.research.att.com/~john/Grappa/">Grappa</a> - a Java package for graphs with full Java graph data structures</li>
@@ -222,6 +222,7 @@ provided by <b>tkspline</b>.</dd>
                 <dt>                 <br />
                 </dt>
             </dl>
+            <br />
             <br />
             <br />
             <br />

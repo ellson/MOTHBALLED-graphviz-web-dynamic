@@ -95,19 +95,19 @@ puts $fout "</td></tr>"
 puts $fout "<tr><td>"
 	
 # CVS instructions
-#puts $fout "<table rules=\"all\" width=\"100%\">"
-#puts $fout "<tr><th align=\"left\">CVS</th></tr>"
-#puts $fout "<tr><td align=left>"
-#puts $fout "<b>cvs -d :pserver:anoncvs@cvs-graphviz.research.att.com:/home/cvsroot login</b><br>"
-#puts $fout "<i>(password is \"anoncvs\")</i><br>"
-#puts $fout "<b>cvs -d :pserver:anoncvs@cvs-graphviz.research.att.com:/home/cvsroot co graphviz2</b><br>"
-#puts $fout "</td></tr>"
-#puts $fout "<tr><td><p>"
-#puts $fout "<font size=\"+1\" color=\"red\">Note:</font>"
-#puts $fout "The old \"graphviz\" cvs tree has been frozen at the graphviz-2.2 stable release."
-#puts $fout "Starting with the graphviz-2.3 development series we have moved to a new \"graphviz2\" tree."
-#puts $fout "</td></tr>"
-#puts $fout "</table>"
+puts $fout "<table rules=\"all\" width=\"100%\">"
+puts $fout "<tr><th align=\"left\">CVS</th></tr>"
+puts $fout "<tr><td align=left>"
+puts $fout "<b>cvs -d :pserver:anoncvs@cvs-graphviz.research.att.com:/home/cvsroot login</b><br>"
+puts $fout "<i>(password is \"anoncvs\")</i><br>"
+puts $fout "<b>cvs -d :pserver:anoncvs@cvs-graphviz.research.att.com:/home/cvsroot co graphviz2</b><br>"
+puts $fout "</td></tr>"
+puts $fout "<tr><td><p>"
+puts $fout "<font size=\"+1\" color=\"red\">Note:</font>"
+puts $fout "The old \"graphviz\" cvs tree has been frozen at the graphviz-2.2 stable release."
+puts $fout "Starting with the graphviz-2.3 development series we have moved to a new \"graphviz2\" tree."
+puts $fout "</td></tr>"
+puts $fout "</table>"
 
 ## GIT instructions
 #puts $fout "<table rules=\"all\" width=\"100%\">"
@@ -121,6 +121,14 @@ puts $fout "<tr><td>"
 puts $fout {
 <!-- cut1 -->
 <!-- Do not remove this comment or make any web server edits above this comment -->
+<tr><td>
+<table rules="all" width="100%">
+<tr><th align="left"><br>Mercurial SCM</th></tr>
+<tr><td align=left>
+<b>hg clone http://hg.research.att.com/graphviz</b><br>
+</td></tr>
+<tr><td>&nbsp;<br></td></tr>
+</table>
 <h2>Requirements</h2>
 <h3>Dependencies</h3>
 <dl>
@@ -160,7 +168,7 @@ puts $fout {
 	<dt>Glade [optional (required for smyrna)]
 	<dd><a href="http://glade.gnome.org/">http://glade.gnome.org/</a>
 	<dt>Glut [optional (required for smyrna)]
-	<dd><a href="http://opengl.org/resources/libraries/glut/">http://opengl.org/resources/libraries/glut/</a>
+	<dd><a href="http://www.opengl.org/resources/libraries/glut/">http://www.opengl.org/resources/libraries/glut/</a>
 </dl>
 <h3>Tools</h3>
 <dl>

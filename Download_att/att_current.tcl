@@ -108,30 +108,6 @@ set fout [open Download_att.ht w]
 #Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
 <!-- cut1 -->
-<!-- Do not remove this comment or make any web server edits above this comment -->
-<h4>Organization of Binary packages for Linux</h4>
-<font size="-1">
-<dl>
-<dt><i>graphviz</i>
-<dd>The base package providing /usr/bin/dot, /usr/bin/neato, etc.
-<dt><i>graphviz-doc, graphviz-graphs</i>
-<dd>Optional user documentation and examples.
-<dt><i>graphviz-devel, graphviz-debuginfo, graphviz-rtest</i>
-<dd>Optional for developers: headers, debugging symbols, regression test scripts and data.
-<dt><i>graphviz-gd, graphviz-devil, graphviz_gdk_pixbuf, graphviz-ming</i>
-<dd>Optional renderers.
-<!--
-<dt><i>graphviz-cairo</i>
-<dd>Superceded by pango/cairo support in the base <i>graphviz</i> package in FC5 and later.
--->
-<dt><i>graphviz-guile, graphviz-java, graphviz-lua, graphviz-ocaml, graphviz-perl, graphviz-php, graphviz-python, graphviz-R, graphviz-ruby, graphviz-sharp, graphviz-tcl</i>
-<dd>Optional language bindings to enable programs in those languages to use the facilities of graphviz.
-<dt><i>webdot</i>
-<dd>Optional cgi-bin graph server.  Requires <i>graphviz</i> and <i>graphviz-tcl</i>.
-</dl>
-</font>
-<p>
-<!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
 
