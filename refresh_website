@@ -1,21 +1,18 @@
 # Update the contents of the website resource files: Gallery,News,gvicons,Resources,doc
-cd /home/graphviz/myhttpd/html;
-/home/gviz/bin/anoncvs.tcl -qz3 update -d;
-
+/home/graphviz/bin/hg_update_html.sh > output_html 2>&1
 
 # Get the current web pages from the database
 cd /home/graphviz/graphviz-web;
 #
 make get_source;
 #
+#Commit website changes
+#Get changes made by other users
+#Merge the two changesets
+#Commit the changed result
+#Push the changesets up to the central repo
+/home/graphviz/bin/hg_update_html.sh > output_dynamic_html 2>&1
 
-# Update the script files
-# Generate the web pages and upload them to the database
-cd /home/graphviz/;
-#
-/home/gviz/bin/anoncvs.tcl -qz3 update -d graphviz-web;
-#
-cd /home/graphviz/graphviz-web;
 #
 make;
 #
@@ -25,5 +22,4 @@ cd /home/graphviz/graphviz-web/webupdate;
 #
 ./convert_and_upload;
 #
-
 
