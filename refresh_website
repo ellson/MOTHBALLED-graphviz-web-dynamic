@@ -11,6 +11,8 @@ make get_source;
 #Merge the two changesets
 #Commit the changed result
 #Push the changesets up to the central repo
+/home/graphviz/bin/hg_update_html.sh > output_dynamic_html 2>&1
+
 #
 make;
 #
