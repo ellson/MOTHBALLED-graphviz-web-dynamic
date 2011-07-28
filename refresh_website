@@ -1,5 +1,5 @@
 # Update the contents of the website resource files: Gallery,News,gvicons,Resources,doc
-/home/graphviz/bin/hg_update_html.sh > output_html 2>&1
+/home/graphviz/graphviz-web/hg_update_html.sh > output_html 2>&1
 
 # Get the current web pages from the database
 cd /home/graphviz/graphviz-web;
@@ -11,7 +11,7 @@ make get_source;
 #Merge the two changesets
 #Commit the changed result
 #Push the changesets up to the central repo
-/home/graphviz/bin/hg_update_dynamic.sh > output_dynamic_html 2>&1
+/home/graphviz/graphviz-web/hg_update_dynamic.sh > output_dynamic_html 2>&1
 
 #
 make;
