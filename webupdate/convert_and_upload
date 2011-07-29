@@ -2,7 +2,7 @@
 
 #changes to database name and password go here
 dbconnect="mysql -uroot -pgraphviz2011 -D graphviz"
-srcfiles="/home/graphviz/myhttpd/html/info"
+srcfiles="/home/graphviz/myhttpd/html/doc/info"
 
 for doc in arrows attrs colors command lang output shapes
 do
