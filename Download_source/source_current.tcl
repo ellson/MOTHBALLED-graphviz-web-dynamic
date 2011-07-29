@@ -123,9 +123,14 @@ puts $fout {
 <!-- Do not remove this comment or make any web server edits above this comment -->
 <tr><td>
 <table rules="all" width="100%">
-<tr><th align="left"><br>Mercurial SCM</th></tr>
+<tr><th align="left"><br>Access Graphviz with Mercurial SCM</th></tr>
 <tr><td align=left>
-<b>hg clone http://hg.research.att.com/graphviz</b><br>
+<br><b>Development release:&nbsp;</b>
+hg clone http://hg.research.att.com/graphviz<br>
+</td></tr>
+<tr><td align=left>
+<br><b>Stable release:&nbsp;</b>
+hg clone http://hg.research.att.com/graphviz_28<br>
 </td></tr>
 <tr><td>&nbsp;<br></td></tr>
 </table>
