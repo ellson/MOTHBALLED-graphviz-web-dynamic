@@ -58,10 +58,11 @@
                 <li>C# and .NET: <a target="_blank" href="http://www.codeplex.com/quickgraph/">CodePlex QuickGraph</a></li>
                 <li>C# and .NET: <a target="_blank" href="http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/"> Tigris QuickGraph</a></li>
                 <li>COM: <a target="_blank" href="http://wingraphviz.sourceforge.net/wingraphviz/">WinGraphviz</a> component [Ood Tsen]</li>
-                <li>perl: <a target="_blank" href="http://search.cpan.org/perldoc?Graph::Easy::Marpa">Graphviz2 perl interface, supports new options</a> [Ron Savage]</li>
+                <li>perl: <a href="http://metacpan.org/release/GraphViz2">Graphviz2</a> - perl interface, supports new options [Ron Savage]</li>
+                <li>perl: <a href="http://metacpan.org/release/Graph-Easy-Marpa">Graph::Easy::Marpa</a> - a complete re-write of Graph::Easy [Ron Savage]</li>
                 <li>perl: <a target="_blank" href="http://search.cpan.org/~lbrocard/GraphViz-2.02/lib/GraphViz.pm"> A Perl interface to Graphviz</a> [Leon Brocard]</li>
                 <li>perl: <a target="_blank" href="http://search.cpan.org/~jgs/Tk-GraphViz/">Tk::GraphViz</a> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]</li>
-                <li>perl: <a target="_blank" href="http://search.cpan.org/~neilb/Graph-ReadWrite/"> Graph-ReadWrite module that supports 'dot' syntax graphs</a> [Neil Bowers]</li>
+                <li>perl: <a href="http://search.cpan.org/~neilb/Graph-ReadWrite/">Graph-ReadWrite</a> - module that supports 'dot' syntax graphs  [Neil Bowers]</li>
                 <li>perl: <a target="_blank" href="http://search.cpan.org/search?dist=GraphViz-DBI"> GraphViz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]</li>
                 <li>perl: <a target="_blank" href="http://search.cpan.org/search?query=graphviz&amp;mode=all">100 more hits in CPAN</a></li>
                 <li>perl: <a target="_blank" href="http://search.cpan.org/search?dist=GraphViz-ISA"> GraphViz::ISA</a> - graph Perl packages' ISA runtime hierarchies [Marcel Grunauer]</li>
@@ -223,6 +224,7 @@ but any domain can be graphed [Mike Zick]
                 <li><a href="http://software.opensuse.org/search?q=graphviz"><img border="0" alt="suse logo" src="/Resources/suse-logo.png" /> SuSE</a> - rpms for Novell/SuSE distributions for many architectures.</li>
                 <li><a href="http://packages.ubuntu.com/search?keywords=graphviz&amp;searchon=names&amp;suite=all&amp;section=all"><img border="0" alt="ubuntu logo" src="/Resources/ubuntu-logo.png" /> Ubuntu</a> - Linux packages.</li>
             </ul>
+            <br />
             <br />
             <br />
             <br />
