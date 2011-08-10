@@ -136,6 +136,10 @@ hg clone http://hg.research.att.com/graphviz_28<br>
 </table>
 <h2>Requirements</h2>
 <h3>Dependencies</h3>
+<p>Consider these versions as the minimum suitable for graphviz, but please always use the latest available version of these packages.  If there is any problem with building graphviz against a latest version, please generate a bug report as we would very much like to know about it.
+<p>
+<i>HINT</i> If you are using an rpm-based system, by far the easiest way to determine all the build dependencies is to download the graphviz-xxx.src.rpm, run:  "rpmbuild --rebuild graphviz-xxx.src.rpm 2>t" , then edit "t" into a yum install command.
+<p>
 <dl>
 	<dt>cairo-1.1.10.tar.gz [optional (required for libpangocairo), recommended]
 	<dd><a href="http://cairographics.org/">http://cairographics.org/</a>
