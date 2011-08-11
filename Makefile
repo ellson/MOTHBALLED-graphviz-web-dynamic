@@ -71,7 +71,7 @@ pdf:
 #  http://www.graphviz.org/doc requires graphviz-doc to be installed 
 .IGNORE: doc
 doc:
-	cp -rf /usr/share/doc/graphviz-doc-*/html/* /home/graphviz/myhttpd/html/doc/
+#	cp -rf /usr/share/doc/graphviz-doc-*/html/* /home/graphviz/myhttpd/html/doc/
 
 clean:
 	rm -f ${PAGESET} index.php Download_*.ht
