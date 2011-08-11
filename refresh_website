@@ -14,7 +14,7 @@ make get_source;
 /home/graphviz/graphviz-web/hg_update_dynamic.sh > output_dynamic_html 2>&1
 
 #
-make;
+#make;
 #
 
 #Convert the document html files and upload them to the database
