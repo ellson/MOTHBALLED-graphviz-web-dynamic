@@ -95,15 +95,23 @@ proc puts_latest {fout docroot dir package package_exclude type} {
 
 set fout [open Download_linux_rhel.ht w]
 
-#puts $fout {
-#<p><b>RH73</b> binaries should run on any later system.
-#The primary difference is that the <b>Fedora</b> binaries use <i>fontconfig</i>.
-#<p>
-#}
-
 #Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
 <!-- cut1 -->
+            <h4>Yum Repository</h4>
+            The easiest way to install and maintain graphviz on RHEL or Centos is to use <code>yum</code>. To set up yum, download the <a href="graphviz-rhel.repo">graphviz-rhel.repo</a> file and save it (as root) in <code>/etc/yum.repos.d/</code>
+            <p>Then you can (as root) type:</p>
+            <p>&nbsp;</p>
+            <pre>
+        yum list available 'graphviz*'
+        yum install 'graphviz'
+</pre>
+            <p>Caution: Our snapshot builds are generated automatically every day from CVS. The new snapshot rpms don't necessarily contain any changes, other than datestamps. Also, it sometimes happens that changes we are making will compile OK but will break things. Instead of enabling graphviz-snapshot for automatic updates, we recommend that you only manually update to a snapshot if you have reason to believe that it fixes a particular problem you are seeing. To manually update to a snapshot release, use the command:</p>
+            <p>&nbsp;</p>
+            <pre>
+        yum --enablerepo=graphviz-snapshot update 'graphviz*'
+</pre>
+
 <!-- cut2 -->
 }
 
