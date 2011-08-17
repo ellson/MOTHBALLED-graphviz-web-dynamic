@@ -20,6 +20,7 @@ sed -e s/"d:"/"d"/g -e s/"k:"/"k"/g -e s/"a:"/"a"/g \
 | sed -e s/"colors.html"/"color-names"/g -e s/"shapes.html"/node-shapes/ \
 -e s/"command.html"/"command-line-invocation"/g \
 -e s/"arrows.html"/"arrow-shapes"/g \
+-e s/redblue/red:blue/g \
 > attrs_db
 
 
