@@ -103,6 +103,42 @@ set fout [open Download_linux_fedora.ht w]
 #Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
 <!-- cut1 -->
+<!-- Do not remove this comment or make any web server edits above this comment -->
+            <h4>Yum Repository</h4>
+            The easiest way to install and maintain graphviz on Fedora is to use <code>yum</code>. To set up yum, download the <a href="graphviz-fedora.repo">graphviz-fedora.repo</a> file and save it (as root) in <code>/etc/yum.repos.d/</code>
+            <p>Then you can (as root) type:</p>
+            <p>&nbsp;</p>
+            <pre>
+	yum list available 'graphviz*'
+	yum install 'graphviz*'
+</pre>
+            <p>Caution: Our snapshot builds are generated automatically every day from CVS. The new snapshot rpms don't necessarily contain any changes, other than datestamps. Also, it sometimes happens that changes we are making will compile OK but will break things. Instead of enabling graphviz-snapshot for automatic updates, we recommend that you only manually update to a snapshot if you have reason to believe that it fixes a particular problem you are seeing. To manually update to a snapshot release, use the command:</p>
+            <p>&nbsp;</p>
+            <pre>
+	yum --enablerepo=graphviz-snapshot update 'graphviz*'
+</pre>
+            <p>&nbsp;</p>
+            <h4>Organization of Binary packages for Fedora Linux</h4>
+            <font size="-1"> </font>
+            <dl>
+                <dt><font size="-1"><i>graphviz</i> </font></dt>
+                <dd><font size="-1">The base package providing /usr/bin/dot, /usr/bin/neato, etc. </font></dd>
+                <dt><font size="-1"><i>graphviz-doc, graphviz-graphs</i> </font></dt>
+                <dd><font size="-1">Optional user documentation and examples. </font></dd>
+                <dt><font size="-1"><i>graphviz-devel, graphviz-debuginfo, graphviz-rtest</i> </font></dt>
+                <dd><font size="-1">Optional for developers: headers, debugging symbols, regression test scripts and data. </font></dd>
+                <dt><font size="-1"><i>graphviz-gd, graphviz-devil, graphviz_gdk_pixbuf, graphviz-ming</i> </font></dt>
+                <dd><font size="-1">Optional renderers. <!--
+<dt><i>graphviz-cairo</i>
+<dd>Superceded by pango/cairo support in the base <i>graphviz</i> package in FC5 and later.
+--> </font></dd>
+                <dt><font size="-1"><i>graphviz-guile, graphviz-java, graphviz-lua, graphviz-ocaml, graphviz-perl, graphviz-php, graphviz-python, graphviz-R, graphviz-ruby, graphviz-sharp, graphviz-tcl</i> </font></dt>
+                <dd><font size="-1">Optional language bindings to enable programs in those languages to use the facilities of graphviz. </font></dd>
+                <dt><font size="-1"><i>webdot</i> </font></dt>
+                <dd><font size="-1">Optional cgi-bin graph server.  Requires <i>graphviz</i> and <i>graphviz-tcl</i>. </font></dd>
+            </dl>
+            <p>&nbsp;</p>
+<!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
 

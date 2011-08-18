@@ -75,6 +75,22 @@ set fout [open Download_windows.ht w]
 #Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
 <!-- cut1 -->
+<!-- Do not remove this comment or make any web server edits above this comment -->
+<b>Note</b>: As of version 2.26, the Visual
+Studio packages provide both the Release and Debug versions of the
+libraries.
+<p>
+<b>Warning for Vista users</b>: Even if you are logged in as
+adminstrator, double-clicking on the MSI file or running the MSI file
+from a command prompt may still not may not provide sufficient
+privileges. You have to run
+<p>
+<PRE>
+  <tt>msiexec /a graphviz-x.xx.msi</tt>
+</PRE>
+<p>
+from a command prompt.
+<!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
 
