@@ -5,26 +5,6 @@ set fout [open Download_solaris.ht w]
 #Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
 <!-- cut1 -->
-<!-- Do not remove this comment or make any web server edits above this comment -->
- 	For Solaris, please use the graphviz stable releases at:
- 	<a href="http://www.opencsw.org/packages/">http://www.opencsw.org/packages/</a>, maintained by John Ellson. Currently available packages are:
-            <p>&nbsp;</p>
-            <pre>
- 	graphviz 	Graph Visualization Tools
- 	graphvizdevel 	Graphviz Headers etc. for development
- 	graphvizdoc 	Graphviz documentation
- 	graphvizgd 	Graphviz renderers using gd
- 	graphvizgraphs 	Graphviz example graphs
- 	graphvizguile 	Graphviz language binding for guile
- 	graphvizperl 	Graphviz language binding for perl
- 	graphvizpython 	Graphviz language binding for python
- 	graphvizsharp 	Graphviz language binding for C&#35;
- 	graphviztcl 	Graphviz language binding for tcl
-</pre>
-<p>
-Minimally, graphviz and graphvizgd should be installed.
-</p>
-<!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
 
