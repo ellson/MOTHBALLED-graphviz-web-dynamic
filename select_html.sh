@@ -1,5 +1,16 @@
 #! /bin/bash
 
+
+#First check that the database is online.
+arg=`echo "');"`
+count=`echo -n "call select_html('About${arg}" | mysql -u root -pgraphviz2011 -D graphviz | wc -w`
+if [ $count -lt 1000 ] 
+then
+	echo "About.ht size is ${count}. Database may be down.";
+	exit;
+fi
+
+
 #Called from Makefile when rule get_source is run.
 #Takes as argument a list of php file names and extracts from the drupal database the
 #contents of the web pages that have corresponding titles.  The exported web page is 
