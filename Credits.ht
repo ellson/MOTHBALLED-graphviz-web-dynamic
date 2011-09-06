@@ -1,4 +1,7 @@
-            <p><a href="http://www.research.att.com/~yifanhu">Yifan Hu</a>, AT&amp;T Research (sfdp, gvmap, cluster, mm2gv)<br />
+            <p>Arif Bilgin, AT&amp;T Research (smyrna and Windows support)<br />
+            <a href="http://www.research.att.com/info/ellson">John Ellson</a>, AT&amp;T Research (Tcl/Tk and codegen extensions)<br />
+            <a href="http://www.research.att.com/info/erg">Emden Gansner</a>, AT&amp;T Research (dot, neato, twopi, circo, fdp, osage, smyrna, gmap)<br />
+            <a href="http://www.research.att.com/~yifanhu">Yifan Hu</a>, AT&amp;T Research (sfdp, gvmap, cluster, mm2gv)<br />
             <a href="http://www.research.att.com/people/North_Stephen_C/">Stephen North</a>, AT&amp;T Research (dot, neato)</p>
             <p>and</p>
             <p><a href="http://research.yahoo.com/Yehuda_Koren">Yehuda Koren</a>, Yahoo! Research (neato) <br />
@@ -12,5 +15,6 @@
             Richard G. Daniel (RPM packaging)<br />
             <a href="http://gordon.woodhull.com/">Gordon Woodhull</a> (<a href="http://www.research.att.com/software_tools">Dynagraph</a>)</p>
             <p>&nbsp;</p>
+            <br />
             <br />
             <br />
