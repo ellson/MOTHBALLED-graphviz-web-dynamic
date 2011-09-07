@@ -10,7 +10,7 @@ do
 	#Update the website database with the web page
 	./convert_${doc} ${srcfiles}
 	./db_upload ${doc}_db | $dbconnect
-	rm ${doc}_db
+	#rm ${doc}_db
 done
 
 
