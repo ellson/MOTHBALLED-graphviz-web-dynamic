@@ -24,7 +24,7 @@
  -->
                 <li><a href="http://freshmeat.net/projects/xdot_py" target="_blank">xdot.py</a>, an interactive viewer for graphs. [Jose Fonseca]</li>
                 <li><a href="http://markandrewgoetz.com/vizierfx/" target="_blank">VizierFX</a>, a renderer for Graphviz written in Adobe Flex. [Mark A. Goetz]</li>
-                <li><a href="http://ideatree.us/" target="_blank">IdeaTree</a>, a platform for concurrent, shared knowledge mapping</li>
+                <li><a href="http://www.myideatree.com/" target="_blank">IdeaTree</a>, a platform for concurrent, shared knowledge mapping</li>
                 <li><a href="https://github.com/kml/Wigraf" target="_blank">Wigraf</a>, a Windows graphviz frontend based on WinGraphviz and C# .NET. &quot;Graf&quot; is polish for &quot;graph.&quot; [Kamil Lema?ski]</li>
                 <li><a href="https://github.com/glejeune/Leonhard" target="_blank">Leonhard</a>, a simple viewer/editor for GraphViz, developed with MacRuby. (See the <a href="http://youtu.be/nyfZVGlErTo" target="_blank">demo</a>.)</li>
                 <li><a href="http://graphviz-dev.appspot.com" target="_blank">GraphViz Workspace</a>, an interactive viewer and editor for Graphviz. [Takayuki Miyamura]</li>
