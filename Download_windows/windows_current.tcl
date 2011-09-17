@@ -76,6 +76,9 @@ set fout [open Download_windows.ht w]
 puts $fout {
 <!-- cut1 -->
 <!-- Do not remove this comment or make any web server edits above this comment -->
+<b>Warning:</b> Not safe to use on Windows 7! On September 17, a Windows 7 user warned that a failed installation wiped out the system PATH variable and this was a lot of trouble because the installer does not create a restore point. We will investigate.
+<p>
+
 <b>Note</b>: As of version 2.26, the Visual
 Studio packages provide both the Release and Debug versions of the
 libraries.
