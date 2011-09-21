@@ -1,11 +1,9 @@
             <h4>New features</h4>
-            We added lightweight edge labels (<a href="http://www.graphviz.org/doc/info/attrs.html#d:xlabel">xlabel</a>) and tapered edges (as a <a href="http://www.graphviz.org/doc/info/attrs.html#k:style">style</a>).  There was a recent <a href="http://www.lri.fr/~isenberg/publications/papers/Holten_2011_AEP.pdf">paper</a> by Holten et al about a study of the readability of various edge styles.
+            We added lightweight edge labels (<a href="http://www.graphviz.org/doc/info/attrs.html#d:xlabel">xlabel</a>) and tapered edges (as a <a href="http://www.graphviz.org/doc/info/attrs.html#k:style">style</a>).  There was a recent <a href="http://www.lri.fr/~isenberg/publications/papers/Holten_2011_AEP.pdf">paper</a> by Holten et al about a study of the readability of various edge styles. We're working on some examples and documentation. Here are some screenshots.
             <h4>New Release 2.28 (Summer 2011)</h4>
             <p>The 2.28 release of Graphviz incorporates&nbsp;<a target="_blank" href="http://www2.research.att.com/~yifanhu/MAPS/index.html">GvMap</a> (formerly GMap, or &quot;graphs as maps&quot;), an invention by Emden Gansner, Yifan&nbsp;Hu, and Stephen Kobourov. Try the cool interactive <a target="_blank" href="http://www2.research.att.com/~yifanhu/MAPS/imap.html">demos</a> showing maps of music, TV, books, and more.</p>
             <p>For people (like us) that care about such matters, we worked pretty hard to tweak the font rendering code, to&nbsp;<br />
-            eliminate&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>glitches causing off-center labels or the ransom-note effect.</p>
+            eliminate&nbsp;glitches causing off-center labels or the ransom-note effect.</p>
             <p>John Ellson finished porting Graphviz to <a href="http://www.opencsw.org/packages/CSWgraphviz/">Solaris OpenCSW</a>.</p>
             <p>We changed our license&nbsp;to the&nbsp;<a target="_blank" style="text-decoration: none; font-weight: bold; color: rgb(51, 153, 204);" href="http://www.eclipse.org/legal/epl-v10.html">EPL</a>&nbsp;(Eclipse Public License). (A&nbsp;<a target="_blank" style="text-decoration: none; font-weight: bold; color: rgb(51, 153, 204);" href="http://en.wikipedia.org/wiki/Eclipse_Public_License">wikipedia article</a>&nbsp;attempts to explain the differences, which we believe to be fairly limited but the change may help some commercial licensees.)<b><br />
             </b></p>
@@ -204,6 +202,7 @@
                 <li>Integration of batch and incremental layout service</li>
                 <li>Someone to adopt and finish Dynagraph in C++</li>
             </ul>
+            <br />
             <br />
             <br />
             <br />
