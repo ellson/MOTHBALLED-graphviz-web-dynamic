@@ -1,5 +1,5 @@
             <h4>New features (September 2011)</h4>
-            <p>We added lightweight edge labels (<a href="http://www.graphviz.org/doc/info/attrs.html#d:xlabel">xlabel</a>) and tapered edges (as a <a href="http://www.graphviz.org/doc/info/attrs.html#k:style">style</a>).  There was a recent <a href="http://www.lri.fr/~isenberg/publications/papers/Holten_2011_AEP.pdf">paper</a> by Holten et al about a study of the readability of various edge styles. We're working on some examples and documentation. Here are some examples.</p>
+            <p>We added lightweight edge labels (<a href="http://www.graphviz.org/doc/info/attrs.html#d:xlabel">xlabel</a>) and tapered edges (as a <a href="http://www.graphviz.org/doc/info/attrs.html#k:style">style</a>).  There was a recent <a href="http://www.lri.fr/~isenberg/publications/papers/Holten_2011_AEP.pdf">paper</a> by Holten et al about a study of the readability of various edge styles. We're working on some examples and documentation. Here are some examples. (We need a better example for xlabels, because they can float, and aren't stuck to the upper left of the node.)</p>
             <p><a target="_blank" href="http://www.graphviz.org/pub/tmp/images/tapered-edge.png"><img alt="inset of example diagram with tapered edges" src="http://www.graphviz.org/pub/tmp/images/tapered-edge-inset.png" /></a><img alt="example of Petersen graph diagrams with point nodes and floating node labels" width="330" height="300" src="http://www.graphviz.org/pub/tmp/images/Petersen-xlabel.png" /></p>
             <h4>New Release 2.28 (Summer 2011)</h4>
             <p>The 2.28 release of Graphviz incorporates&nbsp;<a target="_blank" href="http://www2.research.att.com/~yifanhu/MAPS/index.html">GvMap</a> (formerly GMap, or &quot;graphs as maps&quot;), an invention by Emden Gansner, Yifan&nbsp;Hu, and Stephen Kobourov. Try the cool interactive <a target="_blank" href="http://www2.research.att.com/~yifanhu/MAPS/imap.html">demos</a> showing maps of music, TV, books, and more.</p>
@@ -203,6 +203,7 @@
                 <li>Integration of batch and incremental layout service</li>
                 <li>Someone to adopt and finish Dynagraph in C++</li>
             </ul>
+            <br />
             <br />
             <br />
             <br />
