@@ -76,7 +76,13 @@ set fout [open Download_windows.ht w]
 puts $fout {
 <!-- cut1 -->
 <!-- Do not remove this comment or make any web server edits above this comment -->
-<b>Warning:</b> Not safe to use on Windows 7! On September 17, a Windows 7 user warned that a failed installation wiped out the system PATH variable and this was a lot of trouble because the installer does not create a restore point. We will investigate.
+<b>Warning:</b> We received an isolated report of a problem said to be caused by installing Graphviz on Windows7.
+It was reported that Graphviz wiped out the system PATH variable. Since thousands of people did not encounter this,
+we're not sure what's wrong. Our advice is (1) make sure to create a checkpoint or backup, especially if there is anything
+different about your Administrator account, the location of the installation directory, etc. (2) not to overreact, since
+this was a bug we saw several years ago, and we thought we had corrected it. (3) Possibly an old package was installed
+inadvertently.  The installer basically just unzips the executables, and sets the PATH to include this -- nothing fancy. 
+<b>If you encounter this problem, please contact gviz-bugs.</b>
 <p>
 
 <b>Note</b>: As of version 2.26, the Visual
