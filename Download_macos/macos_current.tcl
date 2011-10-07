@@ -17,6 +17,7 @@ set package_exclude {
 }
 
 set platform_directory_type_comments {
+    lion macos/lion {pkg} "MacOS 10.7 (Lion)"
     snowleopard macos/snowleopard {pkg} "MacOS 10.6 (Snow Leopard)"
     leopard macos/leopard {pkg} "MacOS 10.5 (Leopard)"
 }
@@ -128,6 +129,17 @@ foreach {package platforms} $packages_platforms {
         puts $fout "</tr>"
         puts $fout "</tbody>"
     }
+    puts $fout "<tbody>"
+    puts $fout "<tr><th align="right"><font size="-1">lion</font></th>"
+    puts $fout "<td align="left" nowrap><font size="-1">"
+    puts $fout "<font color="blue">not available</font></a><br>"
+    puts $fout "</font></td>"
+    puts $fout "<td align="left" nowrap><font size="-1">"
+    puts $fout "<a href="/pub/graphviz/development/macos/lion/graphviz_lion.pkg"><font color="blue">graphviz_lion.pkg</font></a><br>"
+    puts $fout "</font></td>"
+    puts $fout "</tr>"
+    puts $fout "</tbody>"
+
     puts $fout "<tbody>"
     puts $fout "<tr><td colspan=\"[expr {1 + ([llength $releases] / 2)}]\">&nbsp;</td></tr>"
     puts $fout "</tbody>"
