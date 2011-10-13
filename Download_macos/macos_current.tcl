@@ -8,7 +8,7 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {snowleopard leopard}
+    graphviz {lion snowleopard leopard}
 }
 
 set package_exclude {
@@ -129,16 +129,6 @@ foreach {package platforms} $packages_platforms {
         puts $fout "</tr>"
         puts $fout "</tbody>"
     }
-    puts $fout "<tbody>"
-    puts $fout "<tr><th align=\"right\"><font size=\"-1\">lion</font></th>"
-    puts $fout "<td align=\"left\" nowrap><font size=\"-1\">"
-    puts $fout "<font color=\"blue\">not available</font></a><br>"
-    puts $fout "</font></td>"
-    puts $fout "<td align=\"left\" nowrap><font size=\"-1\">"
-    puts $fout "<a href=\"/pub/graphviz/development/macos/lion/graphviz_lion.pkg\"><font color=\"blue\">graphviz_lion.pkg</font></a><br>"
-    puts $fout "</font></td>"
-    puts $fout "</tr>"
-    puts $fout "</tbody>"
 
     puts $fout "<tbody>"
     puts $fout "<tr><td colspan=\"[expr {1 + ([llength $releases] / 2)}]\">&nbsp;</td></tr>"
