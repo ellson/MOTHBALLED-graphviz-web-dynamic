@@ -80,15 +80,6 @@ set fout [open Download_macos.ht w]
 #Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
 <!-- cut1 -->
-<!-- Do not remove this comment or make any web server edits above this comment -->
-<b>Lion</b>: a beta package is available <a href="http://www.graphviz.org/pub/tmp/graphviz-lion-2.29.20110817.pkg">here</a>. No promises but would appreciate feedback either way (gviz-bugs research.att.com). One person told us it works (it was TWEETED).
-<p>
-<b>Snow Leopard and Leopard</b>: We're having problems with Snow Leopard and Leopard, lately, too. Apparently the universal binaries we build are making don't play nicely on early Intel Macs. So people were swearing at Graphviz on Twitter. As a pro bono effort, It is difficult for us to keep up, both because of the complexity of Graphviz (which depends on a lot of GNU libraries, all the way down to glib2) and OSX itself. (We suspect a recent seemingly minor patch to OSX changed the way one of the OSX frameworks talks to Graphviz for font scaling.) So, big warning here, you may be better off using Homebrew or Macports to install Graphviz by compiling the source (which requires XCode, so allow an afternoon for the process. If you update the package, and you're not happy with the result, there is really no way to undo the installation except from your own backups, or by finding one of the old versions as described below. Anyone that wants to help improve this situation is more than welcome to pitch in.
-<p>
-<b>General</b>: this package is for general use. It has Graphviz.app and the main command line tools.  It doesn't include gvedit.app (a QT-based graph editor), smyrna (an OpenGL viewer for large graphs), or the pangocairo plugin (you get the quartz plugin instead). If you need any of these, build from the <a href="http://www.graphviz.org/pub/graphviz/CURRENT/graphviz-working.tar.gz">source tarball</a> or <a href="http://www.macports.org/">macports</a> <a href="http://www.macports.org/ports.php?by=name&substr=graphviz">graphviz</a>. If you can work on fixing the build and packaging problems with these tools, send mail to gviz-bugs on research.att.com. (Note: smyrna crashes Xquartz 2.6.1 on some systems; update to <a href="http://xquartz.macosforge.org/trac/wiki/Releases">2.6.2</a>.)
-<p>For older versions of Graphviz for Tiger, Leopard or Snow Leopard, look <a href="http://www.graphviz.org/pub/graphviz/stable/macos/">here</a>.
-
-<!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
 
