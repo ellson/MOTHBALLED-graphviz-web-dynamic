@@ -158,7 +158,7 @@ but any domain can be graphed [Mike Zick]
                 <li><a href="http://www.w3.org/2001/11/IsaViz/">IsaViz</a>: A Visual Authoring Tool for RDF [Emmanuel Pietriga]</li>
                 <li><a href="http://odur.let.rug.nl/~vannoord/fsademo/">Finite State Machine web visualization</a> interactively accepts input from a form [Gertjan van Noord]</li>
                 <li><a href="http://www.pinkjuice.com/svg/links/">SVG links</a> uses dot's SVG capabilities to organize SVG links [Tobias Reif]</li>
-                <li><a href="http://freshmeat.net/projects/rpmgraph/">RPMGraph</a> uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems [Andrea Lombardoni]</li>
+                <li><a href="http://freshmeat.net/projects/rpmgraph">RPMGraph</a> uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems [Andrea Lombardoni]</li>
                 <!-- Links to generic portal
                 <li><a href="http://droogs.org/autodia/">AutoDia</a> has a Graphviz option for generating UML diagrams from: Perl, Java, PHP, or C++ code [Aaron Trevena]</li>
  -->
