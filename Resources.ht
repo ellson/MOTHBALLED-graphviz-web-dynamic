@@ -22,7 +22,7 @@
                 <!-- Timed Out
                 <li><a href="http://graph.gafol.net/" target="_blank">graph.gafol.net</a>, a service to create and publish graphs online (click Help). [Paul Colomiets]</li>
  -->
-                <li><a target="_blank" href="http://freshmeat.net/projects/xdot_py">xdot.py</a>, an interactive viewer for graphs. [Jose Fonseca]</li>
+                <li><a target="_blank" href="http://freecode.com/projects/xdot_py">xdot.py</a>, an interactive viewer for graphs. [Jose Fonseca]</li>
                 <li><a target="_blank" href="http://markandrewgoetz.com/vizierfx/">VizierFX</a>, a renderer for Graphviz written in Adobe Flex. [Mark A. Goetz]</li>
                 <li><a target="_blank" href="http://www.myideatree.com/">IdeaTree</a>, a platform for concurrent, shared knowledge mapping</li>
                 <li><a target="_blank" href="https://github.com/kml/Wigraf">Wigraf</a>, a Windows graphviz frontend based on WinGraphviz and C# .NET. &quot;Graf&quot; is polish for &quot;graph.&quot; [Kamil Lema?ski]</li>
