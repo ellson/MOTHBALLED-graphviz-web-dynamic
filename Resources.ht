@@ -158,7 +158,7 @@ but any domain can be graphed [Mike Zick]
                 <li><a href="http://www.w3.org/2001/11/IsaViz/">IsaViz</a>: A Visual Authoring Tool for RDF [Emmanuel Pietriga]</li>
                 <li><a href="http://odur.let.rug.nl/~vannoord/fsademo/">Finite State Machine web visualization</a> interactively accepts input from a form [Gertjan van Noord]</li>
                 <li><a href="http://www.pinkjuice.com/svg/links/">SVG links</a> uses dot's SVG capabilities to organize SVG links [Tobias Reif]</li>
-                <li><a href="http://freshmeat.net/projects/rpmgraph">RPMGraph</a> uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems [Andrea Lombardoni]</li>
+                <li><a href="http://freecode.com/projects/rpmgraph">RPMGraph</a> uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems [Andrea Lombardoni]</li>
                 <!-- Links to generic portal
                 <li><a href="http://droogs.org/autodia/">AutoDia</a> has a Graphviz option for generating UML diagrams from: Perl, Java, PHP, or C++ code [Aaron Trevena]</li>
  -->
@@ -220,7 +220,7 @@ but any domain can be graphed [Mike Zick]
                 <li><a href="http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz"><img border="0" alt="debian logo" src="/Resources/debian-logo.png" /> Debian</a> - Linux packages for several architectures.</li>
                 <li><a href="http://packages.gentoo.org/package/media-gfx/graphviz"><img border="0" alt="gentoo logo" src="/Resources/gentoo.jpeg" /> Gentoo</a> - Linux packages.</li>
                 <li><a href="http://download.fedora.redhat.com/pub/fedora/linux/extras/"><img border="0" alt="fedora logo" src="/Resources/fedora_logo.png" /> Fedora Extras</a> - rpms for Fedora Core 3 and later.</li>
-                <li><a href="http://freshmeat.net/search/?q=graphviz&amp;section=projects&amp;Go.x=0&amp;Go.y=0"><img border="0" alt="freshmeat logo" src="/Resources/freshmeat-logo.gif" /> FreshMeat</a> - related projects from a search for &quot;graphviz&quot;.</li>
+                <li><a href="http://freecode.com/search/?q=graphviz&amp;section=projects&amp;Go.x=0&amp;Go.y=0"><img border="0" alt="freshmeat logo" src="/Resources/freshmeat-logo.gif" /> FreshMeat</a> - related projects from a search for &quot;graphviz&quot;.</li>
                 <li><a href="http://software.opensuse.org/search?q=graphviz"><img border="0" alt="suse logo" src="/Resources/suse-logo.png" /> SuSE</a> - rpms for Novell/SuSE distributions for many architectures.</li>
                 <li><a href="http://packages.ubuntu.com/search?keywords=graphviz&amp;searchon=names&amp;suite=all&amp;section=all"><img border="0" alt="ubuntu logo" src="/Resources/ubuntu-logo.png" /> Ubuntu</a> - Linux packages.</li>
             </ul>
