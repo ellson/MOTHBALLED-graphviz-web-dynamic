@@ -8,8 +8,8 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC17.i386 FC17.x86_64 FC16.i386 FC16.x86_64 FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64}
-    webdot {SRPMS FC17.i386 FC17.x86_64 FC16.i386 FC16.x86_64 FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64 FC13.i386 FC13.x86_64}
+    graphviz {SRPMS FC17.i386 FC17.x86_64 FC16.i386 FC16.x86_64 FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64}
+    webdot {SRPMS FC17.i386 FC17.x86_64 FC16.i386 FC16.x86_64 FC15.i386 FC15.x86_64 FC14.i386 FC14.x86_64}
 }
 
 set platform_directory_type_comments {
@@ -22,8 +22,6 @@ set platform_directory_type_comments {
     FC15.x86_64 redhat/fc15/x86_64/os {fc15.x86_64.rpm fc15.noarch.rpm} "Fedora 15"
     FC14.i386 redhat/fc14/i386/os {fc14.i686.rpm fc14.i586.rpm fc14.i386.rpm fc14.noarch.rpm} "Fedora 14"
     FC14.x86_64 redhat/fc14/x86_64/os {fc14.x86_64.rpm fc14.noarch.rpm} "Fedora 14"
-    FC13.i386 redhat/fc13/i386/os {fc13.i686.rpm fc13.i586.rpm fc13.i386.rpm fc13.noarch.rpm} "Fedora 13"
-    FC13.x86_64 redhat/fc13/x86_64/os {fc13.x86_64.rpm fc13.noarch.rpm} "Fedora 13"
 }
 
 set package_exclude {
