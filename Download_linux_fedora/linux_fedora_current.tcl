@@ -34,7 +34,7 @@ set package_exclude {
 }
 
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
-proc checkdae {fnv} {
+proc checkdate {fnv} {
     global time_cutoff
     set color blue
     foreach {fn v} $fnv {break}
