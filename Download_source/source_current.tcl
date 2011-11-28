@@ -213,7 +213,7 @@ hg clone http://hg.research.att.com/graphviz_28<br>
 
 puts $fout "</td></tr></table>"
 
-close $fout
+close $fout {
 <!-- Do not remove this comment or make any web server edits above this comment -->
 <tr><td>
 <table rules="all" width="100%">
