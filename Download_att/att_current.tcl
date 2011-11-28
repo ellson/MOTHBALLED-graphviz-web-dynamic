@@ -108,8 +108,6 @@ set fout [open Download_att.ht w]
 #Place any web server edits after the line containing cut1 and before the line containing cut2
 puts $fout {
 <!-- cut1 -->
-<!-- Do not remove this comment or make any web server edits above this comment -->
-<!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
 
