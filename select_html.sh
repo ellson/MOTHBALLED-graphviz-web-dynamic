@@ -70,7 +70,7 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 		#temporary file and restore the executable mode.
 
 		sed -ne "1,/${comment3}/p" ${targetdir}/${targetname} > ${targetdir}/${temptarget}
-		if [ "`sed '$!d' ${test_targetdir}/${temptarget}`" != "<!${comment3}-->" ]
+		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment3}-->" ]
 		then
 			echo "Unexpected result while reading ${targetdir}/${targetname} from top to cut1.";
 			exit;
@@ -81,14 +81,14 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 /g' \
 		| sed -e "s/\\\t/	/g" \
 		| sed -ne "/${comment1}/,/${comment2}/p" >> ${targetdir}/${temptarget}
-		if [ "`sed '$!d' ${test_targetdir}/${temptarget}`" != "<!${comment2}>" ]
+		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment2}>" ]
 		then
 			echo "Unexpected result while reading database content for ${targetdir}/${targetname}";
 			exit;
 		fi
 
 		sed -ne "/${comment4}/,\$p" ${targetdir}/${targetname} >> ${targetdir}/${temptarget}
-		if [ "`sed "/${comment4}/!d" ${test_targetdir}/${temptarget}`" != "<!${comment4}-->" ]
+		if [ "`sed "/${comment4}/!d" ${targetdir}/${temptarget}`" != "<!${comment4}-->" ]
 		then
 			echo "Unexpected result while reading ${targetdir}/${targetname} from cut2 to bottom.";
 			exit;
