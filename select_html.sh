@@ -57,7 +57,8 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 		comment3="-- cut1 "
 		comment4="-- cut2 "
 		#Write the content of the target tcl file from the first line up to the line containing
-		#comment3  into a temporary file.
+		#comment3  into a temporary file. Verify the expected output.
+
 		#Construct the select_html stored procedure call and pass it to MySQL. 
 		#This stored procedure extracts the web page from the drupal database.
 		#Pass the result of the stored procedure call downstream for further processing
@@ -65,15 +66,24 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 		#Replace occurances of \t with real tab characters
 		#Cut out everything between the line containing comment1 and the line containing comment2 and
 		#append the result to the temporary file.  This is the editable content of the web page
+		#Verify the expected output.
+
 		#Select the content of the target tcl file from the line containing comment4 to the end of 
-		#the file and append it to the temporary file.  Replace the target tcl file with the 
-		#temporary file and restore the executable mode.
+		#the file and append it to the temporary file.  Verify the expected output.
+		#Replace the target tcl file with the temporary file and restore the executable mode.
 
 		sed -ne "1,/${comment3}/p" ${targetdir}/${targetname} > ${targetdir}/${temptarget}
 		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment3}-->" ]
 		then
 			echo "Unexpected result while reading ${targetdir}/${targetname} from top to cut1.";
 		else
+
+		#Verify expected output
+		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment3}-->" ]
+		then
+			echo "Unexpected result while reading ${targetdir}/${targetname} from top to cut1.";
+		else
+		#Continue processing
 
 		echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz2011 -D graphviz \
 		| sed -e 1d -e 's/\\n/\
@@ -85,11 +95,25 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 			echo "Unexpected result while reading database content for ${targetdir}/${targetname}";
 		else
 
+		#Verify expected output
+		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment2}>" ]
+		then
+			echo "Unexpected result while reading database content for ${targetdir}/${targetname}";
+		else
+		#Continue processing
+
 		sed -ne "/${comment4}/,\$p" ${targetdir}/${targetname} >> ${targetdir}/${temptarget}
 		if [ "`sed "/${comment4}/!d" ${targetdir}/${temptarget}`" != "<!${comment4}-->" ]
 		then
 			echo "Unexpected result while reading ${targetdir}/${targetname} from cut2 to bottom.";
 		else
+
+		#Verify expected output
+		if [ "`sed "/${comment4}/!d" ${targetdir}/${temptarget}`" != "<!${comment4}-->" ]
+		then
+			echo "Unexpected result while reading ${targetdir}/${targetname} from cut2 to bottom.";
+		else
+		#Continue processing
 
 		mv -f ${targetdir}/${temptarget} ${targetdir}/${targetname}
 		chmod +x ${targetdir}/${targetname}
