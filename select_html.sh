@@ -73,8 +73,7 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment3}-->" ]
 		then
 			echo "Unexpected result while reading ${targetdir}/${targetname} from top to cut1.";
-			exit;
-		fi
+		else
 
 		echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz2011 -D graphviz \
 		| sed -e 1d -e 's/\\n/\
@@ -84,18 +83,19 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment2}>" ]
 		then
 			echo "Unexpected result while reading database content for ${targetdir}/${targetname}";
-			exit;
-		fi
+		else
 
 		sed -ne "/${comment4}/,\$p" ${targetdir}/${targetname} >> ${targetdir}/${temptarget}
 		if [ "`sed "/${comment4}/!d" ${targetdir}/${temptarget}`" != "<!${comment4}-->" ]
 		then
 			echo "Unexpected result while reading ${targetdir}/${targetname} from cut2 to bottom.";
-			exit;
-		fi
+		else
 
 		mv -f ${targetdir}/${temptarget} ${targetdir}/${targetname}
 		chmod +x ${targetdir}/${targetname}
+		fi
+		fi
+		fi
 	fi
 else
 basename=`echo ${basename} | sed -e s/MailingList/"Mailing List"/`;
