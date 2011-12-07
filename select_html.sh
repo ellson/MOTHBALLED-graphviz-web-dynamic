@@ -1,12 +1,17 @@
 #! /bin/bash
 
+error_file="select_html_error_file"
+if [ ! -f $error_file ]
+then
+	> $error_file
+fi
 
 #First check that the database is online.
 arg=`echo "');"`
 count=`echo -n "call select_html('About${arg}" | mysql -u root -pgraphviz2011 -D graphviz | wc -w`
 if [ $count -lt 1000 ] 
 then
-	echo "About.ht size is ${count}. Database may be down.";
+	echo "`date +%c`: About.ht size is ${count}. Database may be down." >> $error_file;
 	exit;
 fi
 
@@ -27,6 +32,7 @@ basename=`echo -n "$1" | sed -e s/.php// -e s/Download_linux_// -e s/Download_//
 targetname="${basename}.ht"
 targetdir="."
 #when the php filename begins with Download it has to be handled differently
+#ignor the case where input file is Download_att.php
 if [ "`echo -n "$1" | sed -e s/^Download.*$/Download/`" = "Download" ]
 then
 	if [ $basename = "Download" ]
@@ -43,7 +49,7 @@ then
 		#Write the result to the target flat file
 echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz2011 -D graphviz | sed -e 1d -e 's/\\n/\
 /g' | sed -e '/-- header --/,/-- body --/d' | sed -e '/-- trailer --/,$d' > ${targetdir}/${targetname}
-	elif [ $basename = "Download_att" ]
+	elif [ $basename = "att" ]
 	then
 		echo "skipping Download_att"
 	else
@@ -73,15 +79,11 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 		#Replace the target tcl file with the temporary file and restore the executable mode.
 
 		sed -ne "1,/${comment3}/p" ${targetdir}/${targetname} > ${targetdir}/${temptarget}
-		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment3}-->" ]
-		then
-			echo "Unexpected result while reading ${targetdir}/${targetname} from top to cut1.";
-		else
 
 		#Verify expected output
 		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment3}-->" ]
 		then
-			echo "Unexpected result while reading ${targetdir}/${targetname} from top to cut1.";
+			echo "`date +%c`: Unexpected result while reading ${targetdir}/${targetname} from top to cut1." >> $error_file;
 		else
 		#Continue processing
 
@@ -90,36 +92,25 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 /g' \
 		| sed -e "s/\\\t/	/g" \
 		| sed -ne "/${comment1}/,/${comment2}/p" >> ${targetdir}/${temptarget}
-		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment2}>" ]
-		then
-			echo "Unexpected result while reading database content for ${targetdir}/${targetname}";
-		else
 
 		#Verify expected output
 		if [ "`sed '$!d' ${targetdir}/${temptarget}`" != "<!${comment2}>" ]
 		then
-			echo "Unexpected result while reading database content for ${targetdir}/${targetname}";
+			echo "`date +%c`: Unexpected result while reading database content for ${targetdir}/${targetname}" >> $error_file;
 		else
 		#Continue processing
 
 		sed -ne "/${comment4}/,\$p" ${targetdir}/${targetname} >> ${targetdir}/${temptarget}
-		if [ "`sed "/${comment4}/!d" ${targetdir}/${temptarget}`" != "<!${comment4}-->" ]
-		then
-			echo "Unexpected result while reading ${targetdir}/${targetname} from cut2 to bottom.";
-		else
 
 		#Verify expected output
-		if [ "`sed "/${comment4}/!d" ${targetdir}/${temptarget}`" != "<!${comment4}-->" ]
+		if [ "`sed -ne "/${comment2}/,$ p" ${targetdir}/${temptarget} | sed -e "/${comment4}/!d"`" != "<!${comment4}-->" ]
 		then
-			echo "Unexpected result while reading ${targetdir}/${targetname} from cut2 to bottom.";
+			echo "`date +%c`: Unexpected result while reading ${targetdir}/${targetname} from comment2 to bottom." >> $error_file;
 		else
 		#Continue processing
 
 		mv -f ${targetdir}/${temptarget} ${targetdir}/${targetname}
 		chmod +x ${targetdir}/${targetname}
-		fi
-		fi
-		fi
 		fi
 		fi
 		fi
@@ -131,4 +122,11 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 fi
 shift
 done
-
+if [ -s $error_file ]
+then
+	echo "*****************************************"
+	echo
+	echo "There are errors reported in $error_file"
+	echo
+	echo "*****************************************"
+fi
