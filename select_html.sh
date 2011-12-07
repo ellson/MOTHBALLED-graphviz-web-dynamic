@@ -120,6 +120,9 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 		fi
 		fi
 		fi
+		fi
+		fi
+		fi
 	fi
 else
 basename=`echo ${basename} | sed -e s/MailingList/"Mailing List"/`;
