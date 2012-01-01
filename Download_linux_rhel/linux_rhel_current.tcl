@@ -8,9 +8,9 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS EL6.i386 EL6.x86_64  EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64}
-    webdot {SRPMS EL6.i386 EL6.x86_64  EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64}
-    gts {SRPMS EL5.i386 EL5.x86_64}
+    graphviz {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64}
+    webdot {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64}
+    gts {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64}
     gtkglext {SRPMS EL5.i386 EL5.x86_64}
     gtkglarea2 {SRPMS EL5.i386 EL5.x86_64}
 }
@@ -141,6 +141,6 @@ puts $fout "<p>The gts sources were obtained <a href=\"http://archives.fedorapro
 puts $fout "<p>The gtkglarea2 sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglarea2-1.99.0-8.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gtkglarea2-1.99.0-8.fc9.src.rpm</i>"
 puts $fout "<p>The gtkglext sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>"
 puts $fout "<br>(The \"fedora 8\" define is a hack to cause the spec to omit .la targets from the package.)"
-puts $fout "<p>For rhel6/centos6, these extra packages are provided by the <a href=\"http://fedoraproject.org/wiki/EPEL\">EPEL"</a> repository."  
+puts $fout "<p>For rhel6/centos6, the gtkglext packages are provided by the base repo, and the gtkglarea2 packages are provided by the <a href=\"http://fedoraproject.org/wiki/EPEL\">EPEL</a> repo."  
 	
 close $fout
