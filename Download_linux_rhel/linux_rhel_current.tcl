@@ -101,8 +101,7 @@ puts $fout {
 <!-- Do not remove this comment or make any web server edits above this comment -->
             <h4>Yum Repository</h4>
             The easiest way to install and maintain graphviz on RHEL or CentOS is to use <code>yum</code>. To set up yum, download the <a href="graphviz-rhel.repo">graphviz-rhel.repo</a> file and save it (as root) in <code>/etc/yum.repos.d/</code>
-            <p>Then you can (as root) type:</p>
-            <p>&nbsp;</p>
+<br>Then you can (as root) type:<br>
             <pre>
         yum list available 'graphviz*'
         yum install 'graphviz*'
