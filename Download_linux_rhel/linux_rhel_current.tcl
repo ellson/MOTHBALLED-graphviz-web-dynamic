@@ -106,6 +106,7 @@ puts $fout {
         yum list available 'graphviz*'
         yum install 'graphviz*'
 </pre>
+<!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
 
