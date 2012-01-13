@@ -4,7 +4,7 @@
                     <tr>
                         <td>Search the graphviz-interest list archives:</td>
                         <td>
-                        <form action="http://www.google.com/custom" method="get">
+                        <form action="http://www.google.com/search" method="get">
                             <input type="text" value="" maxlength="255" size="50" name="q" />       <input type="submit" value="Search" name="sa" /><input type="hidden" value="graphviz-interest" name="as_q" />       <input type="hidden" value="mailman.research.att.com" name="domains" />       <input type="hidden" value="mailman.research.att.com" name="sitesearch" />
                         </form>
                         </td>
@@ -12,7 +12,7 @@
                     <tr>
                         <td>Search the graphviz-devel list archives:</td>
                         <td>
-                        <form action="http://www.google.com/custom" method="get">
+                        <form action="http://www.google.com/search" method="get">
                             <input type="text" value="" maxlength="255" size="50" name="q" />       <input type="submit" value="Search" name="sa" /><input type="hidden" value="graphviz-devel" name="as_q" />       <input type="hidden" value="mailman.research.att.com" name="domains" />       <input type="hidden" value="mailman.research.att.com" name="sitesearch" />
                         </form>
                         </td>
@@ -20,7 +20,7 @@
                     <tr>
                         <td>Search the graphviz site:</td>
                         <td>
-                        <form action="http://www.google.com/custom" method="get">
+                        <form action="http://www.google.com/search" method="get">
                             <input type="text" value="" maxlength="255" size="50" name="q" />       <input type="submit" value="Search" name="sa" />       <input type="hidden" value="www.graphviz.org" name="domains" />       <input type="hidden" value="www.graphviz.org" name="sitesearch" />
                         </form>
                         </td>
@@ -28,7 +28,7 @@
                     <tr>
                         <td>Search the web for graphviz-related content:</td>
                         <td>
-                        <form action="http://www.google.com/custom" method="get">
+                        <form action="http://www.google.com/search" method="get">
                             <input type="text" value="" maxlength="255" size="50" name="q" /> <input type="hidden" value="graphviz" name="as_q" />       <input type="submit" value="Search" name="sa" />
                         </form>
                         </td>
