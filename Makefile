@@ -16,7 +16,8 @@ PAGESET=About.php \
 	MailingList.php \
 	License.php \
 	Resources.php \
-	Credits.php
+	Credits.php \
+	Home.php
 
 .SUFFIXES: .ht .php
 
