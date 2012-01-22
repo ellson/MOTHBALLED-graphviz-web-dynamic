@@ -119,11 +119,13 @@ Then you can (as root) type:<br>
             <dl>
                 <dt><font size="-1"><i>graphviz</i> </font></dt>
                 <dd><font size="-1">The base package providing /usr/bin/dot, /usr/bin/neato, etc. </font></dd>
+                <dt><font size="-1"><i>graphviz-x</i> </font></dt>
+                <dd><font size="-1">Optional X11 renderers and commands.  Recommended for all desktop installs, but perhaps not for web servers.</font></dd>
                 <dt><font size="-1"><i>graphviz-doc, graphviz-graphs</i> </font></dt>
                 <dd><font size="-1">Optional user documentation and examples. </font></dd>
                 <dt><font size="-1"><i>graphviz-devel, graphviz-debuginfo, graphviz-rtest</i> </font></dt>
                 <dd><font size="-1">Optional for developers: headers, debugging symbols, regression test scripts and data. </font></dd>
-                <dt><font size="-1"><i>graphviz-gd, graphviz-devil, graphviz_gdk_pixbuf, graphviz-ming</i> </font></dt>
+                <dt><font size="-1"><i>graphviz-gd, graphviz-devil, graphviz_gdk_pixbuf, graphviz-ming, graphviz-webp, graphviz-qt</i> </font></dt>
                 <dd><font size="-1">Optional renderers. <!--
 <dt><i>graphviz-cairo</i>
 <dd>Superceded by pango/cairo support in the base <i>graphviz</i> package in FC5 and later.
