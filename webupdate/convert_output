@@ -21,6 +21,7 @@ sed -e s/"d:"/"d"/g -e s/"a:"/"a"/g -e s/"k:"/"k"/g \
 -e s/"wiki\/Bitmap\">"/"wiki\/Bitmap\" target=\"blank\">"/g \
 -e s/"lang.html"/"dot-language"/g  \
 -e s/"attrs.html"/"attrs"/g  \
+-e s/'SRC=\"'/'SRC=\"\/doc\/info\/'/g  \
 > output_db
 
 
