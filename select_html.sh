@@ -96,10 +96,6 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 		#Verify expected output
 		if [ "`sed '$!d' ${targetdir}/${temptarget} | sed s/\\\r//`" != "<!${comment2}>" ]
 		then
-echo -n "`sed '$!d' ${targetdir}/${temptarget} | sed s/\\\r//`" > t0
-echo
-echo -n "<!${comment2}>" > t1
-
 			echo "`date +%c`: Unexpected result while reading database content for ${targetdir}/${targetname}" >> $error_file;
 		else
 		#Continue processing
