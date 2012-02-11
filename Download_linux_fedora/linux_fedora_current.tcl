@@ -14,8 +14,8 @@ set packages_platforms {
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
-    FC18.i686 redhat/fc17/i386/os {fc18.i686.rpm fc17.i586.rpm fc17.noarch.rpm} "Fedora 18 (Rawhide)"
-    FC18.x86_64 redhat/fc17/x86_64/os {fc18.x86_64.rpm fc17.noarch.rpm} "Fedora 18 (Rawhide)"
+    FC18.i686 redhat/fc18/i386/os {fc18.i686.rpm fc18.i586.rpm fc18.noarch.rpm} "Fedora 18 (Rawhide)"
+    FC18.x86_64 redhat/fc18/x86_64/os {fc18.x86_64.rpm fc18.noarch.rpm} "Fedora 18 (Rawhide)"
     FC17.i686 redhat/fc17/i386/os {fc17.i686.rpm fc17.i586.rpm fc17.noarch.rpm} "Fedora 17"
     FC17.x86_64 redhat/fc17/x86_64/os {fc17.x86_64.rpm fc17.noarch.rpm} "Fedora 17"
     FC16.i686 redhat/fc16/i386/os {fc16.i686.rpm fc16.i586.rpm fc16.noarch.rpm} "Fedora 16"
