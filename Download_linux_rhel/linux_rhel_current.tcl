@@ -8,8 +8,8 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64}
-    webdot {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64 EL4.i386 EL4.x86_64}
+    graphviz {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64}
+    webdot {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64}
     gts {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64}
     gtkglext {SRPMS EL5.i386 EL5.x86_64}
     gtkglarea2 {SRPMS EL5.i386 EL5.x86_64}
@@ -21,11 +21,6 @@ set platform_directory_type_comments {
     EL6.x86_64 redhat/el6/x86_64/os {el6.x86_64.rpm el6.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
     EL5.i386 redhat/el5/i386/os {el5.i386.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
     EL5.x86_64 redhat/el5/x86_64/os {el5.x86_64.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL4.i386 redhat/el4/i386/os {el4.i386.rpm el4.noarch.rpm} "Enterprise Linux 4 or later - uses fontconfig"
-    EL4.x86_64 redhat/el4/x86_64/os {el4.x86_64.rpm el4.noarch.rpm} "Enterprise Linux 4 or later - uses fontconfig"
-    EL3.i386 redhat/el3/i386/os {el3.i386.rpm el3.noarch.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    EL3.x86_64 redhat/el3/x86_64/os {el3.x86_64.rpm el3.noarch.rpm} "Enterprise Linux 3 or later - uses fontconfig"
-    EL3.ia64 redhat/el3/ia64/os {el3.ia64.rpm el3.noarch.rpm} "Enterprise Linux 3 or later - uses fontconfig"
 }                     
 
 set package_exclude {
