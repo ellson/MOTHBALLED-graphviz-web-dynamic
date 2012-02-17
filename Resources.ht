@@ -156,7 +156,7 @@ but any domain can be graphed [Mike Zick]
                 <li><a href="http://www.lo-res.org/~aaron/yaccviso/">YaccViso</a> YACC visualization tool</li>
                 <li><a href="http://kcachegrind.sourceforge.net/cgi-bin/show.cgi">Callgrind</a> makes callgraphs from <a href="http://kcachegrind.sourceforge.net/cgi-bin/show.cgi/KcacheGrindValgrind">Valgrind</a> [J&ouml;rg Schillin and Josef Weidendorfer]</li>
                 <li><a href="http://www.tcs.hut.fi/Software/maria/index.en.html"> Maria</a> - Modular Reachability Analyzer - a reachability analyzer for concurrent systems that uses Algebraic System Nets as its modelling formalism [Marko M&auml;kel&auml;]</li>
-                <li><a href="http://www.informatik.uni-leipzig.de/~pcp">PCP@HOME</a> - finds heavy instances of the undecidable &quot;Post Correspondance Problem&quot; and uses neato to <a href="http://gaos.org/~stamer/BBexam01.eps">visualize instances</a> [Heiko Stamer]</li>
+                <li><a href="http://www.theory.informatik.uni-kassel.de/~stamer/pcp">PCP@HOME</a> - finds heavy instances of the undecidable &quot;Post Correspondance Problem&quot; and uses neato to <a href="http://gaos.org/~stamer/BBexam01.eps">visualize instances</a> [Heiko Stamer]</li>
                 <li><a href="http://www.w3.org/2001/11/IsaViz/">IsaViz</a>: A Visual Authoring Tool for RDF [Emmanuel Pietriga]</li>
                 <li><a href="http://odur.let.rug.nl/~vannoord/fsademo/">Finite State Machine web visualization</a> interactively accepts input from a form [Gertjan van Noord]</li>
                 <li><a href="http://www.pinkjuice.com/svg/links/">SVG links</a> uses dot's SVG capabilities to organize SVG links [Tobias Reif]</li>
@@ -217,7 +217,7 @@ but any domain can be graphed [Mike Zick]
             <h4><a name="third-party-distributions">Third-Party Distributions</a></h4>
             <ul>
                 <li><a href="http://atrpms.net/name/graphviz/">Axel Thimm</a> - rpms for some RedHat Linux distributions (&quot;atrpms&quot;).</li>
-                <li><a href="http://dag.wieers.com/packages/graphviz/"><img border="0" alt="dag logo" src="/Resources/dag.png" /> Dag Wieers</a> - rpms for some RedHat Linux distributions.</li>
+                <li><a href="http://dag.wieers.com/rpm/packages/graphviz/"><img border="0" alt="dag logo" src="/Resources/dag.png" /> Dag Wieers</a> - rpms for some RedHat Linux distributions.</li>
                 <li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&amp;submit=Search+...&amp;system=&amp;arch=">RPM Find</a> - many distros and architectures.</li>
                 <li><a href="http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz"><img border="0" alt="debian logo" src="/Resources/debian-logo.png" /> Debian</a> - Linux packages for several architectures.</li>
                 <li><a href="http://packages.gentoo.org/package/media-gfx/graphviz"><img border="0" alt="gentoo logo" src="/Resources/gentoo.jpeg" /> Gentoo</a> - Linux packages.</li>
