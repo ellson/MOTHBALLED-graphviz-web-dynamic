@@ -157,7 +157,7 @@
                 </tbody>
             </table>
             <h4>Dynagraph</h4>
-            Beta code is included in the source release, but it is not compiled by default.   Also see the mpeg and Quicktime <a href="http://www.research.att.com/%7Enorth/videos/gd2001" target="_blank"> demo movies</a>.
+            Beta code is included in the source release, but it is not compiled by default.   Also see the mpeg and Quicktime <a href="http://www2.research.att.com/~north/videos/gd2001" target="_blank"> demo movies</a>.
             <p>&nbsp;</p>
             <h4>Graphviz 1.8.+</h4>
             See the <a href="http://www.research.att.com/software_tools" target="_blank">download page</a> for packages including perl and Python APIs.<br />
