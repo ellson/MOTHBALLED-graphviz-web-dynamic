@@ -85,40 +85,40 @@
                 </tbody>
                 <tbody>
                     <tr>
-                        <td align="center"><a href="Gallery/undirected/gd_1994_2007.html"><img border="0" src="Gallery/undirected/gd_1994_2007.small.png" alt="" title="gd_1994_2007" /></a></td>
-                        <td align="center" colspan="3"><a href="Gallery/undirected/networkmap_twopi.html"><img border="0" src="Gallery/undirected/networkmap_twopi.small.png" alt="" title="networkmap_twopi" /></a></td>
+                        <td align="center"><a href="/Gallery/undirected/gd_1994_2007.html"><img border="0" src="/Gallery/undirected/gd_1994_2007.small.png" alt="" title="gd_1994_2007" /></a></td>
+                        <td align="center" colspan="3"><a href="/Gallery/undirected/networkmap_twopi.html"><img border="0" src="/Gallery/undirected/networkmap_twopi.small.png" alt="" title="networkmap_twopi" /></a></td>
                     </tr>
                     <tr>
-                        <td align="center"><a href="Gallery/undirected/gd_1994_2007.html">gd_1994_2007</a></td>
-                        <td align="center" colspan="3"><a href="Gallery/undirected/networkmap_twopi.html">networkmap</a></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td align="center"><a href="Gallery/gradient/angles.html"><img border="0" src="Gallery/gradient/angles.small.png" alt="" title="gradient angles" /></a></td>
-                        <td align="center"><a href="Gallery/gradient/colors.html"><img border="0" src="Gallery/gradient/colors.small.png" alt="" title="gradient colors" /></a></td>
-                        <td align="center"><a href="Gallery/gradient/linear_angle.html"><img border="0" src="Gallery/gradient/linear_angle.small.png" alt="" title="Gradient Linear Angle" /></a></td>
-                        <td align="center"><a href="Gallery/gradient/radial_angle.html"><img border="0" src="Gallery/gradient/radial_angle.small.png" alt="" title="Gradient Radial Angle" /></a></td>
-                    </tr>
-                    <tr>
-                        <td align="center"><a href="Gallery/gradient/angles.html">gradient angles</a></td>
-                        <td align="center"><a href="Gallery/gradient/colors.html">gradient colors</a></td>
-                        <td align="center"><a href="Gallery/gradient/linear_angle.html">gradient linear angle</a></td>
-                        <td align="center"><a href="Gallery/gradient/radial_angle.html">gradient radial angle</a></td>
+                        <td align="center"><a href="/Gallery/undirected/gd_1994_2007.html">gd_1994_2007</a></td>
+                        <td align="center" colspan="3"><a href="/Gallery/undirected/networkmap_twopi.html">networkmap</a></td>
                     </tr>
                 </tbody>
                 <tbody>
                     <tr>
-                        <td align="center"><a href="Gallery/gradient/g_c_n.html"><img border="0" src="Gallery/gradient/g_c_n.small.png" alt="" title="Graph, Cluster and Node" /></a></td>
-                        <td align="center"><a href="Gallery/gradient/table.html"><img border="0" src="Gallery/gradient/table.small.png" alt="" title="Table and Cell Gradient" /></a></td>
-                        <td align="center"><a href="Gallery/gradient/cluster.html"><img border="0" src="Gallery/gradient/cluster.small.png" alt="" title="Cluster Gradient" /></a></td>
-                        <td align="center"><a href="Gallery/gradient/datastruct.html"><img border="0" src="Gallery/gradient/datastruct.small.png" alt="" title="Datastruct Gradient" /></a></td>
+                        <td align="center"><a href="/Gallery/gradient/angles.html"><img border="0" src="/Gallery/gradient/angles.small.png" alt="" title="gradient angles" /></a></td>
+                        <td align="center"><a href="/Gallery/gradient/colors.html"><img border="0" src="/Gallery/gradient/colors.small.png" alt="" title="gradient colors" /></a></td>
+                        <td align="center"><a href="/Gallery/gradient/linear_angle.html"><img border="0" src="/Gallery/gradient/linear_angle.small.png" alt="" title="Gradient Linear Angle" /></a></td>
+                        <td align="center"><a href="/Gallery/gradient/radial_angle.html"><img border="0" src="/Gallery/gradient/radial_angle.small.png" alt="" title="Gradient Radial Angle" /></a></td>
                     </tr>
                     <tr>
-                        <td align="center"><a href="Gallery/gradient/g_c_n.html">graph,cluster,node gradients</a></td>
-                        <td align="center"><a href="Gallery/gradient/table.html">table and cell gradient</a></td>
-                        <td align="center"><a href="Gallery/gradient/cluster.html">cluster gradient</a></td>
-                        <td align="center"><a href="Gallery/gradient/datastruct.html">data structure gradient</a></td>
+                        <td align="center"><a href="/Gallery/gradient/angles.html">gradient angles</a></td>
+                        <td align="center"><a href="/Gallery/gradient/colors.html">gradient colors</a></td>
+                        <td align="center"><a href="/Gallery/gradient/linear_angle.html">gradient linear angle</a></td>
+                        <td align="center"><a href="/Gallery/gradient/radial_angle.html">gradient radial angle</a></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td align="center"><a href="/Gallery/gradient/g_c_n.html"><img border="0" src="/Gallery/gradient/g_c_n.small.png" alt="" title="Graph, Cluster and Node" /></a></td>
+                        <td align="center"><a href="/Gallery/gradient/table.html"><img border="0" src="/Gallery/gradient/table.small.png" alt="" title="Table and Cell Gradient" /></a></td>
+                        <td align="center"><a href="/Gallery/gradient/cluster.html"><img border="0" src="/Gallery/gradient/cluster.small.png" alt="" title="Cluster Gradient" /></a></td>
+                        <td align="center"><a href="/Gallery/gradient/datastruct.html"><img border="0" src="/Gallery/gradient/datastruct.small.png" alt="" title="Datastruct Gradient" /></a></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><a href="/Gallery/gradient/g_c_n.html">graph,cluster,node gradients</a></td>
+                        <td align="center"><a href="/Gallery/gradient/table.html">table and cell gradient</a></td>
+                        <td align="center"><a href="/Gallery/gradient/cluster.html">cluster gradient</a></td>
+                        <td align="center"><a href="/Gallery/gradient/datastruct.html">data structure gradient</a></td>
                     </tr>
                 </tbody>
             </table>
