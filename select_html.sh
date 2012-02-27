@@ -27,9 +27,14 @@ arg=`echo "');"`
 count=`echo -n "call select_html('${basename}${arg}" | mysql -u root -pgraphviz2011 -D graphviz | wc -w`
 if [ $count -lt 200 ] 
 then
-	echo "`date +%c`: ${basename} size is ${count}. Database may be down." >> $error_file;
-	shift;
-	continue;
+	if [ $basename = "att" -o $basename = "Bugs"  -o $basename = "MailingList"]
+		echo > /dev/null
+	else
+
+		echo "`date +%c`: ${basename} size is ${count}. Database may be down." >> $error_file;
+		shift;
+		continue;
+	fi
 fi
 
 
