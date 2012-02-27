@@ -25,7 +25,7 @@ basename=`echo -n "$1" | sed -e s/.php// -e s/Download_linux_// -e s/Download_//
 #First check that the database is online.
 arg=`echo "');"`
 count=`echo -n "call select_html('${basename}${arg}" | mysql -u root -pgraphviz2011 -D graphviz | wc -w`
-if [ $count -lt 1000 ] 
+if [ $count -lt 200 ] 
 then
 	if [ $basename = "att" -o $basename = "Bugs"  -o $basename = "MailingList" ]
 	then
