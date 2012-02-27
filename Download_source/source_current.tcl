@@ -76,7 +76,7 @@ foreach package $packages {
         puts $fout "<tbody>"
         puts $fout "<tr><th align=\"right\"><font size=\"-1\">$platform</font></th>"
         foreach {releasename releasedir} $releases {
-            puts $fout "<td align=\"left\"><font size=\"-1\">"
+            puts $fout "<td align=\"left\" nowrap><font size=\"-1\">"
             foreach type $types {
                 puts_latest $fout $docroot $releasedir $package $package_exclude $type
             }
