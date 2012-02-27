@@ -6,14 +6,6 @@ then
 	> $error_file
 fi
 
-#First check that the database is online.
-arg=`echo "');"`
-count=`echo -n "call select_html('About${arg}" | mysql -u root -pgraphviz2011 -D graphviz | wc -w`
-if [ $count -lt 1000 ] 
-then
-	echo "`date +%c`: About.ht size is ${count}. Database may be down." >> $error_file;
-	exit;
-fi
 
 
 #Called from Makefile when rule get_source is run.
@@ -29,6 +21,25 @@ while [ -n "$1" ]
 do
 #basename is obtained by stripping the input php filename down to the html page title used in drupal
 basename=`echo -n "$1" | sed -e s/.php// -e s/Download_linux_// -e s/Download_//`
+
+#First check that the database is online and files are above a minimum size.
+arg=`echo "');"`
+count=`echo -n "call select_html('${basename}${arg}" | mysql -u root -pgraphviz2011 -D graphviz | wc -w`
+if [ $count -lt 200 ] 
+then
+	if [ $basename = "att" -o $basename = "Bugs"  -o $basename = "MailingList" ]
+	then
+		echo > /dev/null
+	else
+
+		echo "`date +%c`: ${basename} size is ${count}. Database may be down." >> $error_file;
+		shift;
+		continue;
+	fi
+fi
+
+
+
 targetname="${basename}.ht"
 targetdir="."
 #when the php filename begins with Download it has to be handled differently
