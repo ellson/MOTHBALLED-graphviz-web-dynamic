@@ -28,6 +28,7 @@ count=`echo -n "call select_html('${basename}${arg}" | mysql -u root -pgraphviz2
 if [ $count -lt 200 ] 
 then
 	if [ $basename = "att" -o $basename = "Bugs"  -o $basename = "MailingList"]
+	then
 		echo > /dev/null
 	else
 
