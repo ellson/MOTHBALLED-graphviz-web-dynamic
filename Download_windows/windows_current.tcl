@@ -30,7 +30,7 @@ proc checkdate {fnv} {
     set lst [split $v {-.}]
     if {[llength $lst] >= 5} {
         foreach {. . dt tm .} $lst {break}
-        set time_stamp [clock scan [string range $dt 2 end]T${tm}00 -gmt 1]
+        set time_stamp [clock scan "00:00:00 [string range $dt 0 3]-${tm}-${td}" -gmt 1]
         if {$time_stamp < $time_cutoff} {
             set color red
         }
