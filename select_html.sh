@@ -22,7 +22,11 @@ do
 #basename is obtained by stripping the input php filename down to the html page title used in drupal
 basename=`echo -n "$1" | sed -e s/.php// -e s/Download_linux_// -e s/Download_//`
 
+<<<<<<< local
 #First check that the database is online.
+=======
+#First check that the database is online and files are above a minimum size.
+>>>>>>> other
 arg=`echo "');"`
 count=`echo -n "call select_html('${basename}${arg}" | mysql -u root -pgraphviz2011 -D graphviz | wc -w`
 if [ $count -lt 200 ] 
