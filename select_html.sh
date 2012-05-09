@@ -129,7 +129,7 @@ echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz20
 else
 basename=`echo ${basename} | sed -e s/MailingList/"Mailing List"/`;
 echo -n "call select_html('${basename}`echo "');"`" | mysql -u root -pgraphviz2011 -D graphviz | sed -e 1d -e 's/\\n/\
-/g' | sed -e '/-- header --/,/-- body --/d' | sed -e '/-- trailer --/,$d' > ${targetdir}/${targetname}
+/g' | sed -e "s/\\\t/	/g" | sed -e '/-- header --/,/-- body --/d' | sed -e '/-- trailer --/,$d' > ${targetdir}/${targetname}
 fi
 shift
 done
