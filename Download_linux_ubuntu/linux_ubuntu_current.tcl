@@ -8,10 +8,12 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {UB11.04.x86_64 UB11.04.i386 UB10.10.x86_64 UB10.10.i386}
+    graphviz {UB12.04.x86_64 UB12.04.i386 UB11.04.x86_64 UB11.04.i386 UB10.10.x86_64 UB10.10.i386}
 }
 
 set platform_directory_type_comments {
+    UB12.04.x86_64 ubuntu/ub12.04/x86_64 {amd64.deb all.deb} "Ubuntu 12.04 (Precise Pangolin)"
+    UB12.04.i386 ubuntu/ub12.04/i386 {i386.deb all.deb} "Ubuntu 12.04 (Precise Pangolin)"
     UB11.04.x86_64 ubuntu/ub11.04/x86_64 {amd64.deb all.deb} "Ubuntu 11.04 (Natty Narwhal)"
     UB11.04.i386 ubuntu/ub11.04/i386 {i386.deb all.deb} "Ubuntu 11.04 (Natty Narwhal)"
     UB10.10.x86_64 ubuntu/ub10.10/x86_64 {amd64.deb all.deb} "Ubuntu 10.10 (Maverick Meerkat)"
