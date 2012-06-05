@@ -1,16 +1,17 @@
             <p>Arif Bilgin, AT&amp;T Research (smyrna and Windows support)<br />
             <a href="http://www.research.att.com:81/cgi-bin/redirect_people_page.cgi?login=dfwc">Don Caldwell</a>, AT&amp;T Research (map labeling)<br />
             <a href="http://www.research.att.com:81/cgi-bin/redirect_people_page.cgi?login=ellson">John Ellson</a>, AT&amp;T Research (Tcl/Tk and codegen extensions)<br />
-            <a href="http://www.research.att.com:81/cgi-bin/redirect_people_page.cgi?login=erg">Emden Gansner</a>, AT&amp;T Research (dot, neato, twopi, circo, fdp, osage, smyrna, gmap)<br />
-            <a href="http://www2.research.att.com/~yifanhu/">Yifan Hu</a>, AT&amp;T Research (sfdp, gvmap, cluster, mm2gv)<br />
+            <a href="http://www.research.att.com:81/cgi-bin/redirect_people_page.cgi?login=erg">Emden Gansner</a>, AT&amp;T Research (dot, neato, twopi, circo, fdp, osage, smyrna, gvmap, prism, gvpr)<br />
+            <a href="http://www2.research.att.com/~yifanhu/">Yifan Hu</a>, AT&amp;T Research (sfdp, prism, gvmap, cluster, mm2gv)<br />
             <a href="http://www.research.att.com/people/North_Stephen_C/">Stephen North</a>, AT&amp;T Research (dot, neato)</p>
             <p>and</p>
             <p><a href="http://research.yahoo.com/Yehuda_Koren">Yehuda Koren</a>, Yahoo! Research (neato) <br />
             Vladimir Alexiev (codegen improvements)<br />
             <a href="http://www.cs.princeton.edu/~dpd/">David Dobkin</a> (spline-o-matic)<br />
+            <a href="http://www.csse.monash.edu.au/~tdwyer/">Tim Dwyer</a> (IPSEP-cola and DIG-cola extensions to neato)<br />
             <a href="http://www.research.att.com:81/cgi-bin/redirect_people_page.cgi?login=ek">Eleftherios Koutsofios</a>, AT&amp;T Research (dotty, lefty, spline-o-matic) <br />
             <a href="http://users.erols.com/blilly/">Bruce Lilly</a> (pic driver)<br />
-            <a href="http://www.pixelglow.com/">Glen Low</a> (Apple Mac OS X port, also the page icons on this site.)<br />
+            <a href="http://www.pixelglow.com/">Glen Low</a> (Apple Mac OS X port; the page icons on this site; cgraph patches for dot)<br />
             <a href="http://www.research.att.com:81/cgi-bin/redirect_people_page.cgi?login=john">John Mocenigo</a>, AT&amp;T Research (Grappa) <br />
             <a href="http://www.xs4all.nl/%7Ejs/index.html">Jeroen Scheerder</a> (allow URLs in PDF distilled from Postscript output)<br />
             Richard G. Daniel (RPM packaging)<br />
