@@ -122,7 +122,7 @@
                     <li><a href="/Documentation/NW01.pdf" target="_blank">On-line Hierarchical Graph Drawing</a> - dynadag algorithm</li>
                 </ul>
                 </li>
-               <li><span class="gv_navheadone">Source Documentation</span>
+               <li><span class="gv_navheadone">Source Documetation</span>
                 <ul  class="gv_navcontainer2">
                     <li><a href="http://www.graphviz.org/pub/graphviz/development/doxygen/html/annotated.html" target="_blank">Doxygen generated documentation of Graphviz, with dot generated diagrams</a></li>
                 </ul>
