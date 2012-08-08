@@ -8,14 +8,16 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC18.i686 FC18.x86_64 FC17.i686 FC17.x86_64 FC16.i686 FC16.x86_64 FC15.i686 FC15.x86_64}
-    webdot {SRPMS FC18.i686 FC18.x86_64 FC17.i686 FC17.x86_64 FC16.i686 FC16.x86_64 FC15.i686 FC15.x86_64}
+    graphviz {SRPMS FC19.i686 FC19.x86_64 FC18.i686 FC18.x86_64 FC17.i686 FC17.x86_64 FC16.i686 FC16.x86_64 FC15.i686 FC15.x86_64}
+    webdot {SRPMS FC19.i686 FC19.x86_64 FC18.i686 FC18.x86_64 FC17.i686 FC17.x86_64 FC16.i686 FC16.x86_64 FC15.i686 FC15.x86_64}
 }
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
-    FC18.i686 redhat/fc18/i386/os {fc18.i686.rpm fc18.i586.rpm fc18.noarch.rpm} "Fedora 18 (Rawhide)"
-    FC18.x86_64 redhat/fc18/x86_64/os {fc18.x86_64.rpm fc18.noarch.rpm} "Fedora 18 (Rawhide)"
+    FC19.i686 redhat/fc19/i386/os {fc19.i686.rpm fc19.i586.rpm fc19.noarch.rpm} "Fedora 19 (Rawhide)"
+    FC19.x86_64 redhat/fc19/x86_64/os {fc19.x86_64.rpm fc19.noarch.rpm} "Fedora 19 (Rawhide)"
+    FC18.i686 redhat/fc18/i386/os {fc18.i686.rpm fc18.i586.rpm fc18.noarch.rpm} "Fedora 18"
+    FC18.x86_64 redhat/fc18/x86_64/os {fc18.x86_64.rpm fc18.noarch.rpm} "Fedora 18"
     FC17.i686 redhat/fc17/i386/os {fc17.i686.rpm fc17.i586.rpm fc17.noarch.rpm} "Fedora 17"
     FC17.x86_64 redhat/fc17/x86_64/os {fc17.x86_64.rpm fc17.noarch.rpm} "Fedora 17"
     FC16.i686 redhat/fc16/i386/os {fc16.i686.rpm fc16.i586.rpm fc16.noarch.rpm} "Fedora 16"
