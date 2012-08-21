@@ -1,5 +1,12 @@
 <h1 class="rteleft"><strong>Welcome to Graphviz</strong></h1>
-<p>&nbsp;<small><strong>Available translations:</strong> <a href="http://www.movavi.com/opensource/graphviz-be" target="_blank">Belorussian</a>, <a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>, <a href="http://www.portablecomponentsforall.com/edu/graphviz-about-ru/" target="_blank">Russian</a> </small></p>
+<p>&nbsp;<small>
+<strong>Available translations:</strong>
+<a href="http://www.movavi.com/opensource/graphviz-be" target="_blank">Belorussian</a>,
+<a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>,
+<a href="http://www.portablecomponentsforall.com/edu/graphviz-about-ru/" target="_blank">Russian</a>,
+<a href="ru_translation.rtf" target="_blank">Russian (more natural?)</a> <!-- from  andreev.yurij@gmail.com -->
+</small>.
+</p>
 <table cellspacing="1" cellpadding="1" border="0" align="left">
     <tbody>
         <tr>
