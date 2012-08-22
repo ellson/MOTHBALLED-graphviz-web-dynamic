@@ -17,7 +17,7 @@ PAGESET=About.php \
 	License.php \
 	Resources.php \
 	Credits.php \
-	Home.php
+	Graphviz.php
 
 .SUFFIXES: .ht .php
 

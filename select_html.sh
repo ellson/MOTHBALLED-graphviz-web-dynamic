@@ -43,7 +43,7 @@ fi
 targetname="${basename}.ht"
 targetdir="."
 #when the php filename begins with Download it has to be handled differently
-#ignor the case where input file is Download_att.php
+#ignore the case where input file is Download_att.php
 if [ "`echo -n "$1" | sed -e s/^Download.*$/Download/`" = "Download" ]
 then
 	if [ $basename = "Download" ]
