@@ -1,56 +1,66 @@
-            <h3>General Installation Notes</h3>
-            The code related to the swig-generated bindings can sometimes cause problems. If this happens, you will see errors for files being built in the tclpkg directory. These bindings are not part of the core layout and rendering tools, and are not necessary for many users. If you have problems and don't need these bindings, try rerunning configure with the <tt>--disable-swig</tt> option.
-            <p>For ordinary Graphviz builds and installation,  the following notes can be ignored. They are only reveleant if you decide to move the software after the initial installation.</p>
-            <p>The Graphviz software needs to find certain files at runtime, so one cannot just copy the binary and library files. Most importantly, it looks for a file <tt>config<i>N</i></tt>. This file is used to determine which layout and rendering features are available. It is  assumed to be in the same directory as the plugin libraries.</p>
-            <p>By default, the path to the directory containing the <tt>config<i>N</i></tt> file and the plugins is built in at build time. On Windows and Linux systems, this path is determined dynamically using the file system location of the gvc library (also Mac OS/X since about graphviz-2.29.20110526). These can all be overridden by defining the environment variable <strong>GVBINDIR</strong>.</p>
-            <p>For convenience, the Windows binary package also provides some basic configuration files for the <tt>fontconfig</tt> library. These are stored in the <tt>etc</tt> directory. If the Graphviz software is moved,  this directory should probably also be moved to be in the same directory as the Graphviz <tt>bin</tt> and <tt>lib</tt> directories.</p>
-            <h3>Source Code</h3>
-            <a href="Download_source.php">Source code</a> for the latest stable and development versions of Graphviz are available, along with instructions for anonymous access to the sources in <a href="http://mercurial.selenic.com/">Mercurial</a>.  Also see build <a href="/doc/build.html">notes</a>.
-            <p><a href="/doc/winbuild.html">Notes</a> on how to build Graphviz on Windows. <b>N.B.</b> Except in rare cases, such as a desire to modify the core Graphviz code, there is no need to build Graphviz on Windows from source. We strongly recommend that one should just install one of the available binary packages from <a href="Download_windows.php">here</a>. If you insist, we will answer questions but basically you are on your own.</p>
-            <h3>Executable Packages from AT&amp;T</h3>
-            <b>Linux</b><br />
-            <a href="Download_linux_rhel.php">Stable and development rpms for Redhat Enterprise, or Centos systems</a> <br />
-            <a href="Download_linux_fedora.php">Stable and development rpms for Fedora systems</a> <br />
-            <a href="Download_linux_ubuntu.php">Stable and development debs for Ubuntu systems</a>
-            <p><b>Solaris</b><br />
-            <a href="Download_solaris.php">Stable and development pkgs for Solaris systems</a></p>
-            <p><b>Windows</b><br />
-            <a href="Download_windows.php">Stable and development Windows Install packages</a></p>
-            <p><b>Mac</b><br />
-            <a href="Download_macos.php">Stable and development Mac OS Install packages</a></p>
-            <p>and third-party <a href="Misc/third-party.zip">libraries</a>.</p>
-            <h3>Java Support</h3>
-            Grappa is a separate Java graph library and user interface that works with Graphviz. It was written by <a href="http://www2.research.att.com/~john"> John Mocenigo</a> in our lab. It calls Graphviz programs for remote layout service.  Grappa can run as a browser applet (if you can resolve the Java plugin nightmare on your own) and it provides convenient graph programming classes.  Grappa is no longer active work, so we are not planning major improvements or difficult bug fixes - caveat emptor.
-            <p><a href="http://www2.research.att.com/~john/Grappa/grappa.tgz">Download Grappa</a>.</p>
-            <p>In our experience with Grappa applications, we encountered many problems in trying to get applets to run under the various incompatible versions of Java extant (didn't Sun hire any engineers who believe in backward compatibility?) and we found performance problems when working with graphs of many hundreds or thousands of objects. Our work on <a href="http://www.yoix.org">Yoix</a> is a new attack to these engineering problems. Yoix itself is a web application language, and is not Graphviz-aware. So, the base system it is not a replacement for Grappa.  Instead, we are working on a Graphviz extension module that loads in Yoix.  We plan to release this extension to Yoix in late 2005 or 2006.</p>
-            <h3>Third-Party (non-AT&amp;T) Executable Packages</h3>
-            Please contact us if you can offer a platform we don't have, or you've improved on what's here.
-            <p>We list these links as a courtesy, but disclaim responsibility for the contents of these software products.</p>
-            <p><b>Linux</b> <br />
-            <a href="http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz">Debian package</a> <br />
-            <a href="http://packages.ubuntu.com/hardy/graphics/graphviz">Ubuntu Hardy</a>,  <a href="http://packages.ubuntu.com/intrepid/graphics/graphviz">Interpid</a> package. <br />
-            <a href="http://fedoraproject.org/">Fedora</a>.  On a working Fedora system, use:</p>
-            <pre>
-                  yum list 'graphviz*' 
+\t\t\t\t<h3>
+\t\t\t\t\tGeneral Installation Notes</h3>
+\t\t\t\tThe code related to the swig-generated bindings can sometimes cause problems. If this happens, you will see errors for files being built in the tclpkg directory. These bindings are not part of the core layout and rendering tools, and are not necessary for many users. If you have problems and don&#39;t need these bindings, try rerunning configure with the <tt>--disable-swig</tt> option.
+\t\t\t\t<p>For ordinary Graphviz builds and installation, the following notes can be ignored. They are only reveleant if you decide to move the software after the initial installation.</p>
+\t\t\t\t<p>The Graphviz software needs to find certain files at runtime, so one cannot just copy the binary and library files. Most importantly, it looks for a file <tt>config<i>N</i></tt>. This file is used to determine which layout and rendering features are available. It is assumed to be in the same directory as the plugin libraries.</p>
+\t\t\t\t<p>By default, the path to the directory containing the <tt>config<i>N</i></tt> file and the plugins is built in at build time. On Windows and Linux systems, this path is determined dynamically using the file system location of the gvc library (also Mac OS/X since about graphviz-2.29.20110526). These can all be overridden by defining the environment variable <strong>GVBINDIR</strong>.</p>
+\t\t\t\t<p>For convenience, the Windows binary package also provides some basic configuration files for the <tt>fontconfig</tt> library. These are stored in the <tt>etc</tt> directory. If the Graphviz software is moved, this directory should probably also be moved to be in the same directory as the Graphviz <tt>bin</tt> and <tt>lib</tt> directories.</p>
+\t\t\t\t<h3>
+\t\t\t\t\tSource Code</h3>
+\t\t\t\t<a href="Download_source.php">Source code</a> for the latest stable and development versions of Graphviz are available, along with instructions for anonymous access to the sources in <a href="http://mercurial.selenic.com/">Mercurial</a>. Also see build <a href="/doc/build.html">notes</a>.
+\t\t\t\t<p><a href="/doc/winbuild.html">Notes</a> on how to build Graphviz on Windows. <b>N.B.</b> Except in rare cases, such as a desire to modify the core Graphviz code, there is no need to build Graphviz on Windows from source. We strongly recommend that one should just install one of the available binary packages from <a href="Download_windows.php">here</a>. If you insist, we will answer questions but basically you are on your own.</p>
+\t\t\t\t<h3>
+\t\t\t\t\tExecutable Packages from AT&amp;T</h3>
+\t\t\t\t<b>Linux</b><br />
+\t\t\t\t<a href="Download_linux_rhel.php">Stable and development rpms for Redhat Enterprise, or Centos systems</a><br />
+\t\t\t\t<a href="Download_linux_fedora.php">Stable and development rpms for Fedora systems</a><br />
+\t\t\t\t<a href="Download_linux_ubuntu.php">Stable and development debs for Ubuntu systems</a>
+\t\t\t\t<p><b>Solaris</b><br />
+\t\t\t\t\t<a href="Download_solaris.php">Stable and development pkgs for Solaris systems</a></p>
+\t\t\t\t<p><b>Windows</b><br />
+\t\t\t\t\t<a href="Download_windows.php">Stable and development Windows Install packages</a></p>
+\t\t\t\t<p><b>Mac</b><br />
+\t\t\t\t\t<a href="Download_macos.php">Stable and development Mac OS Install packages</a></p>
+\t\t\t\t<p>and third-party <a href="Misc/third-party.zip">libraries</a>.</p>
+\t\t\t\t<h3>
+\t\t\t\t\tJava Support</h3>
+\t\t\t\tGrappa is a separate Java graph library and user interface that works with Graphviz. It was written by <a href="http://www2.research.att.com/~john"> John Mocenigo</a> in our lab. It calls Graphviz programs for remote layout service. Grappa can run as a browser applet (if you can resolve the Java plugin nightmare on your own) and it provides convenient graph programming classes. Grappa is no longer active work, so we are not planning major improvements or difficult bug fixes - caveat emptor.
+\t\t\t\t<p><a href="http://www2.research.att.com/~john/Grappa/grappa.tgz">Download Grappa</a>.</p>
+\t\t\t\t<p>In our experience with Grappa applications, we encountered many problems in trying to get applets to run under the various incompatible versions of Java extant (didn&#39;t Sun hire any engineers who believe in backward compatibility?) and we found performance problems when working with graphs of many hundreds or thousands of objects. Our work on <a href="http://www.yoix.org">Yoix</a> is a new attack to these engineering problems. Yoix itself is a web application language, and is not Graphviz-aware. So, the base system it is not a replacement for Grappa. Instead, we are working on a Graphviz extension module that loads in Yoix. We plan to release this extension to Yoix in late 2005 or 2006.</p>
+\t\t\t\t<h3>
+\t\t\t\t\tThird-Party (non-AT&amp;T) Executable Packages</h3>
+\t\t\t\tPlease contact us if you can offer a platform we don&#39;t have, or you&#39;ve improved on what&#39;s here.
+\t\t\t\t<p>We list these links as a courtesy, but disclaim responsibility for the contents of these software products.</p>
+\t\t\t\t<p><b>Linux</b><br />
+\t\t\t\t\t<a href="http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz">Debian package</a><br />
+\t\t\t\t\t<a href="http://packages.ubuntu.com/hardy/graphics/graphviz">Ubuntu Hardy</a>, <a href="http://packages.ubuntu.com/intrepid/graphics/graphviz">Interpid</a> package.<br />
+\t\t\t\t\t<a href="http://fedoraproject.org/">Fedora</a>. On a working Fedora system, use:</p>
+\t\t\t\t<pre>
+                  yum list &#39;graphviz*&#39; 
 </pre>
-            to see all available graphviz packages.
-            <p><b>Mac OS X</b> <br />
-            <a href="http://www.macports.org/">MacPorts</a> provides both stable and development versions  of Graphviz and the Mac GUI Graphviz.app. These can be obtained via the ports &quot;graphviz&quot;, &quot;graphviz-devel&quot;, &quot;graphviz-gui&quot; and &quot;graphviz-gui-devel&quot;. <br />
-            <a href="http://www.pixelglow.com/graphviz/">Pixelglow Graphviz</a> An enhanced GUI application for Mac OS X based on Graphviz 1.13 (out of date, not maintained) An updated version of this is now available using macports, as noted above.</p>
-            <p><b>Windows</b> <br />
-            <a href="http://sourceware.org/cygwinports/">Cygwin Ports</a> provides a port of Graphviz to Cygwin. <br />
-            <a href="http://wingraphviz.sourceforge.net/wingraphviz/">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).</p>
-            <p><b>Other Unix</b> <br />
-            <a href="http://www.freshports.org/graphics/graphviz/">FreeBSD</a><br />
-            <a href="http://www.genunix.org/wiki/index.php/Graphviz">Solaris</a></p>
-            <p>&nbsp;</p>
-            <h3>Fonts</h3>
-            <a href="Misc/fonts.tgz">FreeType-compatible</a>. We provide these as a courtesy, only for compatibility on legacy Unix systems that lack native fonts.
-            <p>&nbsp;</p>
-            <h3><a href="Misc/spline-o-matic/">Spline-o-matic</a> distribution</h3>
-            <a href="Misc/spline-o-matic/splino.tgz">Source code</a> for a reusable spline path router library and Tcl/Tk GUI (experts only).<br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+\t\t\t\tto see all available graphviz packages.
+\t\t\t\t<p><b>Mac OS X</b><br />
+\t\t\t\t\t<a href="http://www.macports.org/">MacPorts</a> provides both stable and development versions of Graphviz and the Mac GUI Graphviz.app. These can be obtained via the ports &quot;graphviz&quot;, &quot;graphviz-devel&quot;, &quot;graphviz-gui&quot; and &quot;graphviz-gui-devel&quot;.<br />
+\t\t\t\t\t<a href="http://mxcl.github.com/homebrew/">Homebrew</a> has a graphviz port (so just <span style="font-family: monospace; font-size: 10px; ">brew install graphviz</span>, we hope).</p>
+\t\t\t\t<p><a href="http://www.pixelglow.com/graphviz/">Pixelglow Graphviz</a> An enhanced GUI application for Mac OS X based on Graphviz 1.13 (out of date, not maintained) An updated version of this is now available using macports, as noted above.</p>
+\t\t\t\t<p>Warning:&nbsp;it can take a long time (hours) to build graphviz from source with a full set of drivers, because of its package dependencies. Specifically, graphviz drivers&nbsp;use cairopango for internationalized text sizing and rendering, ghostscript for&nbsp;loading and rendering&nbsp;external Postscript shapes, a bunch of libraries for X11 support, and possibly gtkglext (which implies gtk2 and mesa) for the experimental smyrna viewer.&nbsp;This may even force building&nbsp;glib2 if not already present.</p>
+\t\t\t\t<p><b>Windows</b><br />
+\t\t\t\t\t<a href="http://sourceware.org/cygwinports/">Cygwin Ports</a> provides a port of Graphviz to Cygwin.<br />
+\t\t\t\t\t<a href="http://wingraphviz.sourceforge.net/wingraphviz/">WinGraphviz</a> Win32/COM object (dot/neato library for Visual Basic and ASP).</p>
+\t\t\t\t<p><b>Other Unix</b><br />
+\t\t\t\t\t<a href="http://www.freshports.org/graphics/graphviz/">FreeBSD</a><br />
+\t\t\t\t\t<a href="http://www.genunix.org/wiki/index.php/Graphviz">Solaris</a></p>
+\t\t\t\t<p>&nbsp;</p>
+\t\t\t\t<h3>
+\t\t\t\t\tFonts</h3>
+\t\t\t\t<a href="Misc/fonts.tgz">FreeType-compatible</a>. We provide these as a courtesy, only for compatibility on legacy Unix systems that lack native fonts.
+\t\t\t\t<p>&nbsp;</p>
+\t\t\t\t<h3>
+\t\t\t\t\t<a href="Misc/spline-o-matic/">Spline-o-matic</a> distribution</h3>
+\t\t\t\t<a href="Misc/spline-o-matic/splino.tgz">Source code</a> for a reusable spline path router library and Tcl/Tk GUI (experts only).<br />
+\t\t\t\t<br />
+\t\t\t\t<br />
+\t\t\t\t<br />
+\t\t\t\t<br />
+\t\t\t\t<br />
+\t\t\t\t<br />
