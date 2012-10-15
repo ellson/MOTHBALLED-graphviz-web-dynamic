@@ -134,7 +134,9 @@
 						(also see this <a href="/Misc/webdot_cgi.txt">shell wrapper</a> to protect webdot servers from overload)<br />
 						and a simplified <a href="/Misc/webdot.pl">webdot.pl</a> in perl [Stephen North, with a huge assist from John Linderman]</li>
 					<li>
-						dokuwiki: Expose <a href="http://lnkd.in/4-p_zi">dokuwiki</a> layering feature with graphviz plugin [Matteo Nastasi]</li>
+						dokuwiki: <a href="https://www.dokuwiki.org/plugin:graphviz">Create</a> directed and non-directed graph images from &ldquo;dot&rdquo; language [Andreas Gohr]</li>
+					<li>
+						dokuwiki fork:&nbsp; Allows <a href="http://lnkd.in/4-p_zi">independent layers visualisation</a> using html check box [Matteo Nastasi]</li>
 				</ul>
 				<!-- -------------------- -->
 				<h4>
@@ -395,5 +397,6 @@ but any domain can be graphed [Mike Zick]
 				<p><br />
 					<br />
 					&nbsp;</p>
+				<br />
 				<br />
 				<br />
