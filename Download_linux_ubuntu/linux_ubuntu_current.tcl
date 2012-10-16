@@ -44,7 +44,7 @@ proc checkdate {fnv} {
 }
                                                                                 
 proc puts_latest {fout docroot dir package package_exclude type} {
-    set regexp {([-a-zA-Z0-9]*)_([-0-9.]*)([~a-z]*)_([a-z][.a-z0-9_]*)}
+    set regexp {([-a-zA-Z0-9]*)_([-0-9.]*)~([a-z]*)_([a-z][.a-z0-9_]*)}
     if {![file exists $docroot/$dir]} {
 #        puts $fout "<font color=\"red\">Directory \"$docroot/$dir/\" was not found.</font>"
         puts $fout "<font color=\"red\">Not Available</font><br>"
