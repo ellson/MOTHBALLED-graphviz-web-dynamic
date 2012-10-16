@@ -52,7 +52,7 @@ proc puts_latest {fout docroot dir package package_exclude type} {
     }
     set owd [pwd]
     cd $docroot/$dir
-    foreach {fn n v t} [regexp -all -inline $regexp [glob -nocomplain *]] {
+    foreach {fn n v z t} [regexp -all -inline $regexp [glob -nocomplain *]] {
         if {[file isdir $fn]} {continue}
         set exclude_this 0
         foreach {excl} $package_exclude {
