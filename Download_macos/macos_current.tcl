@@ -139,3 +139,10 @@ foreach {package platforms} $packages_platforms {
 puts $fout "</table>"
 
 close $fout
+<!-- Do not remove this comment or make any web server edits above this comment -->
+<b>General</b>: this package is for general use. It has Graphviz.app and the main command line tools.  It doesn't include gvedit.app (a QT-based graph editor), smyrna (an OpenGL viewer for large graphs), or the pangocairo plugin (you get the quartz plugin instead). If you need any of these, build from the <a href="http://www.graphviz.org/pub/graphviz/CURRENT/graphviz-working.tar.gz">source tarball</a> or <a href="http://www.macports.org/">macports</a> <a href="http://www.macports.org/ports.php?by=name&substr=graphviz">graphviz</a>. If you can work on fixing the build and packaging problems with these tools, send mail to gviz-bugs on research.att.com. (Note: smyrna crashes Xquartz 2.6.1 on some systems; update to at least <a href="http://xquartz.macosforge.org/trac/wiki/Releases">2.6.2</a>.)
+<p>For older versions of Graphviz for Mac OSX, look <a href="http://www.graphviz.org/pub/graphviz/stable/macos/">here</a>.
+<p>If you encounter problems with old PPC or early Intel Macs, you'll probably have to build from source using 
+<a href="http://mxcl.github.com/homebrew/">homebrew</a> or <a href="http://www.macports.org/">macports</a>.
+Some notes: 1) graphviz-gui (Graphviz.app) is a separate package in macports, and seems to be optional in homebrew. 2) Beware, if you do not already have packages like cairopango, ghostscript, and the GNU/X11 libraries needed to support gtk2, then it can take a long time, maybe hours, to build the default package with all the drivers.  We rely on cairopango to size and render internationalized text, so there really is no royal road, though you can still build graphviz with a less expansive set of drivers that rely on libgd, freetype and fontconfig. 
+<!-- Do not remove this comment or make any web server edits below this comment -->
