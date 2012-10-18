@@ -131,5 +131,3 @@ foreach {package platforms} $packages_platforms {
 puts $fout "</table>"
 	
 close $fout
-<!-- Do not remove this comment or make any web server edits above this comment -->
-<!-- Do not remove this comment or make any web server edits below this comment -->
