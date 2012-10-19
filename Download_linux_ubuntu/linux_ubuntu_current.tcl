@@ -91,6 +91,8 @@ set fout [open Download_linux_ubuntu.ht w]
 puts $fout {
 <!-- cut1 -->
 <!-- Do not remove this comment or make any web server edits above this comment -->
+<p><font size="+1">A development snapshot can be downloaded from launchpad.net and thereafter updated using the 'sudo apt-get update' command.  Instructions for using Launchpad are found <a href="https://launchpad.net/~gviz-adm/+archive/graphviz-dev">here</a>.</font></p>
+
 <!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
