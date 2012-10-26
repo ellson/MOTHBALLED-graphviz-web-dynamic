@@ -25,11 +25,13 @@ set platforms {
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
 proc checkdate {fnv} {
     global time_cutoff
+puts stderr "fnv: $fnv"
     set color blue
     foreach {fn v} $fnv {break}
     set lst [split $v {-.}]
     if {[llength $lst] >= 5} {
         foreach {. . dt tm td .} $lst {break}
+puts stderr "dt: $dt tm: $tm td: $td"
         set time_stamp [clock scan "00:00:00 [string range $dt 0 3]-${tm}-${td}" -gmt 1]
         if {$time_stamp < $time_cutoff} {
             set color red
