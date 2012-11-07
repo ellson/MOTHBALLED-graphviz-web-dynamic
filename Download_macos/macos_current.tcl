@@ -87,6 +87,8 @@ puts $fout {
 <p>If you encounter problems with old PPC or early Intel Macs, you'll probably have to build from source using 
 <a href="http://mxcl.github.com/homebrew/">homebrew</a> or <a href="http://www.macports.org/">macports</a>.
 Some notes: 1) graphviz-gui (Graphviz.app) is a separate package in macports, and seems to be optional in homebrew. 2) Beware, if you do not already have packages like cairopango, ghostscript, and the GNU/X11 libraries needed to support gtk2, then it can take a long time, maybe hours, to build the default package with all the drivers.  We rely on cairopango to size and render internationalized text, so there really is no royal road, though you can still build graphviz with a less expansive set of drivers that rely on libgd, freetype and fontconfig. 
+<p><b>Note</b>: 2.28 is the last binary package provided for the Leopard version of OSX. If you need a version later than that, you will need to build it from
+source or use something like macports.
 <!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
