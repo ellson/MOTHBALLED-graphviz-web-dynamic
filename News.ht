@@ -1,3 +1,21 @@
+            <h4>New features (November 2012)</h4>
+            <p>We have provided Graphviz with some additional graphics, which can be used to provide more semantic information
+in a graph or enhance its aesthetics. These include <a href="http://www.graphviz.org/content/attrs#kstyle">gradient fill</a> 
+for nodes and graphs; <a href="http://www.graphviz.org/content/attrs#kstyle">striped and wedged fills</a>, so the amount
+of each color can be used to represent some percentage; <a href="http://www.graphviz.org/content/node-shapes">new node shapes</a> 
+pertinent to the synthetic biology community (Thanks to Jenny Cheng); and curved edge routing.
+            <table width="80%" align="centered">
+                <tr>
+                <td align="center"><img width="160" alt="" src="News/gradient.png" /> </td>
+                <td align="center"><img width="160" alt="" src="News/striped-wedges.png" /> </td>
+                <td align="center"><img width="320" alt="" src="News/curved.png" /> </td>
+                </tr>
+                <tr>
+                <td align="center">Linear and radial gradient fills</td>
+                <td align="center">Wedged and striped fills</td>
+                <td align="center">Curved edges</td>
+                </tr>
+            </table>
             <h4>New features (September 2011)</h4>
             <p>We added lightweight edge labels (<a href="http://www.graphviz.org/doc/info/attrs.html#d:xlabel">xlabel</a>) and tapered edges (as a <a href="http://www.graphviz.org/doc/info/attrs.html#k:style">style</a>).  There was a recent <a href="http://www.lri.fr/~isenberg/publications/papers/Holten_2011_AEP.pdf">paper</a> by Holten et al about a study of the readability of various edge styles. We're working on some examples and documentation. Here are some examples. (We need a better example for xlabels, because they can float, and aren't stuck to the upper left of the node.)</p>
             <p><a target="_blank" href="http://www.graphviz.org/pub/tmp/images/tapered-edge.png"><img alt="inset of example diagram with tapered edges" src="http://www.graphviz.org/pub/tmp/images/tapered-edge-inset.png" /></a><img width="330" height="300" alt="example of Petersen graph diagrams with point nodes and floating node labels" src="http://www.graphviz.org/pub/tmp/images/Petersen-xlabel.png" /></p>
