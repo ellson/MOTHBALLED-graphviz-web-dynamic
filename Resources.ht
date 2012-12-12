@@ -1,4 +1,4 @@
-				<p>These are some representative external resources. The list includes tools that complement Graphviz, such as graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites that rely on Graphviz as a visualization service. You can also find Graphviz-related projects in <a href="http://code.google.com/hosting/search?q=graphviz" target="_blank">Google Code</a>. Please <a href="mailto:erg@graphviz.org">send us</a> suggestions for additions to this list. <!-- very little action here lately
+				<p>These are some representative external resources. The list includes tools that complement Graphviz, such as graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites that rely on Graphviz as a visualization service. You can also find Graphviz-related projects in <a href="http://code.google.com/hosting/search?q=graphviz" target="_blank">Google Code</a>. Please <a href="mailto:erg@graphviz.org">send us</a> suggestions for additions to this list with, if possible, a recommendation as to appropriate category for the resource. <!-- very little action here lately
 
 <a href="http://c2.com/cgi/wiki?Graphviz">Graphviz Wiki Web</a>
 
@@ -7,6 +7,8 @@
 					<a name="graphical-interfaces">Graphical Interfaces</a></h4>
 				<p>Interactive viewers.</p>
 				<ul>
+					<li>
+						<a href="https://github.com/goinnn/jquery.graphviz">jQuery.Graphviz</a>, A jQuery based interactive graph viewer for graphviz svg [Sebastian Daniel]</li>
 					<li>
 						<a href="http://wiki.eclipse.org/Zest/DOT">Eclipse Zest/DOT</a>, an Eclipse Zest 2.0 component that can be used to render and edit DOT graphs [Fabian Steeg]</li>
 					<li>
@@ -142,8 +144,9 @@
 				<h4>
 					<a name="generators-and-translators">Generators and Translators</a></h4>
 				<p>Filters that transform other data sources and formats into Graphviz.</p>
-				<p>&nbsp;</p>
 				<ul>
+					<li>
+						<a href="http://drupal.org/project/graphapi/">Graph API</a>, a Drupal graph generation module with Graphviz Dot output capabilities. [Sebastian Daniel]</li>
 					<li>
 						<a href="http://schemaspy.sourceforge.net/">SchemaSpy</a> analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables [John Currier]</li>
 					<li>
@@ -397,6 +400,7 @@ but any domain can be graphed [Mike Zick]
 				<p><br />
 					<br />
 					&nbsp;</p>
+				<br />
 				<br />
 				<br />
 				<br />
