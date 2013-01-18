@@ -1,46 +1,42 @@
-            <p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Search the graphviz-interest list archives:</td>
-                        <td>
-                        <form action="http://www.google.com/search" method="get">
-                            <input type="text" value="" maxlength="255" size="50" name="q" />       <input type="submit" value="Search" name="sa" /><input type="hidden" value="graphviz-interest" name="as_q" />       <input type="hidden" value="mailman.research.att.com" name="domains" />       <input type="hidden" value="mailman.research.att.com" name="sitesearch" />
-                        </form>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Search the graphviz-devel list archives:</td>
-                        <td>
-                        <form action="http://www.google.com/search" method="get">
-                            <input type="text" value="" maxlength="255" size="50" name="q" />       <input type="submit" value="Search" name="sa" /><input type="hidden" value="graphviz-devel" name="as_q" />       <input type="hidden" value="mailman.research.att.com" name="domains" />       <input type="hidden" value="mailman.research.att.com" name="sitesearch" />
-                        </form>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Search the graphviz site:</td>
-                        <td>
-                        <form action="http://www.google.com/search" method="get">
-                            <input type="text" value="" maxlength="255" size="50" name="q" />       <input type="submit" value="Search" name="sa" />       <input type="hidden" value="www.graphviz.org" name="domains" />       <input type="hidden" value="www.graphviz.org" name="sitesearch" />
-                        </form>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Search the web for graphviz-related content:</td>
-                        <td>
-                        <form action="http://www.google.com/search" method="get">
-                            <input type="text" value="" maxlength="255" size="50" name="q" /> <input type="hidden" value="graphviz" name="as_q" />       <input type="submit" value="Search" name="sa" />
-                        </form>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Visit the full <a target="_blank" href="https://mailman.research.att.com/pipermail/graphviz-interest/">graphviz-interest</a> and <a target="_blank" href="https://mailman.research.att.com/pipermail/graphviz-devel/">graphviz-devel</a> archives.</td>
-                    </tr>
-                </tbody>
-            </table>
-            </p>
-            <hr />
-            <p>Go to the subscription sign-up and options page for <a target="_blank" href="https://mailman.research.att.com/mailman/listinfo/graphviz-interest"> graphviz-interest list</a> (see also the <a target="_blank" href="https://mailman.research.att.com/mailman/listinfo/graphviz-devel">graphviz-devel</a>&nbsp; list.) <br />
-            <br />
-            <br />
-            <br />
+			<p>&nbsp;</p>
+
+			<table>
+				<tbody>
+					<tr>
+						<td>Search the graphviz-interest list archives:</td>
+						<td>
+						<form action="http://www.google.com/search" method="get"><input maxlength="255" name="q" size="50" type="text" value="" /> <input name="sa" type="submit" value="Search" /><input name="as_q" type="hidden" value="graphviz-interest" /> <input name="domains" type="hidden" value="mailman.research.att.com" /> <input name="sitesearch" type="hidden" value="mailman.research.att.com" />&nbsp;</form>
+						</td>
+					</tr>
+					<tr>
+						<td>Search the graphviz-devel list archives:</td>
+						<td>
+						<form action="http://www.google.com/search" method="get"><input maxlength="255" name="q" size="50" type="text" value="" /> <input name="sa" type="submit" value="Search" /><input name="as_q" type="hidden" value="graphviz-devel" /> <input name="domains" type="hidden" value="mailman.research.att.com" /> <input name="sitesearch" type="hidden" value="mailman.research.att.com" />&nbsp;</form>
+						</td>
+					</tr>
+					<tr>
+						<td>Search the graphviz site:</td>
+						<td>
+						<form action="http://www.google.com/search" method="get"><input maxlength="255" name="q" size="50" type="text" value="" /> <input name="sa" type="submit" value="Search" /> <input name="domains" type="hidden" value="www.graphviz.org" /> <input name="sitesearch" type="hidden" value="www.graphviz.org" />&nbsp;</form>
+						</td>
+					</tr>
+					<tr>
+						<td>Search the web for graphviz-related content:</td>
+						<td>
+						<form action="http://www.google.com/search" method="get"><input maxlength="255" name="q" size="50" type="text" value="" /> <input name="as_q" type="hidden" value="graphviz" /> <input name="sa" type="submit" value="Search" />&nbsp;</form>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">Visit the full <a href="https://mailman.research.att.com/pipermail/graphviz-interest/" target="_blank">graphviz-interest</a> and <a href="https://mailman.research.att.com/pipermail/graphviz-devel/" target="_blank">graphviz-devel</a> archives.</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<hr />
+<!-- 
+			<p>Go to the subscription sign-up and options page for <a href="https://mailman.research.att.com/mailman/listinfo/graphviz-interest" target="_blank"> graphviz-interest list</a> (see also the <a href="https://mailman.research.att.com/mailman/listinfo/graphviz-devel" target="_blank">graphviz-devel</a>&nbsp; list.)<br />
+ -->
+			<br />
+			<br />
+			<br />
+			<br />
