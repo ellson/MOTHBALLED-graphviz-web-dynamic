@@ -9,7 +9,7 @@
 			<p>Interactive viewers.</p>
 
 			<ul>
-				<li><a href="https://github.com/goinnn/jquery.graphviz">jQuery.Graphviz</a>, A jQuery based interactive graph viewer for graphviz svg [Sebastian Daniel]</li>
+				<li><a href="https://github.com/goinnn/jquery.graphviz">jQuery.Graphviz</a>, A jQuery based interactive graph viewer for graphviz svg [Pablo Mart&iacute;n]</li>
 				<li><a href="http://wiki.eclipse.org/Zest/DOT">Eclipse Zest/DOT</a>, an Eclipse Zest 2.0 component that can be used to render and edit DOT graphs [Fabian Steeg]</li>
 				<li><a href="http://code.google.com/p/nodeviz/">NodeViz</a>, a framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients [Greg Michalec and Skye Bender-deMoll]</li>
 				<li><a href="http://www.graphspe.com/#/Home" target="_blank">GraphSpe</a>, includes a converter for Microsoft Silverlight Xaml (SVG based) [Ceyhun Ciper]</li>
@@ -258,6 +258,7 @@ but any domain can be graphed [Mike Zick]
 			<p><br />
 			<br />
 			&nbsp;</p>
+			<br />
 			<br />
 			<br />
 			<br />
