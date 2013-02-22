@@ -146,12 +146,4 @@ puts $fout "<br>(The \"fedora 8\" define is a hack to cause the spec to omit .la
 puts $fout "<p>For rhel6/centos6, the gtkglext packages are provided by the base repo, and the gtkglarea2 packages are provided by the <a href=\"http://fedoraproject.org/wiki/EPEL\">EPEL</a> repo."  
 	
 close $fout
-<!-- Do not remove this comment or make any web server edits above this comment -->
-            <h4>Yum Repository</h4>
-            The easiest way to install and maintain graphviz on RHEL or CentOS is to use <code>yum</code>. To set up yum, download the <a href="graphviz-rhel.repo">graphviz-rhel.repo</a> file and save it (as root) in <code>/etc/yum.repos.d/</code>
-<br>Then you can (as root) type:<br>
-            <pre>
-        yum list available 'graphviz*'
-        yum install 'graphviz*'
-</pre>
-<!-- Do not remove this comment or make any web server edits below this comment -->
+
