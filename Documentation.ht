@@ -21,7 +21,8 @@
                     <li><a target="_blank" href="/pdf/leftyguide.pdf">lefty</a></li>
                     <li><a target="_blank" href="/pdf/dottyguide.pdf">dotty</a></li>
                     <li><a target="_blank" href="/pdf/cgraph.3.pdf" style="width: 160px;">Cgraph library tutorial</a></li>
-                    <li><a target="_blank" href="/doc/libguide/libguide.pdf" style="width: 160px;">Using Graphviz as a library</a></li>
+                    <li><a target="_blank" href="/doc/libguide/libguide.pdf" style="width: 260px;">Using Graphviz as a library</a></li>
+                    <li><a target="_blank" href="/pdf/oldlibguide.pdf" style="width: 160px;"> - pre-2.30 version</a></li>
                 </ul>
                 </li>
                 <li><span class="gv_navheadone">Manual pages</span>
