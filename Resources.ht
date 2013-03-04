@@ -117,6 +117,7 @@
 			<h4><a name="network-and-web">Network and Web Engineering Tools Using Graphviz</a></h4>
 
 			<ul>
+				<li><a href="http://dnsviz.net/">DNSViz</a>, a DNS visualization tool</li>
 				<li><a href="http://www.hokstad.com/traceviz-visualizing-traceroute-output-with-graphivz.html">TraceViz</a> Traceroute visualization with sharp-looking SVG styles [Vidar Hokstad]</li>
 				<li><a href="http://afterglow.sourceforge.net/">afterglow</a> is a collection of scripts to generate graphs for Graphviz (and LGL), from various network logs and firewall rulesets [Raffael Marty] (see also <a href="http://dev.inversepath.com/trac/tenshi">tenshi</a> for logfile filtering)</li>
 				<li><a href="http://sourceforge.net/projects/safemap">SMART</a> passive network flow visualization tool [Cisco&#39;s Critical Infrastructure Assurance Group (CIAG) Research team]</li>
@@ -258,6 +259,7 @@ but any domain can be graphed [Mike Zick]
 			<p><br />
 			<br />
 			&nbsp;</p>
+			<br />
 			<br />
 			<br />
 			<br />
