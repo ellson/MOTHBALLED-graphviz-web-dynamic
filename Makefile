@@ -67,7 +67,7 @@ Download..php:
 #  http://www.graphviz.org/pdf requires graphviz-doc to be installed 
 .IGNORE: pdf
 pdf:
-	cp -rf /usr/share/doc/graphviz-doc-*/pdf/* /home/graphviz/myhttpd/html/pdf/
+#	cp -rf /usr/share/doc/graphviz-doc-*/pdf/* /home/graphviz/myhttpd/html/pdf/
 	
 #  http://www.graphviz.org/doc requires graphviz-doc to be installed 
 .IGNORE: doc

@@ -23,3 +23,5 @@ cd /home/graphviz/graphviz-web/webupdate;
 ./convert_and_upload;
 #
 
+./update_pdf.sh
+
