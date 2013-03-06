@@ -9,9 +9,6 @@ do
 done
 
 
-
-
-
 #echo $file_list
 
 tar xzf $source_file $file_list
