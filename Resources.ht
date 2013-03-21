@@ -96,6 +96,7 @@
 
 			<ul>
 				<li><a href="http://drupal.org/project/graphapi/">Graph API</a>, a Drupal graph generation module with Graphviz Dot output capabilities. [Sebastian Daniel]</li>
+				<li><a href="http://peter-lind.se/hassemanager/index.htm">HasseManager</a> for Hasse diagram construction and mining [Peter Lind]</li>
 				<li><a href="http://schemaspy.sourceforge.net/">SchemaSpy</a> analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables [John Currier]</li>
 				<li><a href="http://www.worldcat.org/xissn/titlehistory">WorldCat xISSN</a> shows the history of a journal indexed by ISSN [OCLC Online Computer Library Center, Inc.]</li>
 				<li><a href="http://www.softwaresecretweapons.com/jspwiki/linguinemaps">Linguine Maps</a> visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming (examples <a href="http://www.softwaresecretweapons.com/jspwiki/howtouselinguinemapsjavaapi">here</a>) [Pavel Simakov]</li>
@@ -259,6 +260,7 @@ but any domain can be graphed [Mike Zick]
 			<p><br />
 			<br />
 			&nbsp;</p>
+			<br />
 			<br />
 			<br />
 			<br />
