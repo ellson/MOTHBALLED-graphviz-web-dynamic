@@ -1,95 +1,94 @@
-<h1 class="rteleft"><strong>Welcome to Graphviz</strong></h1>
-<p>&nbsp;<small>
-<strong>Available translations:</strong>
-<a href="http://www.movavi.com/opensource/graphviz-be" target="_blank">Belorussian</a>,
-<a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>,
-<a href="http://www.portablecomponentsforall.com/edu/graphviz-about-ru/" target="_blank">Russian</a>,
-<a href="ru_translation.rtf" target="_blank">Russian (more natural?)</a> <!-- from  andreev.yurij@gmail.com -->
-<a href="http://science.webhostinggeeks.com/graficka-vizualizacija" target="_blank">Serbo-Croation</a> <!-- from  andreev.yurij@gmail.com -->
-</small>
-</p>
-<table cellspacing="1" cellpadding="1" border="0" align="left">
-    <tbody>
-        <tr>
-            <td valign="top">
-            <h2 class="rteleft"><strong>What is Graphviz?</strong></h2>
-            Graphviz is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,&nbsp; software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.</td>
-            <td valign="top" rowspan="6">&nbsp;<img width="150" height="289" align="left" src="/Gallery/directed/cluster.png" alt="Cluster" /></td>
-        </tr>
-        <tr>
-            <td>
-            <h2 class="rteleft"><strong>Features</strong></h2>
-            The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages, PDF or Postscript for inclusion in other documents; or display in an interactive graph browser. (Graphviz also supports GXL, an XML dialect.)&nbsp; Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, rolland custom shapes.</td>
-        </tr>
-        <tr>
-            <td valign="top">&nbsp;
-            <table width="100%" cellspacing="1" cellpadding="1" border="0" align="left">
-                <tbody>
-                    <tr>
-                        <td>
-                        <h2 class="rteleft"><strong>Roadmap</strong></h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <table width="100%" cellspacing="0" cellpadding="10" border="0" align="left">
-                            <tbody>
-                                <tr>
-                                    <td valign="top"><strong>dot</strong></td>
-                                    <td valign="top">&quot;hierarchical&quot; or layered drawings of directed graphs. This is the default tool to use if edges have directionality.</td>
-                                </tr>
-                                <tr>
-                                    <td valign="top"><strong>neato</strong></td>
-                                    <td valign="top">&quot;spring model'' layouts.&nbsp; This is the default tool to use if the graph is not too large (about 100 nodes) and you don't know anything else about it. Neato attempts to minimize a global energy function, which is equivalent to statistical multi-dimensional scaling.</td>
-                                </tr>
-                                <tr>
-                                    <td valign="top"><strong>fdp</strong></td>
-                                    <td valign="top">&quot;spring model'' layouts similar to those of neato, but does this by reducing forces rather than working with energy.</td>
-                                </tr>
-                                <tr>
-                                    <td valign="top"><strong>sfdp</strong></td>
-                                    <td valign="top">multiscale version of fdp for the layout of large graphs.</td>
-                                </tr>
-                                <tr>
-                                    <td valign="top"><strong>twopi</strong></td>
-                                    <td valign="top">radial layouts, after Graham Wills 97. Nodes are placed on concentric circles depending their distance from a given root node.</td>
-                                </tr>
-                                <tr>
-                                    <td valign="top"><strong>circo</strong></td>
-                                    <td valign="top">circular layout, after Six and Tollis 99, Kauffman and Wiese 02. This is suitable for certain diagrams of multiple cyclic structures, such as certain telecommunications networks.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <h2 class="rteleft"><strong>Download</strong></h2>
-            <p>The current release of Graphviz can be downloaded here: <a href="/Download.php">Download</a></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <h2 class="rteleft"><strong>Documentation</strong></h2>
-            <p>Documentation is available in the released package and from here: <a href="Documentation.php">Documentation</a></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <h2 class="rteleft"><strong>Wiki</strong></h2>
-            <p>There is a <a href="/wiki/wiki-main-page">wiki main page</a> for registered users that explains how to create a new page and add formatting and links.</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <h2 class="rteleft"><strong>Bug And Issue Tracking</strong></h2>
-            Reported Graphviz bugs and issues may be viewed by visiting the <a href="mantisbt/login.php" target="_blank">Issue Tracker</a>.<br />
-            If you are a registered Graphviz user, you may also report bugs and issues that you are aware of. Search for the issue you would like to report before hand&nbsp; in order to avoid duplicate entries.</td>
-        </tr>
-    </tbody>
-</table>
-<h2>&nbsp;</h2> 
+			<h1 class="rteleft"><strong>Welcome to Graphviz</strong></h1>
+
+			<p>&nbsp;<small> <strong>Available translations:</strong>&nbsp; <a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>, <a href="http://www.portablecomponentsforall.com/edu/graphviz-about-ru/" target="_blank">Russian</a>, <a href="ru_translation.rtf" target="_blank">Russian (more natural?)</a> <!-- from  andreev.yurij@gmail.com --> <a href="http://science.webhostinggeeks.com/graficka-vizualizacija" target="_blank">Serbo-Croation</a> <!-- from  andreev.yurij@gmail.com --> </small></p>
+
+			<table align="left" border="0" cellpadding="1" cellspacing="1">
+				<tbody>
+					<tr>
+						<td valign="top">
+						<h2 class="rteleft"><strong>What is Graphviz?</strong></h2>
+						Graphviz is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,&nbsp; software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.</td>
+						<td rowspan="6" valign="top">&nbsp;<img align="left" alt="Cluster" height="289" src="/Gallery/directed/cluster.png" width="150" /></td>
+					</tr>
+					<tr>
+						<td>
+						<h2 class="rteleft"><strong>Features</strong></h2>
+						The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages, PDF or Postscript for inclusion in other documents; or display in an interactive graph browser. (Graphviz also supports GXL, an XML dialect.)&nbsp; Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, rolland custom shapes.</td>
+					</tr>
+					<tr>
+						<td valign="top">&nbsp;
+						<table align="left" border="0" cellpadding="1" cellspacing="1" width="100%">
+							<tbody>
+								<tr>
+									<td>
+									<h2 class="rteleft"><strong>Roadmap</strong></h2>
+									</td>
+								</tr>
+								<tr>
+									<td>
+									<table align="left" border="0" cellpadding="10" cellspacing="0" width="100%">
+										<tbody>
+											<tr>
+												<td valign="top"><strong>dot</strong></td>
+												<td valign="top">&quot;hierarchical&quot; or layered drawings of directed graphs. This is the default tool to use if edges have directionality.</td>
+											</tr>
+											<tr>
+												<td valign="top"><strong>neato</strong></td>
+												<td valign="top">&quot;spring model&#39;&#39; layouts.&nbsp; This is the default tool to use if the graph is not too large (about 100 nodes) and you don&#39;t know anything else about it. Neato attempts to minimize a global energy function, which is equivalent to statistical multi-dimensional scaling.</td>
+											</tr>
+											<tr>
+												<td valign="top"><strong>fdp</strong></td>
+												<td valign="top">&quot;spring model&#39;&#39; layouts similar to those of neato, but does this by reducing forces rather than working with energy.</td>
+											</tr>
+											<tr>
+												<td valign="top"><strong>sfdp</strong></td>
+												<td valign="top">multiscale version of fdp for the layout of large graphs.</td>
+											</tr>
+											<tr>
+												<td valign="top"><strong>twopi</strong></td>
+												<td valign="top">radial layouts, after Graham Wills 97. Nodes are placed on concentric circles depending their distance from a given root node.</td>
+											</tr>
+											<tr>
+												<td valign="top"><strong>circo</strong></td>
+												<td valign="top">circular layout, after Six and Tollis 99, Kauffman and Wiese 02. This is suitable for certain diagrams of multiple cyclic structures, such as certain telecommunications networks.</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<h2 class="rteleft"><strong>Download</strong></h2>
+
+						<p>The current release of Graphviz can be downloaded here: <a href="/Download.php">Download</a></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<h2 class="rteleft"><strong>Documentation</strong></h2>
+
+						<p>Documentation is available in the released package and from here: <a href="Documentation.php">Documentation</a></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<h2 class="rteleft"><strong>Wiki</strong></h2>
+
+						<p>There is a <a href="/wiki/wiki-main-page">wiki main page</a> for registered users that explains how to create a new page and add formatting and links.</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<h2 class="rteleft"><strong>Bug And Issue Tracking</strong></h2>
+						Reported Graphviz bugs and issues may be viewed by visiting the <a href="mantisbt/login.php" target="_blank">Issue Tracker</a>.<br />
+						If you are a registered Graphviz user, you may also report bugs and issues that you are aware of. Search for the issue you would like to report before hand&nbsp; in order to avoid duplicate entries.</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<h2>&nbsp;</h2>
+			<br />
