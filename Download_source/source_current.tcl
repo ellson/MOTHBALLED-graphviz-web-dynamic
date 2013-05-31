@@ -130,7 +130,7 @@ hg clone http://hg.research.att.com/graphviz<br>
 </td></tr>
 <tr><td align=left>
 <br><b>Stable release:&nbsp;</b>
-hg clone http://hg.research.att.com/graphviz_28<br>
+hg clone http://hg.research.att.com/graphviz_30<br>
 </td></tr>
 <tr><td>&nbsp;<br></td></tr>
 </table>
