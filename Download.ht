@@ -74,7 +74,7 @@
 
 <p><strong>Other Unix</strong><br />
 <a href="http://www.freshports.org/graphics/graphviz/">FreeBSD</a><br />
-<a href="http://www.genunix.org/wiki/index.php/Graphviz">Solaris</a></p>
+Solaris</p>
 
 <p>&nbsp;</p>
 
@@ -87,6 +87,7 @@
 <h3><a href="Misc/spline-o-matic/">Spline-o-matic</a> distribution</h3>
 
 <p><a href="Misc/spline-o-matic/splino.tgz">Source code</a> for a reusable spline path router library and Tcl/Tk GUI (experts only).<br />
+<br />
 <br />
 <br />
 <br />
