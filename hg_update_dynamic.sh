@@ -1,5 +1,6 @@
 OUTPUT=output_dynamic_html
 cd /home/graphviz/graphviz-web
+> $OUTPUT
 hg commit -m "Added website changes"  >> $OUTPUT 2>&1
 # Get changes made by other users
 hg pull  >> $OUTPUT 2>&1
