@@ -1,12 +1,9 @@
 #! /bin/bash
-echo 1
 #changes to database name and password go here
 dbconnect="mysql -uroot -pgraphviz2011 -D graphviz_git"
 srcfiles="/home/graphviz/myhttpd_git/html/doc/info"
-echo 2
 for doc in arrows attrs colors command lang output shapes
 do
-echo $doc
 	#Convert html links to those appropriate for the current website
 	#Update the website database with the web page
 	./convert_${doc} ${srcfiles}
