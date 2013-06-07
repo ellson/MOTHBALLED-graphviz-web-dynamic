@@ -13,7 +13,7 @@
 
 <h3>Source Code</h3>
 
-<p><a href="Download_source.php">Source code</a> for the latest stable and development versions of Graphviz are available, along with instructions for anonymous access to the sources in <a href="http://mercurial.selenic.com/">Mercurial</a>. Also see build <a href="/doc/build.html">notes</a>.</p>
+<p><a href="Download_source.php">Source code</a> for the latest stable and development versions of Graphviz are available, along with instructions for anonymous access to the sources in <a href="http://git-scm.com//">Git</a>. Also see build <a href="/doc/build.html">notes</a>.</p>
 
 <p><a href="/doc/winbuild.html">Notes</a> on how to build Graphviz on Windows. <strong>N.B.</strong> Except in rare cases, such as a desire to modify the core Graphviz code, there is no need to build Graphviz on Windows from source. We strongly recommend that one should just install one of the available binary packages from <a href="Download_windows.php">here</a>. If you insist, we will answer questions but basically you are on your own.</p>
 
