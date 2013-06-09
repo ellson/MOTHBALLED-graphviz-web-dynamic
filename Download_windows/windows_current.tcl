@@ -99,6 +99,9 @@ privileges. You have to run
 </PRE>
 <p>
 from a command prompt.
+<p>
+<b>Graphviz 2.30</b>: The msi installer is again causing problems with
+the PATH variable. We hope to have this fixed shortly.
 <!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
