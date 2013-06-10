@@ -126,7 +126,7 @@ puts $fout {
 <tr><th align="left"><br>Access Graphviz with Git SCM</th></tr>
 <tr><td align=left>
 <br><b>Development release:&nbsp;</b>
-git clone http://hg.research.att.com/graphviz_git/ graphviz<br>
+git clone http://hg.research.att.com/graphviz_dev/ graphviz<br>
 </td></tr>
 <tr><td align=left>
 <br><b>Stable release:&nbsp;</b>
