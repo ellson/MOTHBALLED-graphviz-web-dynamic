@@ -1,10 +1,15 @@
-				<h2>
-					Graph Visualization</h2>
-				Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics, &nbsp;software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.
-				<p>Graphviz is open source graph visualization software. It has several main layout programs. See the <a href="Gallery.php">gallery</a> for sample layouts. It also has web and interactive graphical interfaces, and auxiliary tools, libraries, and language bindings. We&#39;re not able to put a lot of work into GUI editors but there are quite a few&nbsp;external projects and even commercial tools that incorporate Graphviz. You can find some of these in the Resources section.</p>
-				<p>The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages, PDF or Postscript for inclusion in other documents; or display in an interactive graph browser. (Graphviz also supports GXL, an XML dialect.)</p>
-				<p>Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, rolland custom shapes.</p>
-				<p>In practice, graphs are usually generated from an external data sources, but they can also be created and edited manually, either as raw text files or within a graphical editor. (Graphviz was not intended to be a Visio replacement, so it is probably frustrating to try to use it that way.) <!--
+
+<h2>Graph Visualization</h2>
+
+<p>Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics, &nbsp;software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.</p>
+
+<p>Graphviz is open source graph visualization software. It has several main layout programs. See the <a href="Gallery.php">gallery</a> for sample layouts. It also has web and interactive graphical interfaces, and auxiliary tools, libraries, and language bindings. We&#39;re not able to put a lot of work into GUI editors but there are quite a few&nbsp;external projects and even commercial tools that incorporate Graphviz. You can find some of these in the Resources section.</p>
+
+<p>The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages, PDF or Postscript for inclusion in other documents; or display in an interactive graph browser. (Graphviz also supports GXL, an XML dialect.)</p>
+
+<p>Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, rolland custom shapes.</p>
+
+<p>In practice, graphs are usually generated from an external data sources, but they can also be created and edited manually, either as raw text files or within a graphical editor. (Graphviz was not intended to be a Visio replacement, so it is probably frustrating to try to use it that way.) <!--
 <h2>The Dynagraph saga</h2>
 Graphviz is actively maintained and improved, but from 1996-2003
 the Graphviz team (particularly Gordon Woodhull) also worked on
@@ -25,79 +30,34 @@ to keep Montage working with all the different versions of
 Windows and Office programs, has brought us to the point that
 we need to change directions and find a new strategy for this work.
 --></p>
-				<p>&nbsp;</p>
-				<h2>
-					Roadmap</h2>
-				<center>
-					<table>
-						<tbody>
-							<tr>
-								<!-- <a href="/cgi-bin/man?dot">dot</a> -->
-								<td width="800">
-									<b>dot</b> - ``hierarchical&#39;&#39; or layered drawings of directed graphs. This is the default tool to use if edges have directionality. dot aims edges in the same direction (top to bottom, or left to right) and then attempts to avoid edge crossings and reduce edge length.</td>
-								<td align="center">
-									<a href="Gallery/directed/cluster.html"><img align="top" alt="" border="0" src="Gallery/directed/cluster.small.png" /> </a></td>
-							</tr>
-							<tr>
-								<td width="800">
-									<b>neato</b> - ``spring model&#39;&#39; layouts. &nbsp;This is the default tool to use if the graph is not too large (about 100 nodes) and you don&#39;t know anything else about it.&nbsp;Neato attempts to minimize a global energy function, which is equivalent to statistical multi-dimensional scaling. The solution is achieved using stress majorization, though the older Kamada-Kawai algorithm, using steepest descent, is also available. fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.</td>
-								<td align="center">
-									<a href="Gallery/undirected/ER.html"><img align="top" alt="" border="0" src="Gallery/undirected/ER.small.png" /> </a></td>
-							</tr>
-							<tr>
-								<td width="800">
-									<b>fdp</b> - ``spring model&#39;&#39; layouts similar to those of neato, but does this by reducing forces rather than working with energy. Fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.</td>
-								<td align="center">
-									<a href="Gallery/undirected/fdpclust.html"><img align="top" alt="" border="0" src="Gallery/undirected/fdpclust.small.png" /> </a></td>
-							</tr>
-							<tr>
-								<td width="800">
-									<b>sfdp</b> - multiscale version of fdp for the layout of large graphs.</td>
-								<td align="center">
-									<img align="top" alt="" border="0" src="Gallery/undirected/200910_viz_matrix_188w.png" /></td>
-							</tr>
-							<tr>
-								<td width="800">
-									<b>twopi</b> - radial layouts, after Graham Wills 97. Nodes are placed on concentric circles depending their distance from a given root node. You can set the root node, or let twopi do it.</td>
-								<td align="center">
-									<a href="Gallery/twopi/twopi2.html"><img align="top" alt="" border="0" src="Gallery/twopi/twopi2.small.png" /> </a></td>
-							</tr>
-							<tr>
-								<td width="800">
-									<b>circo</b> - circular layout, after Six and Tollis 99, Kauffman and Wiese 02. This is suitable for certain diagrams of multiple cyclic structures, such as certain telecommunications networks.</td>
-								<td align="center">
-									<img align="top" alt="" border="0" src="Gallery/undirected/honda-tokoro.circo.png" /></td>
-							</tr>
-						</tbody>
-					</table>
-				</center>
-				<h2>
-					Viewers</h2>
-				<ul>
-					<li>
-						<a href="http://www.graphviz.org/cgi-bin/man?dotty">dotty</a> - a vintage customizable Unix/X windows viewer that has subsequently been ported to Microsoft Windows.</li>
-					<li>
-						<a href="http://www.graphviz.org/cgi-bin/man?tcldot">tcldot</a> - a TCL/TK scripting language extension for Graphviz</li>
-					<li>
-						<a href="/webdot/">WebDot</a> - a tcldot scripted WWW service for graphs in HTML documents.
-						<p>There is also <a href="/Misc/webdot.pl">a simplified version</a> written in perl.</p>
-					</li>
-					<li>
-						<a href="http://www.research.att.com/~john/Grappa/">Grappa</a> - a Java package for graphs with full Java graph data structures</li>
-					<li>
-						<a href="http://zvtm.sourceforge.net/zgrviewer.html">ZGRViewer</a> - an SVG-based zooming graph viewer for large graphs.</li>
-					<li>
-						<a href="http://www.pixelglow.com/graphviz/">Mac OS X graphviz</a></li>
-					<li>
-						smyrna - a prototype OpenGL viewer</li>
-				</ul>
-				<h2>
-					Filters</h2>
-				<ul>
-					<li>
-						gvpr is a general purpose graph stream editor, in the spirit of awk, sed (or think of perl if you don&#39;t know those).</li>
-				</ul>
-				<!--
+
+<p>&nbsp;</p>
+
+<h2>Roadmap</h2>
+<!-- <a href="/cgi-bin/man?dot">dot</a> -->
+
+<p><strong>dot</strong> - ``hierarchical&#39;&#39; or layered drawings of directed graphs. This is the default tool to use if edges have directionality. dot aims edges in the same direction (top to bottom, or left to right) and then attempts to avoid edge crossings and reduce edge length.<a href="Gallery/directed/cluster.html"><img alt="" src="Gallery/directed/cluster.small.png" /> </a><strong>neato</strong> - ``spring model&#39;&#39; layouts. &nbsp;This is the default tool to use if the graph is not too large (about 100 nodes) and you don&#39;t know anything else about it.&nbsp;Neato attempts to minimize a global energy function, which is equivalent to statistical multi-dimensional scaling. The solution is achieved using stress majorization, though the older Kamada-Kawai algorithm, using steepest descent, is also available. fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.<a href="Gallery/undirected/ER.html"><img alt="" src="Gallery/undirected/ER.small.png" /> </a><strong>fdp</strong> - ``spring model&#39;&#39; layouts similar to those of neato, but does this by reducing forces rather than working with energy. Fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.<a href="Gallery/undirected/fdpclust.html"><img alt="" src="Gallery/undirected/fdpclust.small.png" /> </a><strong>sfdp</strong> - multiscale version of fdp for the layout of large graphs.<img alt="" src="Gallery/undirected/200910_viz_matrix_188w.png" /><strong>twopi</strong> - radial layouts, after Graham Wills 97. Nodes are placed on concentric circles depending their distance from a given root node. You can set the root node, or let twopi do it.<a href="Gallery/twopi/twopi2.html"><img alt="" src="Gallery/twopi/twopi2.small.png" /> </a><strong>circo</strong> - circular layout, after Six and Tollis 99, Kauffman and Wiese 02. This is suitable for certain diagrams of multiple cyclic structures, such as certain telecommunications networks.<img alt="" src="Gallery/undirected/honda-tokoro.circo.png" /></p>
+
+<h2>Viewers</h2>
+
+<ul>
+	<li><a href="http://www.graphviz.org/cgi-bin/man?dotty">dotty</a> - a vintage customizable Unix/X windows viewer that has subsequently been ported to Microsoft Windows.</li>
+	<li><a href="http://www.graphviz.org/cgi-bin/man?tcldot">tcldot</a> - a TCL/TK scripting language extension for Graphviz</li>
+	<li><a href="/webdot/index.html">WebDot</a> - a tcldot scripted WWW service for graphs in HTML documents.
+	<p>There is also <a href="/Misc/webdot.pl">a simplified version</a> written in perl.</p>
+	</li>
+	<li><a href="http://www.research.att.com/~john/Grappa/">Grappa</a> - a Java package for graphs with full Java graph data structures</li>
+	<li><a href="http://zvtm.sourceforge.net/zgrviewer.html">ZGRViewer</a> - an SVG-based zooming graph viewer for large graphs.</li>
+	<li><a href="http://www.pixelglow.com/graphviz/">Mac OS X graphviz</a></li>
+	<li>smyrna - a prototype OpenGL viewer</li>
+</ul>
+
+<h2>Filters</h2>
+
+<ul>
+	<li>gvpr is a general purpose graph stream editor, in the spirit of awk, sed (or think of perl if you don&#39;t know those).</li>
+</ul>
+<!--
 <h2>Generators</h2>
 Many external projects provide filters that translate other formats
 and database into Graphviz format.
@@ -122,19 +82,16 @@ To us it's pretty spiffy, but it hasn't seen much outside interest.
 
 <p>Graphviz provides a collection of tools for manipulating graph structures and generating graph layouts.
 -->
-				<h2>
-					Example applications</h2>
-				<ul>
-					<li>
-						Software documentation: <a href="http://www.graphviz.org/pub/graphviz/development/doxygen/html/structAgedge__t.html">Pretty diagrams</a> automatically generated by <a href="http://www.stack.nl/%7Edimitri/doxygen/index.html">doxygen</a> and <a href="/cgi-bin/man?dot">dot</a>. (From <a href="http://www.graphviz.org/pub/graphviz/development/doxygen/html/index.html">Graphviz source documentation</a>.)</li>
-					<li>
-						WWW Graph Server: For a WWW application of Graphviz, please see <a href="http://www.graphviz.org/webdot/">Webdot</a>.</li>
-					<li>
-						<a href="http://code.google.com/apis/chart/docs/gallery/graphviz.html">Google Charts Graphviz API</a>. Hands across the water!&nbsp;</li>
-					<li>
-						<a href="http://code.google.com/p/canviz/">Canviz</a>, an HTML5 canvas Javascript library.</li>
-				</ul>
-				<!--
+
+<h2>Example applications</h2>
+
+<ul>
+	<li>Software documentation: <a href="http://www.graphviz.org/pub/graphviz/development/doxygen/html/structAgedge__t.html">Pretty diagrams</a> automatically generated by <a href="http://www.stack.nl/%7Edimitri/doxygen/index.html">doxygen</a> and <a href="/cgi-bin/man?dot">dot</a>. (From <a href="http://www.graphviz.org/pub/graphviz/development/doxygen/html/index.html">Graphviz source documentation</a>.)</li>
+	<li>WWW Graph Server: For a WWW application of Graphviz, please see <a href="http://www.graphviz.org/webdot/">Webdot</a>.</li>
+	<li><a href="http://code.google.com/apis/chart/docs/gallery/graphviz.html">Google Charts Graphviz API</a>. Hands across the water!&nbsp;</li>
+	<li><a href="http://code.google.com/p/canviz/">Canviz</a>, an HTML5 canvas Javascript library.</li>
+</ul>
+<!--
 <h2>What tools does it provide?</h2>
 <h3>Programs</h3>
 <dl>
@@ -237,26 +194,32 @@ bezier path between any two points.</dd>
 provided by <b>tkspline</b>.</dd>
 </dl>
 -->
-				<h3>
-					Contacts</h3>
-				If you have a bug or believe something is not working as expected, please submit a bug report using the <a href="http://www.graphviz.org/bugs/bugform.html">form</a>.<br />
-				If you have a general question or are unsure how things work, please consider posting first to the Graphviz <a href="http://www.graphviz.org/MailingList.php">mailing list</a>. We follow the list, but there are also many users who might be able to respond to you better or faster than we can. Please do not send detailed bug reports there.
-				<dl>
-					<dt>
-						<a href="mailto:ellson@graphviz.org">John Ellson</a> (for problems with builds, installation, software configuration or this web server)</dt>
-					<dt>
-						<a href="mailto:erg@graphviz.org">Emden Gansner</a> (for all graph layout issues)</dt>
-					<dt>
-						<a href="mailto:yifanhu@research.att.com">Yifan Hu</a> (to contribute example graphs)</dt>
-					<dt>
-						<a href="mailto:arif@research.att.com">Arif Bilgin</a> (for Windows-related issues)</dt>
-					<dt>
-						&nbsp;</dt>
-					Dwight Perry&nbsp;(for website issues)
-					<dt>
-						&nbsp;</dt>
-				</dl>
-				<br />
-				<br />
-				<br />
-				<br />
+
+<h3>Contacts</h3>
+
+<p>If you have a bug or believe something is not working as expected, please submit a bug report using the <a href="http://www.graphviz.org/bugs/bugform.html">form</a>.<br />
+If you have a general question or are unsure how things work, please consider posting first to the Graphviz <a href="http://www.graphviz.org/MailingList.php">mailing list</a>. We follow the list, but there are also many users who might be able to respond to you better or faster than we can. Please do not send detailed bug reports there.</p>
+
+<p><a href="mailto:ellson@graphviz.org">John Ellson</a> (for problems with builds, installation, software configuration or this web server)</p>
+
+<p><a href="mailto:erg@graphviz.org">Emden Gansner</a> (for all graph layout issues)</p>
+
+<p><a href="mailto:yifanhu@research.att.com">Yifan Hu</a> (to contribute example graphs)</p>
+
+<p><a href="mailto:arif@research.att.com">Arif Bilgin</a> (for Windows-related issues)</p>
+
+<p>&nbsp;</p>
+
+<p>Dwight Perry&nbsp;(for website issues)</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><br />
