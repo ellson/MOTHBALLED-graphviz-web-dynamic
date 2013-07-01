@@ -1,4 +1,5 @@
-</p>
+
+<p>&nbsp;</p>
 
 <h2>Graph Visualization</h2>
 
@@ -39,19 +40,19 @@ we need to change directions and find a new strategy for this work.
 
 <p><strong>dot</strong> - ``hierarchical&#39;&#39; or layered drawings of directed graphs. This is the default tool to use if edges have directionality. dot aims edges in the same direction (top to bottom, or left to right) and then attempts to avoid edge crossings and reduce edge length.</p>
 
-<p><a href="Gallery/directed/cluster.html"><img alt="" src="Gallery/directed/cluster.small.png" style="margin-left:auto; margin-right:auto; display: block;" /> </a></p>
+<p><a href="Gallery/directed/cluster.html"><img alt="" src="Gallery/directed/cluster.small.png" style="display:block; margin-left:auto; margin-right:auto" /> </a></p>
 
 <p><strong>neato</strong> - ``spring model&#39;&#39; layouts. &nbsp;This is the default tool to use if the graph is not too large (about 100 nodes) and you don&#39;t know anything else about it.&nbsp;Neato attempts to minimize a global energy function, which is equivalent to statistical multi-dimensional scaling. The solution is achieved using stress majorization, though the older Kamada-Kawai algorithm, using steepest descent, is also available. fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.</p>
 
-<div><a href="Gallery/undirected/ER.html"><img alt="" src="Gallery/undirected/ER.small.png" /> </a></div>
+<div><a href="Gallery/undirected/ER.html"><img alt="" src="Gallery/undirected/ER.small.png" style="display:block; margin-left:auto; margin-right:auto" /> </a></div>
 
-<p><strong>fdp</strong> - ``spring model&#39;&#39; layouts similar to those of neato, but does this by reducing forces rather than working with energy. Fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.<a href="Gallery/undirected/fdpclust.html"><img alt="" src="Gallery/undirected/fdpclust.small.png" /> </a></p>
+<p><strong>fdp</strong> - ``spring model&#39;&#39; layouts similar to those of neato, but does this by reducing forces rather than working with energy. Fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.<a href="Gallery/undirected/fdpclust.html"><img alt="" src="Gallery/undirected/fdpclust.small.png" style="display:block; margin-left:auto; margin-right:auto" /> </a></p>
 
-<p><strong>sfdp</strong> - multiscale version of fdp for the layout of large graphs.<img alt="" src="Gallery/undirected/200910_viz_matrix_188w.png" /></p>
+<p><strong>sfdp</strong> - multiscale version of fdp for the layout of large graphs.<img alt="" src="Gallery/undirected/200910_viz_matrix_188w.png" style="display:block; margin-left:auto; margin-right:auto" /></p>
 
-<p><strong>twopi</strong> - radial layouts, after Graham Wills 97. Nodes are placed on concentric circles depending their distance from a given root node. You can set the root node, or let twopi do it.<a href="Gallery/twopi/twopi2.html"><img alt="" src="Gallery/twopi/twopi2.small.png" /> </a></p>
+<p><strong>twopi</strong> - radial layouts, after Graham Wills 97. Nodes are placed on concentric circles depending their distance from a given root node. You can set the root node, or let twopi do it.<a href="Gallery/twopi/twopi2.html"><img alt="" src="Gallery/twopi/twopi2.small.png" style="display:block; margin-left:auto; margin-right:auto" /> </a></p>
 
-<p><strong>circo</strong> - circular layout, after Six and Tollis 99, Kauffman and Wiese 02. This is suitable for certain diagrams of multiple cyclic structures, such as certain telecommunications networks.<img alt="" src="Gallery/undirected/honda-tokoro.circo.png" /></p>
+<p><strong>circo</strong> - circular layout, after Six and Tollis 99, Kauffman and Wiese 02. This is suitable for certain diagrams of multiple cyclic structures, such as certain telecommunications networks.<img alt="" src="Gallery/undirected/honda-tokoro.circo.png" style="display:block; margin-left:auto; margin-right:auto" /></p>
 
 <h2>Viewers</h2>
 
@@ -238,5 +239,6 @@ If you have a general question or are unsure how things work, please consider po
 <p>&nbsp;</p>
 
 <p><br />
+<br />
 <br />
 <br />
