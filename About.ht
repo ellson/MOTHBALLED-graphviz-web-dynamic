@@ -1,3 +1,4 @@
+</p>
 
 <h2>Graph Visualization</h2>
 
@@ -36,9 +37,13 @@ we need to change directions and find a new strategy for this work.
 <h2>Roadmap</h2>
 <!-- <a href="/cgi-bin/man?dot">dot</a> -->
 
-<p><strong>dot</strong> - ``hierarchical&#39;&#39; or layered drawings of directed graphs. This is the default tool to use if edges have directionality. dot aims edges in the same direction (top to bottom, or left to right) and then attempts to avoid edge crossings and reduce edge length.<a href="Gallery/directed/cluster.html"><img alt="" src="Gallery/directed/cluster.small.png" /> </a></p>
+<p><strong>dot</strong> - ``hierarchical&#39;&#39; or layered drawings of directed graphs. This is the default tool to use if edges have directionality. dot aims edges in the same direction (top to bottom, or left to right) and then attempts to avoid edge crossings and reduce edge length.</p>
 
-<p><strong>neato</strong> - ``spring model&#39;&#39; layouts. &nbsp;This is the default tool to use if the graph is not too large (about 100 nodes) and you don&#39;t know anything else about it.&nbsp;Neato attempts to minimize a global energy function, which is equivalent to statistical multi-dimensional scaling. The solution is achieved using stress majorization, though the older Kamada-Kawai algorithm, using steepest descent, is also available. fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.<a href="Gallery/undirected/ER.html"><img alt="" src="Gallery/undirected/ER.small.png" /> </a></p>
+<p><a href="Gallery/directed/cluster.html"><img alt="" src="Gallery/directed/cluster.small.png" style="margin-left:auto; margin-right:auto; display: block;" /> </a></p>
+
+<p><strong>neato</strong> - ``spring model&#39;&#39; layouts. &nbsp;This is the default tool to use if the graph is not too large (about 100 nodes) and you don&#39;t know anything else about it.&nbsp;Neato attempts to minimize a global energy function, which is equivalent to statistical multi-dimensional scaling. The solution is achieved using stress majorization, though the older Kamada-Kawai algorithm, using steepest descent, is also available. fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.</p>
+
+<div><a href="Gallery/undirected/ER.html"><img alt="" src="Gallery/undirected/ER.small.png" /> </a></div>
 
 <p><strong>fdp</strong> - ``spring model&#39;&#39; layouts similar to those of neato, but does this by reducing forces rather than working with energy. Fdp implements the Fruchterman-Reingold heuristic including a multigrid solver that handles larger graphs and clustered undirected graphs.<a href="Gallery/undirected/fdpclust.html"><img alt="" src="Gallery/undirected/fdpclust.small.png" /> </a></p>
 
