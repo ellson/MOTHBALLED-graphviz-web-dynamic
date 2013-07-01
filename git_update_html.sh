@@ -8,6 +8,6 @@ tar xpzf html.tgz --atime-preserve 2>> $OUT
 rm html.tgz
 scp -r gviz@hg:doc.tgz . >> $OUT 2>&1
 cd html
-tar xpzf doc.tgz --atime-preserve 2>> $OUT
-rm doc.tgz
+tar xpzf ../doc.tgz --atime-preserve 2>> $OUT
+rm ../doc.tgz
 
