@@ -3,7 +3,19 @@
 
 <p>We have provided Graphviz with some additional graphics, which can be used to provide more semantic information in a graph or enhance its aesthetics. These include <a href="http://www.graphviz.org/content/attrs#kstyle">gradient fill</a> for nodes and graphs; <a href="http://www.graphviz.org/content/attrs#kstyle">striped and wedged fills</a>, so the amount of each color can be used to represent some percentage; <a href="http://www.graphviz.org/content/node-shapes">new node shapes</a> pertinent to the synthetic biology community (Thanks to Jenny Cheng); and curved edge routing.</p>
 
-<p><img alt="" src="News/gradient.png" style="width:160px" /><img alt="" src="News/striped-wedges.png" style="width:160px" /><img alt="" src="News/curved.png" style="width:320px" />Linear and radial gradient fillsWedged and striped fillsCurved edges</p>
+<p><img alt="" class="displayed" src="News/gradient.png" style="display:block; margin-left:auto; margin-right:auto; width:160px" /></p>
+
+<p style="text-align: center">Linear and radial gradient fills</p>
+
+<p><img alt="" class="displayed" src="News/striped-wedges.png" style="display:block; margin-left:auto; margin-right:auto; width:160px" /></p>
+
+<p style="text-align: center">Wedged and striped fills</p>
+
+<p><img alt="" class="displayed" src="News/curved.png" style="display:block; margin-left:auto; margin-right:auto; width:320px" /></p>
+
+<p style="text-align: center">Curved edges</p>
+
+<p>&nbsp;</p>
 
 <h4>New features (September 2011)</h4>
 
@@ -273,3 +285,4 @@ All known memory leaks banished! Rock solid.</p>
 <p>&nbsp;</p>
 
 <p><br />
+<br />
