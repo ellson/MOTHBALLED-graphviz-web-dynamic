@@ -7,9 +7,9 @@
 
 <p>Graphviz is open source graph visualization software. It has several main layout programs. See the <a href="Gallery.php">gallery</a> for sample layouts. It also has web and interactive graphical interfaces, and auxiliary tools, libraries, and language bindings. We&#39;re not able to put a lot of work into GUI editors but there are quite a few&nbsp;external projects and even commercial tools that incorporate Graphviz. You can find some of these in the Resources section.</p>
 
-<p>The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages, PDF or Postscript for inclusion in other documents; or display in an interactive graph browser. (Graphviz also supports GXL, an XML dialect.)</p>
+<p>The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages; PDF or Postscript for inclusion in other documents; or display in an interactive graph browser.</p>
 
-<p>Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, rolland custom shapes.</p>
+<p>Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes.</p>
 
 <p>In practice, graphs are usually generated from an external data sources, but they can also be created and edited manually, either as raw text files or within a graphical editor. (Graphviz was not intended to be a Visio replacement, so it is probably frustrating to try to use it that way.) <!--
 <h2>The Dynagraph saga</h2>
@@ -239,6 +239,7 @@ If you have a general question or are unsure how things work, please consider po
 <p>&nbsp;</p>
 
 <p><br />
+<br />
 <br />
 <br />
 <br />
