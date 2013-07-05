@@ -3,17 +3,24 @@
 
 <p>We have provided Graphviz with some additional graphics, which can be used to provide more semantic information in a graph or enhance its aesthetics. These include <a href="http://www.graphviz.org/content/attrs#kstyle">gradient fill</a> for nodes and graphs; <a href="http://www.graphviz.org/content/attrs#kstyle">striped and wedged fills</a>, so the amount of each color can be used to represent some percentage; <a href="http://www.graphviz.org/content/node-shapes">new node shapes</a> pertinent to the synthetic biology community (Thanks to Jenny Cheng); and curved edge routing.</p>
 
-<p><img alt="" class="displayed" src="News/gradient.png" style="display:block; margin-left:auto; margin-right:auto; margin-top:15px; width:160px" /></p>
+<p>&nbsp;</p>
 
-<p style="text-align: center">Linear and radial gradient fills</p>
-
-<p><img alt="" class="displayed" src="News/striped-wedges.png" style="display:block; margin-left:auto; margin-right:auto; margin-top:15px; width:160px" /></p>
-
-<p style="text-align: center">Wedged and striped fills</p>
-
-<p><img alt="" class="displayed" src="News/curved.png" style="display:block; margin-left:auto; margin-right:auto; margin-top:15px; width:320px" /></p>
-
-<p style="text-align: center">Curved edges</p>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td><img alt="" class="displayed" src="/News/gradient.png" style="display:block; margin-left:auto; margin-right:auto; margin-top:15px; width:160px" /></td>
+			<td><img alt="" class="displayed" src="/News/striped-wedges.png" style="display:block; margin-left:auto; margin-right:auto; margin-top:15px; width:160px" /></td>
+			<td>
+			<p><img alt="" class="displayed" src="/News/curved.png" style="display:block; margin-left:auto; margin-right:auto; margin-top:15px; width:320px" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">Linear and radial gradient fills</td>
+			<td style="text-align:center">Wedged and striped fills</td>
+			<td style="text-align:center">Curved edges</td>
+		</tr>
+	</tbody>
+</table>
 
 <p>&nbsp;</p>
 
@@ -21,7 +28,7 @@
 
 <p>We added lightweight edge labels (<a href="http://www.graphviz.org/doc/info/attrs.html#d:xlabel">xlabel</a>) and tapered edges (as a <a href="http://www.graphviz.org/doc/info/attrs.html#k:style">style</a>). There was a recent <a href="http://www.lri.fr/~isenberg/publications/papers/Holten_2011_AEP.pdf">paper</a> by Holten et al about a study of the readability of various edge styles. We&#39;re working on some examples and documentation. Here are some examples. (We need a better example for xlabels, because they can float, and aren&#39;t stuck to the upper left of the node.)</p>
 
-<p><a href="http://www.graphviz.org/pub/tmp/images/tapered-edge.png" target="_blank"><img alt="inset of example diagram with tapered edges" src="http://www.graphviz.org/pub/tmp/images/tapered-edge-inset.png" /></a><img alt="example of Petersen graph diagrams with point nodes and floating node labels" src="http://www.graphviz.org/pub/tmp/images/Petersen-xlabel.png" style="height:300px; width:330px" /></p>
+<p><a href="http://www.graphviz.org/pub/tmp/images/tapered-edge.png" target="_blank"><img alt="inset of example diagram with tapered edges" src="/News//tapered-edge-inset.png" /></a><img alt="example of Petersen graph diagrams with point nodes and floating node labels" src="/News/Petersen-xlabel.png" style="height:300px; width:330px" /></p>
 
 <h4>New Release 2.28 (Summer 2011)</h4>
 
@@ -66,7 +73,7 @@ methods to formally measure and reduce edge ink, that also allow GPU acceleratio
 
 <h4>Graph Visualization Is Our Brand</h4>
 
-<p><a href="News/Dulles_map_01.pdf"><img alt="" src="http://farm1.static.flickr.com/69/162370394_0c8251d3a5_m.jpg" /> </a> <a href="News/MAP_DC_1157_Lo.jpg" target="_blank"> <img alt="" src="News/MAP_DC_1157_Lo_small.jpg" /> </a> <a href="News/MAP_DC_1168_Lo.jpg" target="_blank"> <img alt="" src="News/MAP_DC_1168_Lo_small.jpg" /> </a><br />
+<p><a href="News/Dulles_map_01.pdf"><img alt="" src="http://farm1.static.flickr.com/69/162370394_0c8251d3a5_m.jpg" /> </a> <a href="News/MAP_DC_1157_Lo.jpg" target="_blank"> <img alt="" src="/News/MAP_DC_1157_Lo_small.jpg" /> </a> <a href="News/MAP_DC_1168_Lo.jpg" target="_blank"> <img alt="" src="/News/MAP_DC_1168_Lo_small.jpg" /> </a><br />
 Dioramas featuring network visualization from our lab were displayed at Washington Dulles airport (click on the airport photo to see locations). Mercury Seattle designed the ads with layouts made by Bill Cheswick. Bill combined tools he wrote at <a href="http://www.lumeta.com" target="_blank">Lumeta</a> and <a href="http://www2.research.att.com/~yifanhu/GALLERY/GRAPHS/" target="_blank">sfdp</a>, a new scalable visualization program by Yifan Hu that is slated for the next main release of Graphviz. Meanwhile, here&#39;s a <a href="News/new1.pdf">pdf</a> for your enjoyment (3.1M).</p>
 
 <h4>Software Visualization of the Graphviz Project</h4>
@@ -93,13 +100,34 @@ Dioramas featuring network visualization from our lab were displayed at Washingt
 
 <h4>Tools built on Graphviz</h4>
 
-<p>You can find great tools and demos in our <a href="http://www.graphviz.org/Resources.php">Resources</a> section. Here&#39;s a sample:<a href="http://www.fauskes.net/code/dot2tex/" target="_blank"><img alt="" src="News/pgf-snakes.png" style="width:160px" /> </a></p>
+<p>You can find great tools and demos in our <a href="http://www.graphviz.org/Resources.php">Resources</a> section. Here&#39;s a sample:</p>
 
-<p><a href="http://zvtm.sourceforge.net/zgrviewer.html" target="_blank"><img alt="" src="News/zgrviewer2_th.png" style="width:160px" /> </a></p>
-
-<p><a href="http://www.canviz.org/" target="_blank"><img alt="" src="News/canviz.png" style="width:160px" /> </a></p>
-
-<p><a href="http://ashitani.jp/gv/" target="_blank"><img alt="" src="News/ajax.png" style="width:160px" /> </a><a href="http://www.fauskes.net/code/dot2tex/" target="_blank">dot2tex </a><a href="http://zvtm.sourceforge.net/zgrviewer.html" target="_blank">zoomable applet </a><a href="http://www.canviz.org/" target="_blank">&quot;canviz&quot; - HTML5 and Javascript </a><a href="http://ashitani.jp/gv/" target="_blank">ajax </a></p>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td style="text-align:center; vertical-align:middle"><a href="http://www.fauskes.net/code/dot2tex/" target="_blank"><img alt="" src="/News/pgf-snakes.png" style="width:160px" /> </a></td>
+			<td>
+			<p><a href="http://www.fauskes.net/code/dot2tex/" target="_blank">&nbsp;</a><a href="http://www.fauskes.net/code/dot2tex/" target="_blank">dot2tex </a></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle">
+			<p><a href="http://zvtm.sourceforge.net/zgrviewer.html" target="_blank"><img alt="" src="/News/zgrviewer2_th.png" style="width:160px" /> </a></p>
+			</td>
+			<td><a href="http://zvtm.sourceforge.net/zgrviewer.html">zoomable applet</a></td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle">
+			<p><a href="http://www.canviz.org/" target="_blank"><img alt="" src="/News/canviz.png" style="width:160px" /> </a></p>
+			</td>
+			<td><a href="http://www.canviz.org/">&quot;canviz&quot; - HTML5 and Javascript</a></td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle"><a href="http://ashitani.jp/gv/" target="_blank"><img alt="" src="/News/ajax.png" style="width:160px" /> </a></td>
+			<td><a href="http://ashitani.jp/gv/">ajax</a></td>
+		</tr>
+	</tbody>
+</table>
 
 <h4><a href="http://sites.google.com/site/johncurrier/" target="_blank">John Currier</a>&#39;s <a href="http://schemaspy.sourceforge.net/" target="_blank">SchemaSpy</a> is runner up as <a href="http://www.oreillynet.com/onjava/blog/2006/04/the_2nd_most_useful_javaoracle.html" target="_blank">O&#39;Reilly&#39;s most useful Java-Oracle tool</a>.</h4>
 
@@ -122,7 +150,7 @@ Dioramas featuring network visualization from our lab were displayed at Washingt
 
 <p>&nbsp;</p>
 
-<p><a href="http://en.wikipedia.org/wiki/Apple_Design_Awards" target="_blank"><img alt="Apple Design Award" src="News/ADA04BestOpenSource_Win_40k.png" /></a></p>
+<p><a href="http://en.wikipedia.org/wiki/Apple_Design_Awards" target="_blank"><img alt="Apple Design Award" src="/News/ADA04BestOpenSource_Win_40k.png" /></a></p>
 
 <p>&nbsp;</p>
 
@@ -130,7 +158,9 @@ Dioramas featuring network visualization from our lab were displayed at Washingt
 
 <p>Pixelglow&#39;s outstanding <a href="http://www.pixelglow.com/graphviz/" target="_blank">adaption</a> of Graphviz 1.12 won two <a href="http://en.wikipedia.org/wiki/Apple_Design_Awards" target="_blank">2004 Apple Design Awards</a>: <strong>Best Mac OS X Open Source Product</strong> and runner up, Best Product New to Mac OS X. The awards were presented at the 2004 <a href="http://developer.apple.com/wwdc/" target="_blank">Apple World Wide Developers Conference</a> at the Moscone Center in San Francisco on June 29. Congratulations to Glen Low and the Graphviz core team. (Also, see <a href="http://www.pixelglow.com/images/cubes.jpg" target="_blank">inside</a> the trophy!)</p>
 
-<p><img alt="graphviz team" src="News/ADA-team.png" /><img alt="photo of trophies" src="News/ADA-trophies.png" /> Lefty Koutsofios, Emden Gansner, Stephen North, John Ellson (Glen Low missing)</p>
+<p><img alt="graphviz team" src="/News/ADA-team.png" /><img alt="photo of trophies" src="/News/ADA-trophies.png" /></p>
+
+<p>Lefty Koutsofios, Emden Gansner, Stephen North, John Ellson (Glen Low missing)</p>
 
 <p>&nbsp;</p>
 
@@ -157,7 +187,7 @@ Dioramas featuring network visualization from our lab were displayed at Washingt
 
 <p>This <a href="/doc/info/shapes.html#html" target="_blank"> new label formatter</a> supports many helpful options for text formatting, coloring and URL linking, similar to HTML tables. (Special thanks to Emden Gansner and Serban Jora.)</p>
 
-<p><img alt="" src="News/html2.gif" style="width:400px" /></p>
+<p><img alt="" src="/News/html2.gif" style="width:400px" /></p>
 
 <p>&nbsp;</p>
 
@@ -187,7 +217,20 @@ Dioramas featuring network visualization from our lab were displayed at Washingt
 
 <h4>Neato -Gpack</h4>
 
-<p>This feature (due to Emden Gansner) places connected components by a new tiling algorithm that improves both compaction and running time.<img alt="" src="News/withoutpack.gif" /><img alt="" src="News/withpack.gif" />Without packWith pack</p>
+<p>This feature (due to Emden Gansner) places connected components by a new tiling algorithm that improves both compaction and running time.</p>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td><img alt="" src="/News/withoutpack.gif" /></td>
+			<td><img alt="" src="/News/withpack.gif" /></td>
+		</tr>
+		<tr>
+			<td style="text-align:center">Without pack</td>
+			<td style="text-align:center">With pack</td>
+		</tr>
+	</tbody>
+</table>
 
 <h4>Dynagraph</h4>
 
@@ -237,20 +280,9 @@ All known memory leaks banished! Rock solid.</p>
 	<li>edge connector options - arrowhead styles, endpoint labels, etc. (Thanks to Vladimir Alexiev.)</li>
 </ul>
 
-<h4>Plans</h4>
+<p>&nbsp;</p>
 
-<ul>
-	<li>Cairo canvas and scripting plugin (Ellson)</li>
-	<li>Overhaul &#39;dot&#39; layouts (North)</li>
-	<li>Full user interface for Toplogical Fisheye Views of large graphs</li>
-</ul>
-
-<h4>Wish list</h4>
-
-<ul>
-	<li>Integration of batch and incremental layout service</li>
-	<li>Someone to adopt and finish Dynagraph in C++</li>
-</ul>
+<p>&nbsp;</p>
 
 <p>&nbsp;</p>
 
@@ -285,5 +317,6 @@ All known memory leaks banished! Rock solid.</p>
 <p>&nbsp;</p>
 
 <p><br />
+<br />
 <br />
 <br />
