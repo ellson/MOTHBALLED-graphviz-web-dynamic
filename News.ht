@@ -1,4 +1,8 @@
 
+<p>The 2.30 Release marks the switch over from the original Graphviz graph library to the new cgraph library. If this works as planned, the user should see no differences. The advantage of the library is that it is much more flexible for the programmer, with a cleaner API and support for dynamic data structures. This latter, in addition to allowing easier mixing of algorithms, has the potential to greatly reduce memory use in Graphviz.</p>
+
+<p>One side-effect of the new library is a new level ranking algorithm for dot. This algorithm has fewer constraints, so it is now possible for a node to be in a cluster and be involved in a rank=same constraint.</p>
+
 <h4>New features (November 2012)</h4>
 
 <p>We have provided Graphviz with some additional graphics, which can be used to provide more semantic information in a graph or enhance its aesthetics. These include <a href="http://www.graphviz.org/content/attrs#kstyle">gradient fill</a> for nodes and graphs; <a href="http://www.graphviz.org/content/attrs#kstyle">striped and wedged fills</a>, so the amount of each color can be used to represent some percentage; <a href="http://www.graphviz.org/content/node-shapes">new node shapes</a> pertinent to the synthetic biology community (Thanks to Jenny Cheng); and curved edge routing.</p>
