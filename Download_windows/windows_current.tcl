@@ -76,15 +76,13 @@ set fout [open Download_windows.ht w]
 puts $fout {
 <!-- cut1 -->
 <!-- Do not remove this comment or make any web server edits above this comment -->
-<b>Warning:</b> We received an isolated report of a problem said to be caused by installing Graphviz on Windows7.
-It was reported that Graphviz wiped out the system PATH variable. Since thousands of people did not encounter this,
-we're not sure what's wrong. Our advice is (1) make sure to create a checkpoint or backup, especially if there is anything
-different about your Administrator account, the location of the installation directory, etc. (2) not to overreact, since
-this was a bug we saw several years ago, and we thought we had corrected it. (3) Possibly an old package was installed
-inadvertently.  The installer basically just unzips the executables, and sets the PATH to include this -- nothing fancy. 
-<b>If you encounter this problem, please contact gviz-bugs.</b>
 <p>
+<b>Note</b>: As of version 2.31, the Visual
+Studio package no longer alters the PATH variable or accesses the registry
+at all. If you wish to use the command-line interface to Graphviz, you
+will need to set the PATH variable yourself.
 
+<p>
 <b>Note</b>: As of version 2.26, the Visual
 Studio packages provide both the Release and Debug versions of the
 libraries.
