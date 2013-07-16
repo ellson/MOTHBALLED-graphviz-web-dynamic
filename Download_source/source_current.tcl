@@ -126,11 +126,11 @@ puts $fout {
 <tr><th align="left"><br>Access Graphviz with Git</th></tr>
 <tr><td align=left>
 <br><b>Development release:&nbsp;</b>
-git clone http://pub:pub@hg/git/graphviz<br>
+git clone http://pub:pub@hg.research.att.com/git/graphviz<br>
 </td></tr>
 <tr><td align=left>
 <br><b>Stable release:&nbsp;</b>
-git clone http://pub:pub@hg/git/graphviz_30<br>
+git clone http://pub:pub@hg.research.att.com/git/graphviz_30<br>
 </td></tr>
 <tr><td>&nbsp;<br></td></tr>
 </table>
