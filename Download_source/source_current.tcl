@@ -128,12 +128,10 @@ puts $fout {
 <br><b>Development release:&nbsp;</b>
 git clone http://pub:pub@hg/git/graphviz<br>
 </td></tr>
-<!--
 <tr><td align=left>
 <br><b>Stable release:&nbsp;</b>
-hg clone http://hg.research.att.com/graphviz_28<br>
+git clone http://pub:pub@hg/git/graphviz_30<br>
 </td></tr>
--->
 <tr><td>&nbsp;<br></td></tr>
 </table>
 <h2>Requirements</h2>
