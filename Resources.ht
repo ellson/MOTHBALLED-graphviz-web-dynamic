@@ -34,6 +34,14 @@
 				<li><a href="https://github.com/kml/Wigraf" target="_blank">Wigraf</a>, a Windows graphviz frontend based on WinGraphviz and C# .NET. &quot;Graf&quot; is polish for &quot;graph.&quot; [Kamil Lema?ski]</li>
 				<li><a href="https://github.com/glejeune/Leonhard" target="_blank">Leonhard</a>, a simple viewer/editor for GraphViz, developed with MacRuby. (See the <a href="http://youtu.be/nyfZVGlErTo" target="_blank">demo</a>.)</li>
 				<li><a href="http://graphviz-dev.appspot.com" target="_blank">GraphViz Workspace</a>, an interactive viewer and editor for Graphviz. [Takayuki Miyamura]</li>
+				<li><a href="http://wiki.cyze.jp/wiki.cgi/software?page=EasyGraphViz" target="_blank">EasyGraphViz</a>, a Japanese editor for Graphviz. [Nikolaos Kavvadias ]
+<br>
+EasyGraphViz とは、AT&T が開発している GraphViz ( http://www.graphviz.org/ )という任意のグラフを視覚化するソフトウェアを、もっと気軽に使うことを目的としたソフトウェアです。
+
+GraphViz に含まれる dot プログラムは、コマンドラインから使用する形態ですが、本ソフトでは、GUIにて、グラフファイル ( dotファイル ) を簡単に視覚化することができます。
+
+本プログラムの詳細はこちら
+</li>
 			</ul>
 			<!-- -------------------- -->
 
