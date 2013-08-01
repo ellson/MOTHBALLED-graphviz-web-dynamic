@@ -130,7 +130,7 @@ git clone http://pub:pub@hg.research.att.com/git/graphviz<br>
 </td></tr>
 <tr><td align=left>
 <br><b>Stable release:&nbsp;</b>
-git clone http://pub:pub@hg.research.att.com/git/graphviz_30<br>
+git clone http://pub:pub@hg.research.att.com/git/graphviz_32<br>
 </td></tr>
 <tr><td>&nbsp;<br></td></tr>
 </table>
