@@ -8,8 +8,8 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC20.i686 FC20.x86_64  FC19.i686 FC19.x86_64 FC18.i686 FC18.x86_64 FC17.i686 FC17.x86_64 FC16.i686 FC16.x86_64}
-    webdot {SRPMS FC20.i686 FC20.x86_64  FC19.i686 FC19.x86_64 FC18.i686 FC18.x86_64 FC17.i686 FC17.x86_64 FC16.i686 FC16.x86_64}
+    graphviz {SRPMS FC20.i686 FC20.x86_64  FC19.i686 FC19.x86_64 FC18.i686 FC18.x86_64 FC17.i686 FC17.x86_64}
+    webdot {SRPMS FC20.i686 FC20.x86_64  FC19.i686 FC19.x86_64 FC18.i686 FC18.x86_64 FC17.i686 FC17.x86_64}
 }
 
 set platform_directory_type_comments {
@@ -22,8 +22,6 @@ set platform_directory_type_comments {
     FC18.x86_64 redhat/fc18/x86_64/os {fc18.x86_64.rpm fc18.noarch.rpm} "Fedora 18"
     FC17.i686 redhat/fc17/i386/os {fc17.i686.rpm fc17.i586.rpm fc17.noarch.rpm} "Fedora 17"
     FC17.x86_64 redhat/fc17/x86_64/os {fc17.x86_64.rpm fc17.noarch.rpm} "Fedora 17"
-    FC16.i686 redhat/fc16/i386/os {fc16.i686.rpm fc16.i586.rpm fc16.noarch.rpm} "Fedora 16"
-    FC16.x86_64 redhat/fc16/x86_64/os {fc16.x86_64.rpm fc16.noarch.rpm} "Fedora 16"
 }
 
 set package_exclude {
