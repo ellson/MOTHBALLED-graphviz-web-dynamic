@@ -8,7 +8,7 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {UB13.04.x86_64 UB13.04.i386 UB12.04.x86_64 UB12.04.i386 UB11.04.x86_64 UB11.04.i386 UB10.10.x86_64 UB10.10.i386}
+    graphviz {UB13.04.x86_64 UB13.04.i386 UB12.04.x86_64 UB12.04.i386}
 }
 
 set platform_directory_type_comments {
