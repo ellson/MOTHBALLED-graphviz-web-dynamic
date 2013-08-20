@@ -59,7 +59,7 @@ we need to change directions and find a new strategy for this work.
 <ul>
 	<li><a href="http://www.graphviz.org/cgi-bin/man?dotty">dotty</a> - a vintage customizable Unix/X windows viewer that has subsequently been ported to Microsoft Windows.</li>
 	<li><a href="http://www.graphviz.org/cgi-bin/man?tcldot">tcldot</a> - a TCL/TK scripting language extension for Graphviz</li>
-	<li><a href="http://www.graphviz.org/webdot/index.html">WebDot</a> - a tcldot scripted WWW service for graphs in HTML documents.
+	<li><a href="http://api.graphviz.org/webdot/index.html">WebDot</a> - a tcldot scripted WWW service for graphs in HTML documents.
 	<p>There is also <a href="/Misc/webdot.pl">a simplified version</a> written in perl.</p>
 	</li>
 	<li><a href="http://www.research.att.com/~john/Grappa/">Grappa</a> - a Java package for graphs with full Java graph data structures</li>
