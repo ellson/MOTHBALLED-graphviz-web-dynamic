@@ -233,6 +233,7 @@ but any domain can be graphed [Mike Zick]
 <li><a href="http://www.omnigroup.com/products/omnigraffle/">Mac OmniGraffle </a> [Omni Group]</li>
 <li><a href="http://wdot.rubyforge.org/">wdot.rb</a>, a tool that allows workflow diagrams and flowcharts to be easily created and updated.[Loh Siu Yin]</li>
 <li><a href="http://www.calvert.ch/graphvizio/">GraphVizio</a> is an addin for Visio to lay out diagrams using Graphviz (also see <a href="http://www.calvert.ch/maurice/2010/05/11/graphvizio-a-graphviz-addin-for-visio/">blog post</a>). [Maurice Calvert]</li>
+<li><a href="http://web.ncf.ca/en493/GRAPHVIZ/">TeX and PSTRICKS</a> describes how to use PSTRICKS in conjunction with TeX to include Graphviz PostScript output into TeX documents. This approach makes further manipulation, such as rotation,shifting, etc. easy. [Roger Herz-Fischler]</li>
 </ul>
 <!-- -------------------- -->
 
