@@ -49,7 +49,7 @@
 (also for <a href="http://www.wickle.com/wiki/index.php/Windows_Graphviz_Installation_Instructions" target="_blank">Windows</a> [Dknox])</li>
 -->
 				<li>web: <a href="http://ociotec.com/index.php/2008/02/25/eht-graphviz-plugin-para-wordpress/" target="_blank">EHT Graphviz</a> plugin for <a href="http://wordpress.org/" target="_blank">Wordpress</a>, to allow Graphviz images to be easily integrated into a Wordpress page. [Emilio Gonz&aacute;lez Monta&ntilde;a]</li>
-				<li>web: <a href="http://wordpress.org/plugins/wp-graphviz/" target="_blank">WP Graphviz</a> plugin for <a href="http://wordpress.org/" target="_blank">Wordpress</a>, to allow Graphviz images to be easily integrated into a Wordpress page. [<a href="http://profiles.wordpress.org/debaat/">DeBATT</a></li>
+				<li>web: <a href="http://wordpress.org/plugins/wp-graphviz/" target="_blank">WP Graphviz</a> plugin for <a href="http://wordpress.org/" target="_blank">Wordpress</a>, to allow Graphviz images to be easily integrated into a Wordpress page. [<a href="http://profiles.wordpress.org/debaat/">DeBAAT</a>]</li>
 				<li>python: <a href="http://code.google.com/p/pydot/" target="_blank">Pydot</a> - a python interface to Graphviz (Windows comptible).</li>
 				<li>python: <a href="http://code.google.com/p/python-graph/" target="_blank">Python-Graph</a> - A library for working with graphs in Python.</li>
 				<li>python: <a href="http://networkx.lanl.gov/pygraphviz/" target="_blank">PyGraphviz</a> - a python interface to Graphviz similar to NetworkX.</li>
