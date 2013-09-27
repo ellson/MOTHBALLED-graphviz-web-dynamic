@@ -1,0 +1,17 @@
+#! /bin/bash
+if [ $# -eq 0 ]
+then
+	echo "Usage: $0 website_root_directory/info"
+	exit 1  #error
+fi
+
+#Replace html code with that appropriate for the website in use
+
+dir=$1
+cat ${dir}/lang.html | sed -e /"DOCTYPE HTML"/,/"BODY BGCOLOR"/d -e /"The DOT Language<\/H1>"/d \
+-e /"<\/BODY>"/d -e /"<\/HTML>"/d | \
+sed -e s/"attrs.html"/"attrs"/g  -e s/"a:"/"a"/g  \
+-e s/"http:\/\/www.graphviz.org\/doc\/char.html\">"/"\/doc\/char.html\" target=\"_blank\">"/g \
+> lang_db
+
+

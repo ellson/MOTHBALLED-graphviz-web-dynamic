@@ -1,0 +1,13 @@
+#! /bin/bash
+if [ $# -eq 0 ]
+then
+	echo "Usage: $0 website_root_directory/info"
+	exit 1  #error
+fi
+
+#Replace html code with that appropriate for the website in use
+
+dir=$1
+cat ${dir}/arrows.html | sed -e /"DOCTYPE HTML"/,/"BODY BGCOLOR"/d -e /"Arrow Shapes<\/H1>"/d -e /"<\/BODY>"/d -e /"<\/HTML>"/d | \
+sed -e s/'SRC=\"'/'SRC=\"\/doc\/info\/'/g  > arrows_db
+

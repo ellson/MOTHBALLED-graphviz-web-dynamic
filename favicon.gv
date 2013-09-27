@@ -1,0 +1,6 @@
+digraph G {
+	graph [size=".146,.148" margin=0 ratio=fill]
+	node [label="" shape=circle style="setlinewidth(10)"]
+	edge [dir=none style="setlinewidth(10)"]
+	a -> {b c}
+}
