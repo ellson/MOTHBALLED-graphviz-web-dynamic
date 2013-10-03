@@ -122,18 +122,12 @@ puts $fout {
 <!-- cut1 -->
 <!-- Do not remove this comment or make any web server edits above this comment -->
 <tr><td>
-<table rules="all" width="100%">
-<tr><th align="left"><br>Access Graphviz with Git</th></tr>
-<tr><td align=left>
-<br><b>Development release:&nbsp;</b>
-git clone http://pub:pub@hg.research.att.com/git/graphviz<br>
-</td></tr>
-<tr><td align=left>
-<br><b>Stable release:&nbsp;</b>
-git clone http://pub:pub@hg.research.att.com/git/graphviz_32<br>
-</td></tr>
-<tr><td>&nbsp;<br></td></tr>
-</table>
+<h2>Master GIT Repos</h2>
+The master repos for graphviz and webdot can be found at:
+<ul>
+<li><a href="http://github.com/ellson/graphviz/">http://github.com/ellson/graphviz/</a></li>
+<li><a href="http://github.com/ellson/webdot/">http://github.com/ellson/webdot/</a></li>
+</ul>
 <h2>Requirements</h2>
 <h3>Dependencies</h3>
 <p>Consider these versions as the minimum suitable for graphviz, but please always use the latest available version of these packages.  If there is any problem with building graphviz against a latest version, please generate a bug report as we would very much like to know about it.
