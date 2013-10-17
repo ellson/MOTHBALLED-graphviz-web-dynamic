@@ -44,6 +44,12 @@ set package_exclude {
     graphviz-io-2.35*
     graphviz-lua-2.35*
     graphviz-java-2.35*
+    graphviz-guile-2.35*
+    graphviz-webp-2.35*
+    graphviz-devil-2.35*
+    graphviz-guile-2.35*
+    graphviz-webp-2.35*
+    graphviz-devil-2.35*
 }
 
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
