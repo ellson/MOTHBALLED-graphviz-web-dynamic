@@ -23,6 +23,14 @@
                     <li><a target="_blank" href="/pdf/Agraph.pdf" style="width: 160px;">Cgraph library tutorial</a></li>
                     <li><a target="_blank" href="/doc/libguide/libguide.pdf" style="width: 260px;">Using Graphviz as a library</a></li>
                     <li><a target="_blank" href="/pdf/oldlibguide.pdf" style="width: 160px;"> - pre-2.30 version</a></li>
+                    <li><span class="gv_navheadtwo">Layout Commands</span>
+                    <ul>
+                        <li><a target="_blank" href="/dot.demo/demo.c">demo.c</a></li>
+                        <li><a target="_blank" href="/dot.demo/dot.c">dot.c</a></li>
+                        <li><a target="_blank" href="/dot.demo/example.c">example.c</a></li>
+                        <li><a target="_blank" href="/dot.demo/simple.c">simple.c</a></li>
+                    </ul>
+                    </li>
                 </ul>
                 </li>
                 <li><span class="gv_navheadone">Manual pages</span>
@@ -123,7 +131,7 @@
                     <li><a href="/Documentation/NW01.pdf" target="_blank">On-line Hierarchical Graph Drawing</a> - dynadag algorithm</li>
                 </ul>
                 </li>
-               <li><span class="gv_navheadone">Source Documetation</span>
+               <li><span class="gv_navheadone">Source Documentation</span>
                 <ul  class="gv_navcontainer2">
                     <li><a href="http://www.graphviz.org/pub/graphviz/development/doxygen/html/annotated.html" target="_blank">Doxygen generated documentation of Graphviz, with dot generated diagrams</a></li>
                 </ul>
