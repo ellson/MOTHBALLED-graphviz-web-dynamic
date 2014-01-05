@@ -23,7 +23,7 @@
                     <li><a target="_blank" href="/pdf/Agraph.pdf" style="width: 160px;">Cgraph library tutorial</a></li>
                     <li><a target="_blank" href="/doc/libguide/libguide.pdf" style="width: 260px;">Using Graphviz as a library</a></li>
                     <li><a target="_blank" href="/pdf/oldlibguide.pdf" style="width: 160px;"> - pre-2.30 version</a></li>
-                    <li><span class="gv_navheadtwo">Layout Commands</span>
+                    <li><span class="gv_navheadtwo">Sample Programs using Graphviz</span>
                     <ul>
                         <li><a target="_blank" href="/dot.demo/demo.c">demo.c</a></li>
                         <li><a target="_blank" href="/dot.demo/dot.c">dot.c</a></li>
