@@ -31,23 +31,23 @@ set package_exclude {
     graphviz-php-*.el\[345\].*
     graphviz-php-*.fc4.*
     graphviz-*.fc12.i386.rpm
-    graphviz-php-2.35*
-    graphviz-perl-2.35*
-    graphviz-ruby-2.35*
-    graphviz-tcl-2.35*
-    graphviz-R-2.35*
-    graphviz-ocaml-2.35*
-    graphviz-python-2.35*
-    graphviz-sharp-2.35*
-    graphviz-io-2.35*
-    graphviz-lua-2.35*
-    graphviz-java-2.35*
-    graphviz-guile-2.35*
-    graphviz-webp-2.35*
-    graphviz-devil-2.35*
-    graphviz-guile-2.35*
-    graphviz-webp-2.35*
-    graphviz-devil-2.35*
+    graphviz-php-2.3\[45\]*
+    graphviz-perl-2.3\[45\]*
+    graphviz-ruby-2.3\[45\]*
+    graphviz-tcl-2.3\[45\]*
+    graphviz-R-2.3\[45\]*
+    graphviz-ocaml-2.3\[45\]*
+    graphviz-python-2.3\[45\]*
+    graphviz-sharp-2.3\[45\]*
+    graphviz-io-2.3\[45\]*
+    graphviz-lua-2.3\[45\]*
+    graphviz-java-2.3\[45\]*
+    graphviz-guile-2.3\[45\]*
+    graphviz-webp-2.3\[45\]*
+    graphviz-devil-2.3\[45\]*
+    graphviz-guile-2.3\[45\]*
+    graphviz-webp-2.3\[45\]*
+    graphviz-devil-2.3\[45\]*
 }
 
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
