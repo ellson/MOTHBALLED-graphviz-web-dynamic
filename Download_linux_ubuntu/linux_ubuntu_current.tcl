@@ -12,8 +12,8 @@ set packages_platforms {
 }
 
 set platform_directory_type_comments {
-    UB13.10.x86_64 ubuntu/ub13.10/x86_64 {amd64.deb all.deb} "Ubuntu 13.10 (Raring Ringtail)"
-    UB13.10.i386 ubuntu/ub13.10/i386 {i386.deb all.deb} "Ubuntu 13.10 (Raring Ringtail)"
+    UB13.10.x86_64 ubuntu/ub13.10/x86_64 {amd64.deb all.deb} "Ubuntu 13.10 (Saucy Salamander)"
+    UB13.10.i386 ubuntu/ub13.10/i386 {i386.deb all.deb} "Ubuntu 13.10 (Saucy Salamander)"
     UB12.04.x86_64 ubuntu/ub12.04/x86_64 {amd64.deb all.deb} "Ubuntu 12.04 (Precise Pangolin)"
     UB12.04.i386 ubuntu/ub12.04/i386 {i386.deb all.deb} "Ubuntu 12.04 (Precise Pangolin)"
     UB11.04.x86_64 ubuntu/ub11.04/x86_64 {amd64.deb all.deb} "Ubuntu 11.04 (Natty Narwhal)"
