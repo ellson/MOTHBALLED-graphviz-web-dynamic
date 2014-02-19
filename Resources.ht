@@ -9,7 +9,8 @@
 			<p>Interactive viewers.</p>
 
 			<ul>
-				<li><a href="https://github.com/goinnn/jquery.graphviz">jQuery.Graphviz</a>, A jQuery based interactive graph viewer for graphviz svg [Pablo Mart&iacute;n]</li>
+				<li><a href="https://stamm-wilbrandt.de/GraphvizFiddle/">GraphvizFiddle</a>, a dual-view Graphviz editor [Hermann Stamm-Wilbrandt]</li>
+				<li><a href="https://github.com/goinnn/jquery.graphviz">jQuery.Graphviz</a>, a jQuery based interactive graph viewer for graphviz svg [Pablo Mart&iacute;n]</li>
 				<li><a href="http://wiki.eclipse.org/Zest/DOT">Eclipse Zest/DOT</a>, an Eclipse Zest 2.0 component that can be used to render and edit DOT graphs [Fabian Steeg]</li>
 				<li><a href="http://code.google.com/p/nodeviz/">NodeViz</a>, a framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients [Greg Michalec and Skye Bender-deMoll]</li>
 				<li><a href="http://www.graphspe.com/#/Home" target="_blank">GraphSpe</a>, includes a converter for Microsoft Silverlight Xaml (SVG based) [Ceyhun Ciper]</li>
@@ -213,7 +214,7 @@ but any domain can be graphed [Mike Zick]
 			<p>Relational structures abound in the study of biological and chemical information. The following list barely scratches the surface.</p>
 
 			<ul>
-                 <li><a href="http://peter-lind.se/hassemanager/index.htm">HasseManager</a> for visualizing relations between chemical structures used in fragment-based drug discovery, as described in the <a href="http://pubs.acs.org/doi/abs/10.1021/ci4004464">Journal of&nbsp;Chemical Information and Modelling</a> [Peter Lind]</li>
+				<li><a href="http://peter-lind.se/hassemanager/index.htm">HasseManager</a> for visualizing relations between chemical structures used in fragment-based drug discovery, as described in the <a href="http://pubs.acs.org/doi/abs/10.1021/ci4004464">Journal of&nbsp;Chemical Information and Modelling</a> [Peter Lind]</li>
 				<li><a href="http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html" name="Rgraphviz">R-Graphviz</a> (<a href="http://www.bioconductor.org/packages/release/bioc/vignettes/Rgraphviz/inst/doc/newRgraphvizInterface.pdf">guide</a>) from the Bio-Conductor project integrates graphs and statistical models. [Robert Gentleman, Jeff Gentry and the R team]</li>
 				<li><em>Science</em> Online <a href="http://www.stke.org/">protein database visualization</a> (click on Connections - free registration and <a href="http://www.adobe.com/svg/viewer/install/main.html"> SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox) [American Association for the Advancement of Science (AAAS) and Stanford University Digital Libraries Project]</li>
 				<li><a href="http://www.PubGene.com">Pubgene</a> - Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery (go <a href="http://www.pubgene.org">here</a> for original academic web site)</li>
