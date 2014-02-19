@@ -98,7 +98,6 @@
 
 			<ul>
 				<li><a href="http://drupal.org/project/graphapi/">Graph API</a>, a Drupal graph generation module with Graphviz Dot output capabilities. [Sebastian Daniel]</li>
-				<li><a href="http://peter-lind.se/hassemanager/index.htm">HasseManager</a> for Hasse diagram construction and mining [Peter Lind]</li>
 				<li><a href="http://schemaspy.sourceforge.net/">SchemaSpy</a> analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables [John Currier]</li>
 				<li><a href="http://www.worldcat.org/xissn/titlehistory">WorldCat xISSN</a> shows the history of a journal indexed by ISSN [OCLC Online Computer Library Center, Inc.]</li>
 				<li><a href="http://www.softwaresecretweapons.com/jspwiki/linguinemaps">Linguine Maps</a> visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming (examples <a href="http://www.softwaresecretweapons.com/jspwiki/howtouselinguinemapsjavaapi">here</a>) [Pavel Simakov]</li>
@@ -209,11 +208,12 @@ but any domain can be graphed [Mike Zick]
 				<li><a href="http://www.symfony-project.org/plugins/sfApplicationMapPlugin">Symfony application-map plugin</a>, an easy-to-use documentation tool for the symfony framework community. [Tomasz Ducin]</li>
 			</ul>
 
-			<h4><a name="bio-informatics">Bio-Informatics Tools and Resources Using Graphviz</a></h4>
+			<h4><a name="bio-informatics">Bioinformatics and Cheminformatics Tools and Resources Using Graphviz</a></h4>
 
-			<p>Relational structures abound in the study of biological information. The following list barely scratches the surface.</p>
+			<p>Relational structures abound in the study of biological and chemical information. The following list barely scratches the surface.</p>
 
 			<ul>
+                 <li><a href="http://peter-lind.se/hassemanager/index.htm">HasseManager</a> for visualizing relations between chemical structures used in fragment-based drug discovery, as described in the <a href="http://pubs.acs.org/doi/abs/10.1021/ci4004464">Journal of&nbsp;Chemical Information and Modelling</a> [Peter Lind]</li>
 				<li><a href="http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html" name="Rgraphviz">R-Graphviz</a> (<a href="http://www.bioconductor.org/packages/release/bioc/vignettes/Rgraphviz/inst/doc/newRgraphvizInterface.pdf">guide</a>) from the Bio-Conductor project integrates graphs and statistical models. [Robert Gentleman, Jeff Gentry and the R team]</li>
 				<li><em>Science</em> Online <a href="http://www.stke.org/">protein database visualization</a> (click on Connections - free registration and <a href="http://www.adobe.com/svg/viewer/install/main.html"> SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox) [American Association for the Advancement of Science (AAAS) and Stanford University Digital Libraries Project]</li>
 				<li><a href="http://www.PubGene.com">Pubgene</a> - Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery (go <a href="http://www.pubgene.org">here</a> for original academic web site)</li>
