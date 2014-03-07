@@ -1,6 +1,17 @@
 			<h4> (7 March 2014)</h4>
 
-			<p>The <b>edgepaint</b> filter has been added to Graphviz.</p>
+			<p>The <b>edgepaint</b> filter has been added to Graphviz. Given a graph that has been
+laid out, edgepaint colors the edges in a manner to make it easier for the viewer to distinguish edges
+that intersect in an almost parallel fashion.</p> 
+
+			<table align="center" border="0" cellpadding="1" cellspacing="1" style="width:500px">
+				<tbody>
+					<tr>
+						<td><img alt="" class="displayed" src="/News/edgepaint0.png" style="display:block; margin-left:auto; margin-right:auto; margin-top:15px; width:500px" /></td>
+						<td><img alt="" class="displayed" src="/News/edgepaint.png" style="display:block; margin-left:auto; margin-right:auto; margin-top:15px; width:500px" /></td>
+					</tr>
+				</tbody>
+			</table>
 
 
 			<h4>New Release 2.36 (11 January 2014)</h4>
