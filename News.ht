@@ -1,3 +1,7 @@
+			<h4>New Release 2.38 (13 April 2014)</h4>
+
+			<p>The <b>dot</b> program now supports packing of connected components the same way of the other layout tools.
+
 			<h4> (7 March 2014)</h4>
 
 			<p>The <b>edgepaint</b> filter has been added to Graphviz. Given a graph that has been
