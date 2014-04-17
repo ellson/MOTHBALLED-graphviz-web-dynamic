@@ -81,7 +81,7 @@
         <tr>
             <td>
             <h2 class="rteleft"><strong>Discussions</strong></h2>
-            <p>There is a <a href="http://www.graphviz.org/Forum">forum</a> for registered users to ask questions and share information. Or, if you prefer, there <a href="http://www.graphviz.org/MailingList.php">mailing lists</a> for both users and developers.</p>
+            <p>There is a <a href="/Forum">forum</a> for registered users to ask questions and share information. Or, if you prefer, there are <a href="/MailingList.php">mailing lists</a> for both users and developers.</p>
             </td>
         </tr>
         <tr>
