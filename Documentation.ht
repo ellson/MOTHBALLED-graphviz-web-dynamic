@@ -29,6 +29,8 @@
                         <li><a target="_blank" href="/dot.demo/dot.c">dot.c</a></li>
                         <li><a target="_blank" href="/dot.demo/example.c">example.c</a></li>
                         <li><a target="_blank" href="/dot.demo/simple.c">simple.c</a></li>
+                        <li><a target="_blank" href="/dot.demo/Makefile">Makefile</a></li>
+                        <li><a target="_blank" href="/dot.demo/demo.vcproj">Visual Studio project file for demo.c</a></li>
                     </ul>
                     </li>
                 </ul>
