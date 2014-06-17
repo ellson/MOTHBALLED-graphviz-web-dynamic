@@ -93,8 +93,7 @@ source or use something like macports.
 and 2.39 packages for Mountain Lion (and Maverick). If you just need the
 command-line tools and libraries, these still work and are installed in 
 <tt>/usr/local</tt> as usual. If you want the app, you can get it from
-<a href="http://mxcl.github.com/homebrew/">homebrew</a> or <a href="http://www.macports.org/">macports</a>, or
-use the 2.36 version below. 
+<a href="http://mxcl.github.com/homebrew/">homebrew</a> or <a href="http://www.macports.org/">macports</a>, or use the 2.36 version below. 
 <!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
