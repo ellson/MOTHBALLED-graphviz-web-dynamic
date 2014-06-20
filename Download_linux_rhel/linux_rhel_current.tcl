@@ -157,11 +157,13 @@ foreach {package platforms} $packages_platforms {
 }
 
 puts $fout "</table>"
-puts $fout "<p>The gts sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/updates/9/SRPMS.newkey/gts-0.7.6-11.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-11.fc9.src.rpm</i>  (fc14 sources were used for el6)"
+puts $fout "<p>The ann sources for el7 were obtained <a href=\"https://kojipkgs.fedoraproject.org//packages/ann/1.1.2/3.fc18/src/ann-1.1.2-3.fc18.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el7\" ann-1.1.2-3.fc18.src.rpm</i>"
+puts $fout "<p>The gts sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/updates/9/SRPMS.newkey/gts-0.7.6-11.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-11.fc9.src.rpm</i>  (fc14 sources were used for el6, fc18 for el7.)"
 puts $fout "<p>The gtkglarea2 sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglarea2-1.99.0-8.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gtkglarea2-1.99.0-8.fc9.src.rpm</i>"
-puts $fout "<p>The gtkglext sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>"
+puts $fout "<p>The gtkglext sources for el5 were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>"
 puts $fout "<br>(The \"fedora 8\" define is a hack to cause the spec to omit .la targets from the package.)"
-puts $fout "<p>For rhel6/centos6, the gtkglext packages are provided by the base repo, and the gtkglarea2 packages are provided by the <a href=\"http://fedoraproject.org/wiki/EPEL\">EPEL</a> repo."  
+puts $fout "<p>For el6, the gtkglext packages are provided by the base repo, and the gtkglarea2 packages are provided by the <a href=\"http://fedoraproject.org/wiki/EPEL\">EPEL</a> repo."  
+put $fout "<p>For el7 the gtkglext sources were obtained <a href=\"https://kojipkgs.fedoraproject.org//packages/gtkglext/1.2.0/18.fc18/src/gtkglext-1.2.0-18.fc18.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el7\" gtkglext-1.2.0-18.fc18.src.rpm</i>"
 	
 close $fout
 
