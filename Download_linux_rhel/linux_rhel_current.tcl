@@ -8,19 +8,21 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64}
-    webdot {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64}
-    gts {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64}
-    gtkglext {SRPMS EL5.i386 EL5.x86_64}
+    graphviz {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64 EL7.x86_64}
+    webdot {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64 EL7.x86_64}
+    gts {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64 EL7.x86_64}
+    gtkglext {SRPMS EL5.i386 EL5.x86_64 EL7.x86_64}
     gtkglarea2 {SRPMS EL5.i386 EL5.x86_64}
+    ann {SRPMS EL7.x86_64}
 }
 
 set platform_directory_type_comments {
-    SRPMS SRPMS {src.rpm fc14.src.rpm fc9.src.rpm} ""
-    EL6.i386 redhat/el6/i386/os {el6.i686.rpm el6.noarch.rpm} "Enterprise Linux 6 or later - uses fontconfig"
-    EL6.x86_64 redhat/el6/x86_64/os {el6.x86_64.rpm el6.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL5.i386 redhat/el5/i386/os {el5.i386.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL5.x86_64 redhat/el5/x86_64/os {el5.x86_64.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
+    SRPMS SRPMS {src.rpm fc14.src.rpm fc9.src.rpm fc18.src.rpm} ""
+    EL7.x86_64 redhat/el7/x86_64/os {el7.x86_64.rpm el7.noarch.rpm} "Enterprise Linux 7"
+    EL6.i386 redhat/el6/i386/os {el6.i686.rpm el6.noarch.rpm} "Enterprise Linux 6"
+    EL6.x86_64 redhat/el6/x86_64/os {el6.x86_64.rpm el6.noarch.rpm} "Enterprise Linux 6"
+    EL5.i386 redhat/el5/i386/os {el5.i386.rpm el5.noarch.rpm} "Enterprise Linux 5"
+    EL5.x86_64 redhat/el5/x86_64/os {el5.x86_64.rpm el5.noarch.rpm} "Enterprise Linux 5"
 }                     
 
 set package_exclude {
