@@ -163,7 +163,7 @@ puts $fout "<p>The gtkglarea2 sources were obtained <a href=\"http://archives.fe
 puts $fout "<p>The gtkglext sources for el5 were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>"
 puts $fout "<br>(The \"fedora 8\" define is a hack to cause the spec to omit .la targets from the package.)"
 puts $fout "<p>For el6, the gtkglext packages are provided by the base repo, and the gtkglarea2 packages are provided by the <a href=\"http://fedoraproject.org/wiki/EPEL\">EPEL</a> repo."  
-put $fout "<p>For el7 the gtkglext sources were obtained <a href=\"https://kojipkgs.fedoraproject.org//packages/gtkglext/1.2.0/18.fc18/src/gtkglext-1.2.0-18.fc18.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el7\" gtkglext-1.2.0-18.fc18.src.rpm</i>"
+puts $fout "<p>For el7 the gtkglext sources were obtained <a href=\"https://kojipkgs.fedoraproject.org//packages/gtkglext/1.2.0/18.fc18/src/gtkglext-1.2.0-18.fc18.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el7\" gtkglext-1.2.0-18.fc18.src.rpm</i>"
 	
 close $fout
 
