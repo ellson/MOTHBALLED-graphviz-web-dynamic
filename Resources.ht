@@ -15,7 +15,7 @@
 				<li><a href="http://wiki.eclipse.org/Zest/DOT">Eclipse Zest/DOT</a>, an Eclipse Zest 2.0 component that can be used to render and edit DOT graphs [Fabian Steeg]</li>
 				<li><a href="http://code.google.com/p/nodeviz/">NodeViz</a>, a framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients [Greg Michalec and Skye Bender-deMoll]</li>
 				<li><a href="http://www.graphspe.com/#/Home" target="_blank">GraphSpe</a>, includes a converter for Microsoft Silverlight Xaml (SVG based) [Ceyhun Ciper]</li>
-				<li><a href="http://graphviz4net.codeplex.com/" target="_blank">Graphviz4Net</a> provides Windows Presentation Foundation (WPF) control that is capable of rendering graph layouts using Graphviz. [&Scaron;t?p&aacute;n &Scaron;indel&aacute;?]</li>
+				<li><a href="http://graphviz4net.codeplex.com/" target="_blank">Graphviz4Net</a> provides Windows Presentation Foundation (WPF) control that is capable of rendering graph layouts using Graphviz. [&Scaron;t&#x011B;p&aacute;n &Scaron;indel&aacute;&#x0159;]</li>
 				<li><a href="http://zvtm.sourceforge.net/zgrviewer.html" target="_blank">ZGRViewer</a>, an SVG-based zooming graph viewer for large graphs [Emmanuel Pietriga]</li>
 				<li><a href="http://instaviz.com/" target="_blank">Instaviz</a>, graph sketching for the iPhone using Graphviz libraries for rendering. [Glen Low]</li>
 				<li><a href="http://code.google.com/p/idot/" target="_blank">idot</a>, an incremental Graphviz viewer (Java &ge; 1.5 with the excellent <a href="http://prefuse.org/" target="_blank">prefuse</a> toolkit). [Mikko Vinni]</li>
@@ -33,7 +33,7 @@
 				<li><a href="http://freecode.com/projects/xdot_py" target="_blank">xdot.py</a>, an interactive viewer for graphs. [Jose Fonseca]</li>
 				<li><a href="http://markandrewgoetz.com/vizierfx/" target="_blank">VizierFX</a>, a renderer for Graphviz written in Adobe Flex. [Mark A. Goetz]</li>
 				<li><a href="http://www.myideatree.com/" target="_blank">IdeaTree</a>, a platform for concurrent, shared knowledge mapping</li>
-				<li><a href="https://github.com/kml/Wigraf" target="_blank">Wigraf</a>, a Windows graphviz frontend based on WinGraphviz and C# .NET. &quot;Graf&quot; is polish for &quot;graph.&quot; [Kamil Lema?ski]</li>
+				<li><a href="https://github.com/kml/Wigraf" target="_blank">Wigraf</a>, a Windows graphviz frontend based on WinGraphviz and C# .NET. &quot;Graf&quot; is polish for &quot;graph.&quot; [Kamil Lema&#x0144;ski]</li>
 				<li><a href="https://github.com/glejeune/Leonhard" target="_blank">Leonhard</a>, a simple viewer/editor for GraphViz, developed with MacRuby. (See the <a href="http://youtu.be/nyfZVGlErTo" target="_blank">demo</a>.)</li>
 				<li><a href="http://graphviz-dev.appspot.com" target="_blank">GraphViz Workspace</a>, an interactive viewer and editor for Graphviz. [Takayuki Miyamura]</li>
 				<li><a href="http://wiki.cyze.jp/wiki.cgi/software?page=EasyGraphViz" target="_blank">EasyGraphViz</a>, a Japanese editor for Graphviz. [Nikolaos Kavvadias ]</li>
@@ -261,6 +261,5 @@ but any domain can be graphed [Mike Zick]
 				<li><a href="http://software.opensuse.org/search?q=graphviz"><img alt="suse logo" src="/Resources/suse-logo.png" /> SuSE</a> - rpms for Novell/SuSE distributions for many architectures.</li>
 				<li><a href="http://packages.ubuntu.com/search?keywords=graphviz&amp;searchon=names&amp;suite=all&amp;section=all"><img alt="ubuntu logo" src="/Resources/ubuntu-logo.png" /> Ubuntu</a> - Linux packages.</li>
 			</ul>
-			<br />
 			<br />
 			<br />
