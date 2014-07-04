@@ -138,6 +138,11 @@
                     <li><a href="http://www.graphviz.org/pub/graphviz/development/doxygen/html/annotated.html" target="_blank">Doxygen generated documentation of Graphviz, with dot generated diagrams</a></li>
                 </ul>
                 </li>
+               <li><span class="gv_navheadone">Change Log</span>
+                <ul  class="gv_navcontainer2">
+                    <li><a href="http://www.graphviz.org/ChangeLog.txt" target="_blank">ChangeLog.txt</a></li>
+                </ul>
+                </li>
                <li><span class="gv_navheadone">Open Problems</span>
                 <ul  class="gv_navcontainer2">
                     <li><a href="http://www.graphviz.org/doc/todo.html" target="_blank">Graphviz Wish List</a></li>
