@@ -89,6 +89,11 @@ puts $fout {
 Some notes: 1) graphviz-gui (Graphviz.app) is a separate package in macports, and seems to be optional in homebrew. 2) Beware, if you do not already have packages like cairopango, ghostscript, and the GNU/X11 libraries needed to support gtk2, then it can take a long time, maybe hours, to build the default package with all the drivers.  We rely on cairopango to size and render internationalized text, so there really is no royal road, though you can still build graphviz with a less expansive set of drivers that rely on libgd, freetype and fontconfig. Here's some good news: according to <A HREF="https://github.com/mxcl/homebrew/wiki/Installation">this</A> page, there's a tar file you can download and install to get the command line build tools, to skip all the XCode glop.
 <p><b>Note</b>: 2.28 is the last binary package provided for the Leopard version of OSX. If you need a version later than that, you will need to build it from
 source or use something like macports.
+<p><b>Note</b>: For some reason, the Graphviz app no longer works in the 2.38
+and 2.39 packages for Mountain Lion (and Maverick). If you just need the
+command-line tools and libraries, these still work and are installed in 
+<tt>/usr/local</tt> as usual. If you want the app, you can get it from
+<a href="http://mxcl.github.com/homebrew/">homebrew</a> or <a href="http://www.macports.org/">macports</a>, or use the 2.36 version below. 
 <!-- Do not remove this comment or make any web server edits below this comment -->
 <!-- cut2 -->
 }
