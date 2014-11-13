@@ -9,6 +9,7 @@
 			<p>Interactive viewers.</p>
 
 			<ul>
+				<li><a href="http://ushiroad.com/jsviz/">Liviz.js</a>, DHTML-based interactive viewer for Graphviz [Satoshi Ueyama]</li>
 				<li><a href="https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool">Graphviz Test Tool</a>, a GUI front-end for Graphviz [Hansuli Anderegg ]</li>
 				<li><a href="https://stamm-wilbrandt.de/GraphvizFiddle/">GraphvizFiddle</a>, a dual-view Graphviz editor [Hermann Stamm-Wilbrandt]</li>
 				<li><a href="https://github.com/goinnn/jquery.graphviz">jQuery.Graphviz</a>, a jQuery based interactive graph viewer for graphviz svg [Pablo Mart&iacute;n]</li>
