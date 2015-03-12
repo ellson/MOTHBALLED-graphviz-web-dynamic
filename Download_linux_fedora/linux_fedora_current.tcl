@@ -8,14 +8,14 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC23.i686 FC23.x86_64 FC21.i686 FC22.i686 FC22.x86_64 FC21.i686 FC21.x86_64 FC20.i686 FC20.x86_64  FC19.i686 FC19.x86_64}
-    webdot {SRPMS FC23.i686 FC23.x86_64 FC21.i686 FC22.i686 FC22.x86_64 FC21.i686 FC21.x86_64 FC20.i686 FC20.x86_64  FC19.i686 FC19.x86_64}
+    graphviz {SRPMS FC23.i686 FC23.x86_64 FC22.i686 FC22.x86_64 FC21.i686 FC21.x86_64 FC20.i686 FC20.x86_64  FC19.i686 FC19.x86_64}
+    webdot {SRPMS FC23.i686 FC23.x86_64 FC22.i686 FC22.x86_64 FC21.i686 FC21.x86_64 FC20.i686 FC20.x86_64  FC19.i686 FC19.x86_64}
 }
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
     FC23.i686 redhat/fc23/i386/os {fc23.i686.rpm fc23.i586.rpm fc23.noarch.rpm} "Fedora 23 (Rawhide)"
-    FC23.x86_64 redhat/fc23/i386/os {fc23.x86_64.rpm fc23.i586.rpm fc23.noarch.rpm} "Fedora 23 (Rawhide)"
+    FC23.x86_64 redhat/fc23/x86_64/os {fc23.x86_64.rpm fc23.noarch.rpm} "Fedora 23 (Rawhide)"
     FC22.i686 redhat/fc22/i386/os {fc22.i686.rpm fc22.i586.rpm fc22.noarch.rpm} "Fedora 22"
     FC22.x86_64 redhat/fc22/x86_64/os {fc22.x86_64.rpm fc22.noarch.rpm} "Fedora 22"
     FC21.i686 redhat/fc21/i386/os {fc21.i686.rpm fc21.i586.rpm fc21.noarch.rpm} "Fedora 21"
