@@ -51,20 +51,45 @@ set package_exclude {
 }
 
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
-proc checkdate {fnv} {
+
+proc checkdate_new {fnv} {
     global time_cutoff
-    set color blue
     foreach {fn v} $fnv {break}
-    set lst [split $v {-.}]
-    if {[llength $lst] >= 5} {
-        foreach {. . dt tm .} $lst {break}
-        set time_stamp [clock scan [string range $dt 2 end]T${tm}00 -gmt 1]
-        if {$time_stamp < $time_cutoff} {
-	    set color red
-        }
+
+    set gv  [lindex [split $v -] 0]
+
+    if {[catch {glob graphviz-linux-buildlog-$gv.*} log]} {
+	puts stderr "log not found by glob"
+        return [list $fn red]
     }
-    return [list $fn $color]
+
+    if {[file mtime $log] < $time_cutoff} {
+	puts stderr "log \"$log\" too old"
+        return [list $fn red]
+    }
+
+    if {[exec grep -cq $fn $log] != 1} {
+	puts stderr "$fn not found in log \"$log\""
+        return [list $fn red]
+    }
+
+    return [list $fn blue]
 }
+
+#proc checkdate {fnv} {
+#    global time_cutoff
+#    set color blue
+#    foreach {fn v} $fnv {break}
+#    set lst [split $v {-.}]
+#    if {[llength $lst] >= 5} {
+#        foreach {. . dt tm .} $lst {break}
+#        set time_stamp [clock scan [string range $dt 2 end]T${tm}00 -gmt 1]
+#        if {$time_stamp < $time_cutoff} {
+#	    set color red
+#        }
+#    }
+#    return [list $fn $color]
+#}
                                                                                 
 proc puts_latest {fout docroot dir package package_exclude type} {
     set regexp {([-a-zA-Z]*)([-0-9.]*)([a-z][.a-z0-9_]*)}
