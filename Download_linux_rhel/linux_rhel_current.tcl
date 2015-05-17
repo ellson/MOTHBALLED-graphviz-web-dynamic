@@ -8,19 +8,21 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64}
-    webdot {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64}
-    gts {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64}
-    gtkglext {SRPMS EL5.i386 EL5.x86_64}
+    graphviz {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64 EL7.x86_64}
+    webdot {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64 EL7.x86_64}
+    gts {SRPMS EL6.i386 EL6.x86_64 EL5.i386 EL5.x86_64 EL7.x86_64}
+    gtkglext {SRPMS EL5.i386 EL5.x86_64 EL7.x86_64}
     gtkglarea2 {SRPMS EL5.i386 EL5.x86_64}
+    ann {SRPMS EL7.x86_64}
 }
 
 set platform_directory_type_comments {
-    SRPMS SRPMS {src.rpm fc14.src.rpm fc9.src.rpm} ""
-    EL6.i386 redhat/el6/i386/os {el6.i686.rpm el6.noarch.rpm} "Enterprise Linux 6 or later - uses fontconfig"
-    EL6.x86_64 redhat/el6/x86_64/os {el6.x86_64.rpm el6.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL5.i386 redhat/el5/i386/os {el5.i386.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
-    EL5.x86_64 redhat/el5/x86_64/os {el5.x86_64.rpm el5.noarch.rpm} "Enterprise Linux 5 or later - uses fontconfig"
+    SRPMS SRPMS {src.rpm fc14.src.rpm fc9.src.rpm fc18.src.rpm} ""
+    EL7.x86_64 redhat/el7/x86_64/os {el7.x86_64.rpm el7.noarch.rpm} "Enterprise Linux 7"
+    EL6.i386 redhat/el6/i386/os {el6.i686.rpm el6.noarch.rpm} "Enterprise Linux 6"
+    EL6.x86_64 redhat/el6/x86_64/os {el6.x86_64.rpm el6.noarch.rpm} "Enterprise Linux 6"
+    EL5.i386 redhat/el5/i386/os {el5.i386.rpm el5.noarch.rpm} "Enterprise Linux 5"
+    EL5.x86_64 redhat/el5/x86_64/os {el5.x86_64.rpm el5.noarch.rpm} "Enterprise Linux 5"
 }                     
 
 set package_exclude {
@@ -155,11 +157,13 @@ foreach {package platforms} $packages_platforms {
 }
 
 puts $fout "</table>"
-puts $fout "<p>The gts sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/updates/9/SRPMS.newkey/gts-0.7.6-11.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-11.fc9.src.rpm</i>  (fc14 sources were used for el6)"
+puts $fout "<p>The ann sources for el7 were obtained <a href=\"https://kojipkgs.fedoraproject.org//packages/ann/1.1.2/3.fc18/src/ann-1.1.2-3.fc18.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el7\" ann-1.1.2-3.fc18.src.rpm</i>"
+puts $fout "<p>The gts sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/updates/9/SRPMS.newkey/gts-0.7.6-11.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-11.fc9.src.rpm</i>  (fc14 sources were used for el6, fc18 for el7.)"
 puts $fout "<p>The gtkglarea2 sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglarea2-1.99.0-8.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" gtkglarea2-1.99.0-8.fc9.src.rpm</i>"
-puts $fout "<p>The gtkglext sources were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>"
+puts $fout "<p>The gtkglext sources for el5 were obtained <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>"
 puts $fout "<br>(The \"fedora 8\" define is a hack to cause the spec to omit .la targets from the package.)"
-puts $fout "<p>For rhel6/centos6, the gtkglext packages are provided by the base repo, and the gtkglarea2 packages are provided by the <a href=\"http://fedoraproject.org/wiki/EPEL\">EPEL</a> repo."  
+puts $fout "<p>For el6, the gtkglext packages are provided by the base repo, and the gtkglarea2 packages are provided by the <a href=\"http://fedoraproject.org/wiki/EPEL\">EPEL</a> repo."  
+puts $fout "<p>For el7 the gtkglext sources were obtained <a href=\"https://kojipkgs.fedoraproject.org//packages/gtkglext/1.2.0/18.fc18/src/gtkglext-1.2.0-18.fc18.src.rpm\">from here</a> and built with:<br><i>rpmbuild --rebuild --define \"dist .el7\" gtkglext-1.2.0-18.fc18.src.rpm</i>"
 	
 close $fout
 

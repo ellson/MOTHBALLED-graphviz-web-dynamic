@@ -77,10 +77,12 @@ puts $fout {
 <!-- cut1 -->
 <!-- Do not remove this comment or make any web server edits above this comment -->
 <p>
+<font size="4">
 <b>Note</b>: As of version 2.31, the Visual
 Studio package no longer alters the PATH variable or accesses the registry
-at all. If you wish to use the command-line interface to Graphviz, you
-will need to set the PATH variable yourself.
+at all. If you wish to use the command-line interface to Graphviz or are
+using some other program that calls a Graphviz program, you
+will need to set the PATH variable yourself.</font>
 
 <p>
 <b>Note</b>: As of version 2.26, the Visual

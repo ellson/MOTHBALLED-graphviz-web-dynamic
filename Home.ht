@@ -6,6 +6,7 @@
 <a href="http://www.portablecomponentsforall.com/edu/graphviz-about-ru/" target="_blank">Russian</a>,
 <a href="ru_translation.rtf" target="_blank">Russian (more natural?)</a>, <!-- from  andreev.yurij@gmail.com -->
 <a href="http://science.webhostinggeeks.com/graficka-vizualizacija" target="_blank">Serbo-Croation</a>. <!-- from  andreev.yurij@gmail.com -->
+<a href="http://monkeydrives.com/blog/graphviz/">Bulgarian Home</a> and <a href="http://monkeydrives.com/blog/about-graph/">About</a> <!-- href="http://monkeydrives.com">Artem Delik -->
 </small>
 </p>
 <table cellspacing="1" cellpadding="1" border="0" align="left">
@@ -80,8 +81,8 @@
         </tr>
         <tr>
             <td>
-            <h2 class="rteleft"><strong>Wiki</strong></h2>
-            <p>There is a <a href="/wiki/wiki-main-page">wiki main page</a> for registered users that explains how to create a new page and add formatting and links.</p>
+            <h2 class="rteleft"><strong>Discussions</strong></h2>
+            <p>There is a <a href="/Forum">forum</a> for registered users to ask questions and share information. Or, if you prefer, there are <a href="/MailingList.php">mailing lists</a> for both users and developers.</p>
             </td>
         </tr>
         <tr>

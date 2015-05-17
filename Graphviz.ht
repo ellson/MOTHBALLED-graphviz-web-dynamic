@@ -1,56 +1,57 @@
+			<p>&nbsp;</p>
 
-<p>&nbsp;</p>
+			<h1><strong>Welcome to Graphviz</strong></h1>
 
-<h1><strong>Welcome to Graphviz</strong></h1>
+			<p>&nbsp; <strong>Available translations:</strong>&nbsp; <a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>, <a href="http://www.portablecomponentsforall.com/edu/graphviz-about-ru/" target="_blank">Russian</a>, <a href="ru_translation.rtf" target="_blank">Russian (more natural?),</a> <!-- from  andreev.yurij@gmail.com --> <a href="http://science.webhostinggeeks.com/graficka-vizualizacija" target="_blank">Serbo-Croatian</a>, <!-- from  andreev.yurij@gmail.com --> <a href="http://monkeydrives.com/blog/graphviz/">Bulgarian Home</a> and <a href="http://monkeydrives.com/blog/about-graph/">About</a> <!-- href="http://monkeydrives.com">Artem Delik -->
+</p>
 
-<p>&nbsp; <strong>Available translations:</strong>&nbsp; <a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>, <a href="http://www.portablecomponentsforall.com/edu/graphviz-about-ru/" target="_blank">Russian</a>, <a href="ru_translation.rtf" target="_blank">Russian (more natural?)</a> <!-- from  andreev.yurij@gmail.com --> <a href="http://science.webhostinggeeks.com/graficka-vizualizacija" target="_blank">Serbo-Croation</a> <!-- from  andreev.yurij@gmail.com --></p>
+			<h2><strong>What is Graphviz?</strong></h2>
 
-<h2><strong>What is Graphviz?</strong></h2>
+			<p>Graphviz is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,&nbsp; software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.&nbsp;</p>
 
-<p>Graphviz is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,&nbsp; software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.&nbsp;</p>
+			<p><img alt="Cluster" src="/Gallery/directed/cluster.png" style="display:block; height:289px; margin-left:auto; margin-right:auto; width:150px" /></p>
 
-<p><img alt="Cluster" src="/Gallery/directed/cluster.png" style="display:block; height:289px; margin-left:auto; margin-right:auto; width:150px" /></p>
+			<h2><strong>Features</strong></h2>
 
-<h2><strong>Features</strong></h2>
+			<p>The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages; PDF or Postscript for inclusion in other documents; or display in an interactive graph browser.&nbsp; Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes.&nbsp;</p>
 
-<p>The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages; PDF or Postscript for inclusion in other documents; or display in an interactive graph browser.&nbsp; Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes.&nbsp;</p>
+			<h2><strong>Roadmap</strong></h2>
 
-<h2><strong>Roadmap</strong></h2>
+			<p><strong>dot - </strong>&quot;hierarchical&quot; or layered drawings of directed graphs. This is the default tool to use if edges have directionality.</p>
 
-<p><strong>dot - </strong>&quot;hierarchical&quot; or layered drawings of directed graphs. This is the default tool to use if edges have directionality.</p>
+			<p><strong>neato - </strong>&quot;spring model&#39;&#39; layouts.&nbsp; This is the default tool to use if the graph is not too large (about 100 nodes) and you don&#39;t know anything else about it. Neato attempts to minimize a global energy function, which is equivalent to statistical multi-dimensional scaling.</p>
 
-<p><strong>neato - </strong>&quot;spring model&#39;&#39; layouts.&nbsp; This is the default tool to use if the graph is not too large (about 100 nodes) and you don&#39;t know anything else about it. Neato attempts to minimize a global energy function, which is equivalent to statistical multi-dimensional scaling.</p>
+			<p><strong>fdp - </strong>&quot;spring model&#39;&#39; layouts similar to those of neato, but does this by reducing forces rather than working with energy.</p>
 
-<p><strong>fdp - </strong>&quot;spring model&#39;&#39; layouts similar to those of neato, but does this by reducing forces rather than working with energy.</p>
+			<p><strong>sfdp - </strong>multiscale version of fdp for the layout of large graphs.</p>
 
-<p><strong>sfdp - </strong>multiscale version of fdp for the layout of large graphs.</p>
+			<p><strong>twopi - </strong>radial layouts, after Graham Wills 97. Nodes are placed on concentric circles depending their distance from a given root node.</p>
 
-<p><strong>twopi - </strong>radial layouts, after Graham Wills 97. Nodes are placed on concentric circles depending their distance from a given root node.</p>
+			<p><strong>circo -</strong> circular layout, after Six and Tollis 99, Kauffman and Wiese 02. This is suitable for certain diagrams of multiple cyclic structures, such as certain telecommunications networks.</p>
 
-<p><strong>circo -</strong> circular layout, after Six and Tollis 99, Kauffman and Wiese 02. This is suitable for certain diagrams of multiple cyclic structures, such as certain telecommunications networks.</p>
+			<h2><strong>Download</strong></h2>
 
-<h2><strong>Download</strong></h2>
+			<p>The current release of Graphviz can be downloaded here: <a href="/Download.php">Download</a></p>
 
-<p>The current release of Graphviz can be downloaded here: <a href="/Download.php">Download</a></p>
+			<h2><strong>Documentation</strong></h2>
 
-<h2><strong>Documentation</strong></h2>
+			<p>Documentation is available in the released package and from here: <a href="Documentation.php">Documentation</a></p>
 
-<p>Documentation is available in the released package and from here: <a href="Documentation.php">Documentation</a></p>
+			<h2><strong>Discussions</strong></h2>
 
-<h2><strong>Wiki</strong></h2>
+			<p>There is a <a href="/Forum">forum</a> for registered users to ask questions and share information. Or, if you prefer, there are&nbsp;<a href="/MailingList.php">mailing lists</a> for both users and developers.</p>
 
-<p>There is a <a href="/wiki/wiki-main-page">wiki main page</a> for registered users that explains how to create a new page and add formatting and links.</p>
+			<h2><strong>Bug And Issue Tracking</strong></h2>
 
-<h2><strong>Bug And Issue Tracking</strong></h2>
+			<p>Reported Graphviz bugs and issues may be viewed by visiting the <a href="mantisbt/login.php" target="_blank">Issue Tracker</a>.<br />
+			If you are a registered Graphviz user, you may also report bugs and issues that you are aware of. Search for the issue you would like to report before hand&nbsp; in order to avoid duplicate entries.</p>
 
-<p>Reported Graphviz bugs and issues may be viewed by visiting the <a href="mantisbt/login.php" target="_blank">Issue Tracker</a>.<br />
-If you are a registered Graphviz user, you may also report bugs and issues that you are aware of. Search for the issue you would like to report before hand&nbsp; in order to avoid duplicate entries.</p>
+			<h2>&nbsp;</h2>
 
-<h2>&nbsp;</h2>
+			<p>&nbsp;</p>
 
-<p>&nbsp;</p>
-
-<p><br />
-<br />
-<br />
-<br />
+			<p><br />
+			<br />
+			<br />
+			<br />
+			<br />
