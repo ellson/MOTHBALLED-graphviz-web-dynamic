@@ -53,9 +53,9 @@ set package_exclude {
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
 
 proc checkdate {fnv} {
-#    global time_cutoff
-#    foreach {fn v} $fnv {break}
-#
+    global time_cutoff
+    foreach {fn v} $fnv {break}
+
 #    set gv  [lindex [split $v -] 0]
 #
 #    if {[catch {glob graphviz-linux-buildlog-$gv.*} log]} {
