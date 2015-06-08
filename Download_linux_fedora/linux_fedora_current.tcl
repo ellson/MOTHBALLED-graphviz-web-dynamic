@@ -52,7 +52,7 @@ set package_exclude {
 
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
 
-proc checkdate_new {fnv} {
+proc checkdate {fnv} {
     global time_cutoff
     foreach {fn v} $fnv {break}
 
