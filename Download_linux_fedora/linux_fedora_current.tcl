@@ -53,25 +53,25 @@ set package_exclude {
 set time_cutoff [expr {[clock seconds] - 36*60*60}]
 
 proc checkdate {fnv} {
-    global time_cutoff
-    foreach {fn v} $fnv {break}
-
-    set gv  [lindex [split $v -] 0]
-
-    if {[catch {glob graphviz-linux-buildlog-$gv.*} log]} {
-	puts stderr "log not found by glob"
-        return [list $fn red]
-    }
-
-    if {[file mtime $log] < $time_cutoff} {
-	puts stderr "log \"$log\" too old"
-        return [list $fn red]
-    }
-
-    if {[exec grep -cq $fn $log] != 1} {
-	puts stderr "$fn not found in log \"$log\""
-        return [list $fn red]
-    }
+#    global time_cutoff
+#    foreach {fn v} $fnv {break}
+#
+#    set gv  [lindex [split $v -] 0]
+#
+#    if {[catch {glob graphviz-linux-buildlog-$gv.*} log]} {
+#	puts stderr "log not found by glob"
+#        return [list $fn red]
+#    }
+#
+#    if {[file mtime $log] < $time_cutoff} {
+#	puts stderr "log \"$log\" too old"
+#        return [list $fn red]
+#    }
+#
+#    if {[exec grep -cq $fn $log] != 1} {
+#	puts stderr "$fn not found in log \"$log\""
+#        return [list $fn red]
+#    }
 
     return [list $fn blue]
 }
