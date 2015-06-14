@@ -187,7 +187,7 @@ The gtkglext packages are provided by the base repo, and the gtkglarea2 packages
 
 <p>For el5, the extra sources were obtained from:
 <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/updates/9/SRPMS.newkey/gts-0.7.6-11.fc9.src.rpm\">gts</a>,
-<a href="http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm">gtkglext</a>,
+<a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm\">gtkglext</a>,
 and rebuilt with:
 <br>
 <i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-11.fc9.src.rpm</i>
