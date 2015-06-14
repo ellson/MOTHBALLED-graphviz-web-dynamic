@@ -177,6 +177,8 @@ and rebuilt with:
 <i>rpmbuild --rebuild --define \"dist .el7\" gts-0.7.6-21.20111025.fc18.src.rpm</i>
 <br>
 <i>rpmbuild --rebuild --define \"dist .el7\" gtkglext-1.2.0-18.fc18.src.rpm</i>
+<br>
+(Some of these packages may be available in EPEL, but the i686 EPEL repo isn't available at this time.)
 
 <p>For el6, the extra sources were obtained from:
 <a href=\"https://kojipkgs.fedoraproject.org//packages/gts/0.7.6/14.fc14/src/gts-0.7.6-14.fc14.src.rpm\">gts</a>,
@@ -184,7 +186,7 @@ and rebuilt with:
 <br>
 <i>rpmbuild --rebuild --define \"dist .el6\" gts-0.7.6-14.fc14.src.rpm</i>
 <br>
-The gtkglext packages are provided by the Base repo, and the gtkglarea2 packages are provided by the EPEL repo.
+The \"gtkglext\" packages are provided by the Base repo, and the \"add\" and \"gtkglarea2\" packages are provided by the EPEL repo.
 
 <p>For el5, the extra sources were obtained from:
 <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/updates/9/SRPMS.newkey/gts-0.7.6-11.fc9.src.rpm\">gts</a>,
