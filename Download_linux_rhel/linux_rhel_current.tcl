@@ -190,9 +190,9 @@ The gtkglext packages are provided by the base repo, and the gtkglarea2 packages
 <a href="http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/9/Everything/source/SRPMS/gtkglext-1.2.0-6.fc9.src.rpm">gtkglext</a>,
 and rebuilt with:
 <br>
-<i>rpmbuild --rebuild --define "dist .el5" gts-0.7.6-11.fc9.src.rpm</i>
+<i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-11.fc9.src.rpm</i>
 <br>
-<i>rpmbuild --rebuild --define "dist .el5" --define "fedora 8" gtkglext-1.2.0-6.fc9.src.rpm</i>
-(The "fedora 8" define is a hack to cause the spec to omit .la targets from the package.)"
+<i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>
+(The \"fedora 8\" define is a hack to cause the spec to omit .la targets from the package.)"
 
 close $fout
