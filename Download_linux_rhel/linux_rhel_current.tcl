@@ -164,7 +164,7 @@ puts $fout "<p>For el7, the extra sources were obtained from:
 <a href=\"https://dl.fedoraproject.org/pub/epel/7/SRPMS/g/gtkglarea2-2.0.1-6.el7.src.rpm\">gtkglarea2</a>,
 <a href=\"https://dl.fedoraproject.org/pub/epel/7/SRPMS/p/pangox-compat-0.0.2-2.el7.src.rpm\">pangox-compat</a>,
 <a href=\"https://kojipkgs.fedoraproject.org//packages/gts/0.7.6/21.20111025.fc18/src/gts-0.7.6-21.20111025.fc18.src.rpm\">gts</a>,
-< href=\"https://kojipkgs.fedoraproject.org//packages/gtkglext/1.2.0/18.fc18/src/gtkglext-1.2.0-18.fc18.src.rpm\">gtkglext</a>.
+<a href=\"https://kojipkgs.fedoraproject.org//packages/gtkglext/1.2.0/18.fc18/src/gtkglext-1.2.0-18.fc18.src.rpm\">gtkglext</a>.
 and rebuilt with:
 <br>
 <i>rpmbuild --rebuild --define \"dist .el7\" ann-1.1.2-3.el7.src.rpm</i>
@@ -182,8 +182,8 @@ and rebuilt with:
 and rebuilt with:
 <br>
 <i>rpmbuild --rebuild --define \"dist .el6\" gts-0.7.6-14.fc14.src.rpm</i>
-<b>
-The gtkglext packages are provided by the base repo, and the gtkglarea2 packages are provided by the EPEL repo.
+<br>
+The gtkglext packages are provided by the Base repo, and the gtkglarea2 packages are provided by the EPEL repo.
 
 <p>For el5, the extra sources were obtained from:
 <a href=\"http://archives.fedoraproject.org/pub/archive/fedora/linux/updates/9/SRPMS.newkey/gts-0.7.6-11.fc9.src.rpm\">gts</a>,
@@ -193,6 +193,7 @@ and rebuilt with:
 <i>rpmbuild --rebuild --define \"dist .el5\" gts-0.7.6-11.fc9.src.rpm</i>
 <br>
 <i>rpmbuild --rebuild --define \"dist .el5\" --define \"fedora 8\" gtkglext-1.2.0-6.fc9.src.rpm</i>
+<br>
 (The \"fedora 8\" define is a hack to cause the spec to omit .la targets from the package.)"
 
 close $fout
