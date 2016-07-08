@@ -51,19 +51,19 @@ set package_exclude {
     graphviz-graphs-*el6.x86_64*
 }
 
-set time_cutoff [expr {[clock seconds] - 36*60*60}]
+#set time_cutoff [expr {[clock seconds] - 36*60*60}]
 proc checkdate {fnv} {
-    global time_cutoff
+#    global time_cutoff
     set color blue
     foreach {fn v} $fnv {break}
-    set lst [split $v {-.}]
-    if {[llength $lst] >= 5} {
-        foreach {. . dt tm .} $lst {break}
-        set time_stamp [clock scan [string range $dt 2 end]T${tm}00 -gmt 1]
-        if {$time_stamp < $time_cutoff} {
-	    set color red
-        }
-    }
+#    set lst [split $v {-.}]
+#    if {[llength $lst] >= 5} {
+#        foreach {. . dt tm .} $lst {break}
+#        set time_stamp [clock scan [string range $dt 2 end]T${tm}00 -gmt 1]
+#        if {$time_stamp < $time_cutoff} {
+#	    set color red
+#        }
+#    }
     return [list $fn $color]
 }
                                                                                 
