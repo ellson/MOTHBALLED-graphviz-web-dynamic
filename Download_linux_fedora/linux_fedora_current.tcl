@@ -8,14 +8,16 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC25.i686 FC25.x86_64 FC24.i686 FC24.x86_64 FC23.i686 FC23.x86_64 FC22.i686 FC22.x86_64 FC21.i686 FC21.x86_64}
-    webdot {SRPMS FC25.i686 FC25.x86_64 FC24.i686 FC24.x86_64 FC23.i686 FC23.x86_64 FC22.i686 FC22.x86_64 FC21.i686 FC21.x86_64}
+    graphviz {SRPMS FC26.i686 FC26.x86_64 FC25.i686 FC25.x86_64 FC24.i686 FC24.x86_64 FC23.i686 FC23.x86_64 FC22.i686 FC22.x86_64 FC21.i686 FC21.x86_64}
+    webdot {SRPMS FC26.i686 FC26.x86_64 FC25.i686 FC25.x86_64 FC24.i686 FC24.x86_64 FC23.i686 FC23.x86_64 FC22.i686 FC22.x86_64 FC21.i686 FC21.x86_64}
 }
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
-    FC25.i686 redhat/fc25/i386/os {fc25.i686.rpm fc25.i586.rpm fc25.noarch.rpm} "Fedora 25 (Rawhide)"
-    FC25.x86_64 redhat/fc25/x86_64/os {fc25.x86_64.rpm fc25.noarch.rpm} "Fedora 25 (Rawhide)"
+    FC26.i686 redhat/fc26/i386/os {fc26.i686.rpm fc26.i586.rpm fc26.noarch.rpm} "Fedora 26 (Rawhide)"
+    FC26.x86_64 redhat/fc26/x86_64/os {fc26.x86_64.rpm fc26.noarch.rpm} "Fedora 26 (Rawhide)"
+    FC25.i686 redhat/fc25/i386/os {fc25.i686.rpm fc25.i586.rpm fc25.noarch.rpm} "Fedora 25"
+    FC25.x86_64 redhat/fc25/x86_64/os {fc25.x86_64.rpm fc25.noarch.rpm} "Fedora 25"
     FC24.i686 redhat/fc24/i386/os {fc24.i686.rpm fc24.i586.rpm fc24.noarch.rpm} "Fedora 24"
     FC24.x86_64 redhat/fc24/x86_64/os {fc24.x86_64.rpm fc24.noarch.rpm} "Fedora 24"
     FC23.i686 redhat/fc23/i386/os {fc23.i686.rpm fc23.i586.rpm fc23.noarch.rpm} "Fedora 23"
