@@ -8,24 +8,22 @@ set releases {
 }
 
 set packages_platforms {
-    graphviz {SRPMS FC26.i686 FC26.x86_64 FC25.i686 FC25.x86_64 FC24.i686 FC24.x86_64 FC23.i686 FC23.x86_64 FC22.i686 FC22.x86_64 FC21.i686 FC21.x86_64}
-    webdot {SRPMS FC26.i686 FC26.x86_64 FC25.i686 FC25.x86_64 FC24.i686 FC24.x86_64 FC23.i686 FC23.x86_64 FC22.i686 FC22.x86_64 FC21.i686 FC21.x86_64}
+    graphviz {SRPMS FC27.i686 FC27.x86_64 FC26.i686 FC26.x86_64 FC25.i686 FC25.x86_64 FC24.i686 FC24.x86_64 FC23.i686 FC23.x86_64}
+    webdot {SRPMS FC27.i686 FC27.x86_64 FC26.i686 FC26.x86_64 FC25.i686 FC25.x86_64 FC24.i686 FC24.x86_64 FC23.i686 FC23.x86_64}
 }
 
 set platform_directory_type_comments {
     SRPMS SRPMS {src.rpm} ""
-    FC26.i686 redhat/fc26/i386/os {fc26.i686.rpm fc26.i586.rpm fc26.noarch.rpm} "Fedora 26 (Rawhide)"
-    FC26.x86_64 redhat/fc26/x86_64/os {fc26.x86_64.rpm fc26.noarch.rpm} "Fedora 26 (Rawhide)"
+    FC27.i686 redhat/fc27/i386/os {fc27.i686.rpm fc27.i586.rpm fc27.noarch.rpm} "Fedora 27 (Rawhide)"
+    FC27.x86_64 redhat/fc27/x86_64/os {fc27.x86_64.rpm fc27.noarch.rpm} "Fedora 27 (Rawhide)"
+    FC26.i686 redhat/fc26/i386/os {fc26.i686.rpm fc26.i586.rpm fc26.noarch.rpm} "Fedora 26"
+    FC26.x86_64 redhat/fc26/x86_64/os {fc26.x86_64.rpm fc26.noarch.rpm} "Fedora 26"
     FC25.i686 redhat/fc25/i386/os {fc25.i686.rpm fc25.i586.rpm fc25.noarch.rpm} "Fedora 25"
     FC25.x86_64 redhat/fc25/x86_64/os {fc25.x86_64.rpm fc25.noarch.rpm} "Fedora 25"
     FC24.i686 redhat/fc24/i386/os {fc24.i686.rpm fc24.i586.rpm fc24.noarch.rpm} "Fedora 24"
     FC24.x86_64 redhat/fc24/x86_64/os {fc24.x86_64.rpm fc24.noarch.rpm} "Fedora 24"
     FC23.i686 redhat/fc23/i386/os {fc23.i686.rpm fc23.i586.rpm fc23.noarch.rpm} "Fedora 23"
     FC23.x86_64 redhat/fc23/x86_64/os {fc23.x86_64.rpm fc23.noarch.rpm} "Fedora 23"
-    FC22.i686 redhat/fc22/i386/os {fc22.i686.rpm fc22.i586.rpm fc22.noarch.rpm} "Fedora 22"
-    FC22.x86_64 redhat/fc22/x86_64/os {fc22.x86_64.rpm fc22.noarch.rpm} "Fedora 22"
-    FC21.i686 redhat/fc21/i386/os {fc21.i686.rpm fc21.i586.rpm fc21.noarch.rpm} "Fedora 21"
-    FC21.x86_64 redhat/fc21/x86_64/os {fc21.x86_64.rpm fc21.noarch.rpm} "Fedora 21"
 }
 
 set package_exclude {
