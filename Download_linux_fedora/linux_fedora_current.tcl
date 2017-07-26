@@ -16,11 +16,11 @@ set packages_platforms {
 	    FC23.src FC23.i686 FC23.i686.debug FC23.x86_64 FC23.x86_64.debug
     }
     webdot {
-	    FC27.src FC27.i686 FC27.i686.debug FC27.x86_64 FC27.x86_64.debug
-	    FC26.src FC26.i686 FC26.i686.debug FC26.x86_64 FC26.x86_64.debug
-	    FC25.src FC25.i686 FC25.i686.debug FC25.x86_64 FC25.x86_64.debug
-	    FC24.src FC24.i686 FC24.i686.debug FC24.x86_64 FC24.x86_64.debug
-	    FC23.src FC23.i686 FC23.i686.debug FC23.x86_64 FC23.x86_64.debug
+	    FC27.src FC27.i686 FC27.x86_64
+	    FC26.src FC26.i686 FC26.x86_64
+	    FC25.src FC25.i686 FC25.x86_64
+	    FC24.src FC24.i686 FC24.x86_64
+	    FC23.src FC23.i686 FC23.x86_64
     }
 }
 
