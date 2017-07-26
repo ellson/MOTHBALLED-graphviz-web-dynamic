@@ -15,6 +15,7 @@ set packages_platforms {
     gtkglarea2 {SRPMS EL7.i386 EL7.x86_64}
     ann {SRPMS EL7.i386 EL7.x86_64}
     pangox-compat {SRPMS EL7.i386 EL7.x86_64}
+    lasi {SRPMS EL7.i386}
 }
 
 set platform_directory_type_comments {
@@ -163,7 +164,8 @@ puts $fout "<p>For el7, the extra sources were obtained from:
 <a href=\"https://dl.fedoraproject.org/pub/epel/7/SRPMS/g/gtkglarea2-2.0.1-6.el7.src.rpm\">gtkglarea2</a>,
 <a href=\"https://dl.fedoraproject.org/pub/epel/7/SRPMS/p/pangox-compat-0.0.2-2.el7.src.rpm\">pangox-compat</a>,
 <a href=\"https://kojipkgs.fedoraproject.org//packages/gts/0.7.6/21.20111025.fc18/src/gts-0.7.6-21.20111025.fc18.src.rpm\">gts</a>,
-<a href=\"https://kojipkgs.fedoraproject.org//packages/gtkglext/1.2.0/18.fc18/src/gtkglext-1.2.0-18.fc18.src.rpm\">gtkglext</a>.
+<a href=\"https://kojipkgs.fedoraproject.org//packages/gtkglext/1.2.0/18.fc18/src/gtkglext-1.2.0-18.fc18.src.rpm\">gtkglext</a>,
+<a href=\"https://dl.fedoraproject.org/pub/epel/7/SRPMS/l/lasi-1.1.1-6.el7.src.rpm\">lasi</a>.
 and rebuilt with:
 <br>
 <i>rpmbuild --rebuild --define \"dist .el7\" ann-1.1.2-3.el7.src.rpm</i>
@@ -175,6 +177,8 @@ and rebuilt with:
 <i>rpmbuild --rebuild --define \"dist .el7\" gts-0.7.6-21.20111025.fc18.src.rpm</i>
 <br>
 <i>rpmbuild --rebuild --define \"dist .el7\" gtkglext-1.2.0-18.fc18.src.rpm</i>
+<br>
+<i>rpmbuild --rebuild --define \"dist .el7\" lasi-1.1.1-6.el7.src.rpm/i>
 <br>
 (Some of these packages may be available in the EPEL repo, but the i686 EPEL repo wasn't available at the time of Centos7 Beta.)
 
