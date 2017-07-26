@@ -16,11 +16,11 @@ set packages_platforms {
 	    FC23.src FC23.i686 FC23.i686.debug FC23.x86_64 FC23.x86_64.debug
     }
     webdot {
-	    FC27.src FC27.i686 FC27.x86_64
-	    FC26.src FC26.i686 FC26.x86_64
-	    FC25.src FC25.i686 FC25.x86_64
-	    FC24.src FC24.i686 FC24.x86_64
-	    FC23.src FC23.i686 FC23.x86_64
+	    FC27.src FC27.noarch
+	    FC26.src FC26.noarch
+	    FC25.src FC25.noarch
+	    FC24.src FC24.noarch
+	    FC23.src FC23.noarch
     }
 }
 
@@ -30,27 +30,32 @@ set platform_directory_type_comments {
     FC27.i686.debug redhat/fc27/i386/debug {fc27.i686.rpm} "Fedora 27 (Rawhide)"
     FC27.x86_64 redhat/fc27/i386/os {fc27.i686.rpm fc27.noarch.rpm} "Fedora 27 (Rawhide)"
     FC27.x86_64.debug redhat/fc27/i386/debug {fc27.i686.rpm} "Fedora 27 (Rawhide)"
+    FC27.noarch redhat/fc27/x86_64/os {fc27.noarch.rpm} "Fedora 27 (Rawhide)"
     FC26.src redhat/fc26/src {fc26.src.rpm} "Fedora 26"
     FC26.i686 redhat/fc26/i386/os {fc26.i686.rpm fc26.noarch.rpm} "Fedora 26"
     FC26.i686.debug redhat/fc26/i386/debug {fc26.i686.rpm} "Fedora 26"
     FC26.x86_64 redhat/fc26/i386/os {fc26.i686.rpm fc26.noarch.rpm} "Fedora 26"
     FC26.x86_64.debug redhat/fc26/i386/debug {fc26.i686.rpm} "Fedora 26"
+    FC26.noarch redhat/fc26/x86_64/os {fc26.noarch.rpm} "Fedora 26"
     FC25.src redhat/fc25/src {fc25.src.rpm} "Fedora 25"
     FC25.i686 redhat/fc25/i386/os {fc25.i686.rpm fc25.noarch.rpm} "Fedora 25"
     FC25.i686.debug redhat/fc25/i386/debug {fc25.i686.rpm} "Fedora 25"
     FC25.x86_64 redhat/fc25/i386/os {fc25.i686.rpm fc25.noarch.rpm} "Fedora 25"
     FC25.x86_64.debug redhat/fc25/i386/debug {fc25.i686.rpm} "Fedora 25"
+    FC25.noarch redhat/fc25/x86_64/os {fc25.noarch.rpm} "Fedora 25"
     FC24.src redhat/fc24/src {fc24.src.rpm} "Fedora 24"
     FC24.i686 redhat/fc24/i386/os {fc24.i686.rpm fc24.noarch.rpm} "Fedora 24"
     FC24.i686.debug redhat/fc24/i386/debug {fc24.i686.rpm} "Fedora 24"
     FC24.x86_64 redhat/fc24/src {fc24.src.rpm} "Fedora 24"
     FC24.x86_64 redhat/fc24/i386/os {fc24.i686.rpm fc24.noarch.rpm} "Fedora 24"
     FC24.x86_64.debug redhat/fc24/i386/debug {fc24.i686.rpm} "Fedora 24"
+    FC24.noarch redhat/fc24/x86_64/os {fc24.noarch.rpm} "Fedora 24"
     FC23.src redhat/fc23/src {fc23.src.rpm} "Fedora 23"
     FC23.i686 redhat/fc23/i386/os {fc23.i686.rpm fc23.noarch.rpm} "Fedora 23"
     FC23.i686.debug redhat/fc23/i386/debug {fc23.i686.rpm} "Fedora 23"
     FC23.x86_64 redhat/fc23/i386/os {fc23.i686.rpm fc23.noarch.rpm} "Fedora 23"
     FC23.x86_64.debug redhat/fc23/i386/debug {fc23.i686.rpm} "Fedora 23"
+    FC23.noarch redhat/fc23/x86_64/os {fc23.noarch.rpm} "Fedora 23"
 }
 
 set package_exclude {

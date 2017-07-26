@@ -13,8 +13,8 @@ set packages_platforms {
             EL6.src EL6.i686 EL6.i686.debug EL6.x86_64 EL6.x86_64.debug
     }
     webdot {
-            EL7.src EL7.i686 EL7.x86_64
-            EL6.src EL6.i686 EL6.x86_64
+            EL7.src EL7.noarch
+            EL6.src EL6.noarch
     }
     gts {SRPMS EL7.i386 EL7.x86_64 EL6.i386 EL6.x86_64}
     gtkglext {SRPMS EL7.i386 EL7.x86_64}
@@ -31,11 +31,13 @@ set platform_directory_type_comments {
     EL7.i686.debug redhat/el7/i386/debug {el7.i686.rpm} "Enterprise Linux 7"
     EL7.x86_64 redhat/el7/i386/os {el7.i686.rpm el7.noarch.rpm} "Enterprise Linux 7"
     EL7.x86_64.debug redhat/el7/i386/debug {el7.i686.rpm} "Enterprise Linux 7"
+    EL7.noarch redhat/el7/x86_64/os {el7.noarch.rpm} "Enterprise Linux 7"
     EL6.src redhat/el6/src {el6.src.rpm} "Enterprise Linux 6"
     EL6.i686 redhat/el6/i386/os {el6.i686.rpm el6.noarch.rpm} "Enterprise Linux 6"
     EL6.i686.debug redhat/el6/i386/debug {el6.i686.rpm} "Enterprise Linux 6"
     EL6.x86_64 redhat/el6/i386/os {el6.i686.rpm el6.noarch.rpm} "Enterprise Linux 6"
-    FC26.x86_64.debug redhat/el6/i386/debug {el6.i686.rpm} "Enterprise Linux 6"
+    EL6.x86_64.debug redhat/el6/i386/debug {el6.i686.rpm} "Enterprise Linux 6"
+    EL6.noarch redhat/el6/x86_64/os {el6.noarch.rpm} "Enterprise Linux 6"
 }                     
 
 set package_exclude {
