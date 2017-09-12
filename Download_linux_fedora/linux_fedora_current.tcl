@@ -23,12 +23,18 @@ set packages_platforms {
 }
 
 set platform_directory_type_comments {
+    FC28.src redhat/fc28/src {fc28.src.rpm} "Fedora 28 (Rawhide)"
+    FC28.i686 redhat/fc28/i386/os {fc28.i686.rpm fc28.noarch.rpm} "Fedora 28 (Rawhide)"
+    FC28.i686.debug redhat/fc28/i386/debug {fc28.i686.rpm} "Fedora 28 (Rawhide)"
+    FC28.x86_64 redhat/fc28/i386/os {fc28.i686.rpm fc28.noarch.rpm} "Fedora 28 (Rawhide)"
+    FC28.x86_64.debug redhat/fc28/i386/debug {fc28.i686.rpm} "Fedora 28 (Rawhide)"
+    FC28.noarch redhat/fc28/x86_64/os {fc28.noarch.rpm} "Fedora 28 (Rawhide)"
     FC27.src redhat/fc27/src {fc27.src.rpm} "Fedora 27 (Rawhide)"
-    FC27.i686 redhat/fc27/i386/os {fc27.i686.rpm fc27.noarch.rpm} "Fedora 27 (Rawhide)"
-    FC27.i686.debug redhat/fc27/i386/debug {fc27.i686.rpm} "Fedora 27 (Rawhide)"
-    FC27.x86_64 redhat/fc27/i386/os {fc27.i686.rpm fc27.noarch.rpm} "Fedora 27 (Rawhide)"
-    FC27.x86_64.debug redhat/fc27/i386/debug {fc27.i686.rpm} "Fedora 27 (Rawhide)"
-    FC27.noarch redhat/fc27/x86_64/os {fc27.noarch.rpm} "Fedora 27 (Rawhide)"
+    FC27.i686 redhat/fc27/i386/os {fc27.i686.rpm fc27.noarch.rpm} "Fedora 27"
+    FC27.i686.debug redhat/fc27/i386/debug {fc27.i686.rpm} "Fedora 27"
+    FC27.x86_64 redhat/fc27/i386/os {fc27.i686.rpm fc27.noarch.rpm} "Fedora 27"
+    FC27.x86_64.debug redhat/fc27/i386/debug {fc27.i686.rpm} "Fedora 27"
+    FC27.noarch redhat/fc27/x86_64/os {fc27.noarch.rpm} "Fedora 27"
     FC26.src redhat/fc26/src {fc26.src.rpm} "Fedora 26"
     FC26.i686 redhat/fc26/i386/os {fc26.i686.rpm fc26.noarch.rpm} "Fedora 26"
     FC26.i686.debug redhat/fc26/i386/debug {fc26.i686.rpm} "Fedora 26"
