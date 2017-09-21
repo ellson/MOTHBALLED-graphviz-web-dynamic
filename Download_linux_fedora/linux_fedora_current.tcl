@@ -9,12 +9,14 @@ set releases {
 
 set packages_platforms {
     graphviz {
-	    FC27.src FC27.i686 FC27.i686.debug FC27.x86_64 FC27.x86_64.debug
-	    FC26.src FC26.i686 FC26.i686.debug FC26.x86_64 FC26.x86_64.debug
-	    FC25.src FC25.i686 FC25.i686.debug FC25.x86_64 FC25.x86_64.debug
-	    FC24.src FC24.i686 FC24.i686.debug FC24.x86_64 FC24.x86_64.debug
+	    FC28.src FC28.x86_64
+	    FC27.src FC27.x86_64
+	    FC26.src FC26.x86_64
+	    FC25.src FC25.x86_64 FC25.i686
+	    FC24.src FC24.x86_64 FC24.i686
     }
     webdot {
+	    FC28.src FC28.noarch
 	    FC27.src FC27.noarch
 	    FC26.src FC26.noarch
 	    FC25.src FC25.noarch
